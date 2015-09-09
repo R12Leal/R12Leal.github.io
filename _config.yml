@@ -1,0 +1,26 @@
+# Configuración - Sitio
+title: 			Ramsés Leal
+user: 			R12Leal
+header-img: 	img/backgrounds/header-background-mini.jpg
+email: 			leal.ramses@gmail.com
+description: 	"Ramsés Leal - CV & Blog"
+baseurl: 		""
+url: 			"https://r12leal.github.io"
+
+# Social Networks
+tw: R12Leal
+lk: ramsesll
+gh: R12Leal
+gg: RamsésLeal
+
+# Configuración - Plataforma
+gga: 			UA-62991920-1 # Google Analytics user
+markdown: 		kramdown
+highlighter: 	pygments
+permalink: 		pretty
+paginate: 		4
+exclude: 		["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# Gems
+gems:
+  - jekyll-sitemap
