@@ -18,7 +18,7 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-				<h1>Tag: {{ page.tag }}</h1>
+				<h1>Tag: <span class="label label-default">{{ page.tag }}</span></h1>
 				<div>
 					<p>
 					    {% if site.tags[page.tag] %}
