@@ -24,7 +24,7 @@ header-img: 	"img/post/post_asus/asus_mp7b.jpg"
   <li><strong>Audio</strong>:	Altavoces estéreo integrados, SonicMaster Technology, Audio CODEC (GOOGLE CTS)</li>
   <li><strong>Batería</strong>: Autonomía	1 Celda / Hasta 10</li>
   <li><strong>Sistema Operativo</strong>:	Android™ 4.4 KitKat</li>
-</li>
+</ul>
 <hr />
 <h2 class="section-heading">Opinión</h2>
 <hr />
