@@ -1,8 +1,8 @@
 ---
 layout:     	post
-title:      	"Mi Tablet Asus MeMO Pad 7 ME176CX Blanco - Review"
-subtitle:   	"¡De las mejores opciones para iniciarte con tablets!"
-description:	¡De las mejores opciones para iniciarte con tablets!
+title:      	"Mi Tablet: Asus MeMO Pad 7 ME176CX Blanca - Review"
+subtitle:   	"¡De las mejores opciones para iniciarse en el mundo de las tablets!"
+description:	¡De las mejores opciones para iniciarse en el mundo de las tablets!
 date:       	2015-09-15 12:00:00
 tag:			[informatica,geek,r12leal]
 author:     	"@R12Leal"
@@ -32,4 +32,4 @@ header-img: 	"img/post/post_asus/asus_mp7b.jpg"
 <hr />
 <h2 class="section-heading">Conclusión</h2>
 <hr />
-<p>Para iniciarte con tablets es una magnífica opción ya que sus prestaciones tienen una relación calidad-precio increíble, para presupuestos ajustados que buscan calidad. Salu2!</p>
+<p>Para iniciarse en el mundo de las tablets es una magnífica opción ya que sus prestaciones tienen una relación calidad-precio increíble, para presupuestos ajustados que buscan calidad. Salu2!</p>
