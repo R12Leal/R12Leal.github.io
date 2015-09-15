@@ -28,9 +28,7 @@ header-img: 	"img/post/post_asus/asus_mp7b.jpg"
 <hr />
 <h2 class="section-heading">Opinión</h2>
 <hr />
-<p><strong>Positivo</strong>: desempeño gráfico en juegos exigentes donde el rendimiento aumenta y se transforma, ya no en un pasatiempo a medias, en una consola de gran potencia.</p>
-<p><strong>Positivo</strong>: Potencia y rendimiento gráfico - Interfaz Zen UI (no intrusiva) - Kitkat 4.4.2 (muy fluida) - tamaño del cuerpo (cómodo para las manos) - textura gomosa (agradable al tacto) - peso ( práctica para el manejo) - pantalla modo lectura (color y brillo equilibrado).</p>
-<p><strong>Negativo</strong>: El Wifi (suele perder señal) - audio (tiene un volumen medio).
+<p>En construcción...</p>
 <hr />
 <h2 class="section-heading">Conclusión</h2>
 <hr />
