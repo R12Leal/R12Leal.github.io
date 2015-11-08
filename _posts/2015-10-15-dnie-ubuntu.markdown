@@ -17,6 +17,6 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <h2 class="section-heading">Lector</h2>
 <hr />
 <p>Mi lector es un Sveon SCT011, un dispositivo muy sencillo, barato y que compré en grandes superfícies, aquí una imagen:</p>
-<img src="/img/post/post_lol/lol-pol.jpg" alt="¡Ventana de instalación de programas PoL!" />
-<span class="caption text-muted">¡Ventana de instalación de programas en PoL!</span>
+<img src="/img/post/post_dnie/sct011.jpg" alt="Sveon SCT011" />
+<span class="caption text-muted">Sveon SCT011</span>
 <p>Cualquier lector debería funcionar sin problemas...</p>
