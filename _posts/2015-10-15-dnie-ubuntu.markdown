@@ -1,6 +1,6 @@
 ---
 layout:     	post
-title:      	"¡Instalar el DNIe electrónico en Ubuntu (14.04+)!"
+title:      	"¡Instalar el DNIe electrónico en GNU/Linux Ubuntu (14.04+)!"
 subtitle:   	"Tus trámites telemáticos también con GNU/Linux Ubuntu"
 description:	Tus trámites telemáticos también con GNU/Linux Ubuntu
 date:       	2015-10-15 12:00:00
@@ -17,6 +17,6 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <h2 class="section-heading">Lector</h2>
 <hr />
 <p>Mi lector es un Sveon SCT011, un dispositivo muy sencillo, barato y que compré en grandes superfícies, aquí una imagen:</p>
-<img src="/img/post/post_dnie/sct011.jpg" alt="Sveon SCT011" />
-<span class="caption text-muted">Sveon SCT011</span>
+<img src="/img/post/post_lol/lol-pol.jpg" alt="¡Ventana de instalación de programas PoL!" />
+<span class="caption text-muted">¡Ventana de instalación de programas en PoL!</span>
 <p>Cualquier lector debería funcionar sin problemas...</p>

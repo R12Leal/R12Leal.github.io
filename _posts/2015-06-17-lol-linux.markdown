@@ -1,6 +1,6 @@
 ---
 layout:     	post
-title:      	"¡Instalar League of Legends en distros Linux!"
+title:      	"¡Instalar League of Legends en distros GNU/Linux!"
 subtitle:   	"En Linux también se puede jugar al MOBA del momento"
 description:	En Linux también se puede jugar al MOBA del momento
 date:       	2015-06-17 12:00:00
