@@ -57,7 +57,7 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <p><strong><code>mkdir .openscDNIe</code></strong></p>
 <p><strong><code>cd .openscDNIe</code></strong></p>
 <p>Descargamos con el siguiente comando:</p>
-<p><strong><code>msvn checkout --username anonsvn https://forja.cenatic.es/svn/opendnie/opensc-opendnie/trunk</code></strong></p>
+<p><strong><code>msvn checkout --username anonsvn</code></strong></p>
 <p>Para iniciar la descarga requiere una contraseña, es: anonsvn. Tras la descarga ya podemos comenzar con la compilación.</p>
 <p></p>
 <hr />
