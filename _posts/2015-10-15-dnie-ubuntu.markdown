@@ -24,10 +24,10 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <h2 class="section-heading">Instalación de Java</h2>
 <hr />
 <p>Para llevar a cabo nuestos trámites es necesario tener instalado Java, abriremos un terminal y ejecutaremos los siguientes comandos:</p>
-<code>sudo add-apt-repository ppa:webupd8team/java</code>
-<code><p>sudo apt-get update</code>
-<code><p>sudo apt-get install oracle-java8-installer</code>
-<code>sudo update-java-alternatives -s java-8-oracle</code>
+<p><code>sudo add-apt-repository ppa:webupd8team/java</code></p>
+<p><code>sudo apt-get update</code></p>
+<p><code>sudo apt-get install oracle-java8-installer</code></p>
+<p><code>sudo update-java-alternatives -s java-8-oracle</code></p>
 <hr />
 <h2 class="section-heading">Instalación de liberías, bibliotecas y controladores</h2>
 <hr />
