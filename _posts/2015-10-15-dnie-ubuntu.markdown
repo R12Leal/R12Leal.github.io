@@ -24,25 +24,25 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <h2 class="section-heading">Instalación de Java</h2>
 <hr />
 <p>Para llevar a cabo nuestos trámites es necesario tener instalado Java. Usaremos la versión 8, aunque si prefieres la versión 7 también puedes instalarla, abriremos un terminal y ejecutaremos los siguientes comandos:</p>
-<p><strong><code>sudo add-apt-repository ppa:webupd8team/java</code></strong></p>
-<p><strong><code>sudo apt-get update</code></strong></p>
-<p><strong><code>sudo apt-get install oracle-java8-installer</code></strong></p>
-<p><strong><code>sudo update-java-alternatives -s java-8-oracle</code></strong></p>
+<p><strong><pre>sudo add-apt-repository ppa:webupd8team/java</pre></strong></p>
+<p><strong><pre>sudo apt-get update</pre></strong></p>
+<p><strong><pre>sudo apt-get install oracle-java8-installer</pre></strong></p>
+<p><strong><pre>sudo update-java-alternatives -s java-8-oracle</pre></strong></p>
 <hr />
 <h2 class="section-heading">Instalación de controladores, librerías y bibliotecas</h2>
 <hr />
 <p>Primero comprobaremos que nuestro sistema reconoce el lector, en la terminal ejecutamos el siguiente comando:</p>
-<p><strong><code>lsusb</code></strong></p>
+<p><strong><pre>lsusb</pre></strong></p>
 <p>Ahora crearemos dos directorios, están relacionados con la compilación de la versión modificada de OpenSC para el DNIe:</p>
-<p><strong><code>sudo mkdir /usr/lib/pkcs11</code></strong></p>
-<p><strong><code>sudo mkdir /etc/opensc</code></strong></p>
+<p><strong><pre>sudo mkdir /usr/lib/pkcs11</pre></strong></p>
+<p><strong><pre>sudo mkdir /etc/opensc</pre></strong></p>
 <p>Finalmente instalaremos los controladores, librerías, bibliotecas y paquetes complementarios para que funcione todo correctamente:</p>
-<p><strong><code>sudo apt-get install libccid pcscd</code></strong></p>
-<p><strong><code>sudo apt-get install libacr38u</code></strong></p>
-<p><strong><code>sudo apt-get install pinentry-gtk2 pcsc-tools libpcsclite1 libpcsclite-dev libreadline6 libreadline-dev coolkey</code></strong></p>
-<p><strong><code>sudo apt-get install pcscd pcsc-tools</code></strong></p>
+<p><strong><pre>sudo apt-get install libccid pcscd</pre></strong></p>
+<p><strong><pre>sudo apt-get install libacr38u</pre></strong></p>
+<p><strong><pre>sudo apt-get install pinentry-gtk2 pcsc-tools libpcsclite1 libpcsclite-dev libreadline6 libreadline-dev coolkey</pre></strong></p>
+<p><strong><pre>sudo apt-get install pcscd pcsc-tools</pre></strong></p>
 <p>Y por último si queremos comprobar que reconoce correctamente la tarjeta:</p>
-<p><strong><code>pcsc_scan</code></strong></p>
+<p><strong><pre>pcsc_scan</pre></strong></p>
 <hr />
 <h2 class="section-heading">Instalación de los certificados en Firefox</h2>
 <hr />
@@ -54,20 +54,26 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <h2 class="section-heading">Descarga, compilación e instalación de OpenSC modificado</h2>
 <hr />
 <p>Creamos un directorio oculto para almacenar el código fuente y luego accederemos al directorio:</p>
-<p><strong><code>mkdir .openscDNIe</code></strong></p>
-<p><strong><code>cd .openscDNIe</code></strong></p>
+<p><strong><pre>mkdir .openscDNIe</pre></strong></p>
+<p><strong><pre>cd .openscDNIe</pre></strong></p>
 <p>Descargamos con el siguiente comando:</p>
-<p><strong><code>msvn checkout --username anonsvn https://forja.cenatic.es/svn/opendnie/opensc-opendnie/trunk</code></strong></p>
+<p><strong><pre>msvn checkout --username anonsvn https://forja.cenatic.es/svn/opendnie/opensc-opendnie/trunk</pre></strong></p>
 <p>Para iniciar la descarga requiere una contraseña, es: anonsvn. Tras la descarga debemos acceder a uno de los directorios descargados:</p>
-<p><strong><code>cd trunk</code></strong></p>
+<p><strong><pre>cd trunk</pre></strong></p>
 <p>Antes compilar hay que añadir la ruta de la librería "libltdl.la" en el archivo "src/tools/Makefile.am" del código fuente, en "trunk". La ruta variará dependiendo de la arquitectura, 32 o 64 bits, de nuestro sistema. Para ver la ruta ejecutamos:</p>
-<p><strong><code>sudo find / -name libltdl.la</code></strong></p>
+<p><strong><pre>sudo find / -name libltdl.la</pre></strong></p>
 <p>Suele tardar un poco en realizar la búsqueda pero nos devolverá la ruta exacta, para finalizar el proceso pulsa Ctrl+ C. Este por ejemplo sería para 64 bits:</p>
 <p><strong><pre>/usr/lib/x86_64-linux-gnu/libltdl.la</pre></strong></p>
 <p>Editamos el archivo Makefile.am, puedes utilizar nano o gedit (u otro), y buscamos la siguiente línea:</p>
 <p><strong><pre>
         LIBS = $(top_builddir)/src/common/libcompat.la \
-              $(top_builddir)/src/libopensc/libopensc.la
+            $(top_builddir)/src/libopensc/libopensc.la
+</p></strong></pre>
+<p>Añadimos la ruta que hemos obtenido quedando así:</p>
+<p><strong><pre>
+        LIBS = $(top_builddir)/src/common/libcompat.la \
+            $(top_builddir)/src/libopensc/libopensc.la \
+            /usr/lib/x86_64-linux-gnu/libltdl.la
 </p></strong></pre>
 <hr />
 <h2 class="section-heading">Configurando + parámetros</h2>
