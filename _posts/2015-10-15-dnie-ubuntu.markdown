@@ -23,24 +23,26 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <hr />
 <h2 class="section-heading">Instalación de Java</h2>
 <hr />
-<p>Para llevar a cabo nuestos trámites es necesario tener instalado Java. Usaremos la versión 8 aunque si prefieres la versión 7 también puedes instalarla, abriremos un terminal y ejecutaremos los siguientes comandos:</p>
+<p>Para llevar a cabo nuestos trámites es necesario tener instalado Java. Usaremos la versión 8, aunque si prefieres la versión 7 también puedes instalarla, abriremos un terminal y ejecutaremos los siguientes comandos:</p>
 <p><strong><code>sudo add-apt-repository ppa:webupd8team/java</code></strong></p>
 <p><strong><code>sudo apt-get update</code></strong></p>
 <p><strong><code>sudo apt-get install oracle-java8-installer</code></strong></p>
 <p><strong><code>sudo update-java-alternatives -s java-8-oracle</code></strong></p>
 <hr />
 <h2 class="section-heading">Instalación de liberías, bibliotecas y controladores</h2>
-<p>Primero comprobaremos que el lector es dectetado por nuestro sistema:</p>
-<p><strong><code>lsusb</code></strong></p>
 <hr />
+<p>En contrucción</p>
 <hr />
 <h2 class="section-heading">Instalación de los certificados en Firefox</h2>
 <hr />
+<p>En contrucción</p>
 <hr />
-<h2 class="section-heading">Descarga, compilación e instalación de OpenSC</h2>
+<h2 class="section-heading">Descarga, compilación e instalación de OpenSC modificado</h2>
 <hr />
+<p>En contrucción</p>
 <hr />
 <h2 class="section-heading">Configurando + parámetros</h2>
 <hr />
+<p>En contrucción</p>
 <hr />
 <h2 class="section-heading">Conclusión</h2>
