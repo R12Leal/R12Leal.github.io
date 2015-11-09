@@ -16,7 +16,7 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <hr />
 <h2 class="section-heading">Lector</h2>
 <hr />
-<p>Mi lector es un Sveon SCT011, un dispositivo muy sencillo, barato y que compré en grandes superfícies, aquí una imagen:</p>
+<p>Mi lector es un Sveon SCT011, un dispositivo muy sencillo, barato y que compré en grandes superficies, aquí una imagen:</p>
 <img src="/img/post/post_dnie/sct011.jpg" alt="Sveon SCT011" />
 <span class="caption text-muted">Sveon SCT011</span>
 <p>La mayoría de dispositivos son compatibles en Ubuntu, de todas formas instalaremos una serie de paquetes (controladores) para garanzitar su funcionamiento.</p>
@@ -33,7 +33,7 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <hr />
 <p>Primero comprobaremos que nuestro sistema reconoce el lector, en la terminal ejecutamos el siguiente comando:</p>
 <p><strong><code>lsusb</code></strong></p>
-<p>Ahora crearemos dos directorios, están relacionados con el código fuente de la versión modificada de OpenSC para el DNIe:</p>
+<p>Ahora crearemos dos directorios, están relacionados con la compilación de la versión modificada de OpenSC para el DNIe:</p>
 <p><strong><code>sudo mkdir /usr/lib/pkcs11</code></strong></p>
 <p><strong><code>sudo mkdir /etc/opensc</code></strong></p>
 <p>Finalmente instalaremos los controladores, librerías, bibliotecas y paquetes complementarios para que funcione todo correctamente:</p>
@@ -53,10 +53,16 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <hr />
 <h2 class="section-heading">Descarga, compilación e instalación de OpenSC modificado</h2>
 <hr />
-<p>En contrucción</p>
+<p>Creamos un directorio oculto para descargar y almacenar el código fuente y luego accederemos al directorio:</p>
+<p><strong><code>mkdir .openscDNIe</code></strong></p>
+<p><strong><code>cd .openscDNIe</code></strong></p>
+<p>Descargamos con el siguiente comando:</p>
+<p><strong><code>msvn checkout --username anonsvn https://forja.cenatic.es/svn/opendnie/opensc-opendnie/trunk</code></strong></p>
+<p>Para iniciar la descarga requiere una contraseña, es: anonsvn. Tras la descarga ya podemos comenzar con la compilación.</p>
+<p></p>
 <hr />
 <h2 class="section-heading">Configurando + parámetros</h2>
 <hr />
-<p>En contrucción</p>
+<p></p>
 <hr />
 <h2 class="section-heading">Conclusión</h2>
