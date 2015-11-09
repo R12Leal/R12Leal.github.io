@@ -112,6 +112,5 @@ sudo make install
 <hr />
 <h2 class="section-heading">Conclusión</h2>
 <hr />
-<p>La administración pública debe fomentar el uso del DNIe ya que todos nos beneficiamos del mismo, los funcionarios incluso más ;)</p>
-<p>Fuentes:</p>
-<p><a href="http://www.ubuntu-guia.com/2014/04/instalar-dni-electronico-en-ubuntu.html" title="DNIe en GNU/Linux Ubuntu" target="_blank">Ubuntu guia</a><br /><a href="https://lasindias.com/indianopedia/instalar-el-dni-e-en-ubuntu" title="DNIe en GNU/Linux Ubuntu" target="_blank">El correo de las Indias</a></p>
+<p>Poco a poco la administración pública va fomentando el uso del DNIe, además ya se están probando futuras versiones como por ejemplo la 3.0 que permitirá el escaneo del DNIe mediante el uso de un smartphones. Con su utilización ganamos todos, sobre todo los funcionarios ;) Salu2! </p>
+<p>Fuentes:<br /><a href="http://www.ubuntu-guia.com/2014/04/instalar-dni-electronico-en-ubuntu.html" title="DNIe en GNU/Linux Ubuntu" target="_blank">Ubuntu guia</a><br /><a href="https://lasindias.com/indianopedia/instalar-el-dni-e-en-ubuntu" title="DNIe en GNU/Linux Ubuntu" target="_blank">El correo de las Indias</a></p>
