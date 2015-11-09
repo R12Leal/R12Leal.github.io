@@ -53,9 +53,11 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <hr />
 <h2 class="section-heading">Descarga, compilación e instalación de OpenSC modificado</h2>
 <hr />
-<p>Creamos un directorio oculto para almacenar el código fuente y luego accederemos al directorio:</p>
-<p><strong><pre>mkdir .openscDNIe</pre></strong></p>
-<p><strong><pre>cd .openscDNIe</pre></strong></p>
+<p>Creamos un directorio oculto para almacenar el código fuente y luego accederemos al mismo:</p>
+<p><strong><pre>
+mkdir .openscDNIe
+cd .openscDNIe
+</pre></strong></p>
 <p>Descargamos el código fuente con el siguiente comando:</p>
 <p><strong><pre>msvn checkout --username anonsvn https://forja.cenatic.es/svn/opendnie/opensc-opendnie/trunk</pre></strong></p>
 <p>Para iniciar la descarga requiere una contraseña, es: anonsvn. Tras la descarga debemos acceder a uno de los directorios descargados:</p>
@@ -82,6 +84,7 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
       make
       sudo make install
 </pre></strong></p>
+<p>Puede demorarse un tiempo la compilación e instalación, cuando finalice el módulo "PKCS11" habrá quedado instalado en la ruta: "/usr/lib/opensc-pkcs11.so". Ahora hay que indicarle esta información a Firefox: vamos a Editar -> Preferencias -> Avanzado -> Cifrado -> Dispositivos de seguridad, pulsamos en "Cargar", y en "Nombre del módulo" escribimos: PKCS11 y en "Archivo del módulo" escribimos la ruta: /usr/lib/opensc-pkcs11.so.</p>
 <hr />
 <h2 class="section-heading">Configurando + parámetros</h2>
 <hr />
