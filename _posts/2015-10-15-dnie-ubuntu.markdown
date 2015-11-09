@@ -55,9 +55,9 @@ sudo apt-get install pcscd pcsc-tools
 <p>Lo primero de todo será descargar los certificados correspondientes. Los puedes encontrar <a href="http://www.dnielectronico.es/PortalDNIe/PRF1_Cons02.action?pag=REF_077" title="Certificados DNIe" target="_blank">aquí</a></p>
 <p>Son AC Raíz (archivo: "pkcs1-sha256WithRSAEncryption") y AV DNIE FNMT (archivo: "pkcs1-sha256WithRSAEncryption").</p>
 <p>Descomprimimos los archivos .zip y en Firefox vamos a Editar -> Preferencias -> Avanzado -> Cifrado -> Ver certificados y en la pestaña "Autoridades" pulsamos "Importar" y elegimos ACRAIZ-SHA2.crt. En la pestaña "Servidores" también utilizaremos la opción "Importar" con AVDNIEFNMTSHA2.cer.</p>
-<p>Durante la importación del certificado aparecerá una nueva ventana, en esta aparece tres opciones de confianza las cuales debemos marcar:</p>
-<img src="/img/post/post_dnie/op-importar.jpg" alt="Opciones durante la importación" />
-<span class="caption text-muted">RECUERDA: debes marcar las tres opciones</span>
+<p>Durante la importación del certificado aparecerá una nueva ventana, en esta se pueden observar tres opciones de confianza las cuales debemos marcar:</p>
+<img src="/img/post/post_dnie/op-importar.jpg" alt="¡Opciones durante la importación!" />
+<span class="caption text-muted">¡RECUERDA: debes marcar las tres opciones!</span>
 <hr />
 <h2 class="section-heading">Descarga, compilación e instalación de OpenSC modificado para DNIe</h2>
 <hr />
@@ -68,13 +68,13 @@ cd .openscDNIe
 </pre></strong></p>
 <p>Descargamos el código fuente con el siguiente comando:</p>
 <p><strong><pre>msvn checkout --username anonsvn https://forja.cenatic.es/svn/opendnie/opensc-opendnie/trunk</pre></strong></p>
-<p>Para iniciar la descarga requiere una contraseña, es: anonsvn. Tras la descarga debemos acceder a uno de los directorios descargados:</p>
+<p>Para iniciar la descarga requiere una contraseña, es: anonsvn. Tras descargar el código fuente debemos acceder a uno de los directorios descargados:</p>
 <p><strong><pre>cd trunk</pre></strong></p>
-<p>Antes compilar hay que añadir la ruta de la librería "libltdl.la" en el archivo "src/tools/Makefile.am" del código fuente, en "trunk". La ruta variará dependiendo de la arquitectura, 32 o 64 bits, de nuestro sistema. Para ver la ruta ejecutamos:</p>
+<p>Antes compilar hay que añadir la ruta de la librería "libltdl.la" al archivo "src/tools/Makefile.am" del código fuente, en "trunk". La ruta variará dependiendo de la arquitectura, 32 o 64 bits, de nuestro sistema. Para encontrarla ejecutamos:</p>
 <p><strong><pre>sudo find / -name libltdl.la</pre></strong></p>
 <p>Suele tardar un poco en realizar la búsqueda pero nos devolverá la ruta exacta, para finalizar el proceso pulsa Ctrl+ C. Este por ejemplo sería para 64 bits:</p>
 <p><strong><pre>/usr/lib/x86_64-linux-gnu/libltdl.la</pre></strong></p>
-<p>Editamos el archivo Makefile.am, puedes utilizar nano o gedit (u otro), y buscamos la siguiente línea:</p>
+<p>Editamos el archivo Makefile.am, puedes utilizar nano o gedit (u otro editor), y buscamos la siguiente línea:</p>
 <p><strong><pre>
         LIBS = $(top_builddir)/src/common/libcompat.la \
             $(top_builddir)/src/libopensc/libopensc.la
@@ -92,14 +92,16 @@ cd .openscDNIe
 make
 sudo make install
 </pre></strong></p>
-<p>Puede demorarse un tiempo la compilación e instalación, cuando finalice el módulo "PKCS11" habrá quedado instalado en la ruta: "/usr/lib/opensc-pkcs11.so". Ahora hay que indicarle esta información a Firefox: vamos a Editar -> Preferencias -> Avanzado -> Cifrado -> Dispositivos de seguridad, pulsamos en "Cargar", y en "Nombre del módulo" escribimos: PKCS11 y en "Archivo del módulo" escribimos la ruta: /usr/lib/opensc-pkcs11.so.</p>
+<p>Puede demorarse un tiempo la compilación e instalación, cuando finalice el módulo "PKCS11" habrá quedado instalado en la ruta: "/usr/lib/opensc-pkcs11.so". Ahora hay que indicarle esta información a Firefox: vamos a Editar -> Preferencias -> Avanzado -> Cifrado -> Dispositivos de seguridad, pulsamos en "Cargar", y en "Nombre del módulo" escribimos: PKCS11 y en "Archivo del módulo" escribimos la ruta: "/usr/lib/opensc-pkcs11.so".</p>
+<img src="/img/post/post_dnie/ds-cargar.jpg" alt="¡Instalación del módulo PKCS11 en Firefox!" />
+<span class="caption text-muted">¡Instalación del módulo PKCS11 en Firefox!</span>
 <p>Para finalizar reiniciamos el navegador, ya podemos usar nuestro DNIe.</p>
 <hr />
 <h2 class="section-heading">Configurando + parámetros</h2>
 <hr />
 <p>El pin del DNIe tiene protección por Token, así que es probable durante la identificación falle. Para solucionarlo debemos editar el archivo "opensc.conf". Dependiendo de las distribuciones puede estar ubicado en distintos directorios. Para encontrar la ruta exacta ejecutamos este comando en una terminal:</p>
 <p><strong><pre>sudo find / -name opensc.conf</pre></strong></p>
-<p>Una vez obtenida la ruta editamos el archivo con nano o gedit (u otro) y buscamos estas dos líneas:</p>
+<p>Una vez obtenida la ruta editamos el archivo con nano o gedit (u otro editor) y buscamos estas dos líneas:</p>
 <p><strong><pre># enable_pinpad = false;</pre></strong></p>
 <p>Basta con borrar el # quedando así:</p>
 <p><strong><pre>enable_pinpad = false;</pre></strong></p>
