@@ -11,10 +11,10 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <h2 class="section-heading">Introducción</h2>
 <hr />
 <p>El DNIe (DNI electrónico) es una herramienta que todavía no ha terminado de despegar en España pero que poco a poco va sumando adeptos ya que nos permite ahorrarnos los típicos, y tediosos, desplazamientos a las oficinas de las principales administraciones públicas de nuestra zona.</p>
-<p>La causa principal, del poco uso por parte de la población, es porque la administración no ofrece un buen soporte a los ciudadanos. Incluso en sistemas operativos de Microsoft también es un poco complicado su instalación y uso.</p>
+<p>La causa principal (del poco uso por parte de la población) es porque la administración no ofrece un buen soporte a los ciudadanos. Incluso en sistemas operativos de Microsoft también es un poco complicado su instalación y uso.</p>
 <p>En este post veremos como instalar y usar el DNIe en Ubuntu (versión 14.04 o posteriores), ya sean de 32 o 64 bits. No he probado la instalación en el resto de distribuciones de Linux pero debería funcionar igualmente, sobre todo las que son derivadas de Debian.</p>
 <hr />
-<h2 class="section-heading">Lector</h2>
+<h2 class="section-heading">Lector o Card Reader</h2>
 <hr />
 <p>Mi lector es un Sveon SCT011, un dispositivo muy sencillo, barato y que compré en grandes superficies, aquí una imagen:</p>
 <img src="/img/post/post_dnie/sct011.jpg" alt="Sveon SCT011" />
@@ -23,11 +23,13 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <hr />
 <h2 class="section-heading">Instalación de Java</h2>
 <hr />
-<p>Para llevar a cabo nuestos trámites es necesario tener instalado Java. Usaremos la versión 8, aunque si prefieres la versión 7 también puedes instalarla, abriremos un terminal y ejecutaremos los siguientes comandos:</p>
-<p><strong><pre>sudo add-apt-repository ppa:webupd8team/java</pre></strong></p>
-<p><strong><pre>sudo apt-get update</pre></strong></p>
-<p><strong><pre>sudo apt-get install oracle-java8-installer</pre></strong></p>
-<p><strong><pre>sudo update-java-alternatives -s java-8-oracle</pre></strong></p>
+<p>Para llevar a cabo nuestos trámites es necesario tener instalado Java. Usaremos la versión 8, aunque si prefieres la versión 7 también puedes instalarla. Abriremos una terminal y ejecutaremos los siguientes comandos:</p>
+<p><strong><pre>
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+sudo update-java-alternatives -s java-8-oracle
+</pre></strong></p>
 <hr />
 <h2 class="section-heading">Instalación de controladores, librerías y bibliotecas</h2>
 <hr />
@@ -45,17 +47,16 @@ sudo apt-get install libacr38u
 sudo apt-get install pinentry-gtk2 pcsc-tools libpcsclite1 libpcsclite-dev libreadline6 libreadline-dev coolkey
 sudo apt-get install pcscd pcsc-tools
 </pre></strong></p>
-<p>Y por último si queremos comprobar que reconoce correctamente la tarjeta:</p>
+<p>Y por último si queremos comprobar que reconoce correctamente la tarjeta ejecutar:</p>
 <p><strong><pre>pcsc_scan</pre></strong></p>
 <hr />
 <h2 class="section-heading">Instalación de los certificados en Firefox</h2>
 <hr />
 <p>Lo primero de todo será descargar los certificados correspondientes. Los puedes encontrar <a href="http://www.dnielectronico.es/PortalDNIe/PRF1_Cons02.action?pag=REF_077" title="Certificados DNIe" target="_blank">aquí</a></p>
 <p>Son AC Raíz (archivo: "pkcs1-sha256WithRSAEncryption") y AV DNIE FNMT (archivo: "pkcs1-sha256WithRSAEncryption").</p>
-<p>Descomprimimos los archivos .zip descargados y en Firefox vamos a Editar -> Preferencias -> Avanzado -> Cifrado -> Ver certificados y en la pestaña "Autoridades" pulsamos "Importar" y elegimos ACRAIZ-SHA2.crt. En la pestaña
-"Servidores" también utilizamos "Importar" con AVDNIEFNMTSHA2.cer.</p>
+<p>Descomprimimos los archivos .zip y en Firefox vamos a Editar -> Preferencias -> Avanzado -> Cifrado -> Ver certificados y en la pestaña "Autoridades" pulsamos "Importar" y elegimos ACRAIZ-SHA2.crt. En la pestaña "Servidores" también utilizaremos la opción "Importar" con AVDNIEFNMTSHA2.cer.</p>
 <hr />
-<h2 class="section-heading">Descarga, compilación e instalación de OpenSC modificado</h2>
+<h2 class="section-heading">Descarga, compilación e instalación de OpenSC modificado para DNIe</h2>
 <hr />
 <p>Creamos un directorio oculto para almacenar el código fuente y luego accederemos al mismo:</p>
 <p><strong><pre>
@@ -92,6 +93,7 @@ sudo make install
 <p>Para finalizar reiniciamos el navegador, ya podemos usar nuestro DNIe.</p>
 <hr />
 <h2 class="section-heading">Configurando + parámetros</h2>
+<hr />
 <p>El pin del DNIe tiene protección por Token, así que es probable durante la identificación falle. Para solucionarlo debemos editar el archivo "opensc.conf". Dependiendo de las distribuciones puede estar ubicado en distintos directorios. Para encontrar la ruta exacta ejecutamos este comando en una terminal:</p>
 <p><strong><pre>sudo find / -name opensc.conf</pre></strong></p>
 <p>Una vez obtenida la ruta editamos el archivo con nano o gedit (u otro) y buscamos estas dos líneas:</p>
@@ -100,10 +102,11 @@ sudo make install
 <p><strong><pre>enable_pinpad = false;</pre></strong></p>
 <hr />
 <h2 class="section-heading">¿Funciona?</h2>
-<p>Para probar que funciona podemos acudir al siguiente enlace oficial: <a href="http://www.dnielectronico.es/PortalDNIe/PRF1_Cons02.action?pag=REF_320" title="Verificar DNIe" target="_blank">DNIe</a></p> </p>
+<hr />
+<p>Para probar que funciona podemos acudir al siguiente enlace oficial: <a href="http://www.dnielectronico.es/PortalDNIe/PRF1_Cons02.action?pag=REF_320" title="Verificar DNIe" target="_blank">DNIe</a></p>
 <hr />
 <h2 class="section-heading">Conclusión</h2>
-<p></p>
+<p>La administración pública debe fomentar el uso del DNIe ya que todos nos beneficiamos del mismo, los funcionarios incluso más ;)</p>
 <p>Fuentes:</p>
-<p></p>
-<p></p>
+<p><a href="http://www.ubuntu-guia.com/2014/04/instalar-dni-electronico-en-ubuntu.html" title="DNIe en GNU/Linux Ubuntu" target="_blank">Ubuntu guia</a></p>
+<p><a href="https://lasindias.com/indianopedia/instalar-el-dni-e-en-ubuntu" title="DNIe en GNU/Linux Ubuntu" target="_blank">El correo de las Indias</a></p>
