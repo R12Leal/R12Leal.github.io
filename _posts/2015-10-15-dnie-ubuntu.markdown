@@ -10,7 +10,7 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 ---
 <h2 class="section-heading">Introducción</h2>
 <hr />
-<p>El DNIe (DNI electrónico) es una herramienta que todavía no ha terminado de despegar en España pero que poco a poco va sumando adeptos ya que nos permite ahorrarnos los típicos, y tediosos, desplazamientos a las oficinas centrales.</p>
+<p>El DNIe (DNI electrónico) es una herramienta que todavía no ha terminado de despegar en España pero que poco a poco va sumando adeptos ya que nos permite ahorrarnos los típicos, y tediosos, desplazamientos a las oficinas de las principales administraciones públicas de nuestra zona.</p>
 <p>La causa principal, del poco uso por parte de la población, es porque la administración no ofrece un buen soporte a los ciudadanos. Incluso en sistemas operativos de Microsoft también es un poco complicada su instalación y uso.</p>
 <p>En este post veremos como instalar y usar el DNIe en Ubuntu (versión 14.04 o posteriores), ya sean de 32 o 64 bits. No he probado la instalación en el resto de distribuciones de Linux pero debería funcionar igualmente, sobre todo las que son derivadas de Debian.</p>
 <hr />
@@ -23,6 +23,13 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <hr />
 <h2 class="section-heading">Instalación de Java</h2>
 <hr />
+<p>Para llevar a cabo nuestos trámites es necesario tener instalado Java, abriremos un terminal y ejecutaremos los siguientes comandos:</p>
+<code>
+  <p>sudo add-apt-repository ppa:webupd8team/java</p>
+  <p>sudo apt-get update</p>
+  <p>sudo apt-get install oracle-java8-installer</p>
+  <p>sudo update-java-alternatives -s java-8-oracle</p>
+</code>
 <hr />
 <h2 class="section-heading">Instalación de liberías, bibliotecas y controladores</h2>
 <hr />

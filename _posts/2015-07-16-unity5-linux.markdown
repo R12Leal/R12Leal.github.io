@@ -15,4 +15,4 @@ header-img: 	"img/post/u5.jpg"
 <h2 class="section-heading">No confudir please...</h2>
 <hr />
 <p>No hablo de la interfaz realizada por Canonical sino de uno de los MEJORES motores y plataformas para desarrollar videojuegos. Lo confirma Na’Tosha Bard, una de las programadoras de Unity, quien ha comentado en su blog que algunos programadores han estado trabajando para portar Unity a plataformas Linux, y que además ese grupo será luego el encargado de mantenerlo. Según ella, "las cosas vienen por ahora muy bien y el funcionamiento es realmente muy fluído, por lo cual el objetivo principal a corto plazo es el de lanzar una build experimental para poder comenzar a conocerlo."</p>
-<p>En próximos post, una vez que tenga montado y testeado el nuevo PC, instalaremos la build experimental para hacer pruebas, aunque soy un auténticoo NOOB me gustaría aprender a desarrollar para estas plataformas, Salu2!</p>
+<p>En próximos post, una vez que tenga montado y testeado el nuevo PC, instalaremos la build experimental para hacer pruebas, aunque soy un auténtico NOOB me gustaría aprender a desarrollar para estas plataformas, Salu2!</p>
