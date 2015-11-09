@@ -61,9 +61,14 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <p>Para iniciar la descarga requiere una contraseña, es: anonsvn. Tras la descarga debemos acceder a uno de los directorios descargados:</p>
 <p><strong><code>cd trunk</code></strong></p>
 <p>Antes compilar hay que añadir la ruta de la librería "libltdl.la" en el archivo "src/tools/Makefile.am" del código fuente, en "trunk". La ruta variará dependiendo de la arquitectura, 32 o 64 bits, de nuestro sistema. Para ver la ruta ejecutamos:</p>
-<p><code><strong><code>sudo find / -name libltdl.la</code></strong></p>
+<p><strong><code>sudo find / -name libltdl.la</code></strong></p>
 <p>Suele tardar un poco en realizar la búsqueda pero nos devolverá la ruta exacta, para finalizar el proceso pulsa Ctrl+ C. Este por ejemplo sería para 64 bits:</p>
 <p><strong><pre>/usr/lib/x86_64-linux-gnu/libltdl.la</pre></strong></p>
+<p>Editamos el archivo Makefile.am, puedes utilizar nano o gedit (u otro), y buscamos la siguiente línea:</p>
+<p><strong><pre>
+        LIBS = $(top_builddir)/src/common/libcompat.la \
+              $(top_builddir)/src/libopensc/libopensc.la
+</p></strong></pre>
 <hr />
 <h2 class="section-heading">Configurando + parámetros</h2>
 <hr />
