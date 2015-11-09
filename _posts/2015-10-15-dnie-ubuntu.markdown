@@ -24,10 +24,10 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <h2 class="section-heading">Instalación de Java</h2>
 <hr />
 <p>Para llevar a cabo nuestos trámites es necesario tener instalado Java. Usaremos la versión 8 aunque si prefieres la versión 7 también puedes instalarla, abriremos un terminal y ejecutaremos los siguientes comandos:</p>
-<p><code>sudo add-apt-repository ppa:webupd8team/java</code></p>
-<p><code>sudo apt-get update</code></p>
-<p><code>sudo apt-get install oracle-java8-installer</code></p>
-<p><code>sudo update-java-alternatives -s java-8-oracle</code></p>
+<p><strong><code>sudo add-apt-repository ppa:webupd8team/java</code></strong></p>
+<p><strong><code>sudo apt-get update</code></strong></p>
+<p><strong><code>sudo apt-get install oracle-java8-installer</code></strong></p>
+<p><strong><code>sudo update-java-alternatives -s java-8-oracle</code></strong></p>
 <hr />
 <h2 class="section-heading">Instalación de liberías, bibliotecas y controladores</h2>
 <p>Primero comprobaremos que el lector es dectetado por nuestro sistema:</p>
