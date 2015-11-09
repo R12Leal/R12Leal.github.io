@@ -29,24 +29,27 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <p><strong><code>sudo apt-get install oracle-java8-installer</code></strong></p>
 <p><strong><code>sudo update-java-alternatives -s java-8-oracle</code></strong></p>
 <hr />
-<h2 class="section-heading">Instalación de liberías, bibliotecas y controladores</h2>
+<h2 class="section-heading">Instalación de controladores, librerías y bibliotecas</h2>
 <hr />
 <p>Primero comprobaremos que nuestro sistema reconoce el lector, en la terminal ejecutamos el siguiente comando:</p>
 <p><strong><code>lsusb</code></strong></p>
 <p>Ahora crearemos dos directorios, están relacionados con el código fuente de la versión modificada de OpenSC para el DNIe:</p>
 <p><strong><code>sudo mkdir /usr/lib/pkcs11</code></strong></p>
 <p><strong><code>sudo mkdir /etc/opensc</code></strong></p>
-<p>Finalmente instalaremos los controladores, liberías, bibliotecas y paquetes complementarios para que funcione todo correctamente:</p>
+<p>Finalmente instalaremos los controladores, librerías, bibliotecas y paquetes complementarios para que funcione todo correctamente:</p>
 <p><strong><code>sudo apt-get install libccid pcscd</code></strong></p>
 <p><strong><code>sudo apt-get install libacr38u</code></strong></p>
 <p><strong><code>sudo apt-get install pinentry-gtk2 pcsc-tools libpcsclite1 libpcsclite-dev libreadline6 libreadline-dev coolkey</code></strong></p>
 <p><strong><code>sudo apt-get install pcscd pcsc-tools</code></strong></p>
-<p>Si queremos comprobar que reconoce correctamente la tarjeta utilizremos el siguiente comando:</p>
+<p>Y por último si queremos comprobar que reconoce correctamente la tarjeta:</p>
 <p><strong><code>pcsc_scan</code></strong></p>
 <hr />
 <h2 class="section-heading">Instalación de los certificados en Firefox</h2>
 <hr />
-<p>En contrucción</p>
+<p>Lo primero de todo será descargar los certificados correspondientes. Los puedes encontrar <a href="http://www.dnielectronico.es/PortalDNIe/PRF1_Cons02.action?pag=REF_077" title="Certificados DNIe" target="_blank">aquí</a></p>
+<p>Son AC Raíz (archivo: "pkcs1-sha256WithRSAEncryption") y AV DNIE FNMT (archivo: "pkcs1-sha256WithRSAEncryption").</p>
+<p>Descomprimimos los archivos .zip descargados y en Firefox vamos a Editar -> Preferencias -> Avanzado -> Cifrado -> Ver certificados y en la pestaña "Autoridades" pulsamos "Importar" y elegimos ACRAIZ-SHA2.crt. En la pestaña
+"Servidores" también utilizamos "Importar" con AVDNIEFNMTSHA2.cer.</p>
 <hr />
 <h2 class="section-heading">Descarga, compilación e instalación de OpenSC modificado</h2>
 <hr />
