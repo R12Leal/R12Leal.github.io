@@ -19,11 +19,11 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <p>Mi lector es un Sveon SCT011, un dispositivo muy sencillo, barato y que compré en grandes superficies, aquí una imagen:</p>
 <img src="/img/post/post_dnie/sct011.jpg" alt="Sveon SCT011" />
 <span class="caption text-muted">Sveon SCT011</span>
-<p>La mayoría de dispositivos son compatibles en Ubuntu, de todas formas instalaremos una serie de paquetes (controladores) para garanzitar su funcionamiento.</p>
+<p>La mayoría de dispositivos son compatibles en Ubuntu, de todas formas instalaremos una serie de paquetes (controladores) para garantizar su funcionamiento.</p>
 <hr />
 <h2 class="section-heading">Instalación de Java</h2>
 <hr />
-<p>Para llevar a cabo nuestos trámites es necesario tener instalado Java. Usaremos la versión 8, aunque si prefieres la versión 7 también puedes instalarla. Abriremos una terminal y ejecutaremos los siguientes comandos:</p>
+<p>Para llevar a cabo nuestos trámites es necesario tener instalado Java en nuestro sistema. Usaremos la versión 8, aunque si prefieres la versión 7 también puedes instalarla. Abriremos una terminal y ejecutaremos los siguientes comandos:</p>
 <p><strong><pre>
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
@@ -55,6 +55,9 @@ sudo apt-get install pcscd pcsc-tools
 <p>Lo primero de todo será descargar los certificados correspondientes. Los puedes encontrar <a href="http://www.dnielectronico.es/PortalDNIe/PRF1_Cons02.action?pag=REF_077" title="Certificados DNIe" target="_blank">aquí</a></p>
 <p>Son AC Raíz (archivo: "pkcs1-sha256WithRSAEncryption") y AV DNIE FNMT (archivo: "pkcs1-sha256WithRSAEncryption").</p>
 <p>Descomprimimos los archivos .zip y en Firefox vamos a Editar -> Preferencias -> Avanzado -> Cifrado -> Ver certificados y en la pestaña "Autoridades" pulsamos "Importar" y elegimos ACRAIZ-SHA2.crt. En la pestaña "Servidores" también utilizaremos la opción "Importar" con AVDNIEFNMTSHA2.cer.</p>
+<p>Durante la importación del certificado aparecerá una nueva ventana, en esta aparece tres opciones de confianza las cuales debemos marcar:</p>
+<img src="/img/post/post_dnie/op-importar.jpg" alt="Opciones durante la importación />
+<span class="caption text-muted">RECUERDA: debes marcar las tres opciones</span>
 <hr />
 <h2 class="section-heading">Descarga, compilación e instalación de OpenSC modificado para DNIe</h2>
 <hr />
@@ -106,7 +109,7 @@ sudo make install
 <p>Para probar que funciona podemos acudir al siguiente enlace oficial: <a href="http://www.dnielectronico.es/PortalDNIe/PRF1_Cons02.action?pag=REF_320" title="Verificar DNIe" target="_blank">DNIe</a></p>
 <hr />
 <h2 class="section-heading">Conclusión</h2>
+<hr />
 <p>La administración pública debe fomentar el uso del DNIe ya que todos nos beneficiamos del mismo, los funcionarios incluso más ;)</p>
 <p>Fuentes:</p>
-<p><a href="http://www.ubuntu-guia.com/2014/04/instalar-dni-electronico-en-ubuntu.html" title="DNIe en GNU/Linux Ubuntu" target="_blank">Ubuntu guia</a></p>
-<p><a href="https://lasindias.com/indianopedia/instalar-el-dni-e-en-ubuntu" title="DNIe en GNU/Linux Ubuntu" target="_blank">El correo de las Indias</a></p>
+<p><a href="http://www.ubuntu-guia.com/2014/04/instalar-dni-electronico-en-ubuntu.html" title="DNIe en GNU/Linux Ubuntu" target="_blank">Ubuntu guia</a><br /><a href="https://lasindias.com/indianopedia/instalar-el-dni-e-en-ubuntu" title="DNIe en GNU/Linux Ubuntu" target="_blank">El correo de las Indias</a></p>
