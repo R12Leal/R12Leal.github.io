@@ -53,7 +53,7 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <hr />
 <h2 class="section-heading">Descarga, compilación e instalación de OpenSC modificado</h2>
 <hr />
-<p>Creamos un directorio oculto para descargar y almacenar el código fuente y luego accederemos al directorio:</p>
+<p>Creamos un directorio oculto para almacenar el código fuente y luego accederemos al directorio:</p>
 <p><strong><code>mkdir .openscDNIe</code></strong></p>
 <p><strong><code>cd .openscDNIe</code></strong></p>
 <p>Descargamos con el siguiente comando:</p>
