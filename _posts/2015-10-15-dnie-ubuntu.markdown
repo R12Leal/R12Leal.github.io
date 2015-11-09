@@ -34,13 +34,17 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <p>Primero comprobaremos que nuestro sistema reconoce el lector, en la terminal ejecutamos el siguiente comando:</p>
 <p><strong><pre>lsusb</pre></strong></p>
 <p>Ahora crearemos dos directorios, están relacionados con la compilación de la versión modificada de OpenSC para el DNIe:</p>
-<p><strong><pre>sudo mkdir /usr/lib/pkcs11</pre></strong></p>
-<p><strong><pre>sudo mkdir /etc/opensc</pre></strong></p>
+<p><strong><pre>
+sudo mkdir /usr/lib/pkcs11
+sudo mkdir /etc/opensc
+</pre></strong></p>
 <p>Finalmente instalaremos los controladores, librerías, bibliotecas y paquetes complementarios para que funcione todo correctamente:</p>
-<p><strong><pre>sudo apt-get install libccid pcscd</pre></strong></p>
-<p><strong><pre>sudo apt-get install libacr38u</pre></strong></p>
-<p><strong><pre>sudo apt-get install pinentry-gtk2 pcsc-tools libpcsclite1 libpcsclite-dev libreadline6 libreadline-dev coolkey</pre></strong></p>
-<p><strong><pre>sudo apt-get install pcscd pcsc-tools</pre></strong></p>
+<p><strong><pre>
+sudo apt-get install libccid pcscd
+sudo apt-get install libacr38u
+sudo apt-get install pinentry-gtk2 pcsc-tools libpcsclite1 libpcsclite-dev libreadline6 libreadline-dev coolkey
+sudo apt-get install pcscd pcsc-tools
+</pre></strong></p>
 <p>Y por último si queremos comprobar que reconoce correctamente la tarjeta:</p>
 <p><strong><pre>pcsc_scan</pre></strong></p>
 <hr />
@@ -85,8 +89,15 @@ cd .openscDNIe
       sudo make install
 </pre></strong></p>
 <p>Puede demorarse un tiempo la compilación e instalación, cuando finalice el módulo "PKCS11" habrá quedado instalado en la ruta: "/usr/lib/opensc-pkcs11.so". Ahora hay que indicarle esta información a Firefox: vamos a Editar -> Preferencias -> Avanzado -> Cifrado -> Dispositivos de seguridad, pulsamos en "Cargar", y en "Nombre del módulo" escribimos: PKCS11 y en "Archivo del módulo" escribimos la ruta: /usr/lib/opensc-pkcs11.so.</p>
+<p>Para finalizar reiniciamos el navegador, ya podemos usar nuestro DNIe.</p>
 <hr />
 <h2 class="section-heading">Configurando + parámetros</h2>
+<p>El pin del DNIe tiene protección por Token, así que es probable durante la identificación falle. Para solucionarlo debemos editar el archivo "opensc.conf". Dependiendo de las distribuciones puede estar ubicado en distintos directorios. Para encontrar la ruta exacta ejecutamos este comando en una terminal:</p>
+<p><strong><pre>sudo find / -name opensc.conf</pre></strong></p>
+<p>Una vez obtenida la ruta editamos el archivo con nano o gedit (u otro) y buscamos estas dos líneas:</p>
+<p><strong><pre># enable_pinpad = false;</pre></strong></p>
+<p>Basta con borrar el # quedando así:</p>
+<p><strong><pre>enable_pinpad = false;</pre></strong></p>
 <hr />
 <p></p>
 <hr />
