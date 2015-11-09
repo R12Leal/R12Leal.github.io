@@ -21,5 +21,19 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <span class="caption text-muted">Sveon SCT011</span>
 <p>La mayoría de dispositivos son compatibles en Ubuntu, de todas formas instalaremos una serie de paquetes (controladores) para garanzitar su funcionamiento.</p>
 <hr />
-<h2 class="section-heading">Lector</h2>
+<h2 class="section-heading">Instalación de Java</h2>
 <hr />
+<hr />
+<h2 class="section-heading">Instalación de liberías, bibliotecas y controladores</h2>
+<hr />
+<hr />
+<h2 class="section-heading">Instalación de los certificados en Firefox</h2>
+<hr />
+<hr />
+<h2 class="section-heading">Descarga, Compilación e instalación de OpenSC</h2>
+<hr />
+<hr />
+<h2 class="section-heading">Configurando + parámetros</h2>
+<hr />
+<hr />
+<h2 class="section-heading">Conclusión</h2>
