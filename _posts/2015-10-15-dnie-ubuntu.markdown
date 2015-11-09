@@ -56,7 +56,7 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <p>Creamos un directorio oculto para almacenar el código fuente y luego accederemos al directorio:</p>
 <p><strong><pre>mkdir .openscDNIe</pre></strong></p>
 <p><strong><pre>cd .openscDNIe</pre></strong></p>
-<p>Descargamos con el siguiente comando:</p>
+<p>Descargamos el código fuente con el siguiente comando:</p>
 <p><strong><pre>msvn checkout --username anonsvn https://forja.cenatic.es/svn/opendnie/opensc-opendnie/trunk</pre></strong></p>
 <p>Para iniciar la descarga requiere una contraseña, es: anonsvn. Tras la descarga debemos acceder a uno de los directorios descargados:</p>
 <p><strong><pre>cd trunk</pre></strong></p>
@@ -68,13 +68,20 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <p><strong><pre>
         LIBS = $(top_builddir)/src/common/libcompat.la \
             $(top_builddir)/src/libopensc/libopensc.la
-</p></strong></pre>
+</pre></strong></p>
 <p>Añadimos la ruta que hemos obtenido quedando así:</p>
 <p><strong><pre>
         LIBS = $(top_builddir)/src/common/libcompat.la \
             $(top_builddir)/src/libopensc/libopensc.la \
             /usr/lib/x86_64-linux-gnu/libltdl.la
-</p></strong></pre>
+</pre></strong></p>
+<p>Para finalizar compilamos ejecutando estos comandos:</p>
+<p><strong><pre>
+      ./bootstrap
+      ./configure --prefix=/usr --sysconfdir=/etc/opensc
+      make
+      sudo make install
+</pre></strong></p>
 <hr />
 <h2 class="section-heading">Configurando + parámetros</h2>
 <hr />
