@@ -31,7 +31,18 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <hr />
 <h2 class="section-heading">Instalación de liberías, bibliotecas y controladores</h2>
 <hr />
-<p>En contrucción</p>
+<p>Primero comprobaremos que nuestro sistema reconoce el lector, en la terminal ejecutamos el siguiente comando:</p>
+<p><strong><code>lsusb</code></strong></p>
+<p>Ahora crearemos dos directorios, están relacionados con el código fuente de la versión modificada de OpenSC para el DNIe:</p>
+<p><strong><code>sudo mkdir /usr/lib/pkcs11</code></strong></p>
+<p><strong><code>sudo mkdir /etc/opensc</code></strong></p>
+<p>Finalmente instalaremos los controladores, liberías, bibliotecas y paquetes complementarios para que funcione todo correctamente:</p>
+<p><strong><code>sudo apt-get install libccid pcscd</code></strong></p>
+<p><strong><code>sudo apt-get install libacr38u</code></strong></p>
+<p><strong><code>sudo apt-get install pinentry-gtk2 pcsc-tools libpcsclite1 libpcsclite-dev libreadline6 libreadline-dev coolkey</code></strong></p>
+<p><strong><code>sudo apt-get install pcscd pcsc-tools</code></strong></p>
+<p>Si queremos comprobar que reconoce correctamente la tarjeta utilizremos el siguiente comando:</p>
+<p><strong><code>pcsc_scan</code></strong></p>
 <hr />
 <h2 class="section-heading">Instalación de los certificados en Firefox</h2>
 <hr />
