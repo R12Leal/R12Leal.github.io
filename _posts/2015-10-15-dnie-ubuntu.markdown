@@ -11,7 +11,7 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <h2 class="section-heading">Introducción</h2>
 <hr />
 <p>El DNIe (DNI electrónico) es una herramienta que todavía no ha terminado de despegar en España pero que poco a poco va sumando adeptos ya que nos permite ahorrarnos los típicos, y tediosos, desplazamientos a las oficinas de las principales administraciones públicas de nuestra zona.</p>
-<p>La causa principal, del poco uso por parte de la población, es porque la administración no ofrece un buen soporte a los ciudadanos. Incluso en sistemas operativos de Microsoft también es un poco complicada su instalación y uso.</p>
+<p>La causa principal, del poco uso por parte de la población, es porque la administración no ofrece un buen soporte a los ciudadanos. Incluso en sistemas operativos de Microsoft también es un poco complicado su instalación y uso.</p>
 <p>En este post veremos como instalar y usar el DNIe en Ubuntu (versión 14.04 o posteriores), ya sean de 32 o 64 bits. No he probado la instalación en el resto de distribuciones de Linux pero debería funcionar igualmente, sobre todo las que son derivadas de Debian.</p>
 <hr />
 <h2 class="section-heading">Lector</h2>
@@ -30,6 +30,8 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <p><code>sudo update-java-alternatives -s java-8-oracle</code></p>
 <hr />
 <h2 class="section-heading">Instalación de liberías, bibliotecas y controladores</h2>
+<p>Primero comprobaremos que el lector es dectetado por nuestro sistema:</p>
+<p><strong><code>lsusb</code></strong></p>
 <hr />
 <hr />
 <h2 class="section-heading">Instalación de los certificados en Firefox</h2>
