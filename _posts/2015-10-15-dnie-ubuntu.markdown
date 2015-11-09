@@ -56,7 +56,7 @@ sudo apt-get install pcscd pcsc-tools
 <p>Son AC Raíz (archivo: "pkcs1-sha256WithRSAEncryption") y AV DNIE FNMT (archivo: "pkcs1-sha256WithRSAEncryption").</p>
 <p>Descomprimimos los archivos .zip y en Firefox vamos a Editar -> Preferencias -> Avanzado -> Cifrado -> Ver certificados y en la pestaña "Autoridades" pulsamos "Importar" y elegimos ACRAIZ-SHA2.crt. En la pestaña "Servidores" también utilizaremos la opción "Importar" con AVDNIEFNMTSHA2.cer.</p>
 <p>Durante la importación del certificado aparecerá una nueva ventana, en esta aparece tres opciones de confianza las cuales debemos marcar:</p>
-<img src="/img/post/post_dnie/op-importar.jpg" alt="Opciones durante la importación />
+<img src="/img/post/post_dnie/op-importar.jpg" alt="Opciones durante la importación" />
 <span class="caption text-muted">RECUERDA: debes marcar las tres opciones</span>
 <hr />
 <h2 class="section-heading">Descarga, compilación e instalación de OpenSC modificado para DNIe</h2>
