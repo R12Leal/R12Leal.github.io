@@ -60,8 +60,10 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <p><strong><code>msvn checkout --username anonsvn https://forja.cenatic.es/svn/opendnie/opensc-opendnie/trunk</code></strong></p>
 <p>Para iniciar la descarga requiere una contraseña, es: anonsvn. Tras la descarga debemos acceder a uno de los directorios descargados:</p>
 <p><strong><code>cd trunk</code></strong></p>
-<p>Antes compilar hay que añadir la ruta de la librería "libltdl.la" en el archivo "src/tools/Makefile.am" del código fuente, en "trunk". La ruta variará dependiendo de la arquitectura (32 o 64 bits) de nuestro Ubuntu. Para ver la ruta ejecutamos:</p>
+<p>Antes compilar hay que añadir la ruta de la librería "libltdl.la" en el archivo "src/tools/Makefile.am" del código fuente, en "trunk". La ruta variará dependiendo de la arquitectura, 32 o 64 bits, de nuestro sistema. Para ver la ruta ejecutamos:</p>
 <p><code><strong><code>sudo find / -name libltdl.la</code></strong></p>
+<p>Suele tardar un poco en realizar la búsqueda pero nos devolverá la ruta exacta, para finalizar el proceso pulsa Ctrl+ C. Este por ejemplo sería para 64 bits:</p>
+<p><strong><pre>/usr/lib/x86_64-linux-gnu/libltdl.la</pre></strong></p>
 <hr />
 <h2 class="section-heading">Configurando + parámetros</h2>
 <hr />
