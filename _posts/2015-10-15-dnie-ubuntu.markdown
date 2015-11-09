@@ -83,10 +83,10 @@ cd .openscDNIe
 </pre></strong></p>
 <p>Para finalizar compilamos ejecutando estos comandos:</p>
 <p><strong><pre>
-      ./bootstrap
-      ./configure --prefix=/usr --sysconfdir=/etc/opensc
-      make
-      sudo make install
+./bootstrap
+./configure --prefix=/usr --sysconfdir=/etc/opensc
+make
+sudo make install
 </pre></strong></p>
 <p>Puede demorarse un tiempo la compilación e instalación, cuando finalice el módulo "PKCS11" habrá quedado instalado en la ruta: "/usr/lib/opensc-pkcs11.so". Ahora hay que indicarle esta información a Firefox: vamos a Editar -> Preferencias -> Avanzado -> Cifrado -> Dispositivos de seguridad, pulsamos en "Cargar", y en "Nombre del módulo" escribimos: PKCS11 y en "Archivo del módulo" escribimos la ruta: /usr/lib/opensc-pkcs11.so.</p>
 <p>Para finalizar reiniciamos el navegador, ya podemos usar nuestro DNIe.</p>
@@ -99,6 +99,11 @@ cd .openscDNIe
 <p>Basta con borrar el # quedando así:</p>
 <p><strong><pre>enable_pinpad = false;</pre></strong></p>
 <hr />
-<p></p>
+<h2 class="section-heading">¿Funciona?</h2>
+<p>Para probar que funciona podemos acudir al siguiente enlace oficial: <a href="http://www.dnielectronico.es/PortalDNIe/PRF1_Cons02.action?pag=REF_320" title="Verificar DNIe" target="_blank">DNIe</a></p> </p>
 <hr />
 <h2 class="section-heading">Conclusión</h2>
+<p></p>
+<p>Fuentes:</p>
+<p></p>
+<p></p>
