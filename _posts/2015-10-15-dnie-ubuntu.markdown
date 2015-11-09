@@ -99,7 +99,7 @@ sudo make install
 <hr />
 <h2 class="section-heading">Configurando + parámetros</h2>
 <hr />
-<p>El pin del DNIe tiene protección por Token, así que es probable durante la identificación falle. Para solucionarlo debemos editar el archivo "opensc.conf". Dependiendo de las distribuciones puede estar ubicado en distintos directorios. Para encontrar la ruta exacta ejecutamos este comando en una terminal:</p>
+<p>El pin del DNIe tiene protección por Token, así que es probable que la identificación falle. Para solucionarlo debemos editar el archivo "opensc.conf". Dependiendo de las distribuciones puede estar ubicado en distintos directorios. Para encontrar la ruta exacta ejecutamos este comando en una terminal:</p>
 <p><strong><pre>sudo find / -name opensc.conf</pre></strong></p>
 <p>Una vez obtenida la ruta editamos el archivo con nano o gedit (u otro editor) y buscamos estas dos líneas:</p>
 <p><strong><pre># enable_pinpad = false;</pre></strong></p>
