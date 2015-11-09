@@ -23,7 +23,7 @@ header-img: 	"img/post/post_dnie/dnie-linux.jpg"
 <hr />
 <h2 class="section-heading">Instalación de Java</h2>
 <hr />
-<p>Para llevar a cabo nuestos trámites es necesario tener instalado Java en nuestro sistema. Usaremos la versión 8, aunque si prefieres la versión 7 también puedes instalarla. Abriremos una terminal y ejecutaremos los siguientes comandos:</p>
+<p>Para llevar a cabo nuestros trámites es necesario tener instalado Java en nuestro sistema. Usaremos la versión 8, aunque si prefieres la versión 7 también puedes instalarla. Abriremos una terminal y ejecutaremos los siguientes comandos:</p>
 <p><strong><pre>
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
