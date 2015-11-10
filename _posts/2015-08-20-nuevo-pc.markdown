@@ -4,6 +4,8 @@ title:      	"¡Nuevo PC!"
 subtitle:   	"Características de mi nuevo PC montado a piezas"
 description:	Características de mi nuevo PC montado a piezas
 date:       	2015-08-20 12:00:00
+sitemap:
+  lastmod: 2015-08-20
 tag:			[informatica,geek]
 author:     	"@R12Leal"
 header-img: 	"img/post/pc.jpg"

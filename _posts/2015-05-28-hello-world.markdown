@@ -4,6 +4,8 @@ title:      	"¡El obligatorio Hello World!"
 subtitle:   	"La magia del Hello World! en nuestros desarrollos"
 description:	La magia del Hello World! en nuestros desarrollos
 date:       	2015-05-28 12:00:00
+sitemap:
+  lastmod: 2015-05-28
 tag:			[r12leal]
 author:     	"@R12Leal"
 header-img: 	"img/post/post-hello-world.jpg"

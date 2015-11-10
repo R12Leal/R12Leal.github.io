@@ -4,6 +4,8 @@ title:      	"¡Instalar el DNIe electrónico en GNU/Linux Ubuntu (14.04+)!"
 subtitle:   	"Tus trámites telemáticos también con GNU/Linux Ubuntu"
 description:	Tus trámites telemáticos también con GNU/Linux Ubuntu
 date:       	2015-10-15 12:00:00
+sitemap:
+  lastmod: 2015-10-15
 tag:			[informatica,linux]
 author:     	"@R12Leal"
 header-img: 	"img/post/post_dnie/dnie-linux.jpg"

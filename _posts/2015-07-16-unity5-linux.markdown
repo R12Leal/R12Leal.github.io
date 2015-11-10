@@ -4,6 +4,8 @@ title:      	"¡Unity 5 llegará a GNU/Linux (Actualizado)!"
 subtitle:   	"Junto a SteamOS se abre un futuro ilusionante para los gamers linuxeros"
 description:	Junto a SteamOS se abre un futuro ilusionante para los gamers linuxeros
 date:       	2015-07-15 12:00:00
+sitemap:
+  lastmod: 2015-07-15
 tag:			[videojuegos,linux,geek]
 author:     	"@R12Leal"
 header-img: 	"img/post/u5.jpg"

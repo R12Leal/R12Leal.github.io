@@ -4,6 +4,8 @@ title:      	"Mi Tablet: Asus MeMO Pad 7 ME176CX Blanca - Review"
 subtitle:   	"¡De las mejores opciones para iniciarse en el mundo de las tablets!"
 description:	¡De las mejores opciones para iniciarse en el mundo de las tablets!
 date:       	2015-09-15 12:00:00
+sitemap:
+  lastmod: 2015-09-15
 tag:			[informatica,geek,r12leal]
 author:     	"@R12Leal"
 header-img: 	"img/post/post_asus/asus_mp7b.jpg"
