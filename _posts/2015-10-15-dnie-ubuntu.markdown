@@ -33,7 +33,7 @@ sudo apt-get install oracle-java8-installer
 sudo update-java-alternatives -s java-8-oracle
 </pre></strong></p>
 <hr />
-<h2 class="section-heading">Instalación de controladores, librerías y bibliotecas</h2>
+<h2 class="section-heading">Instalación de controladores, librerías o bibliotecas</h2>
 <hr />
 <p>Primero comprobaremos que nuestro sistema reconoce el lector, en la terminal ejecutamos el siguiente comando:</p>
 <p><strong><pre>lsusb</pre></strong></p>
@@ -47,7 +47,6 @@ sudo mkdir /etc/opensc
 sudo apt-get install libccid pcscd
 sudo apt-get install libacr38u
 sudo apt-get install pinentry-gtk2 pcsc-tools libpcsclite1 libpcsclite-dev libreadline6 libreadline-dev coolkey
-sudo apt-get install pcscd pcsc-tools
 </pre></strong></p>
 <p>Y por último si queremos comprobar que reconoce correctamente la tarjeta ejecutar:</p>
 <p><strong><pre>pcsc_scan</pre></strong></p>
