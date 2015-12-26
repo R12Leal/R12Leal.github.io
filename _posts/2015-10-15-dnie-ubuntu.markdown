@@ -5,7 +5,7 @@ subtitle:   	"Tus trámites telemáticos también con GNU/Linux Ubuntu"
 description:	Tus trámites telemáticos también con GNU/Linux Ubuntu
 date:       	2015-10-15 12:00:00
 sitemap:
-  lastmod: 2015-10-15
+  lastmod: 2015-12-26
 tag:			[informatica,linux]
 author:     	"@R12Leal"
 header-img: 	"img/post/post_dnie/dnie-linux.jpg"
@@ -42,7 +42,7 @@ sudo update-java-alternatives -s java-8-oracle
 sudo mkdir /usr/lib/pkcs11
 sudo mkdir /etc/opensc
 </pre></strong></p>
-<p>Finalmente instalaremos los controladores, librerías, bibliotecas y paquetes complementarios para que funcione todo correctamente:</p>
+<p>Finalmente instalaremos los controladores, librerías o bibliotecas y paquetes complementarios para que funcione todo correctamente:</p>
 <p><strong><pre>
 sudo apt-get install libccid pcscd
 sudo apt-get install libacr38u
