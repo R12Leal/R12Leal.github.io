@@ -1,8 +1,8 @@
 ---
 layout:     	post
-title:      	"¡Desactivar las búsquedas comerciales en el dash de Unity (Amazon, etc...)!"
-subtitle:   	"Desactivar las búsquedas comerciales en el dash de Unity (Amazon, etc...)"
-description:	Desactivar las búsquedas comerciales en el dash de Unity (Amazon, etc...)
+title:      	"¡Desactivar las búsquedas comerciales en el dash de Unity!"
+subtitle:   	"Desactivar las búsquedas comerciales en el dash de Unity"
+description:	Desactivar las búsquedas comerciales en el dash de Unity
 date:       	2015-11-20 12:00:00
 sitemap:
   lastmod: 2015-11-20
