@@ -1,7 +1,7 @@
 ---
 layout:     	post
 title:      	"¡Desactiva las búsquedas comerciales en el dash de Unity!"
-subtitle:   	"¿Un vigilante de nuestros datos?"
+subtitle:   	"¿Un vigilante de nuestros datos en GNU/Linux Ubuntu?"
 description:	Desactiva las búsquedas comerciales en el dash de Unity
 date:       	2015-11-20 12:00:00
 sitemap:
