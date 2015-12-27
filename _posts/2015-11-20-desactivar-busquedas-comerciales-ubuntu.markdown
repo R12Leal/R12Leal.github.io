@@ -14,7 +14,7 @@ header-img: 	"img/post/post_busq_com/unity_busq_com.jpg"
 <hr />
 <p>En este post mostraremos como desactivar las búsquedas comerciales que aparecen en el dash de Unity, a la vez de molestas ¡polémicas!</p>
 <hr />
-<h2 class="section-heading">Polémica</h2>
+<h2 class="section-heading">La Polémica</h2>
 <hr />
 <p>La inclusión de las búsquedas en línea mediante el dash provocó un terremoto en la comunidad del software libre. Líderes destacados, como por ejemplo <strong>Richard M. Stallman</strong>, mostraron su preocupación por el movimiento llevado a cabo por Canonical.</p>
 <p>Otro problema que añadió más leña al fuego fue que el usuario no tenía opción a desactivar estas búsquedas, es decir, los datos del usuario se envíaban a los servidores de Canonical sin su conocimiento y consentimiento.</p>
