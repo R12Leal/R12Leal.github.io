@@ -16,14 +16,14 @@ header-img: 	"img/post/post_busq_com/background_busq_com.jpg"
 <hr />
 <h2 class="section-heading">Polémica</h2>
 <hr />
-<p>La inclusión de las búsquedas en línea mediante el dash provocó un terremoto en la comunidad del software libre. Líderes destacados, como por ejemplo el gran Richard M. Stallman, mostraron su preocupación por el movimiento llevado a cabo por Canonical.</p>
-<p>El detonante de la polémica fue que el usuario no tenía OPCIÓN a desactivar estas búsquedas, es decir, los datos del usuario se envíaban a los servidores de Canonical sin su conocimiento y consentimiento.</p>
-<p>Tras las quejas de la comunidad Canonical incluyó una opción para activar-desactivar las búsquedas.</p>
+<p>La inclusión de las búsquedas en línea mediante el dash provocó un terremoto en la comunidad del software libre. Líderes destacados, como por ejemplo <strong>Richard M. Stallman</strong>, mostraron su preocupación por el movimiento llevado a cabo por Canonical.</p>
+<p>Otro problema que añadió más leña al fuego fue que el usuario no tenía opción a desactivar estas búsquedas, es decir, los datos del usuario se envíaban a los servidores de Canonical sin su conocimiento y consentimiento.</p>
+<p>Tras las quejas de la comunidad Canonical incluyó una opción para activar/desactivar las búsquedas. Este tema sigue aún candente aunque es evidente que el problema surgió por como implementaron esta característica.</p>
 <hr />
 <h2 class="section-heading">Desactivación de las búsquedas</h2>
 <hr />
 <p><h3>Opción nº 1</h3></p>
-<p>Gráficamente: <i>Configuración del Sistema</i> -> <i>Privacidad y seguridad</i> -> <i>Búsqueda</i>. Desactiva la opción "incluir resultados online":</p>
+<p>Gráficamente: <i>Configuración del Sistema</i> -> <i>Privacidad y seguridad</i> -> <i>Búsqueda</i>. Desactiva la opción que aparece en la imagen:</p>
 <img src="/img/post/post_busq_com/desactivar_busq_panel.jpg" alt="¡Desactivación de forma gráfica!" />
 <span class="caption text-muted">¡Rápido y sencillo!</span>
 <p><h3>Opción nº 2</h3></p>
