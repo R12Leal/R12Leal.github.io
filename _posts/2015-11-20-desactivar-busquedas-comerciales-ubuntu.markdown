@@ -28,9 +28,9 @@ header-img: 	"img/post/post_busq_com/unity_busq_com.jpg"
 <span class="caption text-muted">¡Rápido y sencillo!</span>
 <p><h3>Opción nº 2</h3></p>
 <p>Desde una terminal basta con ejecutar la siguiente instrucción:</p>
-<p><pre>
+<p><strong><pre>
 gsettings set com.canonical.Unity.Lenses disabled-scopes "['more_suggestions-amazon.scope', 'more_suggestions-u1ms.scope', 'more_suggestions-populartracks.scope', 'music-musicstore.scope', 'more_suggestions-ebay.scope', 'more_suggestions-ubuntushop.scope', 'more_suggestions-skimlinks.scope']"
-</pre></p>
+</pre></strong></p>
 <hr />
 <h2 class="section-heading">Conclusión</h2>
 <hr />
