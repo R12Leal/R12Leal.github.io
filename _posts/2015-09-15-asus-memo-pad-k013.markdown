@@ -30,7 +30,7 @@ header-img: 	"img/post/post_asus/asus_mp7b.jpg"
 <hr />
 <h2 class="section-heading">Opinión</h2>
 <hr />
-<p>En construcción...</p>
+<p>Testeando a fondo, próximamente...</p>
 <hr />
 <h2 class="section-heading">Conclusión</h2>
 <hr />
