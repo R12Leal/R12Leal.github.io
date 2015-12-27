@@ -8,7 +8,7 @@ sitemap:
   lastmod: 2015-11-20
 tag:			[informatica,linux]
 author:     	"@R12Leal"
-header-img: 	"img/post/post_busq_com/background_busq_com.jpg"
+header-img: 	"img/post/post_busq_com/unity_busq_com.jpg"
 ---
 <h2 class="section-heading">Introducción</h2>
 <hr />
