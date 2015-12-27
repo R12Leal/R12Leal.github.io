@@ -23,7 +23,7 @@ header-img: 	"img/post/post_busq_com/unity_busq_com.jpg"
 <h2 class="section-heading">Desactivación de las búsquedas</h2>
 <hr />
 <p><h3>Opción nº 1</h3></p>
-<p>Gráficamente: <i>Configuración del Sistema</i> -> <i>Privacidad y seguridad</i> -> <i>Búsqueda</i>. Desactiva la opción que aparece en la imagen:</p>
+<p>Gráficamente: <i>Configuración del Sistema</i> -> <i>Seguridad y privacidad</i> -> <i>Búsqueda</i>. Desactiva la opción que aparece en la imagen:</p>
 <img src="/img/post/post_busq_com/desactivar_busq_panel.jpg" alt="¡Desactivación de forma gráfica!" />
 <span class="caption text-muted">¡Rápido y sencillo!</span>
 <p><h3>Opción nº 2</h3></p>
