@@ -12,7 +12,7 @@ a:hover,
 a:focus{color:#C94A53;}
 a img:hover,
 a img:focus{cursor:zoom-in;}
-blockquote{color:#808080;font-style:italic;}
+blockquote{color:#808080;font-style:italic;text-align: justify;}
 hr.small{max-width:100px;margin:15px auto;border-width:4px;border-color:white;}
 .navbar-custom{position:absolute;background:#222;opacity:0.8;top:0;left:0;width:100%;z-index:3;font-family:'Ubuntu', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
 .navbar-custom .navbar-brand{font-weight:800;color:#fff;}

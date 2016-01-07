@@ -23,11 +23,9 @@ header-img: 	"img/post/post_busq_com/unity_busq_com.jpg"
 <blockquote>
 Ubuntu, una distribución GNU/Linux ampliamente utilizada e influyente, ha instalado un código de vigilancia. Cuando el usuario busca en sus archivos locales introduciendo una cadena en el escritorio de Ubuntu, Ubuntu envía esa cadena a uno de los servidores de Canonical.
 </blockquote>
-<br />
 <blockquote>
 Esto es igual que la primera práctica de vigilancia, que pudimos ver en Windows. Mi difunto amigo Fravia me dijo que cuando él buscaba una cadena en los archivos de su sistema en Windows, éste enviaba un paquete a otro servidor, que era detectado por el firewall. Teniendo en cuenta esto, aprendió acerca de la propensión del software propietario para convertirse en malware. Tal vez no sea coincidencia que Ubuntu haga lo mismo.
 </blockquote>
-<br />
 <blockquote>
 Para proteger la privacidad de los usuarios, los sistemas deben hacer fácil la prudencia: cuando un programa de búsqueda local tiene una función de búsqueda online, ésta sólo debería realizarse cuando el usuario lo elija de forma explícita cada vez. Esto es fácil: todo lo que se necesita es tener botones separados para las búsquedas online y las búsquedas locales, incluso algunas versiones anteriores de Ubuntu lo implementaron. Una función de búsqueda online también debe informar al usuario de forma clara y concreta acerca de quién recibirá su información personal, siempre y cuando se utilice la función.
 </blockquote>
