@@ -16,7 +16,7 @@ header-img: 	"img/post/post_busq_com/unity_busq_com.jpg"
 <hr />
 <h2 class="section-heading">La Polémica</h2>
 <hr />
-<p>La inclusión de las búsquedas en línea mediante el dash provocó un terremoto en la comunidad del software libre. Líderes destacados, como por ejemplo <strong>Richard M. Stallman</strong>(<strong>fundador del proyecto GNU y la Free Software Foundation</strong>), mostraron su preocupación por el movimiento llevado a cabo por Canonical.</p>
+<p>La inclusión de las búsquedas en línea mediante el dash provocó un terremoto en la comunidad del software libre. Líderes destacados, como por ejemplo <strong>Richard M. Stallman (fundador del proyecto GNU y la Free Software Foundation</strong>), mostraron su preocupación por el movimiento llevado a cabo por Canonical.</p>
 <p>Otro problema que añadió más leña al fuego fue que el usuario no tenía opción a desactivar estas búsquedas, es decir, los datos del usuario se envíaban a los servidores de Canonical sin su conocimiento y consentimiento.</p>
 <p>Algunas de las frases que dejó Stallman sobre este tema:</p>
 <p>
