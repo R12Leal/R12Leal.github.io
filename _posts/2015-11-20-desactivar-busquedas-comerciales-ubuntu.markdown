@@ -47,4 +47,4 @@ gsettings set com.canonical.Unity.Lenses disabled-scopes "['more_suggestions-ama
 <hr />
 <h2 class="section-heading">Conclusión</h2>
 <hr />
-<p>Se especula con que en Unity 8 las búsquedas serán eliminadas completamente. En teoría ya deberían de haber desaparecido, pero aquí siguen... </p>
+<p>Se especula con que en Unity 8 las búsquedas serán eliminadas completamente. Si deseas eliminarlas de un plumazo te recomiendo este tutorial, salu2! </p>
