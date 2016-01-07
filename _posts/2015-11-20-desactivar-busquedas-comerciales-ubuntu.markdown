@@ -16,9 +16,16 @@ header-img: 	"img/post/post_busq_com/unity_busq_com.jpg"
 <hr />
 <h2 class="section-heading">La Polémica</h2>
 <hr />
-<p>La inclusión de las búsquedas en línea mediante el dash provocó un terremoto en la comunidad del software libre. Líderes destacados, como por ejemplo <strong>Richard M. Stallman</strong>, mostraron su preocupación por el movimiento llevado a cabo por Canonical.</p>
+<p>La inclusión de las búsquedas en línea mediante el dash provocó un terremoto en la comunidad del software libre. Líderes destacados, como por ejemplo <strong>Richard M. Stallman</strong>(<strong>fundador del proyecto GNU y la Free Software Foundation</strong>), mostraron su preocupación por el movimiento llevado a cabo por Canonical.</p>
 <p>Otro problema que añadió más leña al fuego fue que el usuario no tenía opción a desactivar estas búsquedas, es decir, los datos del usuario se envíaban a los servidores de Canonical sin su conocimiento y consentimiento.</p>
-<p>Tras las quejas de la comunidad Canonical incluyó una opción para activar/desactivar las búsquedas. Este tema sigue aún candente aunque es evidente que el problema surgió por como implementaron esta característica.</p>
+<p>Algunas de las frases que dejó Stallman sobre este tema:</p>
+<p>
+  <pre>
+    Ubuntu, una distribución GNU/Linux ampliamente utilizada e influyente, ha instalado un código de vigilancia. Cuando el usuario busca en sus archivos locales introduciendo una cadena en el escritorio de Ubuntu, Ubuntu envía esa cadena a uno de los servidores de Canonical.
+    Esto es igual que la primera práctica de vigilancia, que pudimos ver en Windows. Mi difunto amigo Fravia me dijo que cuando él buscaba una cadena en los archivos de su sistema en Windows, éste enviaba un paquete a otro servidor, que era detectado por el firewall. Teniendo en cuenta esto, aprendió acerca de la propensión del software propietario para convertirse en malware. Tal vez no sea coincidencia que Ubuntu haga lo mismo.
+    Para proteger la privacidad de los usuarios, los sistemas deben hacer fácil la prudencia: cuando un programa de búsqueda local tiene una función de búsqueda online, ésta sólo debería realizarse cuando el usuario lo elija de forma explícita cada vez. Esto es fácil: todo lo que se necesita es tener botones separados para las búsquedas online y las búsquedas locales, incluso algunas versiones anteriores de Ubuntu lo implementaron. Una función de búsqueda online también debe informar al usuario de forma clara y concreta acerca de quién recibirá su información personal, siempre y cuando se utilice la función.
+  </pre>
+<p>Tras las quejas de la comunidad Canonical incluyó una opción para activar/desactivar las búsquedas. Este tema sigue aún candente aunque es evidente que el problema surgió por <strong>como implementaron esta característica</strong>.</p>
 <hr />
 <h2 class="section-heading">Desactivación de las búsquedas</h2>
 <hr />
