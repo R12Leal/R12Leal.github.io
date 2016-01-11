@@ -13,7 +13,7 @@ header-img: 	"img/post/post_busq_com/unity_busq_com.jpg"
 <h2 class="section-heading">Introducción</h2>
 <hr />
 <p>En este post mostraremos como desactivar las búsquedas comerciales que aparecen en el dash de Unity. También repasaremos la polémica que generó esta característica en la comunidad del software libre.</p>
-<hr />1511
+<hr />
 <h2 class="section-heading">La Polémica</h2>
 <hr />
 <p>La inclusión de las búsquedas en línea mediante el dash provocó un terremoto en la comunidad del software libre. Líderes destacados, como por ejemplo <strong>Richard M. Stallman (fundador del proyecto GNU y la Free Software Foundation</strong>), mostraron su preocupación por el movimiento llevado a cabo por Canonical.</p>
