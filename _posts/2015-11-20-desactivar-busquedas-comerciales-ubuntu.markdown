@@ -12,8 +12,8 @@ header-img: 	"img/post/post_busq_com/unity_busq_com.jpg"
 ---
 <h2 class="section-heading">Introducción</h2>
 <hr />
-<p>En este post mostraremos como desactivar las búsquedas comerciales que aparecen en el dash de Unity, a la vez de molestas ¡polémicas!</p>
-<hr />
+<p>En este post mostraremos como desactivar las búsquedas comerciales que aparecen en el dash de Unity. También repasaremos la polémica que generó esta característica en la comunidad del software libre.</p>
+<hr />1511
 <h2 class="section-heading">La Polémica</h2>
 <hr />
 <p>La inclusión de las búsquedas en línea mediante el dash provocó un terremoto en la comunidad del software libre. Líderes destacados, como por ejemplo <strong>Richard M. Stallman (fundador del proyecto GNU y la Free Software Foundation</strong>), mostraron su preocupación por el movimiento llevado a cabo por Canonical.</p>
@@ -42,7 +42,8 @@ Para proteger la privacidad de los usuarios, los sistemas deben hacer fácil la 
 <p><strong><pre>
 gsettings set com.canonical.Unity.Lenses disabled-scopes "['more_suggestions-amazon.scope', 'more_suggestions-u1ms.scope', 'more_suggestions-populartracks.scope', 'music-musicstore.scope', 'more_suggestions-ebay.scope', 'more_suggestions-ubuntushop.scope', 'more_suggestions-skimlinks.scope']"
 </pre></strong></p>
+<p>Este sencillo comando permite desactivar <strong>TODOS LOS SCOPES</strong>(Amazon, eBay, Music Store, Popular Tracks Online, Skimlinks, Ubuntu One Music Search y Ubuntu Shop).</p>
 <hr />
 <h2 class="section-heading">Conclusión</h2>
 <hr />
-<p>Se especula con que en Unity 8 las búsquedas serán eliminadas completamente. Si deseas eliminarlas de un plumazo te recomiendo este tutorial, salu2! </p>
+<p>Se especula con que en Unity 8 las búsquedas serán eliminadas completamente. Si deseas desactivar éstas búsquedas te recomiendo este tutorial, salu2! </p>
