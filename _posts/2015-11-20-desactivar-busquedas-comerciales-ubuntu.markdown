@@ -42,7 +42,7 @@ Para proteger la privacidad de los usuarios, los sistemas deben hacer fácil la 
 <p><strong><pre>
 gsettings set com.canonical.Unity.Lenses disabled-scopes "['more_suggestions-amazon.scope', 'more_suggestions-u1ms.scope', 'more_suggestions-populartracks.scope', 'music-musicstore.scope', 'more_suggestions-ebay.scope', 'more_suggestions-ubuntushop.scope', 'more_suggestions-skimlinks.scope']"
 </pre></strong></p>
-<p>Este sencillo comando permite desactivar <strong>TODOS LOS SCOPES</strong>(Amazon, eBay, Music Store, Popular Tracks Online, Skimlinks, Ubuntu One Music Search y Ubuntu Shop).</p>
+<p>Este sencillo comando permite desactivar <strong>TODOS LOS SCOPES</strong> (Amazon, eBay, Music Store, Popular Tracks Online, Skimlinks, Ubuntu One Music Search y Ubuntu Shop).</p>
 <hr />
 <h2 class="section-heading">Conclusión</h2>
 <hr />
