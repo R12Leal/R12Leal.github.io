@@ -37,7 +37,7 @@ header-img: 	"img/post/post_rcdmallorca_sarver/rcdmallorca_sarver.jpg"
 <h2 class="section-heading">Primeros cimientos: el mercado invernal</h2>
 <hr />
 <p>Gracias a este mercado de invierno se ha dejado una cosa muy clara: Molango y Sarver no han comprado el club para tenerlo como un juguete o hobby personal. El Mallorca ha apostado muy fuerte  trayendo a jugadores experimentados y muy destacados de la segunda división de España.</p>
-<p>Lago Junior, Alfredo Ortuño, Colunga, Pol Roigé, Salomâo y Óscar Díaz. Estas son las apuestas de la dirección deportiva, que demuestran que ahora se realiza un seguimiento deportivo correcto de la categoría. También hay que añadir que hacía muchos años que en esta liga (incluso en primera división) no se pagaba una clausula de rescisión de jugadores, una prueba más del poderío económico de Sarver.</p>
+<p>Lago Junior, Alfredo Ortuño, Colunga, Pol Roigé, Salomâo y Óscar Díaz. Estas son las apuestas de la dirección deportiva, que demuestran que ahora se realiza un seguimiento deportivo correcto de la categoría. También hay que añadir que hacía muchos años que en esta liga (incluso en primera división) no se pagaba una cláusula de rescisión de jugadores, una prueba más del poderío económico de Sarver.</p>
 <p>Maheta Molango ya ha anunciado que el club está preparando un red de Scouting importante para conocer el mercado a fondo. Tanto para la primera plantilla como para la cantera la cual remarcan bastante como seña de identidad.</p>
 <hr />
 <h2 class="section-heading">El futuro</h2>
