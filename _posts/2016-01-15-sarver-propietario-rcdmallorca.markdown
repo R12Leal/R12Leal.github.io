@@ -21,11 +21,11 @@ header-img: 	"img/post/post_rcdmallorca_sarver/rcdmallorca_sarver.jpg"
 <h2 class="section-heading">Una nueva era</h2>
 <hr />
 <p>Hay un matiz que siempre ha hecho muy especial a nuestro mallorqueta, en los tiempos más oscuros siempre ha aparecido 'alguien' para salvar al club. Gracias a Robert Sarver se ha cerrado una de las etapas más negras de la historia del RCD Mallorca y que el mallorquinista no olvidará jamás. </p>
-<p>Claassen era el último “jinete del Apocalipsis” (tras la salida de Serra Ferrer, Biel Cerdà y Pere Terrasa) que faltaba por expulsar del club, pero por desgracia seguirá como Presidente en el año del Centenari, por lo menos, hasta Junio y con un reducido porcentaje de acciones que no le permitirán tomar ninguna decisión.</p>
-<img src="/img/post/post_rcdmallorca_sarver/cerda-terrassa-classen.jpg" alt="Pocavergonyes!!" />
-<span class="caption text-muted">Pocavergonyes!!</span>
+<p>Claassen era el último “jinete del Apocalipsis” (tras la salida de Serra Ferrer, Biel Cerdà y Pere Terrasa) que faltaba por expulsar del club, pero por desgracia seguirá como Presidente en el año del Centenari, por lo menos, hasta Junio y con un reducido porcentaje de acciones que no le permitirán tomar decisión alguna.</p>
+<img src="/img/post/post_rcdmallorca_sarver/cerda-terrassa-classen.jpg" alt="#Pocavergonyes!!" />
+<span class="caption text-muted">#Pocavergonyes!!</span>
 <hr />
-<h2 class="section-heading">Un Nuevo entrenador de categoría: Fernando Vázquez</h2>
+<h2 class="section-heading">Un Nuevo entrenador de categoría: F. Vázquez</h2>
 <hr />
 <img src="/img/post/post_rcdmallorca_sarver/fvazquez.jpg" alt="¡Fernando Vázquez!" />
 <span class="caption text-muted">Benvingut míster!!</span>
