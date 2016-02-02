@@ -44,4 +44,4 @@ header-img: 	"img/post/post_rcdmallorca_sarver/rcdmallorca_sarver.jpg"
 <hr />
 <p>Sin duda el futuro se presenta apasionante, hacía muchos años que el sol no salía en Son Moix. Algunos ya comparan a Molango con Beltrán. Su actitud, pasión, realismo y forma de trabajar ha despertado y sorprendido a todo el mallorquinismo.</p>
 <p>Regresar a élite del fútbol será muy complicado pero, como dice Molango, con estos soldados tendremos nuestras opciones. Ahora le toca responder a la afición.</p>
-<p>FORÇA MALLORCA I VISCA EL MALLORCA I LA SEVA GENT!!!!!!!</p>
+<p>#ForçaMallorca #ViscaElMallorca I LA SEVA GENT!!!!!!!</p>
