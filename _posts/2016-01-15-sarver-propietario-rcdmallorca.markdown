@@ -25,7 +25,7 @@ header-img: 	"img/post/post_rcdmallorca_sarver/rcdmallorca_sarver.jpg"
 <img src="/img/post/post_rcdmallorca_sarver/cerda-terrassa-classen.jpg" alt="#Pocavergonyes!!" />
 <span class="caption text-muted">#Pocavergonyes!!</span>
 <hr />
-<h2 class="section-heading">Un Nuevo entrenador de categoría: F. Vázquez</h2>
+<h2 class="section-heading">Un nuevo entrenador de categoría: F. Vázquez</h2>
 <hr />
 <img src="/img/post/post_rcdmallorca_sarver/fvazquez.jpg" alt="¡Fernando Vázquez!" />
 <span class="caption text-muted">Benvingut míster!!</span>
