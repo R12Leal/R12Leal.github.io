@@ -16,7 +16,9 @@ sitemap:
     {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
     {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
     {% if year != nyear %}
+      <hr />
       <h3 id="{{ post.date | date: '%Y' }}" class="section-heading">{{ post.date | date: '%Y' }}</h3>
+      <hr />
     {% endif %}
   {% endunless %}
   <article itemscope itemtype="http://schema.org/Article">
