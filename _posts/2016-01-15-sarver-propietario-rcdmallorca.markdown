@@ -31,7 +31,7 @@ header-img: 	"img/post/post_rcdmallorca_sarver/rcdmallorca_sarver.jpg"
 <span class="caption text-muted">Benvingut míster!!</span>
 <p>Sin hacer mención a Ferrer (míster que comenzó la temporada), es cierto que Pepe Gálvez fue un jugador importante en otras épocas del Mallorca, es una persona muy querida y respetada en la isla pero, en mi opinión, la situación deportiva no es la idónea para hacer experimentos.</p>
 <p>Aunque la nueva propiedad dio un margen a Gálvez, tras la derrota en Son Moix frente al Valladolid, finalmente fue destituido para dar paso a un viejo conocido de la afición mallorquinista: Fernando Vázquez.</p>
-<p>Fernando Vázquez entrenó al Mallorca en la temporada 99/00 dejando al equipo en 10º en primera división y llegando hasta los ¼ de la antigua UEFA cosechando triunfos históricos como por ejemplo las victorias conseguidas en el Ámsterdam Arena y el Camp Nou.</p>
+<p>Fernando Vázquez entrenó al Mallorca en la temporada 99/00 dejando al equipo en 10º en primera división y llegando hasta los ¼ de la antigua UEFA cosechando triunfos históricos como por ejemplo las victorias conseguidas en el Ámsterdam Arena y en el Camp Nou.</p>
 <p>La fórmula que Vázquez quiere implantar a la plantilla es muy clara, un equipo muy seguro atrás, uso del contraataque, juego directo y estrategia a balón parado. Fórmula muy eficaz en esta segunda división y que le ha dado grandes resultados como por ejemplo el último ascenso del Depor a primera en la temporada 13/14.</p>
 <hr />
 <h2 class="section-heading">Primeros cimientos: el mercado invernal</h2>
