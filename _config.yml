@@ -17,7 +17,7 @@ yt: UCEXlUn3iNv6AfG41lO7pzQw
 # Configuración - Plataforma
 gga: 			UA-62991920-1 # Google Analytics user
 markdown: 		kramdown
-highlighter: 	pygments
+highlighter: 	rouge
 permalink: 		pretty
 paginate: 		4
 exclude: 		["less","node_modules","Gruntfile.js","package.json","README.md"]
