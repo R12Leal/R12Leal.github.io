@@ -1,0 +1,16 @@
+<!-- material-scrolltop button -->
+<button class="material-scrolltop" type="button"></button>
+<!-- material-scrolltop plugin -->
+<script src="js/material-scrolltop.js"></script>
+<!-- Initialize material-scrolltop with (minimal) -->
+  <script>
+    $(document).ready(function() {
+         $('body').materialScrollTop({
+             revealElement: 'header',
+             revealPosition: 'bottom',
+             onScrollEnd: function() {
+                 console.log('Scrolling End');
+             }
+         });
+     });
+  </script>
