@@ -16,6 +16,7 @@
     <link href="/css/pace-theme-minimal.css" rel="stylesheet" />
     <!-- ScrollUp.js -->
     <script src="/js/jquery.scrollUp.min.js"></script>
+    <script src="/js/jquery-1.11.1.min.js"></script>
     <!-- -->
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <!-- Bootstrap Core CSS -->
@@ -55,8 +56,16 @@
 
    </script>
    <script>
-      $(function () {
-        $.scrollUp();
-      });
+     $(function () {
+        $.scrollUp ({
+          animation: 'fade',
+          activeOverlay: '#00FFFF',
+          scrollImg: {
+            active: true,
+            type: 'background',
+            src: 'img/icon/top.png'
+          }
+       });
+     });
    </script>
 </head>
