@@ -1,11 +1,12 @@
 # Configuración - Sitio
 title: 			Ramsés Leal
 user: 			R12Leal
+logo:       /img/icon/r12leal_logo.png
 header-img: 	img/backgrounds/header-background-mini.jpg
 email: 			leal.ramses@gmail.com
 description: 	"Ramsés Leal - CV & Blog"
 baseurl: 		""
-url: 			"http://r12leal.github.io"
+url: 			"http://r12leal.es"
 
 # Social Networks
 tw: R12Leal
