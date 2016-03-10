@@ -24,5 +24,4 @@ paginate: 		4
 exclude: 		["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 # Gems
-gems:
-  - jekyll-sitemap
+gems: [jekyll-paginate]
