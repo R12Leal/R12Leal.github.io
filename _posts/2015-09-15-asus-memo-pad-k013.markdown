@@ -5,14 +5,14 @@ subtitle:   	"¡De las mejores opciones para iniciarse en el mundo de las tablet
 description:	¡De las mejores opciones para iniciarse en el mundo de las tablets!
 date:       	2015-09-15 12:00:00
 sitemap:
-  lastmod: 2015-09-15
+  lastmod: 2016-03-12
 tag:			[informatica,geek,r12leal]
 author:     	"@R12Leal"
 header-img: 	"img/post/post_asus/asus_mp7b.jpg"
 ---
 <h2 class="section-heading">Especificaciones</h2>
 <hr />
-<ul>
+<ul class="ulposts">
   <li><strong>Pantalla</strong>:	7" (17, 78 cm) Retroiluminación LED Ultra Wide-View IPS Glare Multitáctil (hasta 10 dedos) WXGA</li>
   <li><strong>Procesador</strong>:	Intel® Atom™ Z3745</li>
   <li><strong>Número de núcleos</strong>:	4</li>

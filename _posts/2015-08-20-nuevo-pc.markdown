@@ -5,7 +5,7 @@ subtitle:   	"Características de mi nuevo PC montado a piezas"
 description:	Características de mi nuevo PC montado a piezas
 date:       	2015-08-20 12:00:00
 sitemap:
-  lastmod: 2015-08-20
+  lastmod: 2016-03-12
 tag:			[informatica,geek]
 author:     	"@R12Leal"
 header-img: 	"img/post/pc.jpg"
@@ -16,8 +16,7 @@ header-img: 	"img/post/pc.jpg"
 <hr />
 <h2 class="section-heading">Características</h2>
 <hr />
-<p>
-  <ul>
+  <ul class="ulposts">
     <li><strong>Placa base</strong>: MSI H81M-P33 (Intel Socket 1150, SDDR3, Micro ATX, USB 3.0, VGA + DVI, GBLAN, SATA3).</li>
     <li><strong>Procesador</strong>: Intel 1150 G1840 - Procesador 2 x 2.8 GHz/2 MB/Box.</li>
     <li><strong>Gráfica</strong>: integrada.</li>
@@ -30,7 +29,6 @@ header-img: 	"img/post/pc.jpg"
     <li><strong>Unidad CD/DVD</strong>: Asus DRW-24F1MT Grabadora DVD 24X Negra.</li>
     <li><strong>Precio</strong>: pueden variar dependiendo del portal donde realices las compras, entre 180 y 200 euros.</li>
   </ul>
-<p>
 <hr />
 <h2 class="section-heading">Explicación</h2>
 <hr />
