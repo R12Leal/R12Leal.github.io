@@ -19,7 +19,7 @@ yt: UCEXlUn3iNv6AfG41lO7pzQw
 gga: 			UA-62991920-1 # Google Analytics user
 markdown: 		kramdown
 highlighter: 	rouge
-permalink: 		pretty
+permalink: /:year/:title/
 paginate: 		4
 exclude: 		["less","node_modules","Gruntfile.js","package.json","README.md"]
 
