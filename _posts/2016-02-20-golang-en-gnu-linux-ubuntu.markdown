@@ -40,7 +40,7 @@ header-img: 	"img/post/post_go/golang.jpg"
 <pre><strong>$ sudo add-apt-repository ppa:ubuntu-lxc/lxd-stable
 $ sudo apt-get update
 $ sudo apt-get install golang</strong></pre>
-<p>Básicamente con el primer comando añadimos el repositorio, después actualizamos y por último instalamos Go en nuestro sistema. Para comprobar que se ha instalado correctamente puedes comprobar la versión mediante la propia terminal:</p>
+<p>Básicamente con el primer comando añadimos el repositorio, después actualizamos y por último instalamos Go en nuestro sistema. Para comprobar que se ha instalado correctamente puedes obtener la versión mediante la propia terminal:</p>
 <pre><strong>go version</strong></pre>
 <hr />
 <h2 class="section-heading">¿Prefieres probar antes de instalar?</h2>
