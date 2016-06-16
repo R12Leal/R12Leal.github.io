@@ -5,7 +5,7 @@ subtitle:   	"Tus trámites telemáticos también con GNU/Linux Ubuntu"
 description:	Tus trámites telemáticos también con GNU/Linux Ubuntu
 date:       	2015-10-15 12:00:00
 sitemap:
-  lastmod: 2015-12-26
+  lastmod: 2016-06-16
 tag:			[informatica,linux]
 author:     	"@R12Leal"
 header-img: 	"img/post/post_dnie/dnie-linux.jpg"
@@ -68,7 +68,7 @@ mkdir .openscDNIe
 cd .openscDNIe
 </pre></strong></p>
 <p>Descargamos el código fuente con el siguiente comando:</p>
-<p><strong><pre>msvn checkout --username anonsvn https://forja.cenatic.es/svn/opendnie/opensc-opendnie/trunk</pre></strong></p>
+<p><strong><pre>svn checkout --username anonsvn https://forja.cenatic.es/svn/opendnie/opensc-opendnie/trunk</pre></strong></p>
 <p>Para iniciar la descarga requiere una contraseña, es: anonsvn. Tras descargar el código fuente debemos acceder a uno de los directorios descargados:</p>
 <p><strong><pre>cd trunk</pre></strong></p>
 <p>Antes compilar hay que añadir la ruta de la librería "libltdl.la" al archivo "src/tools/Makefile.am" del código fuente, en "trunk". La ruta variará dependiendo de la arquitectura, 32 o 64 bits, de nuestro sistema. Para encontrarla ejecutamos:</p>
