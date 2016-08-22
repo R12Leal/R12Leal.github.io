@@ -22,12 +22,12 @@ header-img: 	"img/post/post_go/golang.jpg"
 <hr />
   <ul class="ulposts">
     <li><strong>Curso GO (GOLang) - De 0 a 100 por Gyga Code</strong>: aquí se explica de forma sencilla como usar este lenguaje desde 0, <a href="https://www.youtube.com/playlist?list=PLl_hIu4u7P64MEJpR3eVwQ1l_FtJq4a5g" title="Curso GO (GOLang) - De 0 a 100 por Gyga Code" target="_blank">enlace</a>.</li>
-    <li><strong>Go básico en <i>Código Facilito</i></strong>: actualmente es una de las mejores plataformas de e-learning, y gratuitas, que se pueden encontrar en la web, hay todo tipo de cursos. Ofrecen uno básico de Go para principiantes, <a href="http://codigofacilito.com/courses/go" title="Go básico en Código Facilito" target="_blank">enlace</a>.</li>
+    <li><strong>Go básico en <i>Código Facilito:</i></strong> actualmente es una de las mejores plataformas de e-learning, y gratuitas, que se pueden encontrar en la web, hay todo tipo de cursos. Ofrecen uno básico de Go para principiantes, <a href="http://codigofacilito.com/courses/go" title="Go básico en Código Facilito" target="_blank">enlace</a>.</li>
   </ul>
 <hr />
 <h2 class="section-heading">Recursos Interactivos</h2>
 <hr />
-  ul class="ulposts">
+  <ul class="ulposts">
     <li><strong>El tour de #golang</strong>: un pequeño tutorial para principiantes donde podrás conocer las características de este lenguaje mediante pequeños códigos que te permitirán comenzar a practicar, puedes encontrarlo <a href="http://tour.golang.org/welcome/1" title="El tour de #golang" target="_blank">aquí</a>.</li>
     <li><strong>Existe una copia de esta aplicación en español</strong>, por si te cuesta un poco el inglés: <a href="http://go-tour-es.appspot.com/#1" title="El tour de #golang en Español" target="_blank">El Tour en Español</a>.</li>
     <li><strong>The Go Playground</strong>: es una consola interactiva en la web donde escribiremos nuestros códigos y ejecutaremos al momento: <a href="https://play.golang.org/" title="The Go Playground" target="_blank">enlace</a>.</li>
