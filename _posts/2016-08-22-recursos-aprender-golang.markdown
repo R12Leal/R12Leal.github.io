@@ -16,7 +16,7 @@ header-img: 	"img/post/post_go/golang.jpg"
 <hr />
 <h2 class="section-heading">Libros</h2>
 <hr />
-<p>Dejando de lado la documentación oficial en la actualidad no existen muchos libros que hablen sobre Go (#golang) y además todos se encuentran en inglés (lógicamente). Aquí te dejo una lista de Amazon con los principales, ordenada por publicación, para iniciar tu camino en Go. Yo destaco a dos por encima del resto: "Go in Action" y "The Go Programming Language (Addison-Wesley Professional Computing Series), enlace: <a href="https://www.amazon.es/s/ref=sr_st_date-desc-rank?keywords=golang&rh=n%3A599367031%2Ck%3Agolang&__mk_es_ES=%C3%85M%C3%85Z%C3%95%C3%91&qid=1471872933&sort=date-desc-rank" title="Libros para aprender Go" target="_blank">Lista</a>."</p>
+<p>Dejando de lado la documentación oficial en la actualidad no existen muchos libros que hablen sobre Go (#golang) y además todos se encuentran en inglés (lógicamente). Aquí te dejo una lista de Amazon con los principales, ordenada por publicación, para iniciar tu camino en Go. Yo destaco a dos por encima del resto: "Go in Action" y "The Go Programming Language (Addison-Wesley Professional Computing Series), <a href="https://www.amazon.es/s/ref=sr_st_date-desc-rank?keywords=golang&rh=n%3A599367031%2Ck%3Agolang&__mk_es_ES=%C3%85M%C3%85Z%C3%95%C3%91&qid=1471872933&sort=date-desc-rank" title="Libros para aprender Go" target="_blank">lista</a>."</p>
 <hr />
 <h2 class="section-heading">Vídeos</h2>
 <hr />
