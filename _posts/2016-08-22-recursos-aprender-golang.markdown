@@ -22,7 +22,7 @@ header-img: 	"img/post/post_go/golang.jpg"
 <hr />
   <ul class="ulposts">
     <li><strong>Curso GO (GOLang) - De 0 a 100 por Gyga Code</strong>: aquí se explica de forma sencilla como usar este lenguaje desde 0, <a href="https://www.youtube.com/playlist?list=PLl_hIu4u7P64MEJpR3eVwQ1l_FtJq4a5g" title="Curso GO (GOLang) - De 0 a 100 por Gyga Code" target="_blank">enlace</a>.</li>
-    <li><strong>Go básico en <i>Código Facilito:</i></strong> actualmente es una de las mejores plataformas de e-learning, y gratuitas (tiene unos pocos de pago, pero muy baratos), que se pueden encontrar en la web. Ofrecen uno básico de Go para principiantes, <a href="http://codigofacilito.com/courses/go" title="Go básico en Código Facilito" target="_blank">enlace</a>.</li>
+    <li><strong>Go básico en <i>Código Facilito:</i></strong> actualmente es una de las mejores plataformas de e-learning, y gratuitas (tiene unos pocos cursos de pago, pero muy baratos), que se pueden encontrar en la web. Ofrecen uno básico de Go para principiantes, <a href="http://codigofacilito.com/courses/go" title="Go básico en Código Facilito" target="_blank">enlace</a>.</li>
     <li><strong>Go en Platzi</strong>: otra de las mejores plataformas de e-learning en la actualidad aunque sus cursos son de pago. Los profesores son expertos de nuestro sector, <a href="https://platzi.com/cursos/go-basico/" title="Go en Platzi" target="_blank">enlace</a>.</li>
   </ul>
 <hr />
