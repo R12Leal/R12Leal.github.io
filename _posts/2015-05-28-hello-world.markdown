@@ -20,11 +20,9 @@ header-img: 	"img/post/post-hello-world.jpg"
 <hr />
 <h2 class="section-heading">Herramientas utilizadas</h2>
 <hr />
-	<ul>
-		<li>S.O. - Linux Xubuntu.</li>
-		<li>Gimp - Tratamiento de imágenes.</li>
-		<li>Terminator - Terminal.</li>
-		<li>Github - Hosting con Github Pages y un rápido sistema de control de versiones.</li>
-		<li>Jekyll - Fast blog, generador de sitios estáticos.</li>
-		<li>Disqus - Comentarios.</li>
-	</ul>
+S.O. - Linux Xubuntu.<br />
+Gimp - Tratamiento de imágenes.<br />
+Terminator - Terminal.<br />
+Github - Hosting con Github Pages y un rápido sistema de control de versiones.<br />
+Jekyll - Fast blog, generador de sitios estáticos.<br />
+Disqus - Comentarios.
