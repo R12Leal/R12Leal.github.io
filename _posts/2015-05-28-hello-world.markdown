@@ -20,7 +20,7 @@ header-img: 	"img/post/post-hello-world.jpg"
 <hr />
 <h2 class="section-heading">Herramientas utilizadas</h2>
 <hr />
-	<ul class="ulposts">
+	<ul>
 		<li>S.O. - Linux Xubuntu.</li>
 		<li>Gimp - Tratamiento de imágenes.</li>
 		<li>Terminator - Terminal.</li>
