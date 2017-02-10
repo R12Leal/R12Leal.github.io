@@ -20,7 +20,7 @@ gga: 			    UA-91164988-1 # Google Analytics user
 markdown: 		kramdown
 highlighter: 	rouge
 permalink: /:year/:title/
-paginate: 		4
+paginate: 		5
 exclude: 		["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 # Gems
