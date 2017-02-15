@@ -20,7 +20,7 @@ header-img: 	"img/post/post-hello-world.jpg"
 <hr />
 <h2 class="section-heading">Herramientas utilizadas</h2>
 <hr />
-<pre><code class"language-html">
+<pre><code class="language-html">
 S.O. - Linux Xubuntu.
 Gimp - Tratamiento de imágenes.
 Terminator - Terminal.
