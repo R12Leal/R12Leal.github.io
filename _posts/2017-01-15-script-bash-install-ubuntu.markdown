@@ -33,7 +33,7 @@ a tu archivo, por último no olvides dar los permisos de ejecución. Ya puedes m
 <hr />
 <h2 class="section-heading">Ejemplo - (A)fter (i)nstall Linux - AiLinux</h2>
 <hr />
-<p>Aquí puedes ver un script que tengo almacenado en un repositorio de mi cuenta de GitHub (enlace a mi perfil a final de página):</p>
+<p>Aquí puedes ver un script creado por mí que tengo almacenado en un repositorio de mi cuenta de GitHub (enlace a mi perfil a final de página):</p>
 <pre>
 <code class="language-bash">
 #! /bin/bash
