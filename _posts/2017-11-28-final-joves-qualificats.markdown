@@ -16,7 +16,7 @@ header-img: 	"img/post/post_joves_qualificats/appl.jpg"
   <div class="col-md-12">
     <p>Las despedidas nunca son fáciles, más aún si valoras en gran medida la presencia de compañeros y amigos en la vida. Creo que hacerlo
     a través de una "carta" en mi web es una buena forma de demostraros mi agradecimiento por todos estos meses inolvidables que hemos pasados
-    juntos. Nueve meses que han se han terminado ya, desgraciadamente, pero en los que he aprendido muchas cosas de vosotros y que seguro me
+    juntos. Nueve meses que se han terminado ya, desgraciadamente, pero en los que he aprendido muchas cosas de vosotros y que seguro me
     ayudarán a afrontar el futuro de la mejor manera.</p>
 <hr />
     <div class="row">
