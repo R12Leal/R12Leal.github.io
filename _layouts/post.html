@@ -47,9 +47,9 @@ comments: true
                 <hr />
                 {% include share-page.html %}
                 <hr />
-                {{ % if page.comments % }}
+                {% if page.comments %}
                     {% include disqus.html %}
-                {{ % endif % }}
+                {% endif %}
                 <hr>
                 <ul class="pager">
                     {% if page.previous.url %}
