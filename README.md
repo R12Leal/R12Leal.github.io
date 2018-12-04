@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/github/license/R12Leal/R12Leal.github.io.svg?branch=master)](https://github.com/R12Leal/R12Leal.github.io/blob/master/LICENSE)
 
-* Site: [r12leal.es](http://r12leal.me)
+* Site: [r12leal.me](http://r12leal.me)
 * Twitter: [@R12Leal](http://twitter.com/R12Leal)
 
 ## Licencia
