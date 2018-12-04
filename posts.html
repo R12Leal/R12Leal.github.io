@@ -1,24 +1,26 @@
 ---
 layout:         page
 title:          "Posts"
-description:    "¡Artículos del blog!"
+description:    "¡Artículos redactados por mí!"
 header-img:     "img/page/posts.jpg"
 ico:            folder-open
 sitemap:
   lastmod: 2018-12-04
 ---
 <hr />
-  <article itemscope itemtype="http://schema.org/Article">
-    <ul class="row">
-      <li class="col-sm-9">
-        <a itemprop="url" href="https://seoparanichos.com/mejor-hosting-espana/" target="_blank"><span itemprop="name headline">El mejor hosting de España del 2018</span</a>
-      </li>
-      <li>
-        <a itemprop="url" href="https://seoparanichos.com/mejor-hosting-wordpress/" target="_blank"><span itemprop="name headline">¿Cuál es el mejor hosting WordPress del 2018?</span</a>
-      </li>
-    </ul>
-  </article>
+<img src="/img/page/img_posts/seo_para_nichos.png" alt="SEO para Nichos" style="border: 1px solid #333; display: inline;" />
 <hr />
+<article itemscope itemtype="http://schema.org/Article">
+  <ul class="row">
+    <li class="col-sm-9">
+      <a itemprop="url" href="https://seoparanichos.com/mejor-hosting-espana/" target="_blank"><span itemprop="name headline">El mejor hosting de España del 2018</span></a>
+    </li>
+    <li class="col-sm-9">
+      <a itemprop="url" href="https://seoparanichos.com/mejor-hosting-wordpress/" target="_blank"><span itemprop="name headline">¿Cuál es el mejor hosting WordPress del 2018?</span></a>
+    </li>
+  </ul>
+</article>
+<!-- Separador -->
 {% for post in site.posts %}
   {% unless post.next %}
     <hr />
