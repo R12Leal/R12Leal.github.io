@@ -5,10 +5,11 @@ subtitle:   	"¿Un vigilante de nuestros datos en GNU/Linux Ubuntu?"
 description:	Desactiva las búsquedas comerciales en el dash de Unity
 date:       	2015-11-20 12:00:00
 sitemap:
-  lastmod: 2016-01-11
+  lastmod: 2019-03-02
 tag:			[informatica,linux]
 author:     	"@R12Leal"
 header-img: 	"img/post/post_busq_com/unity_busq_com.jpg"
+comments: true
 ---
 <h2 class="section-heading">Introducción</h2>
 <hr />

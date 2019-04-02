@@ -5,10 +5,11 @@ subtitle:   	"Actualizaremos esta lista a medida que aparezcan nuevos recursos"
 description:	Recursos para iniciar tu aprendizaje en Go (#golang)
 date:       	2016-08-22 12:00:00
 sitemap:
-  lastmod: 2016-08-22
+  lastmod: 2019-03-02
 tag:			[informatica, linux, programacion]
 author:     	"@R12Leal"
 header-img: 	"img/post/post_go/golang.jpg"
+comments: true
 ---
 <h2 class="section-heading">Introducción</h2>
 <hr />

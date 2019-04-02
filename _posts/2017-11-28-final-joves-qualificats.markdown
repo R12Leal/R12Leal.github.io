@@ -5,10 +5,11 @@ subtitle:   	"Todo lo que tiene un principio tiene un final..."
 description:	Todo lo que tiene un principio tiene un final...
 date:       	2017-11-28 12:00:00
 sitemap:
-  lastmod: 2017-11-28
+  lastmod: 2019-03-02
 tag:			[r12leal]
 author:     	"@R12Leal"
 header-img: 	"img/post/post_joves_qualificats/appl.jpg"
+comments: true
 ---
 <h2 class="section-heading">¡Queridos amigos/compañeros, gracias!</h2>
 <hr />

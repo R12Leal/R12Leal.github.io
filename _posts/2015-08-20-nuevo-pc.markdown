@@ -5,10 +5,11 @@ subtitle:   	"Características de mi nuevo PC montado a piezas"
 description:	Características de mi nuevo PC montado a piezas
 date:       	2015-08-20 12:00:00
 sitemap:
-  lastmod: 2016-03-12
+  lastmod: 2019-03-02
 tag:			[informatica,geek]
 author:     	"@R12Leal"
 header-img: 	"img/post/pc.jpg"
+comments: true
 ---
 <h2 class="section-heading">Introducción</h2>
 <hr />

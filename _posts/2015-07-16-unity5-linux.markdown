@@ -5,10 +5,11 @@ subtitle:   	"Junto a SteamOS se abre un futuro ilusionante para los gamers linu
 description:	Junto a SteamOS se abre un futuro ilusionante para los gamers linuxeros
 date:       	2015-07-15 12:00:00
 sitemap:
-  lastmod: 2015-07-15
+  lastmod: 2019-03-02
 tag:			[videojuegos,linux,geek]
 author:     	"@R12Leal"
 header-img: 	"img/post/u5.jpg"
+comments: true
 ---
 <h2 class="section-heading">¡Actualizado!</h2>
 <hr />

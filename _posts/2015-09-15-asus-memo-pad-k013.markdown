@@ -5,10 +5,11 @@ subtitle:   	"¡De las mejores opciones para iniciarse en el mundo de las tablet
 description:	¡De las mejores opciones para iniciarse en el mundo de las tablets!
 date:       	2015-09-15 12:00:00
 sitemap:
-  lastmod: 2016-03-12
+  lastmod: 2019-03-02
 tag:			[informatica,geek,r12leal]
 author:     	"@R12Leal"
 header-img: 	"img/post/post_asus/asus_mp7b.jpg"
+comments: true
 ---
 <h2 class="section-heading">Especificaciones</h2>
 <hr />

@@ -5,10 +5,11 @@ subtitle:   	"Tus trámites telemáticos también con GNU/Linux Ubuntu"
 description:	Tus trámites telemáticos también con GNU/Linux Ubuntu
 date:       	2015-10-15 12:00:00
 sitemap:
-  lastmod: 2016-06-16
+  lastmod: 2019-03-02
 tag:			[informatica,linux]
 author:     	"@R12Leal"
 header-img: 	"img/post/post_dnie/dnie-linux.jpg"
+comments: true
 ---
 <h2 class="section-heading">Introducción</h2>
 <hr />

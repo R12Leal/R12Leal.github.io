@@ -5,10 +5,11 @@ subtitle:   	"En Linux también se puede jugar al MOBA del momento"
 description:	En Linux también se puede jugar al MOBA del momento
 date:       	2015-06-17 12:00:00
 sitemap:
-  lastmod: 2016-03-12
+  lastmod: 2019-03-02
 tag:			[videojuegos,linux,geek]
 author:     	"@R12Leal"
 header-img: 	"img/post/inbase.jpg"
+comments: true
 ---
 <h2 class="section-heading">Introducción</h2>
 <hr />

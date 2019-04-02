@@ -5,10 +5,11 @@ subtitle:   	"La magia del Hello World! en nuestros desarrollos"
 description:	La magia del Hello World! en nuestros desarrollos
 date:       	2015-05-28 12:00:00
 sitemap:
-  lastmod: 2016-03-12
+  lastmod: 2019-03-02
 tag:			[r12leal]
 author:     	"@R12Leal"
 header-img: 	"img/post/post-hello-world.jpg"
+comments: true
 ---
 <h2 class="section-heading">Introducción</h2>
 <hr />

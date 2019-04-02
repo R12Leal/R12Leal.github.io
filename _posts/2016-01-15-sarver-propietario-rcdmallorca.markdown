@@ -5,10 +5,11 @@ subtitle:   	"Una nueva era que comienza llena de esperanza"
 description:	Robert Sarver nuevo propietario del RCD Mallorca
 date:       	2016-01-15 12:00:00
 sitemap:
-  lastmod: 2016-02-01
+  lastmod: 2019-03-02
 tag:			[rcdmallorca, r12leal]
 author:     	"@R12Leal"
 header-img: 	"img/post/post_rcdmallorca_sarver/rcdmallorca_sarver.jpg"
+comments: true
 ---
 <h2 class="section-heading">Introducción</h2>
 <hr />

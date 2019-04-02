@@ -5,10 +5,11 @@ subtitle:   	"Este método se encargará de realizar todo el trabajo por ti"
 description:	Escribir un Script Bash de instalación en GNU/Linux Ubuntu
 date:       	2017-01-15 12:00:00
 sitemap:
-  lastmod: 2017-01-15
+  lastmod: 2019-03-02
 tag:			[informatica, linux, programacion]
 author:     	"@R12Leal"
 header-img: 	"img/post/post_script_bash_ubuntu/ubuntu_script_bash.jpg"
+comments: true
 ---
 <h2 class="section-heading">Introducción</h2>
 <hr />

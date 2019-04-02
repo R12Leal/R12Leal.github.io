@@ -5,10 +5,11 @@ subtitle:   	"Un lenguaje de programación con un magnífico futuro por delante"
 description:	Instalación de Go (#golang) en GNU/Linux Ubuntu
 date:       	2016-02-20 12:00:00
 sitemap:
-  lastmod: 2016-02-20
+  lastmod: 2019-03-02
 tag:			[informatica, linux, programacion]
 author:     	"@R12Leal"
 header-img: 	"img/post/post_go/golang.jpg"
+comments: true
 ---
 <h2 class="section-heading">Introducción</h2>
 <hr />
