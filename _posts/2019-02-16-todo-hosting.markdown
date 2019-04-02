@@ -5,10 +5,11 @@ subtitle:   	"Si necesitas contratar un hosting este es tu sitio"
 description:	Si necesitas contratar un hosting este es tu sitio
 date:       	2019-02-16 12:00:00
 sitemap:
-  lastmod: 2019-02-16
+  lastmod: 2019-03-02
 tag:			[r12leal, informatica]
 author:     	"@R12Leal"
 header-img: 	"img/post/post_todohosting/hosting.jpg"
+comments: true
 ---
 <h2 class="section-heading">En lo pasado está la historia del futuro</h2>
 <hr />
