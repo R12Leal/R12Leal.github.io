@@ -11,7 +11,7 @@ author:     	"@R12Leal"
 header-img: 	"img/post/post_todohosting/hosting.jpg"
 comments: true
 ---
-<h2 class="section-heading">En lo pasado está la historia del futuro</h2>
+<h2 class="section-heading">En el pasado está la historia del futuro</h2>
 <hr />
 <p>Hace unos meses un viejo amigo contactó conmigo de nuevo, fuimos compañeros en el <strong>Grado Superior de informática</strong> y recuerdo perfectamente aquel año ya que fue de los mejores de mi vida. Tenía que desplazarme desde S'Arenal hasta Manacor, no tenía vehículo así que tenía que hacer uso del transporte público: bus y tren. Salía de casa a las 10:15 de la mañana y no regresaba hasta las 0:00 de la noche. Al principio fue duro, pero poco a poco la odisea pasó a ser satisfactoria incluso, me lo pasaba bien.</p>
 
