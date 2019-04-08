@@ -11,6 +11,7 @@ author:     	"@R12Leal"
 header-img: 	"img/post/post_guia_ivern/ivern_v2.jpg"
 permalink: /:title/
 comments: true
+published: false
 ---
 <h1 class="section-heading">Ivern, el Padre Arborescente</h1>
 <hr />
