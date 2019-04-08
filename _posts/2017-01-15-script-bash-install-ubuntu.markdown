@@ -9,6 +9,7 @@ sitemap:
 tag:			[informatica, linux, programacion]
 author:     	"@R12Leal"
 header-img: 	"img/post/post_script_bash_ubuntu/ubuntu_script_bash.jpg"
+permalink: /:title/
 comments: true
 ---
 <h2 class="section-heading">Introducción</h2>

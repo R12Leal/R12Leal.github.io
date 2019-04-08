@@ -9,6 +9,7 @@ sitemap:
 tag:			[informatica,linux]
 author:     	"@R12Leal"
 header-img: 	"img/post/post_busq_com/unity_busq_com.jpg"
+permalink: /:title/
 comments: true
 ---
 <h2 class="section-heading">Introducción</h2>

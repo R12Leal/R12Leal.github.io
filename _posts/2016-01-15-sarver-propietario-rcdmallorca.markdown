@@ -9,6 +9,7 @@ sitemap:
 tag:			[rcdmallorca, r12leal]
 author:     	"@R12Leal"
 header-img: 	"img/post/post_rcdmallorca_sarver/rcdmallorca_sarver.jpg"
+permalink: /:title/
 comments: true
 ---
 <h2 class="section-heading">Introducción</h2>

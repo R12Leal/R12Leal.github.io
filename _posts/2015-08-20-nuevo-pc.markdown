@@ -9,6 +9,7 @@ sitemap:
 tag:			[informatica,geek]
 author:     	"@R12Leal"
 header-img: 	"img/post/pc.jpg"
+permalink: /:title/
 comments: true
 ---
 <h2 class="section-heading">Introducción</h2>

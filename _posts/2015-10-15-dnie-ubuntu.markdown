@@ -9,6 +9,7 @@ sitemap:
 tag:			[informatica,linux]
 author:     	"@R12Leal"
 header-img: 	"img/post/post_dnie/dnie-linux.jpg"
+permalink: /:title/
 comments: true
 ---
 <h2 class="section-heading">Introducción</h2>

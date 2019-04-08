@@ -9,6 +9,7 @@ sitemap:
 tag:			[videojuegos,linux,geek]
 author:     	"@R12Leal"
 header-img: 	"img/post/inbase.jpg"
+permalink: /:title/
 comments: true
 ---
 <h2 class="section-heading">Introducción</h2>

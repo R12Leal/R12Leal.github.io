@@ -9,6 +9,7 @@ sitemap:
 tag:			[informatica,geek,r12leal]
 author:     	"@R12Leal"
 header-img: 	"img/post/post_asus/asus_mp7b.jpg"
+permalink: /:title/
 comments: true
 ---
 <h2 class="section-heading">Especificaciones</h2>

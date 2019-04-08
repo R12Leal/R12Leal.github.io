@@ -9,6 +9,7 @@ sitemap:
 tag:			[r12leal]
 author:     	"@R12Leal"
 header-img: 	"img/post/post_joves_qualificats/appl.jpg"
+permalink: /:title/
 comments: true
 ---
 <h2 class="section-heading">¡Queridos amigos/compañeros, gracias!</h2>

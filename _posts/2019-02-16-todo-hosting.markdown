@@ -9,6 +9,7 @@ sitemap:
 tag:			[r12leal, informatica]
 author:     	"@R12Leal"
 header-img: 	"img/post/post_todohosting/hosting.jpg"
+permalink: /:title/
 comments: true
 ---
 <h2 class="section-heading">En el pasado está la historia del futuro</h2>
