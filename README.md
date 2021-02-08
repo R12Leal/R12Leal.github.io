@@ -3,13 +3,13 @@
 [![License](https://img.shields.io/github/license/R12Leal/R12Leal.github.io.svg?branch=master)](https://github.com/R12Leal/R12Leal.github.io/blob/master/LICENSE)
 
 * Site: [r12leal.me](http://r12leal.me)
-* Twitter: [@R12Leal](http://twitter.com/R12Leal)
+* Twitter: [@R12LealGG](http://twitter.com/R12LealGG)
 
 ## Licencia
 
 #### The MIT License (MIT)
 
-Copyright (c) 2015 @R12Leal
+Copyright (c) 2021 @R12Leal
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
