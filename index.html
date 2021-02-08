@@ -14,7 +14,6 @@ description: "CV & Blog"
         {% endif %}
     </a>
     <p class="post-meta"><i class="fa fa-user"></i> {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} | <i class="fa fa-calendar"></i> {{ post.date | date: "%-d, %b, %Y" }}</p>
-    {{ tags_content }}
 </div>
 <hr>
 {% endfor %}
