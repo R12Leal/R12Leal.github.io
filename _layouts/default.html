@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
+<title>{{ page.title }} | {{site.name}}</title>
+{% seo %}
+<link href="{{ site.baseurl }}/assets/css/prism.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
+<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+<!-- Pace.js -->
+<script src="{{ site.baseurl }}/assets/js/pace.min.js"></script>
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/corner-indicator.css">
+<!-- Material ScrollTop stylesheet -->
+<script src="{{ site.baseurl }}/assets/js/material-scrolltop.js"></script>
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/material-scrolltop.css">
+<!-- WOWHEAD Tooltip -->
+<script>const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true};</script>
+<script src="https://wow.zamimg.com/widgets/power.js"></script>
+<!-- TheaterJS -->
+<script src="{{ site.baseurl }}/assets/js/theater.min.js"></script>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+</head>
+<!-- our project just needs Font Awesome Solid + Brands -->
+<link href="{{ site.baseurl }}/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/fontawesome/css/brands.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/fontawesome/css/solid.css" rel="stylesheet">
+<!-- ShareonJS -->
+<link href="{{ site.baseurl }}/assets/css/shareon.min.css" rel="stylesheet">
+<script src="{{ site.baseurl }}/assets/js/shareon.iife.js" defer init></script>
+<!-- CC -->
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/cookieconsent.css" media="print" onload="this.media='all'">
+{% if jekyll.environment == 'production' %}
+<!-- change your GA id in _config.yml -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{site.google_analytics}}');
+</script>
+{% endif %}
+{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
+<body>
+	<!-- defer loading of font and font awesome -->
+	<noscript id="deferred-styles">
+		<link href="https://fonts.googleapis.com/css?family=Sen:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	</noscript>
+<!-- Begin Sidebar Navigation
+================================================== -->
+<div class="sidebar">    
+</div>   
+<div class="nav-icon">
+    <div class="hamburger-bar"></div>
+</div>
+<div id="blackover-nav" class="blackover"></div>
+<nav id="menu">
+    <ul>
+        <h3>Navegación <i class="fa-sharp fa-solid fa-location-dot"></i></h3>
+        <li><a href="{{ site.baseurl }}/"><i class="fa-solid fa-house"></i> Inicio</a></li>
+        <li><a href="{{ site.baseurl }}/sobre-mi"><i class="fa-solid fa-user"></i> Sobre mi</a></li>
+        <li><a href="{{ site.baseurl }}/proyectos"><i class="fa-brands fa-r-project"></i> Proyectos <span class="badge badge-primary">new</span></a></li>      
+        <li><a href="{{ site.baseurl }}/contacto"><i class="fa-solid fa-envelope"></i> Contacto</a></li>       
+    </ul>   
+</nav>
+{% include search-lunr.html %}
+<!-- End Sidebar Navigation
+================================================== -->
+<div class="site-content {% if page.url == '/' %} firstpage {% endif %}">
+<div class="container">
+    <!-- Site Logo/Name
+    ================================================== -->
+    <a class="navbar-brand" href="{{ site.baseurl }}/">
+        <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+    </a>  
+    <!-- Site Tag
+    ================================================== -->
+    {% if page.url == '/' %}
+        <p class="sitetag">
+            <!-- {{ site.description }} -->
+            {% include theaterjs.html %}
+        </p>
+    {% endif %}
+    <!-- Content
+    ================================================== -->
+    <div class="main-content">
+        {{ content }}
+    </div>
+    <!-- {% if site.mailchimp-list %} -->
+    <!-- rrss
+    ================================================== -->
+    <div class="newsletter text-center">
+        <span class="h4"><img src="{{ site.baseurl }}/{{ site.logo }}" class="newsletter-logo" alt="{{site.title}}" /> &nbsp; Hagas lo que hagas, hazlo bien <i class="fa-solid fa-code"></i></span>
+        {% include menu_rrss.html %}
+        <!--
+    <div class="newsletter text-center">
+        <span class="h4"><img src="{{ site.baseurl }}/{{ site.logo }}" class="newsletter-logo" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
+        <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
+            <div class="mc-field-group d-inline-flex">
+            <input type="email" placeholder="Your e-mail" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
+            <input type="submit" value="Subscribe" name="subscribe" class="heart">
+            </div>
+        </form>
+    </div>
+    -->
+    </div>
+    <!-- {% endif %} -->
+</div>
+<!-- Begin Footer
+================================================== -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 text-center text-lg-left">
+                Copyright © {{ site.time | date: "%Y" }} {{ site.name }} | <i class="fa-brands fa-creative-commons-share"></i> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" title="¡Licencia CC!" target="_blank">Licencia CC</a>
+            </div>
+            <div class="col-md-6 col-sm-12 text-center text-lg-right">
+                <i class="fa-solid fa-gear"></i> Powered by <a href="http://pages.github.com/" title="¡GitHub Pages!" target="_blank">GitHub Pages</a> <i class="fa-brands fa-github"></i> & <a href="http://jekyllrb.com" title="¡Jekyll!" target="_blank">Jekyll</a>    
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer
+================================================== -->
+</div> <!-- /.site-content -->
+<!-- Scripts
+================================================== -->
+{% include scrollup.html %}
+<script defer src="{{ site.baseurl }}/assets/js/cookieconsent.js"></script>
+<script defer src="{{ site.baseurl }}/assets/js/cookieconsent-init.js"></script>
+<script src="{{ site.baseurl }}/assets/js/prism.js"></script>
+<script src="{{ site.baseurl }}/assets/js/theme.js"></script>
+{% if site.lazyimages == "enabled" %}
+<script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
+{% endif %}
+{% if page.layout == 'post' %}
+<script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
+{% endif %}
+</body>
+</html>

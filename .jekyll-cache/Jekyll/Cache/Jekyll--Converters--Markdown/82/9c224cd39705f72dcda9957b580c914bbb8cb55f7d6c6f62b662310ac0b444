@@ -1,0 +1,13 @@
+I"X<style>
+    .newsletter, .footer {
+        display:none;
+    }
+</style>
+
+<div class="text-center">
+    &lt;img class="lazyload" data-src="{{ "/img/page/cartoon_user.gif" | absolute_url }}" alt="¡Bienvenido! / Benvigut!" title="¡Bienvenido! / Benvigut!" /&gt;    
+    <h1 class="mt-5"><span class="badge badge-dark font-weight-normal">Oppppssssssss!</span></h1>
+    <h1 class="display-1 mt-4 mb-4"> ¡Error 404! - Página no encontrada</h1>
+    <p>¡Por favor, utilice el buscador ubicado en la parte inferior izquierda o visite nuestra <a href="{{site.baseurl}}/">página de inicio</a>!</p>
+</div>
+:ET

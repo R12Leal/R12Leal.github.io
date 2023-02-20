@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:
+Disallow: /v0.01/
+Disallow: /v0.02/
+Disallow: /cv/
+Disallow: /cv/cv_RamsesLeal.pdf
+Sitemap: /sitemap.xml

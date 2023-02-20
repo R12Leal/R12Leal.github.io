@@ -1,0 +1,67 @@
+# Site
+name: "Ramsés Leal"
+title: "R12Leal | Ramsés Leal"
+description: "Ramsés Leal - CV & Blog"
+logo: 'img/icon/r12leal_logo.png'
+favicon: 'img/favicon.ico' 
+baseurl: ""
+google_analytics: 'UA-91164988-1'
+disqus: 'r12leal'
+mailchimp-list: ''
+include: ["_pages"]
+permalink: /:title/
+email: leal.ramses@gmail.com
+# Authors
+authors:
+  Ramses:
+    name: Ramsés Leal
+    display_name: Ramsés Leal
+    avatar: 'img/icon/r12leal_logo.png'
+    email: leal.ramses@gmail.com
+    web: https://r12leal.me/
+    twitter: https://twitter.com/rllGG12
+    description: "Author of Memoirs, a Bootstrap Medium styled template available for Jekyll. You are currently previewing Jekyll template demo."
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-figure    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+# Pagination
+paginate: 6
+paginate_path: /page:num/
+# Other
+highlighter: none
+markdown: kramdown
+kramdown:
+   syntax_highlighter_opts:
+      disable : true
+# Redes sociales
+rrss:
+  lk: ramsesll
+  tw: rllGG12
+  gh: R12Leal
+  yt: "@r12leal"
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: ""
+adsense-data-ad-slot: ""
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "enable"
+# Post Author Box ("enabled" or "disabled")
+authorbox: "enabled"
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+# Exclude
+# exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]

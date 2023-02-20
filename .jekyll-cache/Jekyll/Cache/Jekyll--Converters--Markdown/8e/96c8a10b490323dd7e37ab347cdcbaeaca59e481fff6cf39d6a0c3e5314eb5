@@ -1,0 +1,54 @@
+I"<h2 class="section-heading">Introducción</h2>
+<hr />
+
+<p>¿Quién no conoce hoy en día League of Legends o conocido popularmente como LoL? un MOBA que nació en el año 2009, de la mano de Riot Games, y que ha revolucionado el mundo de los e-sports desde la época dorada de StarCraft.</p>
+<p>Los MOBA, Multiplayer Online Battle Arena (Estrategia de acción en tiempo real), son un género que tiene una historia bastante larga, así que resumiendo, todo empezó con el editor de mapas de <strong>WarCraft III</strong> y un usuario llamado Eul que para pasar un buen rato con sus colegas creo un mapa denominado Defense of the Ancients (DotA, que actualmente también es uno de los MOBA más importantes del mercado, ahora en su segunda versión: DotA2).</p>
+<p>Eul sentó las bases de los MOBA actuales donde nuestro objetivo sería conquistar la base del rival, pero no deberíamos ocuparnos directamente de la extracción de recursos ni del ejército, sino que centraríamos nuestra atención en un solo personaje, un poderoso héroe con habilidades definidas que iría ganando experiencia y botín con cada victoria. De esta forma, la combinación daría como resultado una adictiva combinación entre estrategia en tiempo real, acción y rol. El creador dejó su mapa a la comunidad, donde se hizo rápidamente famoso.</p>
+<p>La evolución de los MOBA está siendo muy vertiginosa y ha dejado en segundo plano a los MMORPG más importantes (WoW, GW o Lineage). Se pueden encontrar muchos y variados MOBA en el mercado e incluso algunos vienen pisando fuerte como HotS (Heroes of the Storm) de Blizzard.</p>
+<p>En este post mostraré como se instala el LoL en plataformas Linux. Riot Games solamente tiene desarrollado el cliente para <strong>Windows</strong> y <strong>Mac</strong> pero gracias a "Play On Linux" y Wine podremos jugar sin problemas.</p>
+<hr />
+
+<h2 class="section-heading">Recursos</h2>
+<hr />
+
+<ul class="ulposts">
+  <li><strong>Linux</strong>: para esta guía utilizaré Ubuntu en su versión 14.04.3 LTS, aunque también debería servir para otras distros basadas en Debian, como por ejemplo Mint.</li>
+  <li><strong>Play On Linux</strong>: es un programa que nos permite instalar y usar fácilmente numerosos juegos y programas previstos para correr exclusivamente en Windows® de Microsoft® utilizando Wine.
+  </li>
+  <li><strong>Wine</strong>: permite ejecutar programas diseñados para Windows bajo sistemas operativos de la familia Unix, como Linux. Play On Linux se encarga automáticamente de la instalación y mantenimiento de las versiones de Wine.</li>
+</ul>
+<p>Por último comprobad que vuestro PC tiene los requisitos mínimos para que el LoL funcione. Los puedes encontrar <a href="https://support.riotgames.com/hc/es/articles/201752654--Requisitos-m%C3%ADnimos-y-recomendados-del-sistema" title="Requisitos mínimos de League Of Legends" target="_blank">aquí</a>.</p>
+<hr />
+
+<h2 class="section-heading">Instalación</h2>
+<hr />
+
+<p>Para instalar basta con abrir una terminal y ejecutar este comando:</p>
+<p><code>sudo apt-get install playonlinux</code></p>
+<p>También puedes instalarlo gráficamente desde Synaptic si lo prefieres.</p>
+<hr />
+
+<h2 class="section-heading">Instalación del LoL</h2>
+<hr />
+
+<p>Abrimos Play On Linux y escogemos la opción Instalar+ del menú, tras la cual nos aparece la siguiente ventana:</p>
+<p><img src="/img/post/post_lol/lol-pol.jpg" alt="¡Ventana de instalación de programas PoL!" />
+<span class="caption text-muted">¡Ventana de instalación de programas en PoL!</span></p>
+<p>Marcamos "En pruebas" y elegimos el icono de los juegos. A continuación veremos todos los juegos disponibles, entre ellos League of Legends, lo seleccionamos y pulsamos sobre el botón instalar. Los pasos para su instalación son intuitivos y es importante seguir los consejos que nos da: no cambiar la carpeta de instalación y desmarcar la opción de jugar tras la instalación. Durante la misma es posible que también se incluyan, automáticamente, otro tipo de instalaciones como tipografías, versiones de wine específicas, etc...</p>
+<p><img src="/img/post/post_lol/lol_update.jpg" alt="¡El cliente en proceso de actualización!" />
+<span class="caption text-muted">¡El cliente en proceso de actualización!</span></p>
+<p>Una vez terminada la instalación hay que ejecutar el juego. No podrás jugar de primeras ya que lo primero que hace el cliente es la actualización del mismo. No desesperes, dependiendo de las características del ordenador puede tardar un tiempo considerable. Pero el tiempo estimado es de 2 a 4-5 horas aproximadamente. Una vez finalizadas las actualizaciones podrás jugar tu primera partida.</p>
+<hr />
+
+<h2 class="section-heading">Errores o Bugs</h2>
+<hr />
+
+<p>Gracias a las contribuciones de usuarios en foros de PoL los distintos errores o bugs se arreglan con nuevas versiones específicas de wine para el LoL, pero es posible que tengas algunos problemas para abrir la tienda "in game" o bien las texturas no sean las correctas.</p>
+<p>Jhosue Pardo explica en su post de instalación de LoL como aplicar un parche para solucionar esos errores. Puedes encontrarlo <a href="http://jhosuepardo.com/ubuntu-linux/instalar-y-jugar-al-league-of-legends-en-linux/" title="Post de Jhosue Pardo" target="_blank">aquí</a>. Yo no he tenido ninguna clase de problemas y las configuraciones por defecto han funcionado correctamente.</p>
+<hr />
+
+<h2 class="section-heading">Conclusión</h2>
+<hr />
+
+<p>Si has sido fan del Warcraft III y lo has jugado millones de veces es imposible que no te gusten los MOBA, así que a disfrutar, Salu2!</p>
+:ET

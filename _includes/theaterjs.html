@@ -1,0 +1,16 @@
+<div class="sitetag" id="app"></div>
+<script>
+  var app = document.getElementById('app');
+  var typewriter = new Typewriter(app, {
+    loop: true,
+    delay: 75,
+  });
+typewriter
+  .pauseFor(1000)
+  .typeString('Ramsés Leal')
+  .pauseFor(300)
+  .deleteChars(11)
+  .typeString('<strong><span style="color: #C94A53;">@R12Leal</span></strong> | CV & <strong><span style="color: #C94A53;">Blog</span></strong> ... <i class="fa-solid fa-gamepad"></i> <i class="fa-solid fa-code"></i> ')
+  .pauseFor(8000)
+  .start();
+</script>

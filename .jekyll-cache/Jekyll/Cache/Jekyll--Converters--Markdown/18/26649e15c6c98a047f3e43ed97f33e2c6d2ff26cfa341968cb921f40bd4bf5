@@ -1,0 +1,5 @@
+I"ê<p>User-agent: *
+Disallow:{% for disallowed in page.disallows %}
+Disallow: {{ disallowed }}{% endfor %}
+Sitemap: {{ site.url }}/sitemap.xml</p>
+:ET
