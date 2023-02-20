@@ -11,7 +11,7 @@ mailchimp-list: ''
 include: ["_pages"]
 permalink: /:title/
 email: leal.ramses@gmail.com
-# Author
+# Authors
 authors:
   Ramses:
     name: Ramsés Leal
