@@ -14,7 +14,7 @@ comments: true
 published: true
 rating: 5
 ---
-<img class="lazyload" data-src="{{ "/img/post/post_guia_cs/cs_banner-min.jpg" | absolute_url }}" alt="[Guía] Cazador Supervivencia para Míticas Plus - WoW Shadowlands +9.2.5" title="[Guía] Cazador Supervivencia para Míticas Plus - WoW Shadowlands +9.2.5" />
+<img class="lazyload" data-src="{{ site.baseurl }}/img/post/post_guia_cs/cs_banner-min.jpg" alt="[Guía] Cazador Supervivencia para Míticas Plus - WoW Shadowlands +9.2.5" title="[Guía] Cazador Supervivencia para Míticas Plus - WoW Shadowlands +9.2.5" />
 <!--
 //////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
 -->
