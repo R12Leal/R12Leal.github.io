@@ -64,7 +64,7 @@ GEM
       webrick (~> 1.7)
     jekyll-archives (2.2.1)
       jekyll (>= 3.6, < 5.0)
-    jekyll-feed (0.15.1)
+    jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-figure (0.1.0)
     jekyll-paginate (1.1.0)
