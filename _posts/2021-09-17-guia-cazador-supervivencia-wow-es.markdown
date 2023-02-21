@@ -14,7 +14,7 @@ comments: true
 published: true
 rating: 5
 ---
-<img class="lazyload" data-src="{{ site.baseurl }}/img/post/post_guia_cs/cs_banner-min.jpg" alt="[Guía] Cazador Supervivencia para Míticas Plus - WoW Shadowlands +9.2.5" title="[Guía] Cazador Supervivencia para Míticas Plus - WoW Shadowlands +9.2.5" />
+<img class="lazyload" src="{{ "/img/post/post_guia_cs/cs_banner-min.jpg" | absolute_url }}" alt="[Guía] Cazador Supervivencia para Míticas Plus - WoW Shadowlands +9.2.5" title="[Guía] Cazador Supervivencia para Míticas Plus - WoW Shadowlands +9.2.5" />
 <!--
 //////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
 -->
@@ -97,7 +97,7 @@ rating: 5
 <h2 class="section-heading"><i class="fa fa-gamepad" aria-hidden="true"></i> ¡Temporada 3 de Shadowlands!</h2>
 <hr />
   <p>Junto a la llegada del <strong>nuevo parche 9.2</strong> da comienzo la tercera temporada de Shadowlands y con un nuevo afijo, su nombre: <strong>Encriptada</strong>. Cada vez que cursemos una mazmorra, encontraremos que los grupos de enemigos o jefes de mazmorra poseen reliquias de los Primeros a su alrededor.</p>
-  <img class="lazyload" data-src="{{ "/img/post/post_guia_cs/reliquias_primeros-min.jpeg" | absolute_url }}" alt="¡Reliquias de los Primeros en M+!" title="¡Reliquias de los Primeros en M+!" /><span class="caption text-muted">Reliquias de los Primeros en M+ | Imagen: altertime.es</span>
+  <img class="lazyload" src="{{ "/img/post/post_guia_cs/reliquias_primeros-min.jpeg" | absolute_url }}" alt="¡Reliquias de los Primeros en M+!" title="¡Reliquias de los Primeros en M+!" /><span class="caption text-muted">Reliquias de los Primeros en M+ | Imagen: altertime.es</span>
   <p><u><strong>Al acabar con la primera de ellas</strong></u> invocará a un <u><strong>automa específico</strong></u> de los Primeros. Cada automa tiene unas habilidades únicas y representativas, al derrotarlas obtendremos beneficios muy poderosos para nuestro grupo de mazmorras. Las reliquias son las siguientes:</p>
   <table class="table" style="border:2px solid #ddd;">
   <tbody>
@@ -122,7 +122,7 @@ rating: 5
 <h2 class="section-heading"><i class="fa fa-gamepad" aria-hidden="true"></i> ¡Temporada 4 de Shadowlands!</h2>
 <hr />
   <p>La expansión  de <strong>Shadowlands</strong> se puede dar por <strong>finiquitada</strong> en este momento. Aún así tendremos <strong>temporada 4</strong>, con el objetivo de que la espera hasta la llegada de la <strong>nueva expansión</strong> de WoW, <strong>Dragonflight</strong>, sea más amena tendremos nuevas características. Por primera vez entran en rotación <strong>mazmorras</strong> de expansiones <strong>antiguas</strong>.</p>
-  <img class="lazyload" data-src="{{ "/img/post/post_guia_cs/afijo_temp4-min.jpg" | absolute_url }}" alt="¡Afijo de la temporada 4!" title="¡Afijo de la temporada 4!" /><span class="caption text-muted">Afijo de la temporada 4 | Imagen: altertime.es</span>
+  <img class="lazyload" src="{{ "/img/post/post_guia_cs/afijo_temp4-min.jpg" | absolute_url }}" alt="¡Afijo de la temporada 4!" title="¡Afijo de la temporada 4!" /><span class="caption text-muted">Afijo de la temporada 4 | Imagen: altertime.es</span>
   <p>También tendremos disponible un <strong>nuevo afijo</strong>, su nombre: <strong>Velada</strong>. En cada mazmorra que cursemos encontraremos <strong>Nathrezim disfrazados</strong> por toda la instancia, seremos recompensados por cada eliminación que hagamos. El beneficio de estadística <strong>se escoge al principio de la mazmorra</strong> y son los siguientes:</p>
   <table class="table" style="border:2px solid #ddd;">
   <tbody>
@@ -419,7 +419,7 @@ rating: 5
 -->
 <h2 class="section-heading"><i class="fa fa-gamepad" aria-hidden="true"></i> Talentos</h2>
 <hr />
-<img class="lazyload" data-src="{{ "/img/post/post_guia_cs/Talentos_SV_91-min.jpg" | absolute_url }}" alt="¡Mejores talentos para el Cazador Supervivencia en M+!" title="Mejores talentos para el Cazador Supervivencia en M+" /><span class="caption text-muted">Talentos del cazador supervivencia para M+</span>
+<img class="lazyload" src="{{ "/img/post/post_guia_cs/Talentos_SV_91-min.jpg" | absolute_url }}" alt="¡Mejores talentos para el Cazador Supervivencia en M+!" title="Mejores talentos para el Cazador Supervivencia en M+" /><span class="caption text-muted">Talentos del cazador supervivencia para M+</span>
   <ul class="list-group">
     <li class="list-group-item"><strong>Nivel 15</strong>, <strong>depredador alfa</strong>: <a href="https://es.wowhead.com/spell=259489/matar" class="q3" data-wowhead="gems=23121&amp;ench=2647&amp;pcs=25695:25696:25697">[Cazador Supervivencia]</a> ahora tiene 2 cargas e inflige un 30% más de daño. Única opción viable para <strong>M+</strong>, <strong>Veneno de víbora</strong> es un buen talento para encuentros con un solo objetivo, como puede ser en <strong>banda</strong>.</li>
     <li class="list-group-item"><strong>Nivel 25</strong>, <strong>tácticas de guerrilla</strong>: <a href="https://es.wowhead.com/spell=259495/bomba-de-fuego-salvaje" class="q3" data-wowhead="gems=23121&amp;ench=2647&amp;pcs=25695:25696:25697">[Cazador Supervivencia]</a> ahora tiene 2 cargas y la explosión inicial inflige un 100% más de daño. </li>
@@ -567,7 +567,7 @@ rating: 5
 </tbody>
 </table>
 <p><strong>La elección de habilidades y conductos del nexo de almas</strong> dependen en gran medida de tu <strong>“playstyle”</strong> o <strong>forma de jugar</strong>, te dejo a continuación cual es la mejor combinación bajo mi punto de vista:</p>
-<img class="lazyload" data-src="{{ "/img/post/post_guia_cs/nexo_alma_mikanikos_SV_kyrian-min.png" | absolute_url }}" alt="¡Nexo de Alma - Forjador supremo Mikanikos!" title="Nexo de Alma - Forjador supremo Mikanikos" /><span class="caption text-muted">¡El mejor nexo de alma para el cazador supervivencia!</span>
+<img class="lazyload" src="{{ "/img/post/post_guia_cs/nexo_alma_mikanikos_SV_kyrian-min.png" | absolute_url }}" alt="¡Nexo de Alma - Forjador supremo Mikanikos!" title="Nexo de Alma - Forjador supremo Mikanikos" /><span class="caption text-muted">¡El mejor nexo de alma para el cazador supervivencia!</span>
 <table class="table" style="border:2px solid #ddd;">
 <tbody>
   <tr style="background-color:#F5F5F5;">
