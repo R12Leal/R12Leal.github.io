@@ -4,4 +4,4 @@ Disallow: /v0.01/
 Disallow: /v0.02/
 Disallow: /cv/
 Disallow: /cv/cv_RamsesLeal.pdf
-Sitemap: /sitemap.xml
+Sitemap: http://192.168.1.132:80/sitemap.xml

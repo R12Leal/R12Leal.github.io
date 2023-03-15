@@ -829,3 +829,29 @@ body.active-side {
   .badge-primary{
     background-color: $black;
   }
+  .tr_title {
+    background-color: #C94A53;
+    color: $body_content;
+  }
+  .tr_title_bl {
+    background-color: #222;
+    color: $body_content;
+  }
+  .tr_title_center {
+    background-color: #C94A53;
+    color: $body_content;
+    text-align: center;
+  }
+  .table {
+    border:2px solid #ddd;
+  }
+  .td_caption {
+    vertical-align: middle;
+  }
+  .td_caption_center{
+    vertical-align: middle;
+    text-align: center;
+  }
+  .noborder {
+    border: none;
+  }

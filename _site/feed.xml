@@ -3,15 +3,644 @@
   <channel>
     <title>R12Leal | Ramsés Leal</title>
     <description>Ramsés Leal - CV &amp; Blog</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 20 Feb 2023 22:39:48 +0100</pubDate>
-    <lastBuildDate>Mon, 20 Feb 2023 22:39:48 +0100</lastBuildDate>
-    <generator>Jekyll v4.2.0</generator>
+    <link>http://192.168.1.132:80/</link>
+    <atom:link href="http://192.168.1.132:80/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 15 Mar 2023 20:43:21 +0100</pubDate>
+    <lastBuildDate>Wed, 15 Mar 2023 20:43:21 +0100</lastBuildDate>
+    <generator>Jekyll v4.3.2</generator>
+    
+      <item>
+        <title>[Guía] Cazador Supervivencia para M+ | WoW Dragonflight +10.0.7</title>
+        <description>&lt;p&gt;&lt;img class=&quot;lazyload&quot; src=&quot;http://192.168.1.132/img/post/post_guia_cs/cs_banner-min.jpg&quot; alt=&quot;[Guía] Cazador Supervivencia para Míticas Plus - WoW Dragonflight +10.0.7&quot; title=&quot;[Guía] Cazador Supervivencia para Míticas Plus - WoW Dragonflight +10.0.7&quot; /&gt;
+&lt;!--
+//////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
+--&gt;&lt;/p&gt;
+&lt;div class=&quot;panel panel-default&quot;&gt;
+  &lt;div class=&quot;panel-heading&quot;&gt;
+    &lt;h3 class=&quot;panel-title&quot;&gt;Contenidos &lt;i class=&quot;fa fa-align-justify&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/h3&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;panel-body&quot;&gt;
+      &lt;ul class=&quot;list-group&quot;&gt;
+          &lt;li class=&quot;list-group-item&quot;&gt;&lt;strong&gt;Introducción&lt;/strong&gt;&lt;/li&gt;
+          &lt;li class=&quot;list-group-item&quot;&gt;&lt;strong&gt;¿Qué son las M+?&lt;/strong&gt;&lt;/li&gt;
+          &lt;li class=&quot;list-group-item&quot;&gt;&lt;strong&gt;¡Temporada 1 de Dragonflight!&lt;/strong&gt;&lt;/li&gt;
+          &lt;li class=&quot;list-group-item&quot;&gt;&lt;strong&gt;Fortalezas y debilidades&lt;/strong&gt;&lt;/li&gt;
+          &lt;li class=&quot;list-group-item&quot;&gt;&lt;strong&gt;Buffos recibidos hasta en el parche 10.0.7&lt;/strong&gt;&lt;/li&gt;
+          &lt;li class=&quot;list-group-item&quot;&gt;&lt;strong&gt;Habilidades base&lt;/strong&gt;&lt;/li&gt;
+          &lt;li class=&quot;list-group-item&quot;&gt;&lt;strong&gt;Prioridad de estadísticas&lt;/strong&gt;&lt;/li&gt;
+          &lt;li class=&quot;list-group-item&quot;&gt;&lt;strong&gt;Nuevo sistema de talentos&lt;/strong&gt;&lt;/li&gt;
+          &lt;li class=&quot;list-group-item&quot;&gt;&lt;strong&gt;Tier Set bonus - Temporada 1&lt;/strong&gt;&lt;/li&gt;
+          &lt;li class=&quot;list-group-item&quot;&gt;&lt;strong&gt;Rotación de habilidades&lt;/strong&gt;&lt;/li&gt;
+          &lt;li class=&quot;list-group-item&quot;&gt;&lt;strong&gt;Consumibles&lt;/strong&gt;&lt;/li&gt;
+          &lt;li class=&quot;list-group-item&quot;&gt;&lt;strong&gt;Conclusión&lt;/strong&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;!--
+//////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
+--&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;i class=&quot;fa fa-gamepad&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Introducción&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Bienvenidos a una nueva actualización de [Guía] en mi página web. Dedicada al &lt;strong&gt;Cazador Supervivencia&lt;/strong&gt; nuevamente, tras &lt;strong&gt;Shadowlands&lt;/strong&gt; toca hacer revisión y ver como se encuentra esta especialización en la primera parte de la expansión de &lt;strong&gt;Dragonflight&lt;/strong&gt;.
+  &lt;p&gt;&lt;strong&gt;World of Warcraft&lt;/strong&gt; (y &lt;strong&gt;Warcraft&lt;/strong&gt; en general) lleva formando parte de mi vida desde que tengo uso de razón, junto a &lt;strong&gt;League of Legends&lt;/strong&gt; son los juegos a los que más horas he dedicado. Llevo jugando esta especialización de &lt;strong&gt;cazador&lt;/strong&gt; desde la expansión de &lt;strong&gt;Legion&lt;/strong&gt;.&lt;/p&gt;
+  &lt;p&gt;Esta guía está enfocada al modo &lt;strong&gt;M+ (Míticas plus)&lt;/strong&gt;, si buscas información para raidear en banda te recomiendo consultar las guías de &lt;a itemprop=&quot;url&quot; href=&quot;https://es.wowhead.com/&quot; target=&quot;_blank&quot;&gt;&lt;span itemprop=&quot;name headline&quot;&gt;wowhead&lt;/span&gt;&lt;/a&gt; e &lt;a itemprop=&quot;url&quot; href=&quot;https://www.icy-veins.com/&quot; target=&quot;_blank&quot;&gt;&lt;span itemprop=&quot;name headline&quot;&gt;Icy-Veins&lt;/span&gt;&lt;/a&gt; que están en inglés. En el juego me hago llamar &lt;strong&gt;&lt;a itemprop=&quot;url&quot; href=&quot;https://raider.io/characters/eu/zuljin/Shavoken&quot; target=&quot;_blank&quot;&gt;Shavoken&lt;/a&gt;&lt;/strong&gt;, actualmente tengo +2,7k de rio / mythic score y espero seguir subiendo.&lt;/p&gt;
+  &lt;p&gt;PD: esta web hace uso de &lt;u&gt;&lt;strong&gt;wowhead tooltips&lt;/strong&gt;&lt;/u&gt;, podrás obtener información exacta sobre las habilidades o items expuestos en esta guía pasando el ratón por encima o haciendo click sobre la misma.&lt;/p&gt;
+&lt;!-- --&gt;
+&lt;hr /&gt;
+&lt;!--
+//////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
+--&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;i class=&quot;fa fa-gamepad&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; ¿Qué son las M+?&lt;/h2&gt;
+&lt;hr /&gt;
+  &lt;p&gt;Las &lt;strong&gt;míticas plus (M+)&lt;/strong&gt; es un modo especial de mazmorras en World of Warcraft. Ofrece a los jugadores un desafío de escala infinita, los jugadores de PvE de alto nivel buscarán cada semana hacer mínimo una &lt;strong&gt;+20&lt;/strong&gt; para recibir el mejor botín posible del &lt;strong&gt;Gran Baúl&lt;/strong&gt;. Este sistema otorga una pieza de ilvl 421, el más alto en este parche 10.0.7. El máximo ilvl que se puede obtener en ítems de mazmorra es 405 pero se puede mejorar con &lt;strong&gt;Valor&lt;/strong&gt;, una moneda que recibiremos cada vez que completemos las mazmorras.&lt;/p&gt;
+  &lt;p&gt;Si has llegado a esta guía ya conoces otros conceptos de las &lt;strong&gt;M+&lt;/strong&gt;, como los &lt;strong&gt;afijos&lt;/strong&gt;, así que pasaremos a hablar de las novedades que trae la primera temporada de &lt;strong&gt;Dragonflight&lt;/strong&gt;, a continuación puedes encontrar una run en +21 que he subido a mi canal de Youtube: &lt;/p&gt;
+  &lt;!-- --&gt;
+  &lt;div style=&quot;text-align:center;&quot;&gt;
+    &lt;iframe style=&quot;width:100%;aspect-ratio:16/9;&quot; src=&quot;https://www.youtube.com/embed/Q0njWgsYuZI&quot; title=&quot;[Guía] Cazador Supervivencia para M+ | WoW Dragonflight +10.0.7&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;hr /&gt;
+&lt;!--
+//////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
+--&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;i class=&quot;fa fa-gamepad&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; ¡Temporada 1 de Dragonflight!&lt;/h2&gt;
+&lt;hr /&gt;
+  &lt;p&gt;Con la nueva expansión y la primera temporada de Dragonflight ha llegado un nuevo afijo para &lt;strong&gt;M+&lt;/strong&gt;: &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/affix=132/atronadora&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;. La clave de este afijo reside en explotarlo hasta el límite, obteniendo cierta ventaja si lo hacemos bien.&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Cada 60 segundos&lt;/strong&gt; que estemos en combate seremos &lt;strong&gt;marcados&lt;/strong&gt; con un &lt;strong&gt;debuff&lt;/strong&gt;, ya sea positivo [&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=396369/marca-de-relámpagos&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;] o negativo [&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=396364/marca-de-viento&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;]. Estas marcas provocan que los &lt;strong&gt;objetivos&lt;/strong&gt; tengan un &lt;strong&gt;5% más de salud&lt;/strong&gt; y aumente nuestro &lt;strong&gt;daño/curación un 30%&lt;/strong&gt; durante quince segundos.&lt;/p&gt;
+  &lt;p&gt;Para &lt;strong&gt;eliminar&lt;/strong&gt; el &lt;strong&gt;debuff&lt;/strong&gt; basta con pasar por encima de un jugador que tenga la marca opuesta. Pero si &lt;strong&gt;se agota el tiempo límite y no lo has hecho&lt;/strong&gt; te verás afectado por &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=396411/sobrecarga-primigenia&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;, provocando que quedes &lt;strong&gt;aturdido&lt;/strong&gt; durante seis segundos y recibas &lt;strong&gt;daño en el tiempo&lt;/strong&gt; provocando que mueras, salvo que el healer pueda evitarlo.&lt;/p&gt;
+  &lt;p&gt;Llegados a este punto seguramente estarás pensando que el afijo no tiene sentido ya que los grupos formados para M+ son de cinco integrantes. Efectivamente, &lt;strong&gt;un jugador del grupo no podrá eliminar su debuff&lt;/strong&gt; pero si &lt;strong&gt;los cuatro restantes lo consiguen no se verá afectado&lt;/strong&gt; por &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=396411/sobrecarga-primigenia&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; y se &lt;strong&gt;beneficiará durante los quince segundos completos del aumento de daño/curación del 30%&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;!--
+//////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
+--&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;i class=&quot;fa fa-gamepad&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Fortalezas y debilidades&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;div class=&quot;panel panel-default&quot;&gt;
+  &lt;div class=&quot;panel-heading&quot;&gt;
+    &lt;h3 class=&quot;panel-title&quot;&gt;&lt;span&gt;Fortalezas &lt;i class=&quot;fa fa-check-square&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/h3&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;panel-body&quot;&gt;
+    &lt;ul class=&quot;list-group&quot;&gt;
+      &lt;li class=&quot;list-group-item list-group-item-success&quot;&gt;&lt;strong&gt;Daño consistente en ST y AoE, decente.&lt;/strong&gt;&lt;/li&gt;
+      &lt;li class=&quot;list-group-item list-group-item-success&quot;&gt;&lt;strong&gt;Autocuración, inmunidad y capacidad de supervivencia decente.&lt;/strong&gt;&lt;/li&gt;
+      &lt;li class=&quot;list-group-item list-group-item-success&quot;&gt;&lt;strong&gt;Movilidad elevada siendo una especialización cuerpo a cuerpo.&lt;/strong&gt;&lt;/li&gt;
+      &lt;li class=&quot;list-group-item list-group-item-success&quot;&gt;&lt;strong&gt;Llevas mascotas que permiten la absorción de daño, aportar BL y remover roots.&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class=&quot;panel panel-default&quot;&gt;
+  &lt;div class=&quot;panel-heading&quot;&gt;
+    &lt;h3 class=&quot;panel-title&quot;&gt;Debilidades &lt;i class=&quot;fa fa-times-circle&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/h3&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;panel-body&quot;&gt;
+  &lt;ul class=&quot;list-group&quot;&gt;
+    &lt;li class=&quot;list-group-item list-group-item-danger&quot;&gt;&lt;strong&gt;Necesitas tener la mascota siempre activa para generar enfoque.&lt;/strong&gt;&lt;/li&gt;
+    &lt;li class=&quot;list-group-item list-group-item-danger&quot;&gt;&lt;strong&gt;Daño consistente a un solo objetivo, pero insuficiente si lo comparamos con otras clases o especializaciones DPS que sean cuerpo a cuerpo.&lt;/strong&gt;&lt;/li&gt;
+    &lt;li class=&quot;list-group-item list-group-item-danger&quot;&gt;&lt;strong&gt;Los tiempos de reutilización de las habilidades son altos, defensivos incluidos.&lt;/strong&gt;&lt;/li&gt;
+    &lt;li class=&quot;list-group-item list-group-item-danger&quot;&gt;&lt;strong&gt;No proporciona una utilidad única como el resto de clases y especializaciones.&lt;/strong&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+&lt;!--
+//////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
+--&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;i class=&quot;fa fa-gamepad&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Buffos recibidos hasta en el parche 10.0.7&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;table class=&quot;table&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr class=&quot;tr_title_bl&quot;&gt;
+      &lt;td colspan=&quot;2&quot;&gt;&lt;strong&gt;Enero de 2023&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;Se ha aumentado todo el daño de mascota y de las facultades un 2%.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt; Se ha aumentado el daño de &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=212436/carnicería&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; y &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=187708/trinchar&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; un 10%.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;Se ha aumentado el daño de &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=203415/furia-del-águila&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; un 10%.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;Se ha aumentado el daño de &lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=259495/bomba-de-fuego-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; un 15%.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt; 
+  &lt;br /&gt;
+  &lt;table class=&quot;table&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr class=&quot;tr_title_bl&quot;&gt;
+      &lt;td colspan=&quot;2&quot;&gt;&lt;strong&gt;Febrero de 2023&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;Aumentado el daño infligido por el cazador y las facultades de las mascotas un 5%.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;/table&gt;   
+&lt;hr /&gt;
+&lt;!--
+//////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
+--&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;i class=&quot;fa fa-gamepad&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Habilidades base&lt;/h2&gt;
+&lt;hr /&gt;
+  &lt;table class=&quot;table&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr class=&quot;tr_title&quot;&gt;
+      &lt;td colspan=&quot;2&quot;&gt;&lt;strong&gt;Habilidades ofensivas&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=185358/disparo-arcano&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: no utilizaremos esta habilidad como cazadores supervivencia, se necesita un arma a distancia y nuestra clase es cuerpo a cuerpo.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=56641/disparo-firme&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: no utilizaremos esta habilidad como cazadores supervivencia, se necesita un arma a distancia y nuestra clase es cuerpo a cuerpo.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&quot;table&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr class=&quot;tr_title&quot;&gt;
+      &lt;td colspan=&quot;2&quot;&gt;&lt;strong&gt;Habilidades defensivas&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=186265/aspecto-de-la-tortuga&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: desvía todos los ataques y reduce todo el daño un 30%, nos impide atacar mientras dure. Si tenemos un DoT aplicado a nuestro personaje no será desviado pero si puedes desviar la aplicación de un DoT, por tanto tendrás que anticiparte al lanzamiento.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=109304/excitación&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: restaura un 30% de vida de nuestro personaje y un 100% de nuestra mascota, tener la estadística parasitar nos permitirá curarnos un poco más.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&quot;table&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr class=&quot;tr_title&quot;&gt;
+      &lt;td colspan=&quot;2&quot;&gt;&lt;strong&gt;Habilidades de utilidad&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=5384/fingir-muerte&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: con esta habilidad perderemos el aggro inmediatamente de los objetivos que nos estuvieran focuseando y elimina el estado &quot;en combate&quot; si es posible. Se puede utilizar para denegar el casteo de una habilidad sobre ti también, automáticamente será cancelada o pasará a castear a otro aliado.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=781/separación&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: nos permite saltar hacia atrás. Viene muy bien para hacer disengage, evitar habilidades en área, tener más movilidad si nos colocamos bien, etc.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=187650/trampa-congelante&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: congela a cualquier objetivo que pase por encima de la trampa, el daño interrumpe la congelación. La clave está en usarlo como una interrupción/corte más, aunque en varias ocasiones nos permitará separar patrols de pulls en M+ también.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=186257/aspecto-del-guepardo&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: nos permite aumentar la velocidad de movimiento.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=321297/ojos-de-la-bestia&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: tomamos el control de la mascota, no aporta nada en M+.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=1543/bengala&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: revela los objetivos en sigilo, no aporta nada en M+.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=6197/ojo-de-águila&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: para ver más lejos durante un tiempo, no aporta nada en M+.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=257284/marca-del-cazador&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: coloca una marca a nuestro objetivo, no aporta nada en M+.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=195645/cortar-alas&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: reduce la velocidad de movimiento del objetivo.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&quot;table&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr class=&quot;tr_title&quot;&gt;
+      &lt;td colspan=&quot;2&quot;&gt;&lt;strong&gt;Habilidades de mascota&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=392956/entereza-del-oso&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: de forma temporal nuestra vida y la de nuestra mascota aumentan. En piedras de nivel alto es la mascota por defecto, si en el grupo ya hay una clase que pueda utilizar BL.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=53271/llamada-del-amo&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: es una habilidad circunstancial, merece la pena usar este tipo de mascota en mazmorras en la cuales los objetivos apliquen muchos roots o reducción de velocidad de movimiento.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=264667/rabia-primigenia&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: esta habilidad aumenta considerablemente la celeridad del grupo durante un tiempo, el problema es que no somos la única clase que también tiene la capacidad de hacerlo: Mago, Chamán y Evoker también pueden aparte de nosotros.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&quot;table&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr class=&quot;tr_title&quot;&gt;
+      &lt;td colspan=&quot;2&quot;&gt;&lt;strong&gt;Maestría&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=263135/maestría-vínculo-de-espíritu&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: todas las facultades de nuestra mascota y las nuestras que gasten enfoque aumentan su daño gracias a esta maestría, se consigue sacar más provecho de este poder en entornos de banda/raid.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;      
+&lt;hr /&gt;
+&lt;!--
+//////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
+--&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;i class=&quot;fa fa-gamepad&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Prioridad de estadísticas&lt;/h2&gt;
+&lt;hr /&gt;
+  &lt;p&gt;Las estadísticas dependen en gran medida de los ítems que consigas a lo largo de las semanas o en las propias mazmorras, pero de forma general deberías priorizar este orden:&lt;/p&gt;
+  &lt;ol style=&quot;text-align:justify;&quot;&gt;
+    &lt;li&gt;&lt;strong&gt;Daño de Arma (DPS)&lt;/strong&gt;: cuanto mayor ilvl mejor.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Agilidad&lt;/strong&gt;: es la estadística principal a mejorar, aumenta la potencia y magnitud de nuestras habilidades.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Haste (celeridad)&lt;/strong&gt;:
+      &lt;ul style=&quot;text-align:justify;&quot;&gt;
+        &lt;li style=&quot;text-align:justify;&quot;&gt;Mayor recarga de enfoque.&lt;/li&gt;
+        &lt;li style=&quot;text-align:justify;&quot;&gt;Tiempos de reutilización de habilidades más bajos.&lt;/li&gt;
+        &lt;li style=&quot;text-align:justify;&quot;&gt;Aumento de velocidad de ataque, tanto del personaje como de la mascota.&lt;/li&gt;
+        &lt;li style=&quot;text-align:justify;&quot;&gt;Recomendado sobrepasar el 30% para conseguir una rotación más fluida, actualmente mi personaje tiene un 34%.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Golpe Crítico&lt;/strong&gt;: esta estadística nos brinda la posibilidad infligir el doble de daño, incluyendo a nuestra mascota.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Maestría: &lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=263135/maestría-vínculo-de-espíritu&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;&lt;/strong&gt;. No aporta mucho valor en AoE pero para enfrentamientos de un solo objetivo (bosses) nos viene de maravilla, sobre todo en semanas de Tiránica o bien si tenemos que acudir puntualmente a banda para buscar un objeto o pieza de tier.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Versatilidad&lt;/strong&gt;.&lt;/li&gt;
+  &lt;/ol&gt;
+  &lt;p&gt;No olvides &lt;a itemprop=&quot;url&quot; href=&quot;https://www.raidbots.com/simbot&quot; target=&quot;_blank&quot;&gt;&lt;span itemprop=&quot;name headline&quot;&gt;simular&lt;/span&gt;&lt;/a&gt; tus personajes para optimizar al máximo tu performance en &lt;strong&gt;M+&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;!--
+//////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
+--&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;i class=&quot;fa fa-gamepad&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Nuevo sistema de Talentos&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;p&gt;Los &lt;strong&gt;talentos&lt;/strong&gt; siempre han sido una parte &lt;strong&gt;muy importante&lt;/strong&gt; de &lt;strong&gt;World of Warcracft&lt;/strong&gt; desde que este MMORPG echará a rodar en 2004, con el paso de los años este sistema ha ido &lt;strong&gt;cambiando varias veces&lt;/strong&gt; para ofrecer &lt;strong&gt;nuevas configuraciones&lt;/strong&gt; o alternativas interesantes a los jugadores que deseaban &lt;strong&gt;continuar&lt;/strong&gt; con su estancia en &lt;strong&gt;Azeroth&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;En WoW Dragonflight regresamos un poco a los &lt;strong&gt;orígenes&lt;/strong&gt; de World of Warcraft y tenemos de vuelta el famoso &lt;strong&gt;árbol de talentos&lt;/strong&gt;, evidentemente &lt;strong&gt;reformado&lt;/strong&gt; y &lt;strong&gt;adaptado&lt;/strong&gt; a las necesidades actuales que demandan los jugadores y el propio juego. Una reforma profunda que nos permitirá experimentar con una &lt;strong&gt;amplia variedad de opciones&lt;/strong&gt; que se adapten a nuestro estilo de juego.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;¿Qué hay de nuevo entonces?&lt;/strong&gt; el cambio más notable es que el árbol de talentos se divide en dos grupos/ramas: &lt;strong&gt;talentos de clase&lt;/strong&gt; y &lt;strong&gt;talentos de especialización&lt;/strong&gt;. El primer grupo es compartido con las otras dos especializaciones del cazador: Bestias y Puntería. Mientras que el grupo restante ya se basa exclusivamente en cada especialización.&lt;/p&gt;
+&lt;p&gt;Esta es mi &lt;strong&gt;configuración preferida&lt;/strong&gt; en &lt;strong&gt;M+&lt;/strong&gt;, hay varias configuraciones alternativas disponibles que son más estándar pero esta no difiere mucho de ellas. Evidentemente esta es mi visión, debes encontrar tu estilo de juego a partir de una base. Espero que esta guía te pueda ayudar un poco:&lt;/p&gt;
+&lt;div class=&quot;panel-heading&quot;&gt;
+      &lt;h3 class=&quot;panel-title&quot;&gt;&lt;span&gt;Configuración Comfy M+&lt;/span&gt;&lt;/h3&gt;
+    &lt;/div&gt;
+&lt;img class=&quot;lazyload&quot; src=&quot;http://192.168.1.132/img/post/post_guia_cs/talentos_cs.png&quot; alt=&quot;[Guía] Cazador Supervivencia para Míticas Plus -Talentos&quot; title=&quot;[Guía] Cazador Supervivencia para Míticas Plus - Talentos&quot; /&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;table class=&quot;table&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr class=&quot;tr_title_bl&quot;&gt;
+      &lt;td colspan=&quot;2&quot;&gt;&lt;strong&gt;Rama general del cazador&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259489/matar&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: habilidad principal para &lt;strong&gt;generar enfoque&lt;/strong&gt; y ordenar a nuestra mascota que ataque rápidamente. Es una de las más importantes, de base tiene una probabilidad del 10% de reiniciarse.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=53351/disparo-mortal&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: habilidad a distancia que inflige daño físico, solamente puede ser utilizada durante &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=385739/muerte-coordinada&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; o bien cuando el objetivo se encuentre por debajo del 20% de vida.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=199921/quemasendas&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; &lt;strong&gt;(1 punto)&lt;/strong&gt;: pasiva que aumenta nuestra velocidad de movimiento base fuera de combate.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=109215/inmediatez&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; &lt;strong&gt;(2 puntos)&lt;/strong&gt;: pasiva que nos permite con &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=781/separación&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; eliminar efectos de reducción de movimiento y nos otorga también un extra de velocidad de movimiento breve.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=343248/disparo-mortal-mejorado&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: aumenta el daño crítico de &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=53351/disparo-mortal&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=187707/amordazar&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: nuestro corte, fundamental en M+.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=270581/alivio-natural&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; &lt;strong&gt;(2 puntos)&lt;/strong&gt;: pasiva que reduce el tiempo de reutilización de &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=109304/excitación&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; cada vez que gastamos enfoque.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=187698/trampa-de-brea&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: trampa que genera una zona que ralentiza a los objetivos.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=34477/redirección&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: habilidad que redirecciona todo el aggro a un objetivo aliado.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=264735/supervivencia-del-más-fuerte&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: habilidad para reducir el daño que recibimos.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=388042/robustez-de-la-naturaleza&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; &lt;strong&gt;(nodo de elección)&lt;/strong&gt;: pasiva que mejora &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=264735/supervivencia-del-más-fuerte&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=266921/nacido-para-ser-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; &lt;strong&gt;(2 puntos)&lt;/strong&gt;: reduce el tiempo de reutilización de &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=264735/supervivencia-del-más-fuerte&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; y los aspectos: &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=186265/aspecto-de-la-tortuga&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=186257/aspecto-del-guepardo&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; y &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=186289/aspecto-del-águila&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=109248/disparo-vinculante&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; &lt;strong&gt;(nodo de elección)&lt;/strong&gt;: habilidad para rootear a todos los objetivos, viene muy bien para controlar pulls en momentos de mucho caos.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=199483/camuflaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: nuestro sigilo particular, cura en el tiempo mientras está activo.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=19577/intimidación&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; &lt;strong&gt;(nodo de elección)&lt;/strong&gt;: otro cc nunca viene mal para M+.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=19801/disparo-tranquilizante&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: habilidad para eliminar efectos de magia o enrage.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=321468/grilletes-vinculantes&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: pasiva que provoca que todos los objetivos afectados por &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=109248/disparo-vinculante&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; o &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=19577/intimidación&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; nos infligan daño reducido.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=384799/evasión-de-cazador&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: pasiva que reduce el daño de los ataques en área.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=378007/maestro-de-bestias&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; &lt;strong&gt;(1 punto)&lt;/strong&gt;: pasiva que aumenta el daño de nuestra mascota.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=378004/vista-aguda&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; &lt;strong&gt;(2 puntos)&lt;/strong&gt;: pasiva que aumenta la probabilidad de golpe crítico.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=260309/maestro-tirador&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; &lt;strong&gt;(2 puntos)&lt;/strong&gt;: pasiva que añade un sangrado más a los golpes críticos que generamos sobre los objetivos, se aplica tanto a habilidades cuerpo a cuerpo como a las de distancia.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=389882/disparos-dentados&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; &lt;strong&gt;(2 puntos)&lt;/strong&gt;: pasiva que aumenta los daños de sangrado.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=390231/boleadora-ártica&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; &lt;strong&gt;(2 puntos)&lt;/strong&gt;: pasiva que otorga una probabilidad de que &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259387/mordisco-de-mangosta&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; lance una bola ártica, inflige daño de escarcha y rebota entre los objetivos.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=375891/chakram-de-muerte&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; &lt;strong&gt;(nodo de elección)&lt;/strong&gt;: habilidad que golpea siete veces a un objetivo y en AoE rebotará hasta siete veces también si hay objetivos cercanos, por cada rebote regenera un poco de enfoque y aumenta su propio daño. Además el objetivo recibirá un 10% de daño extra en conjunto.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=212431/disparo-explosivo&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; &lt;strong&gt;(nodo de elección)&lt;/strong&gt;: habilidad que disparas a un objetivo. Tras unos segundos explota y hace daño de fuego en área a todos los objetivos cercanos, incluso si el objetivo muere antes el cadáver explotará.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;/table&gt; 
+  &lt;table class=&quot;table&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr class=&quot;tr_title_bl&quot;&gt;
+      &lt;td colspan=&quot;2&quot;&gt;&lt;strong&gt;Rama de la especialización de supervivencia&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=186270/golpe-de-raptor&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: corte que inflige daño físico, una de nuestras habilidades principales para gastar enfoque en ST que posteriormente modificaremos en el árbol de talentos para obtener &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259387/mordisco-de-mangosta&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259495/bomba-de-fuego-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: habilidad que lanza una bomba a un objetivo. Al golpear explota en forma de cono dañando al objetivo y todo lo que esté cerca de él, también aplica un DoT. Es otra de nuestras habilidades principales que posteriormente modificaremos en el árbol de talentos para obtener &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=271014/infusión-de-fuego-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=260285/punta-de-la-lanza&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; &lt;strong&gt;(2 puntos)&lt;/strong&gt;: pasiva que otorga que nuestro siguiente &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259387/mordisco-de-mangosta&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; tras utilizar &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259489/matar&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; aumente su daño, se puede stackear hasta tres veces.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=378916/ferocidad&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: pasiva que aumenta el daño de nuestra mascota.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=190925/arpón&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: habilidad que nos lanza contra el objetivo y lo deja rooteado en el sitio.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=265895/normas-de-intervención&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: esta pasiva es una maravilla, modifica &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=190925/arpón&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; para que genere enfoque, reduzca su tiempo de reutilización y cada vez que eliminamos a un objetivo se reinicia. Obtenemos más movilidad entre pulls e incluso en mundo abierto para farmear es una pasada, te conviertes en un saltimbanqui.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=260248/buscasangre&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: pasiva que aplica un sangrado en el tiempo al objetivo tras utilizar &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259489/matar&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;. Por cada objetivo cerca que tenga un sangrado, incluidos los que generan nuestros aliados con sus habilidades, ganamos un 10% de velocidad de ataque con los golpes automáticos.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=186289/aspecto-del-águila&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: habilidad que permite utilizar a distancia &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259387/mordisco-de-mangosta&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;. En M+ me parece imprescindible sobre todo para afrontar algunas mecánicas de varios bosses en las cuales no puedes estar cuerpo a cuerpo.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=264332/tácticas-de-guerrilla&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: pasiva que otorga una carga más a &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259495/bomba-de-fuego-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; y la explosión inicial aumenta su daño.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=212436/carnicería&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; &lt;strong&gt;(nodo de elección)&lt;/strong&gt;: daño físico en área, tiene tres cargas. En esta expansión tiene más sinegia con el resto de habilidades que &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=187708/trinchar&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259387/mordisco-de-mangosta&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: un ataque brutal que inflige puntos de daño físico y te otorga &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259388/furia-de-mangosta&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;. Aumenta el daño de mordisco de mangosta un 15% durante 14 segundos. Se acumula hasta 5 veces. Los ataques sucesivos no aumentan la duración. Esta &lt;strong&gt;habilidad&lt;/strong&gt; viene genial en &lt;strong&gt;semanas de Tiránico&lt;/strong&gt;, además cuanto más avance la expansión y consigamos &lt;strong&gt;haste (celeridad)&lt;/strong&gt; será más poderoso.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=321290/bomba-de-fuego-salvaje-mejorada&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; &lt;strong&gt;(2 puntos)&lt;/strong&gt;: pasiva para aumentar el daño de nuestras bombas y sus modificadores por talento.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=385709/enfoque-intenso&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259489/matar&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; otorga un poco más de enfoque con esta pasiva.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=294029/frenesí-de-golpes&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: pasiva que modifica &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=212436/carnicería&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;, reduce el tiempo de reutilización de &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259495/bomba-de-fuego-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; en un segundo por cada enemigo golpeado, hasta un máximo de 5 objetivos.&lt;/td&gt;
+    &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=268501/veneno-de-víbora&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: pasiva que nos otorga una probabilidad de aplicar &lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=259491/picadura-de-serpiente&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; al objetivo utilizando &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259387/mordisco-de-mangosta&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=378948/filos-rebanadores&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; &lt;strong&gt;(2 puntos)&lt;/strong&gt;: pasiva que aumenta el daño crítico.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=271014/infusión-de-fuego-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: altera &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259495/bomba-de-fuego-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; con componentes extras que le otorgan al azar una de las siguientes mejoras cada vez que lanzamos una de estas bombas:
+        &lt;table&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;&lt;td style=&quot;border:none;&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=270335/bomba-de-metralla&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: los objetivos se ven atravesados por metralla, lo que provoca que &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259387/mordisco-de-mangosta&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; y &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=212436/carnicería&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; apliquen un sangrado durante nueve segundos que se stackea hasta tres veces. Para stackear el máximo tenemos una ventana de tiempo para aplicarlo de seis segundos.&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;border:none;&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=270323/bomba-de-feromonas&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259489/matar&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; tiene un 100% de probabilidad de reiniciarse contra objetivos cubiertos de feromonas.&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;border:none;&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=271045/bomba-volátil&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: aplica sobre el objetivo/objetivos &lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=259491/picadura-de-serpiente&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;, en caso de explotar contra objetivos ya afectados por &lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=259491/picadura-de-serpiente&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; reiniciará la duración del DoT y recibirán un poco más de daño.&lt;/td&gt;&lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=360952/ataque-coordinado&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: cd ofensivo principal, cargas contra el objetivo infligiendo daño físico y potenciando los ataques básicos de nuestra mascota provocando que la explosión inicial de &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259495/bomba-de-fuego-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; sea más poderosa y aplique un DoT a los objetivos afectados por &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=53351/disparo-mortal&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;. También se activan los talentos &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=385739/muerte-coordinada&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; y &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=260331/aves-de-presa&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=203415/furia-del-águila&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: habilidad de artefacto de la expansión de Legion, activa que inflige daño en ráfagas y de frente. Se puede utilizar en movimiento, los reinicios de &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259489/matar&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; reducen el tiempo de reutilización de esta habilidad.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=385695/forestal&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; &lt;strong&gt;(2 puntos)&lt;/strong&gt;: pasiva que aumenta el daño de &lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=259491/picadura-de-serpiente&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=53351/disparo-mortal&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; y &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=212431/disparo-explosivo&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=385739/muerte-coordinada&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: mientras &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=360952/ataque-coordinado&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; está activo se reduce el tiempo de reutilización de &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259495/bomba-de-fuego-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; y &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=53351/disparo-mortal&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; puede utilizarse en cualquier objetivo, independientemente de su salud.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=385718/maleante-implacable&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; &lt;strong&gt;(2 puntos)&lt;/strong&gt;: pasiva que aumenta el golpe crítico de &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=203415/furia-del-águila&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; contra objetivos dependiendo del % de vida. Los golpes críticos reducen el tiempo de reutilización de &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259495/bomba-de-fuego-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=260331/aves-de-presa&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; &lt;strong&gt;(nodo de elección)&lt;/strong&gt;: &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=53351/disparo-mortal&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; se dispara contra tres objetivos adicionales más mientras &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=360952/ataque-coordinado&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; está activo.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;/table&gt; 
+&lt;hr /&gt;
+&lt;!--
+//////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
+--&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;i class=&quot;fa fa-gamepad&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Tier Set bonus - Temporada 1&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;div class=&quot;panel panel-default&quot;&gt;
+  &lt;p&gt;En esta primera temporada de Dragonflight los &lt;strong&gt;Tier Set&lt;/strong&gt; son bastantes &lt;strong&gt;simples&lt;/strong&gt; debido al &lt;strong&gt;nuevo sistema de talentos&lt;/strong&gt; que ha llegado con esta expansión, en nuestro caso estos giran en torno al incremento de daño en encuentros de un solo objetivo básicamente (&lt;strong&gt;&lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=259387/mordisco-de-mangosta&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;&lt;/strong&gt;) y muy ligeramente en AoE (&lt;strong&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=212436/carnicería&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;&lt;/strong&gt;).&lt;/p&gt;
+  &lt;div class=&quot;panel-body&quot;&gt;
+    &lt;ul class=&quot;list-group&quot; style=&quot;font-size: 15px;&quot;&gt;
+      &lt;li class=&quot;list-group-item&quot;&gt;&lt;strong&gt;Conjunto de 2 piezas: &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=393650/conjunto-de-clase-de-cazador-supervivencia-2-piezas&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;.&lt;/strong&gt;&lt;/li&gt;
+      &lt;li class=&quot;list-group-item&quot;&gt;&lt;strong&gt;Conjunto de 4 piezas: &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=393652/conjunto-de-clase-de-cazador-supervivencia-4-piezas&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;.&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;!--
+//////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
+--&gt;
+&lt;h2 class=&quot;&quot;&gt;&lt;i class=&quot;fa fa-gamepad&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Rotación de habilidades&lt;/h2&gt;
+&lt;hr /&gt;
+  &lt;p&gt;Llegamos a un apartado clave. Utilizar bien tus habilidades y facultades, e identificar las sinergias entre las mismas, es clave para convertirte en un buen jugador a la hora de afrontar cualquier contenido que realices en el juego. Evidentemente no siempre se puede hacer la rotación perfecta ya que depende mucho de los factores y entornos que te rodean, en muchas ocasiones tendrás que cortar habilidades de los objetivos o lidiar con los afijos provocando que se rompa la cadena de rotación o prioridades que tenías en mente planeada.&lt;/p&gt;
+  &lt;div class=&quot;panel panel-default&quot;&gt;
+    &lt;div class=&quot;panel-heading&quot;&gt;
+      &lt;h3 class=&quot;panel-title&quot;&gt;&lt;span&gt;Opener (Apertura) ST - Un solo objetivo (Boss)&lt;/span&gt;&lt;/h3&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;panel-body&quot;&gt;
+      &lt;ol&gt;
+        &lt;li&gt;Utilizar &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=34477/redirección&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; en el tanque antes de comenzar el encuentro.&lt;/li&gt;
+        &lt;li&gt;Usar &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/item=191383/poción-elemental-de-poder-definitivo&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; (si tienes poción disponible).&lt;/li&gt;
+        &lt;li&gt;Usar &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=190925/arpón&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; para aplicar &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=265895/normas-de-intervención&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;.&lt;/li&gt;
+        &lt;li&gt;Aplicar &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=375891/chakram-de-muerte&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;.&lt;/li&gt;
+        &lt;li&gt;Activar &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=360952/ataque-coordinado&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;.&lt;/li&gt;
+        &lt;li&gt;Aplicar &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=53351/disparo-mortal&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;, disponible gracias al talento &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=385739/muerte-coordinada&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;.&lt;/li&gt;
+        &lt;li&gt;Aplicar un &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259387/mordisco-de-mangosta&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; para empezar a stackear &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259388/furia-de-mangosta&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; y activar &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=268501/veneno-de-víbora&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; cuanto antes.&lt;/li&gt;
+        &lt;li&gt;Aplicar &lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=259489/matar&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;, para activar el talento &lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=260248/buscasangre&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; en el objetivo.&lt;/li&gt;
+        &lt;li&gt;Usar &lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=259495/bomba-de-fuego-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; (talento &lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=271014/infusión-de-fuego-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;):
+          &lt;ul&gt;
+            &lt;li&gt;Si es &lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=270335/bomba-de-metralla&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: aplicaremos tres golpes de &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259387/mordisco-de-mangosta&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; consecutivos para stackear el sangrado (&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=270343/hemorragia-interna&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;) al máximo, se acumula hasta tres veces durante nueve segundos pero solamente tenemos una ventana de seis segundos para stackear el máximo.
+            &lt;/li&gt;
+            &lt;li&gt;Si es &lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=270323/bomba-de-feromonas&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: gastar todo el enfoque disponible aplicando &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259387/mordisco-de-mangosta&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;, seguidamente aplicamos tres veces consecutivamente &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259489/matar&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; para activar &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=260285/punta-de-la-lanza&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; y así aplicarlo en el siguiente &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259387/mordisco-de-mangosta&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;.
+            &lt;/li&gt;
+            &lt;li&gt;Si es &lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=271045/bomba-volátil&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: esperaremos a que al DoT de la &lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=259491/picadura-de-serpiente&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; termine o falten menos de tres segundos, si está activo gracias a &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=268501/veneno-de-víbora&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;. A partir de esta ventana de tiempo usaremos esta bomba y obtendremos una explosión extra, también se reinicia el DoT de la &lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=259491/picadura-de-serpiente&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; automáticamente, &lt;strong&gt;en caso de no estar activo usar la bomba directamente para activar el DoT&lt;/strong&gt;.
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;Continuar con la prioridad de habilidades detallada a continuación, si durante el opener salta el proc de la bonificación del &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=393652/conjunto-de-clase-de-cazador-supervivencia-4-piezas&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; no dudes en utilizarlo.&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;panel panel-default&quot;&gt;
+    &lt;div class=&quot;panel-heading&quot;&gt;
+      &lt;h3 class=&quot;panel-title&quot;&gt;&lt;span&gt;Prioridad de habilidades ST - Un solo objetivo (Boss)&lt;/span&gt;&lt;/h3&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;panel-body&quot;&gt;
+      &lt;ol&gt;
+        &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=360952/ataque-coordinado&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: cuando se encuentre disponible.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=375891/chakram-de-muerte&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: cuando se encuentre disponible para obtener ese 10% extra de daño conjunto y recuperar enfoque.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=320976/disparo-mortal&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; cuando esté disponible: durante &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=385739/muerte-coordinada&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; o cuando el objetivo se encuentre por debajo del 20% de vida.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=259387/mordisco-de-mangosta&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; si salta el proc de la bonificación del &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=393652/conjunto-de-clase-de-cazador-supervivencia-4-piezas&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; para stackear &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259388/furia-de-mangosta&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; al máximo cuanto antes.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=259387/mordisco-de-mangosta&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: para gastar enfoque y stackear &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=259388/furia-de-mangosta&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; al máximo cuanto antes.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=259489/matar&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: para generar enfoque.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=259495/bomba-de-fuego-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; (talento &lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=271014/infusión-de-fuego-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;): Ten en cuenta que tipo de bomba es para establecer qué acciones prioritarias debes realizar.&lt;/li&gt;
+        &lt;li&gt;[&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=203415/furia-del-águila&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; / &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=212431/disparo-explosivo&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;] si no tenemos nada disponible: falta enfoque o el resto de habilidades se encuentran en tiempo de reutilización.&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;panel panel-default&quot;&gt;
+    &lt;div class=&quot;panel-heading&quot;&gt;
+      &lt;h3 class=&quot;panel-title&quot;&gt;&lt;span&gt;Opener (Apertura) M+ y AoE&lt;/span&gt;&lt;/h3&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;panel-body&quot;&gt;
+      &lt;ol&gt;
+        &lt;li&gt;Utilizar &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=34477/redirección&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; en el tanque antes de comenzar el pull de los packs.&lt;/li&gt;
+        &lt;li&gt;Usar &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=190925/arpón&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; para aplicar &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=265895/normas-de-intervención&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;.&lt;/li&gt;
+        &lt;li&gt;Utilizar &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=212431/disparo-explosivo&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;.&lt;/li&gt;
+        &lt;li&gt;Aplicar &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=375891/chakram-de-muerte&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;.&lt;/li&gt;
+        &lt;li&gt;Activar &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=360952/ataque-coordinado&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: se acciona automáticamente &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=385739/muerte-coordinada&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;.&lt;/li&gt;
+        &lt;li&gt;Aplicar &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=53351/disparo-mortal&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;, disponible gracias al talento &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=385739/muerte-coordinada&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; y se activa también &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=260331/aves-de-presa&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;.&lt;/li&gt;
+        &lt;li&gt;Usar &lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=259495/bomba-de-fuego-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; (talento &lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=271014/infusión-de-fuego-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;).&lt;/li&gt;
+        &lt;li&gt;Aplicar &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=212436/carnicería&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;.&lt;/li&gt;
+        &lt;li&gt;Alternar entre &lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=259495/bomba-de-fuego-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; (talento &lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=271014/infusión-de-fuego-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;) y &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=212436/carnicería&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;, independientemente del tipo de bomba.&lt;/li&gt;
+        &lt;li&gt;Utilizar &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=203415/furia-del-águila&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; para activar automáticamente &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=385718/maleante-implacable&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;.&lt;/li&gt;
+        &lt;li&gt;Aplicar &lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=259489/matar&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; para recuperar enfoque si fuera necesario.&lt;/li&gt;
+        &lt;li&gt;Continuar con la prioridad de habilidades detallada a continuación, si durante el opener salta el proc de la bonificación del &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=393652/conjunto-de-clase-de-cazador-supervivencia-4-piezas&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; no dudes en utilizarlo.&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;panel panel-default&quot;&gt;
+    &lt;div class=&quot;panel-heading&quot;&gt;
+      &lt;h3 class=&quot;panel-title&quot;&gt;&lt;span&gt;Prioridad de habilidades M+ y AoE&lt;/span&gt;&lt;/h3&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;panel-body&quot;&gt;
+      &lt;ol&gt;
+        &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=360952/ataque-coordinado&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: cuando se encuentre disponible o en packs específicos.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=320976/disparo-mortal&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: solamente durante &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=385739/muerte-coordinada&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; y &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=260331/aves-de-presa&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=259495/bomba-de-fuego-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; (talento &lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=271014/infusión-de-fuego-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;) independientemente del tipo de bomba.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=212436/carnicería&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; (tres cargas): para reducir el tiempo de reutilización de &lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=259495/bomba-de-fuego-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; con &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=294029/frenesí-de-golpes&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;. Si salta el proc de la bonificación del &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=393652/conjunto-de-clase-de-cazador-supervivencia-4-piezas&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; no dudes en utilizarlo.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=212431/disparo-explosivo&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: cuando se encuentre disponible y las anteriores habilidades estén en tiempo de reutilización o sin cargas.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=375891/chakram-de-muerte&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: cuando se encuentre disponible y las anteriores habilidades estén en tiempo de reutilización o sin cargas.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=203415/furia-del-águila&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: cuando se encuentre disponible y las anteriores habilidades estén en tiempo de reutilización o sin cargas, sobre todo para activar &lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/spell=385718/maleante-implacable&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; y reducir el tiempo de reutilización de las bombas.&lt;/li&gt;
+        &lt;li&gt;Alternar entre &lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=259489/matar&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt; y &lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=259387/mordisco-de-mangosta&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;: para generar enfoque y gastarlo en los mobs u objetivos que puedas mientras que el resto de habilidades están en tiempo de reutilización.&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;hr /&gt;
+&lt;!--
+//////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
+--&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;i class=&quot;fa fa-gamepad&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Consumibles&lt;/h2&gt;
+&lt;hr /&gt;
+  &lt;p&gt;Los consumibles son una parte vital a la hora de hacer contenido &lt;strong&gt;high-end&lt;/strong&gt;, como este caso lo son las &lt;strong&gt;M+&lt;/strong&gt;, permite que los jugadores puedan personalizar estadísticas fuera de los que es el equipo. Las opciones viables para el &lt;strong&gt;cazador supervivencia&lt;/strong&gt; son las siguientes:&lt;/p&gt;
+  &lt;table class=&quot;table&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr class=&quot;tr_title_center&quot;&gt;
+      &lt;td colspan=&quot;2&quot;&gt;&lt;strong&gt;¡Gemas, encantamientos, mejoras y comida!&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;td_caption_center&quot;&gt;&lt;strong&gt;Tipo&lt;/strong&gt;&lt;/td&gt;
+      &lt;td class=&quot;td_caption_center&quot;&gt;&lt;strong&gt;Nombre&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+      &lt;tr&gt;
+      &lt;td class=&quot;td_caption_center&quot;&gt;Gema&lt;/td&gt;
+      &lt;td class=&quot;td_caption_center&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/item=192945/ysmeralda-artesanal&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+      &lt;td class=&quot;td_caption_center&quot;&gt;Gema Primalista&lt;/td&gt;
+      &lt;td class=&quot;td_caption_center&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/item=192985/diamante-ilimitado-fiero&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td class=&quot;td_caption_center&quot;&gt;Frasco / Poción / Ampolla&lt;/td&gt;
+        &lt;td class=&quot;td_caption_center&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/item=191335/ampolla-de-furia-glacial&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td class=&quot;td_caption_center&quot;&gt;Frasco / Poción / Ampolla&lt;/td&gt;
+        &lt;td class=&quot;td_caption_center&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/item=191383/poción-elemental-de-poder-definitivo&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td class=&quot;td_caption_center&quot;&gt;Encantamiento&lt;/td&gt;
+        &lt;td class=&quot;td_caption_center&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/item=200054/encantar-arma-devoción-sófica&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td class=&quot;td_caption_center&quot;&gt;Encantamiento&lt;/td&gt;
+        &lt;td class=&quot;td_caption_center&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/item=200030/encantar-torso-estadísticas-del-despertar&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td class=&quot;td_caption_center&quot;&gt;Encantamiento&lt;/td&gt;
+        &lt;td class=&quot;td_caption_center&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/item=200018/encantar-botas-brisa-de-correllanuras&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td class=&quot;td_caption_center&quot;&gt;Encantamiento&lt;/td&gt;
+        &lt;td class=&quot;td_caption_center&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/item=200038/encantar-anillo-devoción-de-celeridad&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td class=&quot;td_caption_center&quot;&gt;Encantamiento&lt;/td&gt;
+        &lt;td class=&quot;td_caption_center&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/item=200031/encantar-capa-evasión-grácil&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td class=&quot;td_caption_center&quot;&gt;Encantamiento&lt;/td&gt;
+        &lt;td class=&quot;td_caption_center&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/item=200021/encantar-brazal-devoción-de-evasión&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td class=&quot;td_caption_center&quot;&gt;Mejora&lt;/td&gt;
+        &lt;td class=&quot;td_caption_center&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/item=191945/contrapeso-primigenio&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td class=&quot;td_caption_center&quot;&gt;Mejora&lt;/td&gt;
+        &lt;td class=&quot;td_caption_center&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/item=193565/refuerzo-para-armadura-feroz&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td class=&quot;td_caption_center&quot;&gt;Comida&lt;/td&gt;
+        &lt;td class=&quot;td_caption_center&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/item=197794/gran-banquete-de-los-kaluak&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td class=&quot;td_caption_center&quot;&gt;Comida&lt;/td&gt;
+        &lt;td class=&quot;td_caption_center&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wowhead.com/es/item=197792/galleta-de-la-fortuna-predestinada&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; target=&quot;_blank&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;hr /&gt;
+&lt;!--
+//////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
+--&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;&lt;i class=&quot;fa fa-gamepad&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Conclusión&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;p&gt;A día de hoy es de las especializaciones menos jugadas de &lt;strong&gt;World of Warcraft&lt;/strong&gt;, encontrarás dificultades a la hora de encontrar grupos para realizar piedras a partir de +22. Para conseguir el logro y la montura no tendrás problemas y podrás hacer todas las mazmorras en +20 mínimo, te recomiendo que la pruebes, es muy divertida y adictiva. Si has llegado hasta aquí muchas gracias por leer esta pequeña guía, deja un comentario si tienes alguna duda o bien deseas aportar algún dato adicional &lt;strong&gt;¡Lok'tar, camarada!&lt;/strong&gt;&lt;/p&gt;
+&lt;/p&gt;
+</description>
+        <pubDate>Mon, 13 Mar 2023 01:00:00 +0100</pubDate>
+        <link>http://192.168.1.132:80/guia-cazador-supervivencia-wow-es-dragonflight/</link>
+        <guid isPermaLink="true">http://192.168.1.132:80/guia-cazador-supervivencia-wow-es-dragonflight/</guid>
+        
+        <category>videojuegos</category>
+        
+        <category>r12leal</category>
+        
+        <category>geek</category>
+        
+        
+      </item>
     
       <item>
         <title>[Guía] Cazador Supervivencia para M+ | WoW Shadowlands +9.2.5</title>
-        <description>&lt;p&gt;&lt;img class=&quot;lazyload&quot; data-src=&quot;/img/post/post_guia_cs/cs_banner-min.jpg&quot; alt=&quot;[Guía] Cazador Supervivencia para Míticas Plus - WoW Shadowlands +9.2.5&quot; title=&quot;[Guía] Cazador Supervivencia para Míticas Plus - WoW Shadowlands +9.2.5&quot; /&gt;
+        <description>&lt;p&gt;&lt;img class=&quot;lazyload&quot; src=&quot;http://192.168.1.132/img/post/post_guia_cs/cs_banner-min.jpg&quot; alt=&quot;[Guía] Cazador Supervivencia para Míticas Plus - WoW Shadowlands +9.2.5&quot; title=&quot;[Guía] Cazador Supervivencia para Míticas Plus - WoW Shadowlands +9.2.5&quot; /&gt;
 &lt;!--
 //////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
 --&gt;&lt;/p&gt;
@@ -102,7 +731,7 @@
 &lt;hr /&gt;
 
 &lt;p&gt;Junto a la llegada del &lt;strong&gt;nuevo parche 9.2&lt;/strong&gt; da comienzo la tercera temporada de Shadowlands y con un nuevo afijo, su nombre: &lt;strong&gt;Encriptada&lt;/strong&gt;. Cada vez que cursemos una mazmorra, encontraremos que los grupos de enemigos o jefes de mazmorra poseen reliquias de los Primeros a su alrededor.&lt;/p&gt;
-&lt;p&gt;&lt;img class=&quot;lazyload&quot; data-src=&quot;/img/post/post_guia_cs/reliquias_primeros-min.jpeg&quot; alt=&quot;¡Reliquias de los Primeros en M+!&quot; title=&quot;¡Reliquias de los Primeros en M+!&quot; /&gt;&lt;span class=&quot;caption text-muted&quot;&gt;Reliquias de los Primeros en M+ | Imagen: altertime.es&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;lazyload&quot; src=&quot;http://192.168.1.132/img/post/post_guia_cs/reliquias_primeros-min.jpeg&quot; alt=&quot;¡Reliquias de los Primeros en M+!&quot; title=&quot;¡Reliquias de los Primeros en M+!&quot; /&gt;&lt;span class=&quot;caption text-muted&quot;&gt;Reliquias de los Primeros en M+ | Imagen: altertime.es&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;u&gt;&lt;strong&gt;Al acabar con la primera de ellas&lt;/strong&gt;&lt;/u&gt; invocará a un &lt;u&gt;&lt;strong&gt;automa específico&lt;/strong&gt;&lt;/u&gt; de los Primeros. Cada automa tiene unas habilidades únicas y representativas, al derrotarlas obtendremos beneficios muy poderosos para nuestro grupo de mazmorras. Las reliquias son las siguientes:&lt;/p&gt;
 &lt;table class=&quot;table&quot; style=&quot;border:2px solid #ddd;&quot;&gt;
   &lt;tbody&gt;
@@ -129,7 +758,7 @@
 &lt;hr /&gt;
 
 &lt;p&gt;La expansión  de &lt;strong&gt;Shadowlands&lt;/strong&gt; se puede dar por &lt;strong&gt;finiquitada&lt;/strong&gt; en este momento. Aún así tendremos &lt;strong&gt;temporada 4&lt;/strong&gt;, con el objetivo de que la espera hasta la llegada de la &lt;strong&gt;nueva expansión&lt;/strong&gt; de WoW, &lt;strong&gt;Dragonflight&lt;/strong&gt;, sea más amena tendremos nuevas características. Por primera vez entran en rotación &lt;strong&gt;mazmorras&lt;/strong&gt; de expansiones &lt;strong&gt;antiguas&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img class=&quot;lazyload&quot; data-src=&quot;/img/post/post_guia_cs/afijo_temp4-min.jpg&quot; alt=&quot;¡Afijo de la temporada 4!&quot; title=&quot;¡Afijo de la temporada 4!&quot; /&gt;&lt;span class=&quot;caption text-muted&quot;&gt;Afijo de la temporada 4 | Imagen: altertime.es&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;lazyload&quot; src=&quot;http://192.168.1.132/img/post/post_guia_cs/afijo_temp4-min.jpg&quot; alt=&quot;¡Afijo de la temporada 4!&quot; title=&quot;¡Afijo de la temporada 4!&quot; /&gt;&lt;span class=&quot;caption text-muted&quot;&gt;Afijo de la temporada 4 | Imagen: altertime.es&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;También tendremos disponible un &lt;strong&gt;nuevo afijo&lt;/strong&gt;, su nombre: &lt;strong&gt;Velada&lt;/strong&gt;. En cada mazmorra que cursemos encontraremos &lt;strong&gt;Nathrezim disfrazados&lt;/strong&gt; por toda la instancia, seremos recompensados por cada eliminación que hagamos. El beneficio de estadística &lt;strong&gt;se escoge al principio de la mazmorra&lt;/strong&gt; y son los siguientes:&lt;/p&gt;
 &lt;table class=&quot;table&quot; style=&quot;border:2px solid #ddd;&quot;&gt;
   &lt;tbody&gt;
@@ -198,23 +827,23 @@
       &lt;td colspan=&quot;2&quot;&gt;&lt;strong&gt;Buffos&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;vertical-align: middle;&quot;&gt;&lt;img src=&quot;/img/post/post_guia_cs/hunter.png&quot; alt=&quot;¡Survival Hunter!&quot; title=&quot;Survival Hunter&quot; style=&quot;border-radius:4px;border: none;&quot; /&gt;&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: middle;&quot;&gt;&lt;img src=&quot;http://192.168.1.132/img/post/post_guia_cs/hunter.png&quot; alt=&quot;¡Survival Hunter!&quot; title=&quot;Survival Hunter&quot; style=&quot;border-radius:4px;border: none;&quot; /&gt;&lt;/td&gt;
       &lt;td&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=259491/picadura-de-serpiente&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; style=&quot;text-decoration:none;&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;, &lt;a href=&quot;https://es.wowhead.com/spell=259495/bomba-de-fuego-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; style=&quot;text-decoration:none;&quot;&gt;[Cazador Supervivencia]&lt;/a&gt; y &lt;a href=&quot;https://es.wowhead.com/spell=320976/disparo-mortal&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; style=&quot;text-decoration:none;&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;: daño aumentado en un 10%.&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;vertical-align: middle;&quot;&gt;&lt;img src=&quot;/img/post/post_guia_cs/rs_sv.jpg&quot; alt=&quot;¡Golpe de Raptor!&quot; title=&quot;Golpe de Raptor&quot; style=&quot;border-radius:4px;border: solid 2px #333;&quot; /&gt;&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: middle;&quot;&gt;&lt;img src=&quot;http://192.168.1.132/img/post/post_guia_cs/rs_sv.jpg&quot; alt=&quot;¡Golpe de Raptor!&quot; title=&quot;Golpe de Raptor&quot; style=&quot;border-radius:4px;border: solid 2px #333;&quot; /&gt;&lt;/td&gt;
       &lt;td&gt;&lt;p&gt;&lt;strong&gt;Golpe de Raptor: daño aumentado en un 15%.&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;vertical-align: middle;&quot;&gt;&lt;img src=&quot;//img/post/post_guia_cs/kc_sv.jpg&quot; alt=&quot;¡Matar!&quot; title=&quot;Matar&quot; style=&quot;border-radius:4px;border: solid 2px #333;&quot; /&gt;&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: middle;&quot;&gt;&lt;img src=&quot;http://192.168.1.132//img/post/post_guia_cs/kc_sv.jpg&quot; alt=&quot;¡Matar!&quot; title=&quot;Matar&quot; style=&quot;border-radius:4px;border: solid 2px #333;&quot; /&gt;&lt;/td&gt;
       &lt;td&gt;&lt;p&gt;&lt;strong&gt;Matar: daño aumentado en un 15%.&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;vertical-align: middle;&quot;&gt;&lt;img src=&quot;/img/post/post_guia_cs/mb_sv.jpg&quot; alt=&quot;¡Furia de Mangosta!&quot; title=&quot;Furia de Mangosta&quot; style=&quot;border-radius:4px;border: solid 2px #333;&quot; /&gt;&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: middle;&quot;&gt;&lt;img src=&quot;http://192.168.1.132/img/post/post_guia_cs/mb_sv.jpg&quot; alt=&quot;¡Furia de Mangosta!&quot; title=&quot;Furia de Mangosta&quot; style=&quot;border-radius:4px;border: solid 2px #333;&quot; /&gt;&lt;/td&gt;
       &lt;td&gt;&lt;p&gt;&lt;strong&gt;Furia de Mangosta (Talento): daño aumentado en un 15%.&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;vertical-align: middle;&quot;&gt;&lt;img src=&quot;/img/post/post_guia_cs/gf_sv.jpg&quot; alt=&quot;¡Golpe de Flanco!&quot; title=&quot;Golpe de Franco&quot; style=&quot;border-radius:4px;border: solid 2px #333;&quot; /&gt;&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: middle;&quot;&gt;&lt;img src=&quot;http://192.168.1.132/img/post/post_guia_cs/gf_sv.jpg&quot; alt=&quot;¡Golpe de Flanco!&quot; title=&quot;Golpe de Franco&quot; style=&quot;border-radius:4px;border: solid 2px #333;&quot; /&gt;&lt;/td&gt;
       &lt;td&gt;&lt;p&gt;&lt;strong&gt;Golpe de Flanco (Talento): daño aumentado en un 15%.&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
@@ -233,11 +862,11 @@
       &lt;td colspan=&quot;2&quot;&gt;&lt;strong&gt;Buffos&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;vertical-align: middle;&quot;&gt;&lt;img src=&quot;/img/post/post_guia_cs/hunter.png&quot; alt=&quot;¡Survival Hunter!&quot; title=&quot;Survival Hunter&quot; style=&quot;border-radius:4px;border: none;&quot; /&gt;&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: middle;&quot;&gt;&lt;img src=&quot;http://192.168.1.132/img/post/post_guia_cs/hunter.png&quot; alt=&quot;¡Survival Hunter!&quot; title=&quot;Survival Hunter&quot; style=&quot;border-radius:4px;border: none;&quot; /&gt;&lt;/td&gt;
       &lt;td&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=187708/trinchar&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; style=&quot;text-decoration:none;&quot;&gt;[Cazador Supervivencia]&lt;/a&gt; y &lt;a href=&quot;https://es.wowhead.com/spell=212436/carnicería&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; style=&quot;text-decoration:none;&quot;&gt;[Cazador Supervivencia]&lt;/a&gt; (talento) ya no tienen un límite máximo de objetivos y ahora infligen menos daño a partir del quinto objetivo.&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;vertical-align: middle;&quot;&gt;&lt;img src=&quot;/img/post/post_guia_cs/hunter.png&quot; alt=&quot;¡Survival Hunter!&quot; title=&quot;Survival Hunter&quot; style=&quot;border-radius:4px;border: none;&quot; /&gt;&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: middle;&quot;&gt;&lt;img src=&quot;http://192.168.1.132/img/post/post_guia_cs/hunter.png&quot; alt=&quot;¡Survival Hunter!&quot; title=&quot;Survival Hunter&quot; style=&quot;border-radius:4px;border: none;&quot; /&gt;&lt;/td&gt;
       &lt;td&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=982/revivir-mascota&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; style=&quot;text-decoration:none;&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;: el tiempo de lanzamiento de la habilidad se reduce de 4 a 3 segundos.&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
@@ -257,7 +886,7 @@
       &lt;td colspan=&quot;2&quot;&gt;&lt;strong&gt;Buffos&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;vertical-align: middle;&quot;&gt;&lt;img src=&quot;/img/post/post_guia_cs/hunter.png&quot; alt=&quot;¡Survival Hunter!&quot; title=&quot;Survival Hunter&quot; style=&quot;border-radius:4px;border: none;&quot; /&gt;&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: middle;&quot;&gt;&lt;img src=&quot;http://192.168.1.132/img/post/post_guia_cs/hunter.png&quot; alt=&quot;¡Survival Hunter!&quot; title=&quot;Survival Hunter&quot; style=&quot;border-radius:4px;border: none;&quot; /&gt;&lt;/td&gt;
       &lt;td&gt;&lt;p&gt;&lt;strong&gt;
       &lt;a href=&quot;https://es.wowhead.com/spell=186270/golpe-de-raptor&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; style=&quot;text-decoration:none;&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;,
       &lt;a href=&quot;https://es.wowhead.com/spell=190928/mordisco-de-mangosta&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; style=&quot;text-decoration:none;&quot;&gt;[Cazador Supervivencia]&lt;/a&gt; y
@@ -265,11 +894,11 @@
       &lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;vertical-align: middle;&quot;&gt;&lt;img src=&quot;/img/post/post_guia_cs/hunter.png&quot; alt=&quot;¡Survival Hunter!&quot; title=&quot;Survival Hunter&quot; style=&quot;border-radius:4px;border: none;&quot; /&gt;&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: middle;&quot;&gt;&lt;img src=&quot;http://192.168.1.132/img/post/post_guia_cs/hunter.png&quot; alt=&quot;¡Survival Hunter!&quot; title=&quot;Survival Hunter&quot; style=&quot;border-radius:4px;border: none;&quot; /&gt;&lt;/td&gt;
       &lt;td&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://es.wowhead.com/spell=363667/bombardero-loco&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; style=&quot;text-decoration:none;&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;: se reduce un 10%, tanto para la bonificación de dos piezas (de 30% a 20%) como para la de cuatro piezas (de 80% a 70%).&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;vertical-align: middle;&quot;&gt;&lt;img src=&quot;/img/post/post_guia_cs/hunter.png&quot; alt=&quot;¡Survival Hunter!&quot; title=&quot;Survival Hunter&quot; style=&quot;border-radius:4px;border: none;&quot; /&gt;&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: middle;&quot;&gt;&lt;img src=&quot;http://192.168.1.132/img/post/post_guia_cs/hunter.png&quot; alt=&quot;¡Survival Hunter!&quot; title=&quot;Survival Hunter&quot; style=&quot;border-radius:4px;border: none;&quot; /&gt;&lt;/td&gt;
       &lt;td&gt;&lt;p&gt;&lt;strong&gt;
       &lt;a href=&quot;https://es.wowhead.com/spell=259495/bomba-de-fuego-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; style=&quot;text-decoration:none;&quot;&gt;[Cazador Supervivencia]&lt;/a&gt;,
       &lt;a href=&quot;https://es.wowhead.com/spell=271014/infusión-de-fuego-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot; style=&quot;text-decoration:none;&quot;&gt;[Cazador Supervivencia]&lt;/a&gt; y
@@ -439,7 +1068,7 @@
 &lt;h2 class=&quot;section-heading&quot;&gt;&lt;i class=&quot;fa fa-gamepad&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Talentos&lt;/h2&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img class=&quot;lazyload&quot; data-src=&quot;/img/post/post_guia_cs/Talentos_SV_91-min.jpg&quot; alt=&quot;¡Mejores talentos para el Cazador Supervivencia en M+!&quot; title=&quot;Mejores talentos para el Cazador Supervivencia en M+&quot; /&gt;&lt;span class=&quot;caption text-muted&quot;&gt;Talentos del cazador supervivencia para M+&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;lazyload&quot; src=&quot;http://192.168.1.132/img/post/post_guia_cs/Talentos_SV_91-min.jpg&quot; alt=&quot;¡Mejores talentos para el Cazador Supervivencia en M+!&quot; title=&quot;Mejores talentos para el Cazador Supervivencia en M+&quot; /&gt;&lt;span class=&quot;caption text-muted&quot;&gt;Talentos del cazador supervivencia para M+&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;list-group&quot;&gt;
     &lt;li class=&quot;list-group-item&quot;&gt;&lt;strong&gt;Nivel 15&lt;/strong&gt;, &lt;strong&gt;depredador alfa&lt;/strong&gt;: &lt;a href=&quot;https://es.wowhead.com/spell=259489/matar&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot;&gt;[Cazador Supervivencia]&lt;/a&gt; ahora tiene 2 cargas e inflige un 30% más de daño. Única opción viable para &lt;strong&gt;M+&lt;/strong&gt;, &lt;strong&gt;Veneno de víbora&lt;/strong&gt; es un buen talento para encuentros con un solo objetivo, como puede ser en &lt;strong&gt;banda&lt;/strong&gt;.&lt;/li&gt;
     &lt;li class=&quot;list-group-item&quot;&gt;&lt;strong&gt;Nivel 25&lt;/strong&gt;, &lt;strong&gt;tácticas de guerrilla&lt;/strong&gt;: &lt;a href=&quot;https://es.wowhead.com/spell=259495/bomba-de-fuego-salvaje&quot; class=&quot;q3&quot; data-wowhead=&quot;gems=23121&amp;amp;ench=2647&amp;amp;pcs=25695:25696:25697&quot;&gt;[Cazador Supervivencia]&lt;/a&gt; ahora tiene 2 cargas y la explosión inicial inflige un 100% más de daño. &lt;/li&gt;
@@ -593,7 +1222,7 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;strong&gt;La elección de habilidades y conductos del nexo de almas&lt;/strong&gt; dependen en gran medida de tu &lt;strong&gt;“playstyle”&lt;/strong&gt; o &lt;strong&gt;forma de jugar&lt;/strong&gt;, te dejo a continuación cual es la mejor combinación bajo mi punto de vista:&lt;/p&gt;
-&lt;p&gt;&lt;img class=&quot;lazyload&quot; data-src=&quot;/img/post/post_guia_cs/nexo_alma_mikanikos_SV_kyrian-min.png&quot; alt=&quot;¡Nexo de Alma - Forjador supremo Mikanikos!&quot; title=&quot;Nexo de Alma - Forjador supremo Mikanikos&quot; /&gt;&lt;span class=&quot;caption text-muted&quot;&gt;¡El mejor nexo de alma para el cazador supervivencia!&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;lazyload&quot; src=&quot;http://192.168.1.132/img/post/post_guia_cs/nexo_alma_mikanikos_SV_kyrian-min.png&quot; alt=&quot;¡Nexo de Alma - Forjador supremo Mikanikos!&quot; title=&quot;Nexo de Alma - Forjador supremo Mikanikos&quot; /&gt;&lt;span class=&quot;caption text-muted&quot;&gt;¡El mejor nexo de alma para el cazador supervivencia!&lt;/span&gt;&lt;/p&gt;
 &lt;table class=&quot;table&quot; style=&quot;border:2px solid #ddd;&quot;&gt;
 &lt;tbody&gt;
   &lt;tr style=&quot;background-color:#F5F5F5;&quot;&gt;
@@ -727,8 +1356,8 @@
 &lt;p&gt;A día de hoy es de las especializaciones más jugadas de &lt;strong&gt;World of Warcraft&lt;/strong&gt;, no encontrarás dificultades a la hora de encontrar grupos para realizar piedras a partir de +20. Para conseguir el logro y la montura no tendrás problemas y podrás hacer todas las mazmorras en +15, te recomiendo que la pruebes, es muy divertida y adictiva. Si has llegado hasta aquí muchas gracias por leer esta pequeña guía, deja un comentario si tienes alguna duda o bien deseas aportar algún dato adicional &lt;strong&gt;¡Lok'tar, camarada‏!&lt;/strong&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 11 Nov 2021 01:00:00 +0100</pubDate>
-        <link>/guia-cazador-supervivencia-wow-es/</link>
-        <guid isPermaLink="true">/guia-cazador-supervivencia-wow-es/</guid>
+        <link>http://192.168.1.132:80/guia-cazador-supervivencia-wow-es/</link>
+        <guid isPermaLink="true">http://192.168.1.132:80/guia-cazador-supervivencia-wow-es/</guid>
         
         <category>videojuegos</category>
         
@@ -757,8 +1386,8 @@
 &lt;p&gt;¡Salu2!&lt;/p&gt;
 </description>
         <pubDate>Sat, 16 Feb 2019 13:00:00 +0100</pubDate>
-        <link>/todo-hosting/</link>
-        <guid isPermaLink="true">/todo-hosting/</guid>
+        <link>http://192.168.1.132:80/todo-hosting/</link>
+        <guid isPermaLink="true">http://192.168.1.132:80/todo-hosting/</guid>
         
         <category>r12leal</category>
         
@@ -787,8 +1416,8 @@
       &lt;/div&gt;
       &lt;div class=&quot;col-md-6&quot;&gt;
         &lt;p&gt;&lt;strong&gt;Canción: Fairy Tail - Main Theme&lt;/strong&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;audio src=&quot;/media/post_joves_qualificats/mobilitat_v2.mp3&quot; preload=&quot;auto&quot; controls=&quot;&quot; autoplay=&quot;&quot;&gt;¡Este navegador no soporta audio!&lt;/audio&gt;&lt;/p&gt;
-        &lt;p style=&quot;margin-top: -40px;&quot;&gt;&lt;video src=&quot;/media/post_joves_qualificats/mobilitat.mp4&quot; type=&quot;video/mp4&quot; autoplay=&quot;&quot; muted=&quot;&quot; width=&quot;300&quot; height=&quot;230&quot;&gt;¡Este navegador no soporta vídeo!&lt;/video&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;audio src=&quot;http://192.168.1.132/media/post_joves_qualificats/mobilitat_v2.mp3&quot; preload=&quot;auto&quot; controls=&quot;&quot; autoplay=&quot;&quot;&gt;¡Este navegador no soporta audio!&lt;/audio&gt;&lt;/p&gt;
+        &lt;p style=&quot;margin-top: -40px;&quot;&gt;&lt;video src=&quot;http://192.168.1.132/media/post_joves_qualificats/mobilitat.mp4&quot; type=&quot;video/mp4&quot; autoplay=&quot;&quot; muted=&quot;&quot; width=&quot;300&quot; height=&quot;230&quot;&gt;¡Este navegador no soporta vídeo!&lt;/video&gt;&lt;/p&gt;
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
@@ -818,7 +1447,7 @@
 &lt;/ul&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img style=&quot;border: 1px solid #222&quot; src=&quot;/img/post/post_joves_qualificats/jq_fin.jpg&quot; /&gt;
+&lt;p&gt;&lt;img style=&quot;border: 1px solid #222&quot; src=&quot;http://192.168.1.132/img/post/post_joves_qualificats/jq_fin.jpg&quot; /&gt;
 &lt;span class=&quot;caption text-muted&quot;&gt;¡Foto de familia en la despedida de Joves Qualificats en Palma Activa JAJAJAJAJAJA!&lt;/span&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
@@ -827,8 +1456,8 @@
 &lt;p&gt;&lt;strong&gt;Ramsés Leal (El Faraón xDD)&lt;/strong&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 28 Nov 2017 13:00:00 +0100</pubDate>
-        <link>/final-joves-qualificats/</link>
-        <guid isPermaLink="true">/final-joves-qualificats/</guid>
+        <link>http://192.168.1.132:80/final-joves-qualificats/</link>
+        <guid isPermaLink="true">http://192.168.1.132:80/final-joves-qualificats/</guid>
         
         <category>r12leal</category>
         
@@ -962,8 +1591,8 @@ Como ves las posibilidades son infinitas y puedes crear un script adecuado a tus
 &lt;p&gt;¡Te animo a probar y crear los tuyos!&lt;/p&gt;
 </description>
         <pubDate>Sun, 15 Jan 2017 13:00:00 +0100</pubDate>
-        <link>/script-bash-install-ubuntu/</link>
-        <guid isPermaLink="true">/script-bash-install-ubuntu/</guid>
+        <link>http://192.168.1.132:80/script-bash-install-ubuntu/</link>
+        <guid isPermaLink="true">http://192.168.1.132:80/script-bash-install-ubuntu/</guid>
         
         <category>informatica</category>
         
@@ -1008,8 +1637,8 @@ Como ves las posibilidades son infinitas y puedes crear un script adecuado a tus
   &lt;/ul&gt;
 </description>
         <pubDate>Mon, 22 Aug 2016 14:00:00 +0200</pubDate>
-        <link>/recursos-aprender-golang/</link>
-        <guid isPermaLink="true">/recursos-aprender-golang/</guid>
+        <link>http://192.168.1.132:80/recursos-aprender-golang/</link>
+        <guid isPermaLink="true">http://192.168.1.132:80/recursos-aprender-golang/</guid>
         
         <category>informatica</category>
         
@@ -1082,8 +1711,8 @@ $ sudo apt-get install golang&lt;/strong&gt;&lt;/pre&gt;
 &lt;p&gt;Go sigue en constante evolución y cada vez gana más adeptos. Si deseas aprender nuevos lenguajes de programación puedes optar por él. En el próximo post haremos una recopilación de distintos recursos (libros, webs, vídeos, etc...) para que os ayude a comenzar a experimentar con este lenguaje. Salu2!&lt;/p&gt;
 </description>
         <pubDate>Sat, 20 Feb 2016 13:00:00 +0100</pubDate>
-        <link>/golang-en-gnu-linux-ubuntu/</link>
-        <guid isPermaLink="true">/golang-en-gnu-linux-ubuntu/</guid>
+        <link>http://192.168.1.132:80/golang-en-gnu-linux-ubuntu/</link>
+        <guid isPermaLink="true">http://192.168.1.132:80/golang-en-gnu-linux-ubuntu/</guid>
         
         <category>informatica</category>
         
@@ -1142,8 +1771,8 @@ $ sudo apt-get install golang&lt;/strong&gt;&lt;/pre&gt;
 &lt;p&gt;#ForçaMallorca #ViscaElMallorca I LA SEVA GENT!!!!!!!&lt;/p&gt;
 </description>
         <pubDate>Fri, 15 Jan 2016 13:00:00 +0100</pubDate>
-        <link>/sarver-propietario-rcdmallorca/</link>
-        <guid isPermaLink="true">/sarver-propietario-rcdmallorca/</guid>
+        <link>http://192.168.1.132:80/sarver-propietario-rcdmallorca/</link>
+        <guid isPermaLink="true">http://192.168.1.132:80/sarver-propietario-rcdmallorca/</guid>
         
         <category>rcdmallorca</category>
         
@@ -1197,8 +1826,8 @@ gsettings set com.canonical.Unity.Lenses disabled-scopes &quot;['more_suggestion
 &lt;/p&gt;
 </description>
         <pubDate>Fri, 20 Nov 2015 13:00:00 +0100</pubDate>
-        <link>/desactivar-busquedas-comerciales-ubuntu/</link>
-        <guid isPermaLink="true">/desactivar-busquedas-comerciales-ubuntu/</guid>
+        <link>http://192.168.1.132:80/desactivar-busquedas-comerciales-ubuntu/</link>
+        <guid isPermaLink="true">http://192.168.1.132:80/desactivar-busquedas-comerciales-ubuntu/</guid>
         
         <category>informatica</category>
         
@@ -1333,58 +1962,12 @@ sudo make install
 &lt;p&gt;Fuentes:&lt;br /&gt;&lt;a href=&quot;http://www.ubuntu-guia.com/2014/04/instalar-dni-electronico-en-ubuntu.html&quot; title=&quot;DNIe en GNU/Linux Ubuntu&quot; target=&quot;_blank&quot;&gt;Ubuntu guia&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://lasindias.com/indianopedia/instalar-el-dni-e-en-ubuntu&quot; title=&quot;DNIe en GNU/Linux Ubuntu&quot; target=&quot;_blank&quot;&gt;El correo de las Indias&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 15 Oct 2015 14:00:00 +0200</pubDate>
-        <link>/dnie-ubuntu/</link>
-        <guid isPermaLink="true">/dnie-ubuntu/</guid>
+        <link>http://192.168.1.132:80/dnie-ubuntu/</link>
+        <guid isPermaLink="true">http://192.168.1.132:80/dnie-ubuntu/</guid>
         
         <category>informatica</category>
         
         <category>linux</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Mi Tablet: Asus MeMO Pad 7 ME176CX Blanca - Review</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Especificaciones&lt;/h2&gt;
-&lt;hr /&gt;
-
-&lt;ul class=&quot;ulposts&quot;&gt;
-  &lt;li&gt;&lt;strong&gt;Pantalla&lt;/strong&gt;:	7&quot; (17, 78 cm) Retroiluminación LED Ultra Wide-View IPS Glare Multitáctil (hasta 10 dedos) WXGA&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Procesador&lt;/strong&gt;:	Intel® Atom™ Z3745&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Número de núcleos&lt;/strong&gt;:	4&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Velocidad - Frecuencia&lt;/strong&gt;:	1,33 GHz&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;RAM&lt;/strong&gt;:	1 GB LPDDR3&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Tarjeta Gráfica&lt;/strong&gt;:	Intel® HD Graphics&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Conexiones&lt;/strong&gt;:	1 x Entrada/Salida línea audio (combo); 1 x Micro USB; 1 x Micrófono Intregado; WIFI Miracast™&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Conectividad&lt;/strong&gt;: Wireless	802.11 b/g/n / Bluetooth 4.0&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Dimensiones&lt;/strong&gt;:	113,7 x 189,3 x ~9,6 mm&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Peso&lt;/strong&gt;:	295 gramos&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Audio&lt;/strong&gt;:	Altavoces estéreo integrados, SonicMaster Technology, Audio CODEC (GOOGLE CTS)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Batería&lt;/strong&gt;: Autonomía	1 Celda / Hasta 10&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Sistema Operativo&lt;/strong&gt;:	Android™ 4.4 KitKat&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Opinión&lt;/h2&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;Testeando a fondo, próximamente...&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Conclusión&lt;/h2&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;Para iniciarse en el mundo de las tablets es una magnífica opción ya que sus prestaciones tienen una relación calidad-precio increíble, para presupuestos ajustados que buscan calidad. Salu2!&lt;/p&gt;
-</description>
-        <pubDate>Tue, 15 Sep 2015 14:00:00 +0200</pubDate>
-        <link>/asus-memo-pad-k013/</link>
-        <guid isPermaLink="true">/asus-memo-pad-k013/</guid>
-        
-        <category>informatica</category>
-        
-        <category>geek</category>
-        
-        <category>r12leal</category>
         
         
       </item>
