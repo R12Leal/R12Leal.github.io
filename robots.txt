@@ -1,0 +1,15 @@
+---
+# robotstxt.org/
+# The robots exclusion protocol
+# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
+layout: null
+disallows:
+  - "/v0.01/"
+  - "/v0.02/"
+  - "/cv/"
+  - "/cv/cv_RamsesLeal.pdf"
+---
+User-agent: *
+Disallow:{% for disallowed in page.disallows %}
+Disallow: {{ disallowed }}{% endfor %}
+Sitemap: {{ site.url }}/sitemap.xml
