@@ -269,7 +269,7 @@ rating: 4.5
 <div class="panel-heading">
       <h3 class="panel-title"><span>Configuración Comfy M+</span></h3>
     </div>
-<img class="lazyload" src="{{ "/img/post/post_guia_cs/talentos_cs.png" | absolute_url }}" alt="[Guía] Cazador Supervivencia para Míticas Plus -Talentos" title="[Guía] Cazador Supervivencia para Míticas Plus - Talentos" />
+<img class="lazyload" src="{{ "/img/post/post_guia_cs/talentos_cs-min.png" | absolute_url }}" alt="[Guía] Cazador Supervivencia para Míticas Plus -Talentos" title="[Guía] Cazador Supervivencia para Míticas Plus - Talentos" />
 <p></p>
 <table class="table">
   <tbody>
