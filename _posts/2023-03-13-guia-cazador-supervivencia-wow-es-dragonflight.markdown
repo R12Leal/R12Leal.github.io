@@ -14,7 +14,7 @@ comments: true
 published: true
 rating: 4.5
 ---
-<img class="lazyload" src="{{ "/img/post/post_guia_cs/cs_banner-min.jpg" | absolute_url }}" alt="[Guía] Cazador Supervivencia para Míticas Plus - WoW Dragonflight +10.0.7" title="[Guía] Cazador Supervivencia para Míticas Plus - WoW Dragonflight +10.0.7" />
+<img class="lazyload" data-src="{{ '/img/post/post_guia_cs/cs_banner-min.jpg' | absolute_url }}" alt="[Guía] Cazador Supervivencia para Míticas Plus - WoW Dragonflight +10.0.7" title="[Guía] Cazador Supervivencia para Míticas Plus - WoW Dragonflight +10.0.7" />
 <!--
 //////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
 -->
@@ -60,7 +60,7 @@ rating: 4.5
   <p>Si has llegado a esta guía ya conoces otros conceptos de las <strong>M+</strong>, como los <strong>afijos</strong>, así que pasaremos a hablar de las novedades que trae la primera temporada de <strong>Dragonflight</strong>, a continuación puedes encontrar una run en +21 que he subido a mi canal de Youtube: </p>
   <!-- -->
   <div style="text-align:center;">
-    <iframe style="width:100%;aspect-ratio:16/9;" src="https://www.youtube.com/embed/Q0njWgsYuZI" title="[Guía] Cazador Supervivencia para M+ | WoW Dragonflight +10.0.7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe style="width:100%;aspect-ratio:16/9;" data-src="https://www.youtube.com/embed/Q0njWgsYuZI" title="[Guía] Cazador Supervivencia para M+ | WoW Dragonflight +10.0.7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="lazyload"></iframe>
   </div>
 <hr />
 <!--
@@ -269,7 +269,7 @@ rating: 4.5
 <div class="panel-heading">
       <h3 class="panel-title"><span>Configuración Comfy M+</span></h3>
     </div>
-<img class="lazyload" src="{{ "/img/post/post_guia_cs/talentos_cs-min.png" | absolute_url }}" alt="[Guía] Cazador Supervivencia para Míticas Plus -Talentos" title="[Guía] Cazador Supervivencia para Míticas Plus - Talentos" />
+<img class="lazyload" data-src="{{ '/img/post/post_guia_cs/talentos_cs-min.png' | absolute_url }}" alt="[Guía] Cazador Supervivencia para Míticas Plus -Talentos" title="[Guía] Cazador Supervivencia para Míticas Plus - Talentos" />
 <p></p>
 <table class="table">
   <tbody>
