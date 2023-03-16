@@ -56,7 +56,7 @@ adsense: "disabled"
 adsense-data-ad-client: ""
 adsense-data-ad-slot: ""
 # Lazy Images ("enabled" or "disabled")
-lazyimages: "enable"
+lazyimages: "disabled"
 # Post Author Box ("enabled" or "disabled")
 authorbox: "enabled"
 # Sass
