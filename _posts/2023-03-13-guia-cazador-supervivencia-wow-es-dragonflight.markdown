@@ -14,7 +14,7 @@ comments: true
 published: true
 rating: 4.5
 ---
-<img class="lazyload" data-src="{{ '/img/post/post_guia_cs/cs_banner-min.jpg' | absolute_url }}" alt="[Guía] Cazador Supervivencia para Míticas Plus - WoW Dragonflight +10.0.7" title="[Guía] Cazador Supervivencia para Míticas Plus - WoW Dragonflight +10.0.7" />
+<img class="lazyload" data-src="{{ '/img/post/post_guia_cs/cs_banner-min.jpg' }}" alt="[Guía] Cazador Supervivencia para Míticas Plus - WoW Dragonflight +10.0.7" title="[Guía] Cazador Supervivencia para Míticas Plus - WoW Dragonflight +10.0.7" />
 <!--
 //////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
 -->
@@ -28,13 +28,14 @@ rating: 4.5
           <li class="list-group-item"><strong>¿Qué son las M+?</strong></li>
           <li class="list-group-item"><strong>¡Temporada 1 de Dragonflight!</strong></li>
           <li class="list-group-item"><strong>Fortalezas y debilidades</strong></li>
-          <li class="list-group-item"><strong>Buffos recibidos hasta en el parche 10.0.7</strong></li>
+          <li class="list-group-item"><strong>Buffos y nerfeos hasta en el parche 10.0.7</strong></li>
           <li class="list-group-item"><strong>Habilidades base</strong></li>
           <li class="list-group-item"><strong>Prioridad de estadísticas</strong></li>
           <li class="list-group-item"><strong>Nuevo sistema de talentos</strong></li>
           <li class="list-group-item"><strong>Tier Set bonus - Temporada 1</strong></li>
           <li class="list-group-item"><strong>Rotación de habilidades</strong></li>
           <li class="list-group-item"><strong>Consumibles</strong></li>
+          <li class="list-group-item"><strong>Amuleto de Ónice - Parche 10.0.7</strong></li>
           <li class="list-group-item"><strong>Conclusión</strong></li>
       </ul>
   </div>
@@ -109,7 +110,7 @@ rating: 4.5
 <!--
 //////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
 -->
-<h2 class="section-heading"><i class="fa fa-gamepad" aria-hidden="true"></i> Buffos recibidos hasta en el parche 10.0.7</h2>
+<h2 class="section-heading"><i class="fa fa-gamepad" aria-hidden="true"></i> Buffos y nerfeos hasta en el parche 10.0.7</h2>
 <hr />
 <table class="table">
   <tbody>
@@ -130,7 +131,6 @@ rating: 4.5
     </tr>
   </tbody>
 </table> 
-  <br />
   <table class="table">
   <tbody>
     <tr class="tr_title_bl">
@@ -140,7 +140,23 @@ rating: 4.5
       <td class="td_caption">Aumentado el daño infligido por el cazador y las facultades de las mascotas un 5%.</td>
     </tr>
   </tbody>
-  </table>   
+  </table>
+  <table class="table">
+  <tbody>
+    <tr class="tr_title_bl">
+      <td colspan="2"><strong>Marzo de 2023</strong></td>
+    </tr>
+    <tr>
+      <td class="td_caption">Daño de <strong><a href="https://es.wowhead.com/spell=259491/picadura-de-serpiente" class="q3" data-wowhead="gems=23121&amp;ench=2647&amp;pcs=25695:25696:25697" target="_blank">[Cazador Supervivencia]</a></strong> aumentado un 25%.</td>
+    </tr>
+    <tr>
+      <td class="td_caption">Daño de <strong><a href="https://www.wowhead.com/es/spell=375891/chakram-de-muerte" class="q3" data-wowhead="gems=23121&amp;ench=2647&amp;pcs=25695:25696:25697" target="_blank">[Cazador Supervivencia]</a></strong> aumentado un 100%.</td>
+    </tr>
+    <tr>
+      <td class="td_caption">Daño de <strong><a href="https://www.wowhead.com/es/spell=259387/mordisco-de-mangosta" class="q3" data-wowhead="gems=23121&amp;ench=2647&amp;pcs=25695:25696:25697" target="_blank">[Cazador Supervivencia]</a></strong> reducido un 10%.</td>
+    </tr>
+  </tbody>
+  </table>     
 <hr />
 <!--
 //////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
@@ -617,6 +633,30 @@ rating: 4.5
       </tr>
   </tbody>
   </table>
+<hr />
+<!--
+//////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
+-->
+<h2 class="section-heading"><i class="fa fa-gamepad" aria-hidden="true"></i> Amuleto de Ónice - parche 10.0.7</h2>
+<hr />
+<p>El <strong>parche 10.0.7</strong> trae una nueva característica: el <strong><a href="https://www.wowhead.com/es/item=203460/amuleto-de-ónice" class="q3" data-wowhead="gems=23121&amp;ench=2647&amp;pcs=25695:25696:25697" target="_blank">[Cazador Supervivencia]</a></strong>. Este anillo especial está compuesto por <strong>tres ranuras</strong> que nos permitirán introducir <strong>gemas primordiales</strong> dotando a nuestro personaje con unos poderes únicos de forma pasiva, ya que no influyen en tu rotación natural de habilidades.</p>
+<p><strong>Blizzard</strong> tuvo que <strong>aumentar</strong> el <strong>poder</strong> de estas <strong>gemas</strong> nada más salir el parche ya que no estaban suponiendo una mejoría notable respecto a los ítems ya equipados: <strong>aumentando</strong> un <strong>25%</strong> el daño, sanación, etc. Este item <strong>solamente</strong> tendrá utilidad en <strong>este parche</strong>, a continuación te dejo la mejor combinación en estos momentos para el cazador supervivencia tras hacer las simulaciones pertinentes:</p>
+<table class="table">
+  <tbody>
+    <tr class="tr_title_bl">
+      <td colspan="2"><strong>¡Mejores gemas primordiales!</strong></td>
+    </tr>
+    <tr>
+      <td class="td_caption"><strong><a href="https://www.wowhead.com/es/item=204011/piedra-de-hielo-congelante" class="q3" data-wowhead="gems=23121&amp;ench=2647&amp;pcs=25695:25696:25697" target="_blank">[Cazador Supervivencia]</a></strong>.</td>
+    </tr>
+    <tr>
+      <td class="td_caption"><strong><a href="https://www.wowhead.com/es/item=204027/piedra-de-sangre-de-deseo" class="q3" data-wowhead="gems=23121&amp;ench=2647&amp;pcs=25695:25696:25697" target="_blank">[Cazador Supervivencia]</a></strong>.</td>
+    </tr>
+    <tr>
+      <td class="td_caption"><strong><a href="https://www.wowhead.com/es/item=204029/piedra-crepuscular-profética" class="q3" data-wowhead="gems=23121&amp;ench=2647&amp;pcs=25695:25696:25697" target="_blank">[Cazador Supervivencia]</a></strong>.</td>
+    </tr>
+  </tbody>
+</table>
 <hr />
 <!--
 //////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
