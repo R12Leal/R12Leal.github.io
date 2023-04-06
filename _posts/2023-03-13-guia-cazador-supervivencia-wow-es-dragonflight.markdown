@@ -5,7 +5,7 @@ subtitle:   	"La especialización de clase más divertida y subestimada de World
 description:	"¡Guía del cazador supervivencia para M+, analizaremos cuál es la forma más eficiente y óptima de utilizar esta especialización en las mazmorras de World of Warcraft: Dragonflight!"
 date:       	2023-03-13 00:00:00
 sitemap:
-  lastmod: 2023-03-13
+  lastmod: 2023-04-06
 tag:			[videojuegos,r12leal,geek]
 author:     	Ramses
 image: 	"img/post/post_guia_cs/sv_img1-min_dragonflight.jpg"
@@ -285,7 +285,7 @@ rating: 4.5
 <div class="panel-heading">
       <h3 class="panel-title"><span>Configuración Comfy M+</span></h3>
     </div>
-<img class="lazyload" data-src="{{ '/img/post/post_guia_cs/talentos_cs-min.png' | absolute_url }}" alt="[Guía] Cazador Supervivencia para Míticas Plus -Talentos" title="[Guía] Cazador Supervivencia para Míticas Plus - Talentos" />
+<img class="lazyload" data-src="{{ '/img/post/post_guia_cs/talentos_cs-min.png' }}" alt="[Guía] Cazador Supervivencia para Míticas Plus -Talentos" title="[Guía] Cazador Supervivencia para Míticas Plus - Talentos" />
 <p></p>
 <table class="table">
   <tbody>
