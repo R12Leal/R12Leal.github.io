@@ -14,7 +14,10 @@ comments: true
 published: true
 rating: 5
 ---
-<img class="lazyload" src="{{ "/img/post/post_guia_cs/cs_banner-min.jpg" | absolute_url }}" alt="[Guía] Cazador Supervivencia para Míticas Plus - WoW Shadowlands +9.2.5" title="[Guía] Cazador Supervivencia para Míticas Plus - WoW Shadowlands +9.2.5" />
+<hr />
+<h3><a href="{{ '/guia-cazador-supervivencia-wow-es-dragonflight/' | absolute_url }}" >Disponible guía sobre la expansión actual: Dragonflight</a></h3>
+<hr />
+<img class="lazyload" src="{{ '/img/post/post_guia_cs/cs_banner-min.jpg' | absolute_url }}" alt="[Guía] Cazador Supervivencia para Míticas Plus - WoW Shadowlands +9.2.5" title="[Guía] Cazador Supervivencia para Míticas Plus - WoW Shadowlands +9.2.5" />
 <!--
 //////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
 -->
@@ -692,4 +695,4 @@ rating: 5
 -->
 <h2 class="section-heading"><i class="fa fa-gamepad" aria-hidden="true"></i> Conclusión</h2>
 <hr />
-<p>A día de hoy es de las especializaciones más jugadas de <strong>World of Warcraft</strong>, no encontrarás dificultades a la hora de encontrar grupos para realizar piedras a partir de +20. Para conseguir el logro y la montura no tendrás problemas y podrás hacer todas las mazmorras en +15, te recomiendo que la pruebes, es muy divertida y adictiva. Si has llegado hasta aquí muchas gracias por leer esta pequeña guía, deja un comentario si tienes alguna duda o bien deseas aportar algún dato adicional <strong>¡Lok'tar, camarada‏!</strong></p>
+<p>A día de hoy es de las especializaciones más jugadas de <strong>World of Warcraft</strong>, no encontrarás dificultades a la hora de encontrar grupos para realizar piedras a partir de +20. Para conseguir el logro y la montura no tendrás problemas y podrás hacer todas las mazmorras en +15, te recomiendo que la pruebes, es muy divertida y adictiva. Si has llegado hasta aquí muchas gracias por leer esta pequeña guía, deja un comentario si tienes alguna duda o bien deseas aportar algún dato adicional <strong>¡Lok'tar, camarada!</strong></p>
