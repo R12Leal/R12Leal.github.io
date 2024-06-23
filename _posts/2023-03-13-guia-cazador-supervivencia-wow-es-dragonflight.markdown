@@ -1,6 +1,6 @@
 ---
 layout:     	post
-title:      	"[Guía] Cazador Supervivencia para M+ | WoW Dragonflight +10.0.7" 
+title:      	"[Guía] Cazador Supervivencia para M+ | WoW Dragonflight +10.2.7" 
 subtitle:   	"La especialización de clase más divertida y subestimada de World of Warcraft"
 description:	"¡Guía del cazador supervivencia para M+, analizaremos cuál es la forma más eficiente y óptima de utilizar esta especialización en las mazmorras de World of Warcraft: Dragonflight!"
 date:       	2023-03-13 00:00:00
@@ -14,7 +14,7 @@ comments: true
 published: true
 rating: 4.5
 ---
-<img class="lazyload" data-src="{{ '/img/post/post_guia_cs/cs_banner-min.jpg' }}" alt="[Guía] Cazador Supervivencia para Míticas Plus - WoW Dragonflight +10.0.7" title="[Guía] Cazador Supervivencia para Míticas Plus - WoW Dragonflight +10.0.7" />
+<img class="lazyload" data-src="{{ '/img/post/post_guia_cs/cs_banner-min.jpg' }}" alt="[Guía] Cazador Supervivencia para Míticas Plus - WoW Dragonflight +10.2.7" title="[Guía] Cazador Supervivencia para Míticas Plus - WoW Dragonflight +10.2.7" />
 <!--
 //////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
 -->
@@ -26,16 +26,16 @@ rating: 4.5
       <ul class="list-group">
           <li class="list-group-item"><strong>Introducción</strong></li>
           <li class="list-group-item"><strong>¿Qué son las M+?</strong></li>
-          <li class="list-group-item"><strong>¡Temporada 1 de Dragonflight!</strong></li>
+          <li class="list-group-item"><strong>¡Temporada Final de Dragonflight (Sin Afijo de temporada)!</strong></li>
           <li class="list-group-item"><strong>Fortalezas y debilidades</strong></li>
-          <li class="list-group-item"><strong>Buffos y nerfeos hasta en el parche 10.0.7</strong></li>
+          <li class="list-group-item"><strong>Buffos y nerfeos hasta en el parche 10.2.7</strong></li>
           <li class="list-group-item"><strong>Habilidades base</strong></li>
           <li class="list-group-item"><strong>Prioridad de estadísticas</strong></li>
           <li class="list-group-item"><strong>Nuevo sistema de talentos</strong></li>
-          <li class="list-group-item"><strong>Tier Set bonus - Temporada 1</strong></li>
+          <li class="list-group-item"><strong>Tier Set bonus - Temporada Final</strong></li>
           <li class="list-group-item"><strong>Rotación de habilidades</strong></li>
           <li class="list-group-item"><strong>Consumibles</strong></li>
-          <li class="list-group-item"><strong>Amuleto de Ónice - Parche 10.0.7</strong></li>
+          <li class="list-group-item"><strong>Amuleto de Ónice - Parche 10.0.7 (En Desuso)</strong></li>
           <li class="list-group-item"><strong>Conclusión</strong></li>
       </ul>
   </div>
@@ -57,17 +57,17 @@ rating: 4.5
 -->
 <h2 class="section-heading"><i class="fa fa-gamepad" aria-hidden="true"></i> ¿Qué son las M+?</h2>
 <hr />
-  <p>Las <strong>míticas plus (M+)</strong> es un modo especial de mazmorras en World of Warcraft. Ofrece a los jugadores un desafío de escala infinita, los jugadores de PvE de alto nivel buscarán cada semana hacer mínimo una <strong>+20</strong> para recibir el mejor botín posible del <strong>Gran Baúl</strong>. Este sistema otorga una pieza de ilvl 421, el más alto en este parche 10.0.7. El máximo ilvl que se puede obtener en ítems de mazmorra es 405 pero se puede mejorar con <strong>Valor</strong>, una moneda que recibiremos cada vez que completemos las mazmorras.</p>
+  <p>Las <strong>míticas plus (M+)</strong> es un modo especial de mazmorras en World of Warcraft. Ofrece a los jugadores un desafío de escala infinita, los jugadores de PvE de alto nivel buscarán cada semana hacer mínimo una <strong>+20</strong> para recibir el mejor botín posible del <strong>Gran Baúl</strong>. Este sistema otorga una pieza de ilvl 421, el más alto en este parche 10.2.7. El máximo ilvl que se puede obtener en ítems de mazmorra es 405 pero se puede mejorar con <strong>Valor</strong>, una moneda que recibiremos cada vez que completemos las mazmorras.</p>
   <p>Si has llegado a esta guía ya conoces otros conceptos de las <strong>M+</strong>, como los <strong>afijos</strong>, así que pasaremos a hablar de las novedades que trae la primera temporada de <strong>Dragonflight</strong>, a continuación puedes encontrar una run en +21 que he subido a mi canal de Youtube: </p>
   <!-- -->
   <div style="text-align:center;">
-    <iframe style="width:100%;aspect-ratio:16/9;" data-src="https://www.youtube.com/embed/Q0njWgsYuZI" title="[Guía] Cazador Supervivencia para M+ | WoW Dragonflight +10.0.7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="lazyload"></iframe>
+    <iframe style="width:100%;aspect-ratio:16/9;" data-src="https://www.youtube.com/embed/Q0njWgsYuZI" title="[Guía] Cazador Supervivencia para M+ | WoW Dragonflight +10.2.7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="lazyload"></iframe>
   </div>
 <hr />
 <!--
 //////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
 -->
-<h2 class="section-heading"><i class="fa fa-gamepad" aria-hidden="true"></i> ¡Temporada 1 de Dragonflight!</h2>
+<h2 class="section-heading"><i class="fa fa-gamepad" aria-hidden="true"></i> ¡Temporada Final de Dragonflight (Sin afijo de temporada)!</h2>
 <hr />
   <p>Con la nueva expansión y la primera temporada de Dragonflight ha llegado un nuevo afijo para <strong>M+</strong>: <strong><a href="https://www.wowhead.com/es/affix=132/atronadora" class="q3" data-wowhead="gems=23121&amp;ench=2647&amp;pcs=25695:25696:25697" target="_blank">[Cazador Supervivencia]</a></strong>. La clave de este afijo reside en explotarlo hasta el límite, obteniendo cierta ventaja si lo hacemos bien.</p>
   <p><strong>Cada 60 segundos</strong> que estemos en combate seremos <strong>marcados</strong> con un <strong>debuff</strong>, ya sea positivo [<strong><a href="https://www.wowhead.com/es/spell=396369/marca-de-relámpagos" class="q3" data-wowhead="gems=23121&amp;ench=2647&amp;pcs=25695:25696:25697" target="_blank">[Cazador Supervivencia]</a></strong>] o negativo [<strong><a href="https://www.wowhead.com/es/spell=396364/marca-de-viento" class="q3" data-wowhead="gems=23121&amp;ench=2647&amp;pcs=25695:25696:25697" target="_blank">[Cazador Supervivencia]</a></strong>]. Estas marcas provocan que los <strong>objetivos</strong> tengan un <strong>5% más de salud</strong> y aumente nuestro <strong>daño/curación un 30%</strong> durante quince segundos.</p>
@@ -110,7 +110,7 @@ rating: 4.5
 <!--
 //////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
 -->
-<h2 class="section-heading"><i class="fa fa-gamepad" aria-hidden="true"></i> Buffos y nerfeos hasta en el parche 10.0.7</h2>
+<h2 class="section-heading"><i class="fa fa-gamepad" aria-hidden="true"></i> Buffos y nerfeos hasta en el parche 10.2.7</h2>
 <hr />
 <table class="table">
   <tbody>
@@ -457,7 +457,7 @@ rating: 4.5
 <!--
 //////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
 -->
-<h2 class="section-heading"><i class="fa fa-gamepad" aria-hidden="true"></i> Tier Set bonus - Temporada 1</h2>
+<h2 class="section-heading"><i class="fa fa-gamepad" aria-hidden="true"></i> Tier Set bonus - Temporada Final</h2>
 <hr />
 <div class="panel panel-default">
   <p>En esta primera temporada de Dragonflight los <strong>Tier Set</strong> son bastantes <strong>simples</strong> debido al <strong>nuevo sistema de talentos</strong> que ha llegado con esta expansión, en nuestro caso estos giran en torno al incremento de daño en encuentros de un solo objetivo básicamente (<strong><strong><a href="https://es.wowhead.com/spell=259387/mordisco-de-mangosta" class="q3" data-wowhead="gems=23121&amp;ench=2647&amp;pcs=25695:25696:25697" target="_blank">[Cazador Supervivencia]</a></strong></strong>) y muy ligeramente en AoE (<strong><strong><a href="https://www.wowhead.com/es/spell=212436/carnicería" class="q3" data-wowhead="gems=23121&amp;ench=2647&amp;pcs=25695:25696:25697" target="_blank">[Cazador Supervivencia]</a></strong></strong>).</p>
@@ -637,9 +637,9 @@ rating: 4.5
 <!--
 //////////////////////////////////////////////////// SECTION ////////////////////////////////////////////////////
 -->
-<h2 class="section-heading"><i class="fa fa-gamepad" aria-hidden="true"></i> Amuleto de Ónice - parche 10.0.7</h2>
+<h2 class="section-heading"><i class="fa fa-gamepad" aria-hidden="true"></i> Amuleto de Ónice - parche 10.0.7 (En desuso)</h2>
 <hr />
-<p>El <strong>parche 10.0.7</strong> trae una nueva característica: el <strong><a href="https://www.wowhead.com/es/item=203460/amuleto-de-ónice" class="q3" data-wowhead="gems=23121&amp;ench=2647&amp;pcs=25695:25696:25697" target="_blank">[Cazador Supervivencia]</a></strong>. Este anillo especial está compuesto por <strong>tres ranuras</strong> que nos permitirán introducir <strong>gemas primordiales</strong> dotando a nuestro personaje con unos poderes únicos de forma pasiva, ya que no influyen en tu rotación natural de habilidades.</p>
+<p>El <strong>parche 10.2.7</strong> trae una nueva característica: el <strong><a href="https://www.wowhead.com/es/item=203460/amuleto-de-ónice" class="q3" data-wowhead="gems=23121&amp;ench=2647&amp;pcs=25695:25696:25697" target="_blank">[Cazador Supervivencia]</a></strong>. Este anillo especial está compuesto por <strong>tres ranuras</strong> que nos permitirán introducir <strong>gemas primordiales</strong> dotando a nuestro personaje con unos poderes únicos de forma pasiva, ya que no influyen en tu rotación natural de habilidades.</p>
 <p><strong>Blizzard</strong> tuvo que <strong>aumentar</strong> el <strong>poder</strong> de estas <strong>gemas</strong> nada más salir el parche ya que no estaban suponiendo una mejoría notable respecto a los ítems ya equipados: <strong>aumentando</strong> un <strong>25%</strong> el daño, sanación, etc. Este item <strong>solamente</strong> tendrá utilidad en <strong>este parche</strong>, a continuación te dejo la mejor combinación en estos momentos para el cazador supervivencia tras hacer las simulaciones pertinentes:</p>
 <table class="table">
   <tbody>
