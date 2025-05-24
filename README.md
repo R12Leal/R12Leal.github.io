@@ -2,9 +2,6 @@
 
 [![License](https://img.shields.io/github/license/R12Leal/R12Leal.github.io.svg?branch=master)](https://github.com/R12Leal/R12Leal.github.io/blob/master/LICENSE)
 
-* Site: [r12leal.me](http://r12leal.me)
-* Twitter: [@rllGG12](http://twitter.com/rllGG12)
-
 ## Licencia
 
 #### The MIT License (MIT)
