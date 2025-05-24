@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding-top: 60px; /* Ajuste para el menú fijo */
+      color: #222;
+    }
+
+    /* Estilos del menú */
+    .top-menu {
+      background-color: #e03e2f; /* Mismo color que legend-badge */
+      padding: 10px 0;
+      position: fixed; /* Fija el menú en la parte superior */
+      top: 0;
+      width: 100%;
+      z-index: 1000; /* Asegura que el menú esté sobre otros elementos */
+      display: flex;
+      justify-content: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .top-menu ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    .top-menu ul li {
+      margin: 0 15px;
+    }
+
+    .top-menu ul li a {
+      color: white;
+      text-decoration: none;
+      font-family: 'Anton', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 1.1rem;
+      padding: 8px 12px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .top-menu ul li a:hover,
+    .top-menu ul li a.active { /* Estilo para la pestaña activa */
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+
+    h2, .pokemon-card h5 {
+      font-family: 'Anton', sans-serif;
+      color: #e03e2f; /* rojo vivo Pokémon */
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+    }
+
+    .pokemon-card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+      padding: 20px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 20px; /* Añadido para que no se solape con el siguiente card en resoluciones pequeñas */
+    }
+
+    .legend-badge {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: #e03e2f;
+      color: white;
+      font-weight: 700;
+      padding: 6px 0;
+      font-size: 0.9rem;
+      letter-spacing: 1.5px;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      user-select: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .legend-badge::before {
+      content: "⭐";
+      font-size: 1.1rem;
+    }
+
+    .pokemon-img {
+      width: 120px;
+      height: 120px;
+      object-fit: contain;
+      margin-bottom: 10px;
+      margin-top: 30px; /* evita superposición con badge */
+    }
+
+    .types {
+      margin-bottom: 15px; /* espacio entre tipos y habilidad */
+    }
+
+    .type-icon {
+      width: 30px;
+      height: 30px;
+      margin: 0 6px 0 0;
+      vertical-align: middle;
+    }
+
+    p {
+      margin: 6px 0;
+      font-size: 0.9rem;
+    }
+
+    .container.py-5 {
+        padding-top: 20px !important; /* Ajuste para que el título no quede debajo del menú */
+    }
+
+    @media (max-width: 480px) {
+      .pokemon-img {
+        width: 100px;
+        height: 100px;
+      }
+      .pokemon-card {
+        padding: 15px;
+      }
+      .top-menu ul li a {
+        font-size: 1rem;
+        padding: 6px 10px;
+      }
+      body {
+        padding-top: 50px; /* Ajuste menor para el menú en móviles */
+      }
+    }
