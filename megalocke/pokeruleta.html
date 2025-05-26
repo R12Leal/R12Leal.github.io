@@ -7,7 +7,7 @@
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 	  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
       <link rel="stylesheet" href="css/estilo_pk.css" />
-      <link rel="stylesheet" href="css/ruleta.css" />
+      <link rel="stylesheet" href="css/Ruleta.css" />
    </head>
    <body>
       <nav class="top-menu">
@@ -34,9 +34,10 @@
 			  <div class="ruleta-visual-wrapper"> <canvas id="ruleta" width="300" height="300"></canvas>
 				<div class="indicador"></div>
 			  </div>
-			<div id="historial" class="accordion"></div>
+			  <div id="historial" class="accordion">
+                  <div id="historial-loading-spinner" class="loading-spinner"></div>
+              </div>
 		  </div>
 	  <script src="js/ruleta.js"></script>
    </body>
 </html>
-

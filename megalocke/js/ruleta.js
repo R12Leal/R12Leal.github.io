@@ -6,9 +6,10 @@ const resultadoDiv = document.getElementById('resultado');
 const historialDiv = document.getElementById('historial');
 const nombreInput = document.getElementById('nombre');
 const botonGirar = document.getElementById('botonGirar');
+const loadingSpinner = document.getElementById('historial-loading-spinner'); // Referencia al spinner
 
 // Validación de elementos esenciales del DOM al inicio
-if (!canvas || !ctx || !resultadoDiv || !historialDiv || !nombreInput || !botonGirar) {
+if (!canvas || !ctx || !resultadoDiv || !historialDiv || !nombreInput || !botonGirar || !loadingSpinner) { // Incluir spinner en la validación
   // En un entorno de producción, se usaría un modal o mensaje en el DOM en lugar de alert.
   alert("Error: Elementos esenciales no encontrados en la página. Asegúrate de que el HTML esté completo.");
   throw new Error("Faltan elementos del DOM necesarios para iniciar la aplicación.");
@@ -157,8 +158,6 @@ async function guardarEnGoogleSheets(nombre, resultado, timestamp) {
   const data = { nombre, resultado, timestamp };
 
   try {
-    // Usamos 'no-cors' porque los scripts de Google Apps suelen requerirlo para POST desde un origen diferente.
-    // Con 'no-cors', no podemos leer la respuesta del servidor, solo sabemos si la petición se envió.
     await fetch(url, {
       method: "POST",
       mode: "no-cors",
@@ -174,6 +173,15 @@ async function guardarEnGoogleSheets(nombre, resultado, timestamp) {
 }
 
 async function cargarHistorialDesdeSheets() {
+  // Mostrar el spinner
+  loadingSpinner.style.display = 'block';
+
+  // Ocultar todos los items del acordeón existentes para que solo se vea el spinner
+  historialDiv.querySelectorAll('.accordion-item').forEach(item => {
+      item.style.display = 'none'; // Oculta cada item individualmente
+  });
+
+
   // SUSTITUYE ESTA URL con la URL de tu script de Google Apps para leer datos
   // Asegúrate de que tu script de Google Apps maneje el parámetro 'action=read'
   const url = "https://script.google.com/macros/s/AKfycbx8Nk9NY0amspU4ha-yjlkceOln3crhClBDXDGiLuezDNcVKmU8qNW5mI4SYJUSuqvjoA/exec?action=read";
@@ -187,11 +195,16 @@ async function cargarHistorialDesdeSheets() {
 
     console.log("Respuesta de Google Sheets (depuración):", data); // Mantener para futura depuración
 
-    // MODIFICACIÓN CLAVE AQUÍ: Ahora esperamos directamente un array de objetos
+    // Si tu script de Google Apps devuelve directamente un array de registros
     if (Array.isArray(data)) {
-      // No limpiamos historialDiv.innerHTML = ''; aquí para preservar los acordeones existentes
-      // La lógica de agregarHistorial se encargará de añadir resultados a los acordeones existentes
-      // o crear nuevos si el jugador es nuevo.
+      // Limpiar el historial completamente antes de añadir los nuevos datos cargados
+      // Esto es necesario para evitar duplicados si se llama varias veces
+      // y para asegurar que el spinner sea el único elemento visible antes de la carga.
+      historialDiv.innerHTML = ''; // Limpia todo el contenido, incluyendo el spinner
+      // Volver a añadir el spinner después de limpiar el historial, pero oculto inicialmente
+      historialDiv.appendChild(loadingSpinner);
+
+
       data.forEach(record => {
         // CORRECCIÓN: Usamos 'record.nombre', 'record.resultado', 'record.timestamp' (todo en minúsculas)
         // basándonos en la salida de depuración que proporcionaste.
@@ -204,6 +217,13 @@ async function cargarHistorialDesdeSheets() {
   } catch (err) {
     console.error("Error cargando historial desde Google Sheets:", err);
     alert("No se pudo cargar el historial, intenta recargar la página.");
+  } finally {
+    // Ocultar el spinner una vez que la carga ha terminado (éxito o error)
+    loadingSpinner.style.display = 'none';
+    // Mostrar los ítems del acordeón una vez que la carga ha terminado
+    historialDiv.querySelectorAll('.accordion-item').forEach(item => {
+        item.style.display = ''; // Restaura la visibilidad de los items
+    });
   }
 }
 
@@ -274,8 +294,7 @@ dibujarRuleta();
 // Se ejecuta cuando el DOM está completamente cargado
 document.addEventListener('DOMContentLoaded', () => {
   // Deshabilita el botón de girar al cargar la página si no hay un jugador seleccionado.
-  // Esto asume que la primera opción del select puede ser un placeholder vacío o similar.
-  // Si la primera opción es un jugador válido, ajusta la lógica.
+  // Esto asume que la primera opción del select tiene un valor vacío.
   botonGirar.disabled = (nombreInput.value.trim().length < 2);
 
   // Añade un event listener para el cambio en la selección del jugador

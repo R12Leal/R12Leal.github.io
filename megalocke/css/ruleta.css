@@ -16,17 +16,14 @@
 	  border-left: 15px solid transparent;
 	  border-right: 15px solid transparent;
 	  /* Este es el cambio clave: Usamos border-top en lugar de border-bottom */
-	  border-top: 20px solid #CC0000; /* Cambia 'blue' al color que desees */
+	  border-top: 20px solid #CC0000; /* Color del indicador (rojo) */
 
 	  /* Ajusta el 'top' para que la punta del triángulo quede justo encima del borde de la ruleta.
-		 Si antes con 'border-bottom' funcionaba bien 'top: -20px;',
-		 ahora con 'border-top' probablemente necesites 'top: 0px;' o 'top: 10px;' o 'top: 20px;'
-		 ya que el triángulo se dibuja "hacia abajo" desde la línea 'top'.
-		 Deberás probar este valor para que quede visualmente perfecto.
+		 El valor de -8px te ha funcionado bien.
 	  */
-	  top: -8px; /* Prueba con este valor, si no funciona bien, ajusta a 0px, 20px, etc. */
+	  top: -8px;
 
-	  z-index: 10;
+	  z-index: 10; /* Asegura que el indicador esté por encima de la ruleta */
 	}
 
 	.ruleta-layout {
@@ -39,6 +36,7 @@
 	  align-items: center; /* Centra horizontalmente el wrapper visual y el historial */
 	}
 
+	/* Contenedor para la ruleta y el indicador */
 	.ruleta-visual-wrapper {
 	  position: relative; /* ¡CLAVE! Este es el contexto de posicionamiento para el indicador */
 	  width: 300px; /* Ancho igual que el canvas */
@@ -57,7 +55,7 @@
 	canvas {
 	  border: 5px solid #444;
 	  border-radius: 50%;
-	  /* margin: 20px 0; <--- ¡ELIMINA O COMENTA ESTA LÍNEA! */
+	  /* margin: 20px 0; (el margen ahora está en .ruleta-visual-wrapper) */
 	  background: radial-gradient(circle, #fff, #ddd);
 	  transition: transform 4s cubic-bezier(0.33, 1, 0.68, 1);
 	  z-index: 5; /* Z-index menor que el indicador */
@@ -70,21 +68,20 @@
       margin: 10px;
       border: none;
       border-radius: 5px;
-      background-color: #CC0000;
+      background-color: #CC0000; /* Color de fondo para botones */
       color: white;
       cursor: pointer;
     }
     select {
-      background-color: #2ecc71;
+      background-color: #2ecc71; /* Color de fondo para el select */
     }
 
-    /* --- NUEVA REGLA CSS PARA EL BOTÓN DESACTIVADO --- */
+    /* REGLA CSS PARA EL BOTÓN DESACTIVADO */
     button:disabled {
-      background-color: #FF8A80; /* Un rojo más claro o grisáceo */
+      background-color: #FF8A80; /* Un rojo más claro o grisáceo para indicar desactivado */
       cursor: not-allowed; /* Cambia el cursor para indicar que no se puede hacer clic */
       opacity: 0.7; /* Reduce la opacidad para un efecto visual de desactivado */
     }
-    /* --- FIN NUEVA REGLA --- */
 
     #resultado {
       font-size: 24px;
@@ -93,17 +90,24 @@
       color: #e74c3c;
     }
     #historial {
-	  max-height: 500px; /* Mantener este max-height para el contenedor principal si es necesario */
-	  overflow-y: auto; /* Mantener este overflow si es necesario para el contenedor principal */
-	  background-color: #fff;
-	  padding: 15px;
-	  border-radius: 12px;
-	  border: 1px solid #ccc;
-	  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-	  width: 100%;
+	  /* Estilos para el contenedor del acordeón (ya los tenías) */
+      display: flex; /* Hace que #historial sea un contenedor flex */
+      flex-direction: column; /* Apila sus hijos verticalmente */
+      justify-content: center; /* Centra el contenido verticalmente */
+      align-items: center; /* Centra el contenido horizontalmente */
+      min-height: 100px; /* Dale una altura mínima para que el spinner se vea centrado */
+
+	  max-width: 800px; /* Asegura que el acordeón no sea demasiado ancho */
+      margin-top: 20px; /* Espacio superior para separarlo de la ruleta */
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden; /* Asegura que los bordes redondeados se apliquen bien */
+      background-color: #fff;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 100%;
 	}
 
-	.registro {
+	.registro { /* Estos estilos ya no se usarán con la estructura de acordeón */
 	  padding: 10px;
 	  border-left: 5px solid #0d6efd;
 	  background-color: #f1f8ff;
@@ -112,22 +116,22 @@
 	  transition: background-color 0.2s ease;
 	}
 
-	.registro:hover {
+	.registro:hover { /* Estos estilos ya no se usarán con la estructura de acordeón */
 	  background-color: #e4f0ff;
 	}
 
-	.registro .nombre {
+	.registro .nombre { /* Estos estilos ya no se usarán con la estructura de acordeón */
 	  font-weight: 600;
 	  color: #0d6efd;
 	  margin-bottom: 4px;
 	}
 
-	.registro .resultado-num {
+	.registro .resultado-num { /* Estos estilos ya no se usarán con la estructura de acordeón */
 	  font-size: 1.1em;
 	  margin-bottom: 2px;
 	}
 
-	.registro .timestamp {
+	.registro .timestamp { /* Estos estilos ya no se usarán con la estructura de acordeón */
 	  font-size: 0.85em;
 	  color: #666;
 	}
@@ -146,9 +150,10 @@
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
 
-    /* Estilos para cada item del acordeón (cada resultado del historial) */
+    /* Estilos para cada item del acordeón (cada jugador) */
     .accordion-item {
       border-bottom: 1px solid #eee; /* Separador entre items */
+      width: 100%; /* Asegura que los items del acordeón ocupen todo el ancho */
     }
 
     .accordion-item:last-child {
@@ -179,7 +184,7 @@
       transition: transform 0.3s ease;
     }
 
-    /* Estilos para el contenido del item (el resultado detallado) */
+    /* Estilos para el contenido del item (los resultados detallados del jugador) */
     .accordion-content {
       padding: 0 20px; /* Relleno horizontal */
       background-color: #fff;
@@ -227,4 +232,25 @@
       color: #777; /* Color para la fecha/hora */
       display: block; /* Para que la fecha quede en una nueva línea si es necesario */
       margin-top: 2px;
+    }
+
+
+    /* ESTILOS PARA EL SPINNER DE CARGA */
+    .loading-spinner {
+        display: none; /* Oculto por defecto */
+        width: 40px;
+        height: 40px;
+        border: 4px solid rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+        border-top-color: #CC0000; /* Color del spinner */
+        animation: spin 1s linear infinite; /* Animación de giro */
+        /* margin: 20px auto; <--- ELIMINAR ESTA LÍNEA, el centrado lo hace el flexbox del padre */
+        flex-shrink: 0;
+        flex-grow: 0;
+        align-self: center; /* Asegura que el item no se estire dentro del flex container */
+    }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
     }
