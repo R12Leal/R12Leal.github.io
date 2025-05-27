@@ -1,43 +1,76 @@
 <!DOCTYPE html>
 <html lang="es">
-   <head>
-	  <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <title>Pokeruleta</title>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-	  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
-      <link rel="stylesheet" href="css/estilo_pk.css" />
-      <link rel="stylesheet" href="css/ruleta.css" />
-   </head>
-   <body>
-      <nav class="top-menu">
-         <ul>
-            <li><a href="index.html">Reglas</a></li>
-            <li><a href="pokemon.html">Modificaciones (Pokémon)</a></li>
-            <li><a href="pokeruleta.html" class="active">Pokeruleta</a></li>
-         </ul>
-      </nav>
-      <p></p>
-		<div class="container">
-		  <div class="controls">
-			<label for="nombre">Jugador:</label>
-			<select id="nombre">
-			  <option value="" disabled selected>Selecciona un jugador</option>
-			  <option value="Fer">Fer</option>
-			  <option value="Ram">Ram</option>
-			  <option value="Toni">Toni</option>
-			</select>
-			<button id="botonGirar">Girar Ruleta</button>
-			<div id="resultado">Resultado: -</div>
-		  </div>
-		  <div class="ruleta-layout">
-			  <div class="ruleta-visual-wrapper"> <canvas id="ruleta" width="300" height="300"></canvas>
-				<div class="indicador"></div>
-			  </div>
-			  <div id="historial" class="accordion">
-                  <div id="historial-loading-spinner" class="loading-spinner"></div>
-              </div>
-		  </div>
-	  <script src="js/ruleta.js"></script>
-   </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Pokemon Ultra Pamboli - Pokeruleta</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="css/estilo.css" />
+		<link rel="stylesheet" href="css/ruleta.css" /> <!- Asegúrate que la ruta a ruleta.css sea correcta ->
+	</head>
+	<body>
+		<div class="offcanvas offcanvas-start bg-dark text-white sidebar-fixed" tabindex="-1" id="offcanvasMenuPrincipal" aria-labelledby="offcanvasMenuPrincipalLabel">
+			<div class="offcanvas-header">
+			<a class="navbar-brand text-center d-block mx-auto py-3" href="#">
+                <img src="img/logo_pk.png" alt="Pokémon Ultra Pamboli" class="img-fluid logo-menu-pokemon">
+            </a>
+				<button type="button" class="btn-close text-reset btn-close-white d-lg-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body d-flex flex-column pt-0">
+				<ul class="navbar-nav flex-grow-1 pe-3">
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="index.html">Reglas</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="pokemon.html">Modificaciones</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="evoluciones.html">Evoluciones</a>
+
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="pokeruleta.html">PokeRuleta</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<nav class="navbar top-menu d-lg-none">
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenuPrincipal" aria-controls="offcanvasMenuPrincipal" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
+		</nav>
+
+		<main class="content-wrapper">
+			<div class="container d-flex flex-column align-items-center justify-content-center py-5">
+				<h2 class="section-title text-center mb-4">¡A girar la PokeRuleta!</h2>
+
+				<div class="controls mb-4">
+					<label for="nombre" class="me-2">Selecciona:</label>
+					<select id="nombre" class="form-select d-inline-block w-auto">
+						<option value="" disabled selected>Jugador</option>
+						<option value="Fer">Fer</option>
+						<option value="Ram">Ram</option>
+						<option value="Toni">Toni</option>
+					</select>
+					<button id="botonGirar" class="btn btn-primary ms-2">Girar Ruleta</button> <div id="resultado" class="mt-3 fs-5 fw-bold w-100 text-center">Resultado: -</div> </div>
+
+				<div class="ruleta-layout d-flex flex-column align-items-center">
+					<div class="ruleta-visual-wrapper position-relative mb-4">
+						<canvas id="ruleta" width="300" height="300"></canvas>
+						<div class="indicador"></div>
+					</div>
+					<div id="historial" class="accordion mt-4">
+						<div id="historial-loading-spinner" class="loading-spinner"></div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="js/ruleta.js"></script>
+	</body>
 </html>

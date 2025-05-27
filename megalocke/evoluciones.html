@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pokemon Ultra Pamboli - Evoluciones</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/estilo_evo.css">
+</head>
+<body>
+    <div class="offcanvas offcanvas-start bg-dark text-white sidebar-fixed" tabindex="-1" id="offcanvasMenuPrincipal" aria-labelledby="offcanvasMenuPrincipalLabel">
+        <div class="offcanvas-header">
+            <a class="navbar-brand text-center d-block mx-auto py-3" href="#">
+                <img src="img/logo_pk.png" alt="Pokémon Ultra Pamboli" class="img-fluid logo-menu-pokemon">
+            </a>
+            <button type="button" class="btn-close text-reset btn-close-white d-lg-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body d-flex flex-column pt-0">
+            <ul class="navbar-nav flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Reglas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pokemon.html">Modificaciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="evoluciones.html">Evoluciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pokeruleta.html">PokeRuleta</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <nav class="navbar top-menu d-lg-none">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenuPrincipal" aria-controls="offcanvasMenuPrincipal" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <main class="content-wrapper">
+        <div class="container">
+            <p></p>
+			<br />
+            <div class="evolution-section">
+                <h3>Intercambio (con o sin objeto)</h3>
+                <ul class="evolution-list">
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png" alt="Graveler" />
+                                Graveler
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png" alt="Golem" />
+                                Golem
+                            </div>
+                        </div>
+                        <div class="evolution-details">  (Nivel 37)</div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png" alt="Machoke" />
+                                Machoke
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png" alt="Machamp" />
+                                Machamp
+                            </div>
+                        </div>
+                        <div class="evolution-details">  (Nivel 36)</div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png" alt="Kadabra" />
+                                Kadabra
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png" alt="Alakazam" />
+                                Alakazam
+                            </div>
+                        </div>
+                        <div class="evolution-details">  (Nivel 36)</div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png" alt="Haunter" />
+                                Haunter
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png" alt="Gengar" />
+                                Gengar
+                            </div>
+                        </div>
+                        <div class="evolution-details">  (Nivel 36)</div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/525.png" alt="Boldore" />
+                                Boldore
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/526.png" alt="Gigalith" />
+                                Gigalith
+                            </div>
+                        </div>
+                        <div class="evolution-details">  (Nivel 37)</div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/533.png" alt="Gurdurr" />
+                                Gurdurr
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/534.png" alt="Conkeldurr" />
+                                Conkeldurr
+                            </div>
+                        </div>
+                        <div class="evolution-details">  (Nivel 37)</div>
+                    </li>
+                    <li>
+                        <div class="evolution-details" style="border-radius: 8px; margin-top: 0;">
+                            <div class="dual-evolution-group">
+                                <div class="dual-evolution-line">
+									<div class="sub-pokemon-display">
+                                        <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/588.png" alt="Karrablast" />
+                                        Karrablast
+                                    </div>    
+                                    <span class="evolution-arrow">↔</span>
+                                    <div class="sub-pokemon-display">
+                                        <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/589.png" alt="Escavalier" />
+                                        Escavalier
+                                    </div>
+                                </div>
+                                <div class="dual-evolution-line">
+									<div class="sub-pokemon-display">
+                                        <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/616.png" alt="Shelmet" />
+                                        Shelmet
+                                    </div>
+                                    <span class="evolution-arrow">↔</span>
+                                    <div class="sub-pokemon-display">
+                                        <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/617.png" alt="Accelgor" />
+                                        Accelgor
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="sub-condition" style="display: block; text-align: center; margin-top: 10px;">Evolucionan entre sí (Nivel 35)</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/708.png" alt="Phantump" />
+                                Phantump
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/709.png" alt="Trevenant" />
+                                Trevenant
+                            </div>
+                        </div>
+                        <div class="evolution-details">  (Nivel 37)</div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/710.png" alt="Pumpkaboo" />
+                                Pumpkaboo
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png" alt="Gourgeist" />
+                                Gourgeist
+                            </div>
+                        </div>
+                        <div class="evolution-details">  (Nivel 37)</div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="evolution-section">
+                <h3>Amistad</h3>
+                <ul class="evolution-list">
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/172.png" alt="Pichu" />
+                                Pichu
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="Pikachu" />
+                                Pikachu
+                            </div>
+                        </div>
+                        <div class="evolution-details">Por alta amistad</div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png" alt="Cleffa" />
+                                Cleffa
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png" alt="Clefairy" />
+                                Clefairy
+                            </div>
+                        </div>
+                        <div class="evolution-details">Por alta amistad</div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png" alt="Igglybuff" />
+                                Igglybuff
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png" alt="Jigglypuff" />
+                                Jigglypuff
+                            </div>
+                        </div>
+                        <div class="evolution-details">Por alta amistad</div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png" alt="Togepi" />
+                                Togepi
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png" alt="Togetic" />
+                                Togetic
+                            </div>
+                        </div>
+                        <div class="evolution-details">Por alta amistad</div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/298.png" alt="Azurill" />
+                                Azurill
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/183.png" alt="Marill" />
+                                Marill
+                            </div>
+                        </div>
+                        <div class="evolution-details">Por alta amistad</div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/427.png" alt="Buneary" />
+                                Buneary
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/428.png" alt="Lopunny" />
+                                Lopunny
+                            </div>
+                        </div>
+                        <div class="evolution-details">Por alta amistad</div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/433.png" alt="Chingling" />
+                                Chingling
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/358.png" alt="Chimecho" />
+                                Chimecho
+                            </div>
+                        </div>
+                        <div class="evolution-details">Por alta amistad</div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png" alt="Munchlax" />
+                                Munchlax
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png" alt="Snorlax" />
+                                Snorlax
+                            </div>
+                        </div>
+                        <div class="evolution-details">Por alta amistad</div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/447.png" alt="Riolu" />
+                                Riolu
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png" alt="Lucario" />
+                                Lucario
+                            </div>
+                        </div>
+                        <div class="evolution-details">Por alta amistad</div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/541.png" alt="Swadloon" />
+                                Swadloon
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/542.png" alt="Leavanny" />
+                                Leavanny
+                            </div>
+                        </div>
+                        <div class="evolution-details">Por alta amistad</div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/406.png" alt="Budew" />
+                                Budew
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/315.png" alt="Roselia" />
+                                Roselia
+                            </div>
+                        </div>
+                        <div class="evolution-details">Por alta amistad</div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png" alt="Chansey" />
+                                Chansey
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png" alt="Blissey" />
+                                Blissey
+                            </div>
+                        </div>
+                        <div class="evolution-details">Por alta amistad</div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png" alt="Eevee" />
+                                Eevee
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                        </div>
+                        <div class="evolution-details">
+                            <ul>
+                                <li>
+                                    <div class="sub-pokemon-display">
+                                        <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png" alt="Espeon" />
+                                        Espeon
+                                    </div>
+                                    <span class="sub-condition">Por amistad (día)</span>
+                                </li>
+                                <li>
+                                    <div class="sub-pokemon-display">
+                                        <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png" alt="Umbreon" />
+                                        Umbreon
+                                    </div>
+                                    <span class="sub-condition">Por amistad (noche)</span>
+                                </li>
+                                <li>
+                                    <div class="sub-pokemon-display">
+                                        <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/700.png" alt="Sylveon" />
+                                        Sylveon
+                                    </div>
+                                    <span class="sub-condition">Por afecto (con movimiento tipo Hada)</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/772.png" alt="Type: Null" />
+                                Type: Null
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773.png" alt="Silvally" />
+                                Silvally
+                            </div>
+                        </div>
+                        <div class="evolution-details">Por alta amistad</div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/527.png" alt="Woobat" />
+                                Woobat
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/528.png" alt="Swoobat" />
+                                Swoobat
+                            </div>
+                        </div>
+                        <div class="evolution-details">Por alta amistad</div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="evolution-section">
+                <h3>Piedras Evolutivas</h3>
+                <ul class="evolution-list"> <li class="stone-list-card">
+                        <div class="stone-title">
+                            <img class="stone-icon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fire-stone.png" alt="Piedra Fuego" onerror="this.onerror=null;this.src='https://placehold.co/50x50?text=🔥';" />
+                            Piedra Fuego
+                        </div>
+                        <ul class="pokemon-evolve-list">
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png" alt="Vulpix" />Vulpix</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png" alt="Growlithe" />Growlithe</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png" alt="Eevee" />Eevee</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/513.png" alt="Pansear" />Pansear</li>
+                        </ul>
+                    </li>
+                    <li class="stone-list-card">
+                        <div class="stone-title">
+                            <img class="stone-icon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/water-stone.png" alt="Piedra Agua" onerror="this.onerror=null;this.src='https://placehold.co/50x50?text=💧';" />
+                            Piedra Agua
+                        </div>
+                        <ul class="pokemon-evolve-list">
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png" alt="Poliwag" />Poliwag</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png" alt="Shellder" />Shellder</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png" alt="Eevee" />Eevee</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png" alt="Staryu" />Staryu</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/270.png" alt="Lotad" />Lotad</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/515.png" alt="Panpour" />Panpour</li>
+                        </ul>
+                    </li>
+                    <li class="stone-list-card">
+                        <div class="stone-title">
+                            <img class="stone-icon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/thunder-stone.png" alt="Piedra Trueno" onerror="this.onerror=null;this.src='https://placehold.co/50x50?text=⚡';" />
+                            Piedra Trueno
+                        </div>
+                        <ul class="pokemon-evolve-list">
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="Pikachu" />Pikachu</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png" alt="Eevee" />Eevee</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png" alt="Magnemite" />Magnemite</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/602.png" alt="Eelektrik" />Eelektrik</li>
+                        </ul>
+                    </li>
+                    <li class="stone-list-card">
+                        <div class="stone-title">
+                            <img class="stone-icon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leaf-stone.png" alt="Piedra Hoja" onerror="this.onerror=null;this.src='https://placehold.co/50x50?text=🍃';" />
+                            Piedra Hoja
+                        </div>
+                        <ul class="pokemon-evolve-list">
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png" alt="Oddish" />Oddish</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png" alt="Bellsprout" />Bellsprout</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/273.png" alt="Seedot" />Seedot</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/511.png" alt="Pansage" />Pansage</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png" alt="Eevee" />Eevee</li>
+                        </ul>
+                    </li>
+                    <li class="stone-list-card">
+                        <div class="stone-title">
+                            <img class="stone-icon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moon-stone.png" alt="Piedra Lunar" onerror="this.onerror=null;this.src='https://placehold.co/50x50?text=🌙';" />
+                            Piedra Lunar
+                        </div>
+                        <ul class="pokemon-evolve-list">
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png" alt="Nidoran♀" />Nidoran♀</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png" alt="Nidoran♂" />Nidoran♂</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png" alt="Clefairy" />Clefairy</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png" alt="Jigglypuff" />Jigglypuff</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/300.png" alt="Skitty" />Skitty</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/517.png" alt="Munna" />Munna</li>
+                        </ul>
+                    </li>
+                    <li class="stone-list-card">
+                        <div class="stone-title">
+                            <img class="stone-icon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sun-stone.png" alt="Piedra Solar" onerror="this.onerror=null;this.src='https://placehold.co/50x50?text=☀️';" />
+                            Piedra Solar
+                        </div>
+                        <ul class="pokemon-evolve-list">
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png" alt="Oddish" />Oddish</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/191.png" alt="Sunkern" />Sunkern</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/546.png" alt="Cottonee" />Cottonee</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/548.png" alt="Petilil" />Petilil</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/694.png" alt="Helioptile" />Helioptile</li>
+                        </ul>
+                    </li>
+                    <li class="stone-list-card">
+                        <div class="stone-title">
+                            <img class="stone-icon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dawn-stone.png" alt="Piedra Alba" onerror="this.onerror=null;this.src='https://placehold.co/50x50?text=🌅';" />
+                            Piedra Alba
+                        </div>
+                        <ul class="pokemon-evolve-list">
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/280.png" alt="Kirlia" />Kirlia (macho)</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/361.png" alt="Snorunt" />Snorunt (hembra)</li>
+                        </ul>
+                    </li>
+                    <li class="stone-list-card">
+                        <div class="stone-title">
+                            <img class="stone-icon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dusk-stone.png" alt="Piedra Noche" onerror="this.onerror=null;this.src='https://placehold.co/50x50?text=🌃';" />
+                            Piedra Noche
+                        </div>
+                        <ul class="pokemon-evolve-list">
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png" alt="Murkrow" />Murkrow</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png" alt="Misdreavus" />Misdreavus</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/607.png" alt="Litwick" />Litwick</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/744.png" alt="Rockruff" />Rockruff (Forma Noche)</li>
+                        </ul>
+                    </li>
+					<li class="stone-list-card">
+                        <div class="stone-title">
+                            <img class="stone-icon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ice-stone.png" alt="Piedra Hielo" onerror="this.onerror=null;this.src='https://placehold.co/50x50?text=🌃';" />
+                            Piedra Hielo
+                        </div>
+                        <ul class="pokemon-evolve-list">
+                            <li><img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/027_f2.png" alt="Sandshrew (Alola)" />Sandshrew (Alola)</li>
+                            <li><img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/037_f2.png" alt="Vulpix (Alola)" />Vulpix (Alola)</li>
+                        </ul>
+                    </li>
+                    <li class="stone-list-card">
+                        <div class="stone-title">
+                            <img class="stone-icon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shiny-stone.png" alt="Piedra Día" onerror="this.onerror=null;this.src='https://placehold.co/50x50?text=✨';" />
+                            Piedra Día
+                        </div>
+                        <ul class="pokemon-evolve-list">
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png" alt="Togetic" />Togetic</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/406.png" alt="Budew" />Budew</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/572.png" alt="Minccino" />Minccino</li>
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/669.png" alt="Floette" />Floette</li>
+                        </ul>
+                    </li>
+                    <li class="stone-list-card">
+                        <div class="stone-title">
+                            <img class="stone-icon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oval-stone.png" alt="Piedra Oval" onerror="this.onerror=null;this.src='https://placehold.co/50x50?text=🥚';" />
+                            Piedra Oval
+                        </div>
+                        <ul class="pokemon-evolve-list">
+                            <li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/440.png" alt="Happiny" />Happiny</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="evolution-section">
+                <h3>Nivel con objeto equipado</h3>
+                <ul class="evolution-list">
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png" alt="Poliwhirl" />
+                                Poliwhirl
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/186.png" alt="Politoed" />
+                                Politoed
+                            </div>
+                        </div>
+                        <div class="evolution-details">Nivel con Roca del Rey <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kings-rock.png" alt="Roca del Rey" onerror="this.onerror=null;this.src='https://placehold.co/30x30?text=👑';" /></div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png" alt="Slowpoke" />
+                                Slowpoke
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/199.png" alt="Slowking" />
+                                Slowking
+                            </div>
+                        </div>
+                        <div class="evolution-details">Nivel con Roca del Rey <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kings-rock.png" alt="Roca del Rey" onerror="this.onerror=null;this.src='https://placehold.co/30x30?text=👑';" /></div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png" alt="Onix" />
+                                Onix
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png" alt="Steelix" />
+                                Steelix
+                            </div>
+                        </div>
+                        <div class="evolution-details">Nivel con Revestimiento Metálico <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-coat.png" alt="Revestimiento Metálico" onerror="this.onerror=null;this.src='https://placehold.co/30x30?text=⚙️';" /></div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png" alt="Scyther" />
+                                Scyther
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png" alt="Scizor" />
+                                Scizor
+                            </div>
+                        </div>
+                        <div class="evolution-details">Nivel con Revestimiento Metálico <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-coat.png" alt="Revestimiento Metálico" onerror="this.onerror=null;this.src='https://placehold.co/30x30?text=⚙️';" /></div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png" alt="Porygon" />
+                                Porygon
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png" alt="Porygon2" />
+                                Porygon2
+                            </div>
+                        </div>
+                        <div class="evolution-details">Nivel con Mejora <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/upgrade.png" alt="Mejora" onerror="this.onerror=null;this.src='https://placehold.co/30x30?text=⬆️';" /></div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png" alt="Porygon2" />
+                                Porygon2
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/474.png" alt="Porygon-Z" />
+                                Porygon-Z
+                            </div>
+                        </div>
+                        <div class="evolution-details">Nivel con Disco Extraño <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dubious-disc.png" alt="Disco Extraño" onerror="this.onerror=null;this.src='https://placehold.co/30x30?text=💿';" /></div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png" alt="Electabuzz" />
+                                Electabuzz
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/466.png" alt="Electivire" />
+                                Electivire
+                            </div>
+                        </div>
+                        <div class="evolution-details">Nivel con Electrizador <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/electirizer.png" alt="Electrizador" onerror="this.onerror=null;this.src='https://placehold.co/30x30?text=⚡';" /></div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png" alt="Magmar" />
+                                Magmar
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png" alt="Magmortar" />
+                                Magmortar
+                            </div>
+                        </div>
+                        <div class="evolution-details">Nivel con Magmatizador <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/magmarizer.png" alt="Magmatizador" onerror="this.onerror=null;this.src='https://placehold.co/30x30?text=🔥';" /></div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/366.png" alt="Clamperl" />
+                                Clamperl
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/368.png" alt="Gorebyss" />
+                                Gorebyss
+                            </div>
+                        </div>
+                        <div class="evolution-details">Nivel con Escama Marina <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/deep-sea-scale.png" alt="Escama Marina" onerror="this.onerror=null;this.src='https://placehold.co/30x30?text=🌊';" /></div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/366.png" alt="Clamperl" />
+                                Clamperl
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/367.png" alt="Huntail" />
+                                Huntail
+                            </div>
+                        </div>
+                        <div class="evolution-details">Nivel con Diente Marino <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/deep-sea-tooth.png" alt="Diente Marino" onerror="this.onerror=null;this.src='https://placehold.co/30x30?text=🦷';" /></div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/356.png" alt="Dusclops" />
+                                Dusclops
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/477.png" alt="Dusknoir" />
+                                Dusknoir
+                            </div>
+                        </div>
+                        <div class="evolution-details">Nivel con Tela Terrible <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/reaper-cloth.png" alt="Tela Terrible" onerror="this.onerror=null;this.src='https://placehold.co/30x30?text=👻';" /></div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png" alt="Seadra" />
+                                Seadra
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/230.png" alt="Kingdra" />
+                                Kingdra
+                            </div>
+                        </div>
+                        <div class="evolution-details">Nivel con Escama Dragón <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-scale.png" alt="Escama Dragón" onerror="this.onerror=null;this.src='https://placehold.co/30x30?text=🐉';" /></div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png" alt="Rhydon" />
+                                Rhydon
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png" alt="Rhyperior" />
+                                Rhyperior
+                            </div>
+                        </div>
+                        <div class="evolution-details">Nivel con Protector <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/protector.png" alt="Protector" onerror="this.onerror=null;this.src='https://placehold.co/30x30?text=🛡️';" /></div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/349.png" alt="Feebas" />
+                                Feebas
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png" alt="Milotic" />
+                                Milotic
+                            </div>
+                        </div>
+                        <div class="evolution-details">Nivel con Escama Bella <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/prism-scale.png" alt="Escama Bella" onerror="this.onerror=null;this.src='https://placehold.co/30x30?text=✨';" /></div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/682.png" alt="Spritzee" />
+                                Spritzee
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/683.png" alt="Aromatisse" />
+                                Aromatisse
+                            </div>
+                        </div>
+                        <div class="evolution-details">Nivel con Saquito Fragante <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sachet.png" alt="Saquito Fragante" onerror="this.onerror=null;this.src='https://placehold.co/30x30?text=🌸';" /></div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/684.png" alt="Swirlix" />
+                                Swirlix
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/685.png" alt="Slurpuff" />
+                                Slurpuff
+                            </div>
+                        </div>
+                        <div class="evolution-details">Nivel con Dulce de Nata <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/whipped-dream.png" alt="Dulce de Nata" onerror="this.onerror=null;this.src='https://placehold.co/30x30?text=🍰';" /></div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/803.png" alt="Poipole" />
+                                Poipole
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/804.png" alt="Naganadel" />
+                                Naganadel
+                            </div>
+                        </div>
+                        <div class="evolution-details">Nivel (con Pulso Dragón)</div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="evolution-section">
+                <h3>Otros Métodos</h3>
+                <ul class="evolution-list">
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/190.png" alt="Aipom" />
+                                Aipom
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png" alt="Ambipom" />
+                                Ambipom
+                            </div>
+                        </div>
+                        <div class="evolution-details">Al aprender Doble Golpe</div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png" alt="Mime Jr." />
+                                Mime Jr.
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png" alt="Mr. Mime" />
+                                Mr. Mime
+                            </div>
+                        </div>
+                        <div class="evolution-details">Al aprender Mimético</div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/438.png" alt="Bonsly" />
+                                Bonsly
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/185.png" alt="Sudowoodo" />
+                                Sudowoodo
+                            </div>
+                        </div>
+                        <div class="evolution-details">Al aprender Mimético</div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/236.png" alt="Tyrogue" />
+                                Tyrogue
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                        </div>
+                        <div class="evolution-details">
+                            <ul>
+                                <li>
+                                    <div class="sub-pokemon-display">
+                                        <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png" alt="Hitmonlee" />
+                                        Hitmonlee
+                                    </div>
+                                    <span class="sub-condition">(Ataque > Defensa)</span>
+                                </li>
+                                <li>
+                                    <div class="sub-pokemon-display">
+                                        <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png" alt="Hitmonchan" />
+                                        Hitmonchan
+                                    </div>
+                                    <span class="sub-condition">(Ataque &lt; Defensa)</span>
+                                </li>
+                                <li>
+                                    <div class="sub-pokemon-display">
+                                        <img class="sub-item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/237.png" alt="Hitmontop" />
+                                        Hitmontop
+                                    </div>
+                                    <span class="sub-condition">(Ataque = Defensa)</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/674.png" alt="Pancham" />
+                                Pancham
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/675.png" alt="Pangoro" />
+                                Pangoro
+                            </div>
+                        </div>
+                        <div class="evolution-details">Con un Pokémon tipo Siniestro en el equipo</div>
+                    </li>
+                    <li>
+                        <div class="evolution-header">
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/704.png" alt="Goomy" />
+                                Goomy
+                            </div>
+                            <span class="evolution-arrow">→</span>
+                            <div class="pokemon-display">
+                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png" alt="Goodra" />
+                                Goodra
+                            </div>
+                        </div>
+                        <div class="evolution-details">Nivel 40 con lluvia en el entorno</div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

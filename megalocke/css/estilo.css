@@ -1,315 +1,330 @@
-    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
 
-    body {
-      font-family: 'Roboto', sans-serif;
-      background-color: #f4f4f4;
-      margin: 0;
-      color: #222;
+/* --- Estilos Generales --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F8F8F8;
+    margin: 0;
+    color: #222222;
+    padding-left: 0;
+    transition: padding-left 0.3s ease;
+}
+
+/* CSS para hacer que las imágenes sean responsivas por defecto, excepto las del logo */
+img:not(.logo-menu-pokemon) {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+h2, .pokemon-card h5 {
+    font-family: 'Anton', sans-serif;
+    color: #CC0000;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+p {
+    margin: 6px 0;
+    font-size: 0.9rem;
+}
+
+/* --- Estilos para la Navbar Superior (VISIBLE SOLO EN MÓVILES/TABLETS) --- */
+.top-menu {
+    background-color: #CC0000;
+    padding: 12px 0;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+    border-bottom: 3px solid #A60000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
+.top-menu .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-menu .navbar-brand img {
+    max-width: 100px;
+    height: auto;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* --- Estilos para el Menú Lateral Fijo (Offcanvas) --- */
+
+.offcanvas.sidebar-fixed {
+    background-color: #222222;
+    color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    z-index: 1040;
+    transition: transform 0.3s ease-in-out;
+    /* Por defecto, invisible (para evitar parpadeos o el overlay en carga) */
+    visibility: hidden;
+}
+
+/* Comportamiento del Offcanvas en pantallas PEQUEÑAS (móviles y tablets, hasta 991.98px) */
+@media (max-width: 991.98px) {
+    .offcanvas.sidebar-fixed {
+        transform: translateX(-100%);
+        /* Asegurarse de que esté fuera de la vista */
+        visibility: hidden; /* Oculto por defecto */
     }
-	
-	/* CSS para hacer que las imágenes sean responsivas */
-	img {
-	 border-radius: 8px;
-     max-width: 100%; /* Asegura que la imagen no exceda el ancho de su contenedor */
-     height: auto;    /* Mantiene la proporción de la imagen al escalar */
-     display: block;  /* Opcional: Elimina cualquier espacio extra debajo de la imagen si está dentro de un párrafo */
-	}
-
-    .top-menu {
-      background-color: #CC0000; /* Rojo Pokémon característico */
-      padding: 12px 0;
-      box-shadow: 0 3px 6px rgba(0,0,0,0.15);
-      border-bottom: 3px solid #A60000; /* Borde inferior más oscuro para profundidad */
+    /* Mostrar cuando se activa por Bootstrap */
+    .offcanvas.sidebar-fixed.show {
+        transform: translateX(0%);
+        visibility: visible;
     }
-
-    .top-menu ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      text-align: center;
+    /* En pantallas pequeñas, el botón de cerrar es necesario */
+    .offcanvas.sidebar-fixed .btn-close {
+        display: block;
     }
+}
 
-    .top-menu ul li {
-      display: inline-block;
-      margin: 0 18px;
-    }
-
-    .top-menu ul li a {
-      text-decoration: none;
-      color: white;
-      font-weight: 600; /* Un poco más de peso */
-      font-size: 1.1em;
-      padding: 10px 20px;
-      border-radius: 8px;
-      transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-    }
-
-    .top-menu ul li a:hover,
-    .top-menu ul li a.active {
-      background-color: #A60000; /* Rojo más oscuro para hover/activo */
-      color: #fff;
-    }
-
-
-    h2, .pokemon-card h5 {
-      font-family: 'Anton', sans-serif;
-      color: #e03e2f; /* rojo vivo Pokémon */
-      text-transform: uppercase;
-      letter-spacing: 1.5px;
-    }
-
-    .pokemon-card {
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
-      padding: 20px;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
-      margin-bottom: 20px; /* Añadido para que no se solape con el siguiente card en resoluciones pequeñas */
-    }
-
-    .legend-badge {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      background-color: #e03e2f;
-      color: white;
-      font-weight: 700;
-      padding: 6px 0;
-      font-size: 0.9rem;
-      letter-spacing: 1.5px;
-      border-top-left-radius: 8px;
-      border-top-right-radius: 8px;
-      user-select: none;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 6px;
-    }
-
-    .legend-badge::before {
-      content: "⭐";
-      font-size: 1.1rem;
-    }
-
-    .pokemon-img {
-      width: 120px;
-      height: 120px;
-      object-fit: contain;
-      margin-bottom: 10px;
-      margin-top: 30px; /* evita superposición con badge */
-    }
-
-    .types {
-      margin-bottom: 15px; /* espacio entre tipos y habilidad */
-    }
-
-    .type-icon {
-      width: 30px;
-      height: 30px;
-      margin: 0 6px 0 0;
-      vertical-align: middle;
+/* Comportamiento del Offcanvas en pantallas GRANDES (desktop, a partir de 992px) */
+@media (min-width: 992px) {
+    .offcanvas.sidebar-fixed {
+        transform: translateX(0%);
+        visibility: visible !important; /* Siempre visible y fijo en desktop */
+        border-right: 1px solid rgba(0, 0, 0, 0.2);
+        background-color: #222222 !important;
     }
 
-    p {
-      margin: 6px 0;
-      font-size: 0.9rem;
+    /* En pantallas grandes, no necesitamos el botón de cerrar en el offcanvas */
+    .offcanvas.sidebar-fixed .btn-close {
+        display: none;
     }
+}
 
-    .container.py-5 {
-        padding-top: 20px !important; /* Ajuste para que el título no quede debajo del menú */
+/* --- CONTROL DEL OVERLAY (offcanvas-backdrop) --- */
+/* Por defecto, lo ocultamos. Bootstrap lo mostrará cuando sea necesario. */
+.offcanvas-backdrop {
+    display: none !important; /* Oculta por defecto el backdrop */
+}
+
+/* Mostrar el backdrop SÓLO en pantallas pequeñas cuando el offcanvas está abierto */
+@media (max-width: 991.98px) {
+    .offcanvas.sidebar-fixed.show + .offcanvas-backdrop {
+        display: block !important; /* Muestra el backdrop solo si el offcanvas está abierto en móvil */
+        opacity: 0.5; /* Opacidad estándar de Bootstrap para el overlay */
+        background-color: #000; /* Fondo negro para el overlay */
+        transition: opacity 0.3s ease-in-out;
     }
+    /* Aseguramos que la transición de opacidad se aplique al backdrop */
+    .offcanvas-backdrop.show {
+        opacity: 0.5;
+    }
+}
 
-    @media (max-width: 480px) {
-      .pokemon-img {
-        width: 100px;
-        height: 100px;
-      }
-      .pokemon-card {
-        padding: 15px;
-      }
-      .top-menu ul li a {
+
+/* Estilos para el logo dentro del Offcanvas */
+.sidebar-fixed .navbar-brand .logo-menu-pokemon {
+    max-width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+.offcanvas-header .btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+/* Estilos para los enlaces del menú dentro del Offcanvas */
+.offcanvas-body .navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.offcanvas-body .navbar-nav .nav-item {
+    margin-bottom: 8px;
+}
+
+.offcanvas-body .navbar-nav .nav-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    display: block;
+}
+
+.offcanvas-body .navbar-nav .nav-link:hover {
+    background-color: #A60000;
+    color: #FFCB05;
+}
+
+.offcanvas-body .navbar-nav .nav-link.active {
+    background-color: #CC0000;
+    color: #FFCB05;
+}
+
+
+/* --- Estilos para el contenido principal (content-wrapper) --- */
+.content-wrapper {
+    min-height: 100vh;
+    padding-top: 0;
+    transition: margin-left 0.3s ease, padding-top 0.3s ease;
+}
+
+/* Ajuste del content-wrapper en pantallas pequeñas (móviles y tablets) */
+@media (max-width: 991.98px) {
+    .content-wrapper {
+        margin-left: 0;
+        padding-top: 70px;
+    }
+}
+
+/* Ajuste del content-wrapper en pantallas GRANDES (desktop) */
+@media (min-width: 992px) {
+    .content-wrapper {
+        margin-left: 250px;
+        padding-top: 0;
+    }
+}
+
+/* --- Estilos de Pestañas (tab-pane y nav-pills) --- */
+.tab-content .tab-pane {
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border: 1px solid #dee2e6;
+}
+
+@media (max-width: 768px) {
+    .nav-tabs .nav-link {
+        padding: 10px 15px;
         font-size: 1rem;
-        padding: 6px 10px;
-      }
-      body {
-        padding-top: 50px; /* Ajuste menor para el menú en móviles */
-      }
+        margin-right: 2px;
     }
-	
-	/* Estilos para las Pestañas de Navegación (nav-tabs) */
-	.nav-tabs {
-		border-bottom: 2px solid #e03e2f; /* Borde inferior de las pestañas */
-		margin-bottom: 30px; /* Espacio debajo de las pestañas */
-	}
+    .nav-tabs {
+        justify-content: space-around !important;
+    }
+}
 
-	.nav-tabs .nav-item {
-		margin-bottom: -2px; /* Alinea el borde del nav-link activo con el borde del nav-tabs */
-	}
+@media (max-width: 576px) {
+    .nav-tabs .nav-link {
+        font-size: 0.9rem;
+        padding: 8px 10px;
+    }
+    .nav-tabs {
+        flex-wrap: wrap;
+    }
+    .nav-tabs .nav-item {
+        margin-bottom: 5px;
+    }
+}
 
-	.nav-tabs .nav-link {
-		background-color: #f8f9fa; /* Fondo claro para las pestañas inactivas */
-		border: 1px solid #dee2e6; /* Borde general para las pestañas */
-		border-bottom-color: transparent; /* Oculta el borde inferior de las inactivas */
-		border-radius: 8px 8px 0 0; /* Bordes redondeados solo arriba */
-		color: #495057; /* Color de texto para pestañas inactivas */
-		font-family: 'Anton', sans-serif; /* Fuente personalizada */
-		text-transform: uppercase;
-		letter-spacing: 1px;
-		padding: 12px 20px;
-		transition: all 0.3s ease;
-		font-size: 1.1rem; /* Un poco más grande */
-		margin-right: 5px; /* Espacio entre pestañas */
-	}
+/* Estilos para las pestañas laterales (nav-pills) */
+.nav-pills .nav-link {
+    background-color: transparent;
+    color: #495057;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    text-align: left;
+    border: 1px solid transparent;
+}
 
-	.nav-tabs .nav-link:hover {
-		border-color: #e03e2f #e03e2f #e03e2f; /* Borde al pasar el ratón */
-		color: #e03e2f; /* Color del texto al pasar el ratón */
-		background-color: #e9ecef; /* Fondo ligeramente más oscuro al pasar el ratón */
-	}
+.nav-pills .nav-link:hover {
+    background-color: rgba(204, 0, 0, 0.1);
+    color: #CC0000;
+    border-color: #CC0000;
+}
 
-	.nav-tabs .nav-link.active {
-		background-color: #e03e2f; /* Color de fondo de la pestaña activa (tu color principal) */
-		color: white; /* Color de texto blanco para la pestaña activa */
-		border-color: #e03e2f #e03e2f #e03e2f; /* Borde completo para la pestaña activa */
-		border-bottom-color: #e03e2f; /* Borde inferior del mismo color para que se "funda" */
-		font-weight: bold;
-		transform: translateY(-2px); /* Un pequeño levantamiento para la pestaña activa */
-		box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para la pestaña activa */
-	}
+.nav-pills .nav-link.active {
+    background-color: #CC0000;
+    color: #FFCB05;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    border-color: #CC0000;
+}
 
-	/* Estilos para el contenido de las pestañas (tab-pane) */
-	.tab-content .tab-pane {
-		padding: 20px; /* Espacio interno para el contenido de cada pestaña */
-		background-color: #fdfdfd; /* Fondo ligeramente diferente para el contenido */
-		border-radius: 8px; /* Bordes redondeados */
-		box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* Sombra suave */
-		border: 1px solid #dee2e6; /* Borde alrededor del contenido */
-	}
+.tab-content .tab-pane {
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border: 1px solid #dee2e6;
+}
 
-	/* Media query para pantallas más pequeñas (opcional, para ajustar el tamaño de las pestañas) */
-	@media (max-width: 768px) {
-		.nav-tabs .nav-link {
-			padding: 10px 15px;
-			font-size: 1rem;
-			margin-right: 2px;
-		}
-		.nav-tabs {
-			justify-content: space-around !important; /* Distribuye las pestañas de forma más equitativa */
-		}
-	}
-
-	@media (max-width: 576px) {
-		.nav-tabs .nav-link {
-			font-size: 0.9rem;
-			padding: 8px 10px;
-		}
-		.nav-tabs {
-			flex-wrap: wrap; /* Permite que las pestañas se envuelvan si no caben en una línea */
-		}
-		.nav-tabs .nav-item {
-			margin-bottom: 5px; /* Espacio entre pestañas al envolverse */
-		}
-	}
-	/* --- Estilos para Pestañas Laterales con formato de Leyenda --- */
-
-	/* Estilo base para los botones de las pestañas laterales (inactivos) */
-	.nav-pills .nav-link {
-		background-color: transparent; /* Fondo transparente por defecto */
-		color: #495057; /* Color de texto para los botones inactivos */
-		font-family: 'Anton', sans-serif;
-		text-transform: uppercase;
-		letter-spacing: 1px;
-		padding: 12px 15px;
-		margin-bottom: 8px; /* Espacio entre los botones de las pestañas */
-		border-radius: 8px; /* Bordes redondeados para los botones */
-		transition: all 0.3s ease;
-		text-align: left; /* Alinea el texto a la izquierda */
-		border: 1px solid transparent; /* Borde transparente por defecto */
-	}
-
-	/* Estilo al pasar el ratón por los botones de las pestañas */
-	.nav-pills .nav-link:hover {
-		background-color: rgba(224, 62, 47, 0.1); /* Rojo principal con baja opacidad */
-		color: #e03e2f; /* Texto rojo principal */
-		border-color: #e03e2f; /* Borde del color principal */
-	}
-
-	/* Estilo para el botón de la pestaña activa (como tu legend-badge/top-menu) */
-	.nav-pills .nav-link.active {
-		background-color: #e03e2f; /* Color de fondo principal (rojo de tu leyenda) */
-		color: white; /* Color de texto blanco para la pestaña activa */
-		font-weight: bold;
-		box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* Sombra más pronunciada */
-		border-color: #e03e2f; /* Borde del mismo color */
-	}
-
-	/* Ajustes para el contenedor del contenido de las pestañas (tab-pane) */
-	.tab-content .tab-pane {
-		padding: 20px; /* Restablecemos el padding para el contenido */
-		background-color: #fdfdfd; /* Fondo claro para el contenido */
-		border-radius: 8px; /* Bordes redondeados */
-		box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* Sombra suave */
-		border: 1px solid #dee2e6; /* Borde general para el contenido */
-	}
-
-	/* Media query para móviles: Las pestañas laterales se convertirán en horizontales */
-	@media (max-width: 767.98px) {
-		.nav-pills {
-			flex-direction: row !important;
-			flex-wrap: wrap;
-			justify-content: center;
-			margin-bottom: 20px;
-			border-bottom: 2px solid #e03e2f; /* Borde inferior para simular horizontal */
-			padding-bottom: 5px; /* Espacio antes del borde */
+@media (max-width: 767.98px) {
+    .nav-pills {
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;
+        border-bottom: 2px solid #CC0000;
+        padding-bottom: 5px;
     }
     .nav-pills .nav-link {
         margin-right: 5px;
         margin-bottom: 5px;
         text-align: center;
-        border-bottom-color: transparent; /* Esconde el borde inferior si es botón */
+        border-bottom-color: transparent;
     }
     .nav-pills .nav-link.active {
-        border-bottom-color: #e03e2f; /* Muestra el borde inferior para el activo */
+        border-bottom-color: #CC0000;
     }
     .container-fluid .row > .col-md-3,
     .container-fluid .row > .col-md-9 {
         width: 100%;
     }
-	
 }
 
-/* Estilo personalizado para acordeón tipo leyenda */
+/* --- Estilo personalizado para acordeón tipo leyenda --- */
 .accordion .accordion-item {
-  border: 2px solid #d4af37; /* color oro tipo leyenda */
-  border-radius: 0.5rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 1rem;
-  background-color: #fff9e6; /* fondo crema claro */
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .accordion-button {
-  background-color: #fff3cd; /* amarillo suave */
-  color: #3a2f0b;
-  font-weight: 600;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff3cd;
+    color: #3a2f0b;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .accordion-button:not(.collapsed) {
-  color: #3a2f0b;
-  background-color: #ffe8a1;
-  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+    color: #3a2f0b;
+    background-color: #ffe8a1;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1);
 }
 
 .accordion-button:focus {
-  box-shadow: 0 0 0 0.25rem rgba(212, 175, 55, 0.5);
+    box-shadow: 0 0 0 0.25rem rgba(212, 175, 55, 0.5);
 }
 
 .accordion-body {
-  background-color: #fffdf4;
-  padding: 1rem 1.25rem;
-  font-size: 0.95rem;
-  color: #333;
+    background-color: #fffdf4;
+    padding: 1rem 1.25rem;
+    font-size: 0.95rem;
+    color: #333;
 }
