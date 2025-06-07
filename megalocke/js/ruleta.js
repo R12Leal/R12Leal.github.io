@@ -17,11 +17,17 @@ if (!canvas || !ctx || !resultadoDiv || !historialDiv || !nombreInput || !botonG
 
 // Lista de opciones (Pokémon) para la ruleta
 const opciones = [
-  "Pikachu", "Bulbasaur", "Charmander", "Squirtle", "Jigglypuff",
-  "Meowth", "Psyduck", "Machop", "Magnemite", "Geodude",
-  "Slowpoke", "Gastly", "Onix", "Voltorb", "Exeggcute",
-  "Cubone", "Koffing", "Rhyhorn", "Horsea", "Staryu",
-  "Scyther", "Electabuzz", "Magmar", "Lapras", "Eevee"
+  "Fósil Domo",
+  "Fósil Helix",
+  "Ámbar Viejo",
+  "Fósil Raíz",
+  "Fósil Garra",
+  "Fósil Cráneo",
+  "Fósil Coraza",
+  "Fósil Tapa",
+  "Fósil Pluma",
+  "Fósil Mandíbula",
+  "Fósil Aleta"
 ];
 
 // Colores para los segmentos de la ruleta

@@ -1,317 +1,226 @@
-/*
- * Archivo: estilo_pk.css
- * Descripción: Estilos específicos para las tarjetas de Pokémon y sus títulos de sección.
- * Mejoras en la adaptabilidad responsive y limpieza de código.
- */
+:root {
+      --accent-color: #e3350d;
+      --bg-light: #f2f2f2;
+      --bg-white: #fff;
+      --text-dark: #212529;
+      --text-soft: #495057;
+      --sidebar-width: 240px;
+    }
 
-/* --- Importación de Fuentes --- */
-/* Si 'Inter' ya está importada en estilo.css, esta línea puede ser redundante. */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+    body {
+      background-color: var(--bg-light);
+      margin: 0;
+      display: flex;
+      flex-direction: row;
+    }
 
-/* --- Títulos de Sección Específicos de Pokémon --- */
-.section-title {
-    margin-top: 3.5rem;
-    margin-bottom: 2.5rem;
-    padding: 1rem 2rem;
-    background-color: #feebea;
-    border-left: 8px solid #E74C3C;
-    color: #C0392B;
-    font-family: 'Inter', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
-    text-align: center;
-    transition: all 0.3s ease; /* Transición suave para adaptabilidad */
+    .content-wrapper {
+      flex-grow: 1;
+      padding: 2rem;
+      margin-left: var(--sidebar-width);
+      transition: margin 0.3s ease;
+    }
+
+    @media (max-width: 991.98px) {
+      body {
+        flex-direction: column;
+      }
+      .sidebar-fixed {
+        position: relative;
+        width: 100%;
+        height: auto;
+      }
+      .content-wrapper {
+        margin-left: 0;
+        padding: 1rem;
+      }
+    }
+
+    .row.g-4 {
+      display: flex; /* Asegura que es un contenedor flexbox */
+      flex-wrap: wrap; /* Permite que las tarjetas se envuelvan a la siguiente línea */
+      align-items: stretch; /* ESTO ES CLAVE: Hace que los elementos hijos (las tarjetas) se estiren para tener la misma altura que el más alto de la fila. */
+    }
+
+    .pokemon-card {
+      background: var(--bg-white);
+      border: 1px solid #e0e0e0;
+      border-radius: 10px;
+      padding: 16px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: transform 0.2s, box-shadow 0.2s;
+      display: flex; /* Necesario para que el contenido interno de la tarjeta sea flexible */
+      flex-direction: column; /* Organiza el contenido verticalmente */
+      height: 100%; /* Esto es importante para que la tarjeta ocupe toda la altura disponible que le da align-items: stretch */
+      /* min-height ya no sería tan crítico aquí, pero puedes mantenerlo si quieres una altura mínima absoluta */
+    }
+
+    .pokemon-details {
+      font-size: 0.9em;
+      color: var(--text-soft);
+      text-align: left;
+      border-top: 1px dashed #e0e0e0;
+      padding-top: 10px;
+      flex-grow: 1; /* Permite que la sección de detalles ocupe el espacio restante */
+    }
+
+    .pokemon-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .pokemon-img-container {
+      aspect-ratio: 1/1;
+      background-color: var(--bg-light);
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 12px;
+    }
+    .pokemon-img {
+      max-width: 90%;
+      max-height: 90%;
+    }
+
+    .pokemon-card h5 {
+	  font-family: 'Oswald', sans-serif;
+	  font-size: clamp(1rem, 2.5vw, 1.4rem); /* se adapta a tamaño de pantalla */
+	  color: var(--text-dark);
+	  margin-bottom: 10px;
+	  word-break: break-word;     /* rompe palabras largas */
+	  white-space: normal;        /* permite saltos de línea */
+	  line-height: 1.2;           /* evita líneas demasiado altas */
+	  text-align: center;
+	}
+
+    .pokemon-types {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+    .type-icon {
+      width: 38px;
+      height: 38px;
+    }
+
+    .tab-content > .tab-pane {
+      display: none;
+    }
+    .tab-content > .tab-pane.active {
+      display: block;
+    }
+
+  @media (min-width: 992px) {
+  #mainContent {
+    margin-left: 250px; /* ajusta este valor según el ancho real de tu sidebar */
+  }
 }
 
-/* --- Estilos de las Tarjetas Individuales de Pokémon --- */
-.pokemon-card {
-    background: linear-gradient(145deg, #ffffff, #f0f0f0);
-    border: 1px solid #e0e0e0;
-    border-radius: 20px;
-    padding: 25px;
-    text-align: center;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0,0,0,0.06);
-    transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1),
-                box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    height: 100%; /* Asegura que todas las tarjetas en una fila tengan la misma altura */
-    isolation: isolate; /* Para asegurar el correcto apilamiento de z-index con los badges */
+.nav-tabs {
+  border-bottom: none;
+  background-color: #333; /* gris oscuro más suave */
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
-/* Efecto hover para las tarjetas */
-.pokemon-card:hover {
-    transform: translateY(-10px) scale(1.04);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0,0,0,0.1);
+.nav-tabs .nav-link {
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* --- Contenedor y Estilos de la Imagen del Pokémon --- */
-.pokemon-img-container {
-    width: 100%;
-    /* Establece una altura del 100% del ancho (para un contenedor cuadrado)
-       Si tus imágenes son 4:3 (más anchas), puedes probar 75%.
-       Si son más altas que anchas (ej. 3:4), puedes probar 133.33%. */
-    padding-top: 100%; /* Se mantiene 100% como la solución que funcionó para tus imágenes */
-    height: 0; /* Asegura que la altura sea generada solo por padding-top */
-    position: relative; /* Contenedor para el posicionamiento absoluto de la imagen */
-    margin-bottom: 20px;
-    background-color: #e9ecef;
-    border-radius: 15px;
-    overflow: hidden; /* Oculta cualquier parte de la imagen que se desborde */
-    box-shadow: inset 0 0 8px rgba(0,0,0,0.05);
+.nav-tabs .nav-link:hover {
+  background-color: #CC0000; /* hover sutil */
+  color: #FFCB05; /* un toque cálido */
 }
 
-.pokemon-img {
-    position: absolute; /* Posiciona la imagen dentro de su padre relativo */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; /* La imagen llenará las dimensiones del contenedor */
-    object-fit: contain; /* Escala la imagen para que quepa completamente sin recortar el Pokémon */
-    padding: 0; /* Sin padding interno en la imagen */
+.nav-tabs .nav-link.active {
+  background-color: #CC0000;
+  color: #FFCB05;
+  font-weight: 700;
 }
 
-/* --- Título (Nombre) del Pokémon en la Tarjeta --- */
-.pokemon-card h5 {
-    font-family: 'Inter', sans-serif;
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 1.8em;
-    color: #C0392B;
-    font-weight: 700;
-    line-height: 1.2;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.05);
+/* Responsive mejora: scroll si muchas pestañas */
+@media (max-width: 768px) {
+  .search-input-wrapper {
+    position: relative; /* Esencial para posicionar el botón de la X dentro */
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+  }
+  .nav-tabs {
+    margin-top: 15px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+  }
+  .nav-tabs .nav-link {
+    white-space: nowrap;
+  }
 }
 
-/* --- Iconos de Tipos del Pokémon --- */
-.pokemon-types {
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.type-icon {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    padding: 5px;
-    background-color: rgba(0,0,0,0.07);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-/* Efecto hover para los iconos de tipo */
-.type-icon:hover {
-    transform: scale(1.2);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-
-/* --- Sección de Detalles (Habilidad y Stats) --- */
-.pokemon-details {
-    margin-top: auto; /* Empuja los detalles hacia abajo, ocupando el espacio restante */
-    padding-top: 20px;
-    border-top: 1px dashed #cccccc;
-    flex-grow: 1; /* Permite que este elemento crezca y ocupe espacio si es necesario */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end; /* Alinea el contenido de los detalles al final */
-}
-
-.pokemon-card p {
-    font-family: 'Inter', sans-serif;
-    font-size: 1.05em;
-    margin-bottom: 8px;
-    line-height: 1.4;
-    color: #555;
-}
-
-.pokemon-card p strong {
-    color: #333;
-    font-weight: 600;
-}
-
-/* --- Badges de Leyenda y Originalidad --- */
-
-/* Badge "LEYENDA" / "NUEVA MEGA" / "MEGA" */
-.legend-badge {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: linear-gradient(45deg, #FFD700, #FFA000);
-    color: #7A3D00;
-    font-family: 'Inter', sans-serif;
-    font-weight: 800;
-    padding: 8px 15px;
-    font-size: 0.9em;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    z-index: 10; /* Asegura que el badge esté encima de otros elementos */
-    transform: rotate(3deg);
-    animation: pulse-gold 2s infinite ease-in-out;
-}
-
-/* Animación para el badge de leyenda */
-@keyframes pulse-gold {
-    0% { transform: scale(1) rotate(3deg); opacity: 1; }
-    50% { transform: scale(1.05) rotate(3deg); opacity: 0.95; }
-    100% { transform: scale(1) rotate(3deg); opacity: 1; }
-}
-
-/* Clases específicas para badges (añadir estas clases en el HTML si aplica) */
-.legend-badge.new-mega-badge {
-    background: linear-gradient(45deg, #1abc9c, #16a085);
-    color: #0e6653;
-}
-
-.legend-badge.mega-badge {
-    background: linear-gradient(45deg, #9b59b6, #8e44ad);
-    color: #4a215a;
-}
-
-/* Etiqueta "ORIGINAL" */
-.original-badge {
-    display: inline-block;
-    background-color: #CC0000;
-    color: #ffffff;
-    padding: 0.25em 0.5em;
-    font-size: 0.8em;
+.badge {
+    margin-right: 5px; /* Espacio entre las etiquetas */
+    padding: .3em .6em;
+    font-size: 0.75em;
     font-weight: 600;
     line-height: 1;
+    color: #fff;
     text-align: center;
     white-space: nowrap;
-    vertical-align: middle;
-    border-radius: 0.25rem;
-    text-transform: uppercase;
-    font-style: normal;
-    margin-left: 5px;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+.bg-secondary {
+    background-color: #CC0000 !important; /* Un color de fondo para las etiquetas */
 }
 
-/* =========================================== */
-/* === MEDIA QUERIES PARA ADAPTABILIDAD RESPONSIVE === */
-/* =========================================== */
-
-/* Ajustes para pantallas medianas (tablets en horizontal, algunos desktops pequeños) */
-@media (max-width: 992px) {
-    .section-title {
-        font-size: 2.2rem; /* Ligeramente más pequeño */
-        padding: 0.9rem 1.8rem;
-        margin-top: 3rem;
-        margin-bottom: 2rem;
-    }
-    .pokemon-card {
-        padding: 22px;
-    }
-    .pokemon-card h5 {
-        font-size: 1.7em;
-        margin-bottom: 12px;
-    }
-    .type-icon {
-        width: 38px;
-        height: 38px;
-    }
-    .pokemon-card p {
-        font-size: 1.0em;
-    }
-    .legend-badge {
-        font-size: 0.88em;
-        padding: 7px 14px;
-        top: 8px;
-        right: 8px;
-    }
-    .original-badge {
-        font-size: 0.78em;
-        padding: 0.22em 0.48em;
-    }
+/* Estilo para el contenedor del input y el botón de borrar */
+.search-input-wrapper {
+    position: relative; /* Esencial para posicionar el botón de la X dentro */
 }
 
-/* Ajustes para pantallas pequeñas (tablets en vertical y la mayoría de móviles) */
-@media (max-width: 768px) {
-    .section-title {
-        font-size: 1.8rem; /* Tamaño más adecuado para móviles */
-        margin-top: 2.5rem;
-        margin-bottom: 1.8rem;
-        padding: 0.7rem 1.2rem;
-        border-left: 6px solid #E74C3C; /* Borde más delgado */
-    }
-    .pokemon-card {
-        padding: 20px; /* Reducción de padding en la tarjeta */
-        border-radius: 15px; /* Bordes ligeramente menos redondeados */
-    }
-    .pokemon-card h5 {
-        font-size: 1.5em; /* Título más compacto */
-        margin-bottom: 10px;
-    }
-    .pokemon-img-container {
-        margin-bottom: 15px; /* Menos margen debajo de la imagen */
-    }
-    .type-icon {
-        width: 35px;
-        height: 35px;
-    }
-    .pokemon-details {
-        padding-top: 15px;
-    }
-    .pokemon-card p {
-        font-size: 0.95em;
-        margin-bottom: 6px;
-    }
-    .legend-badge {
-        font-size: 0.75em;
-        padding: 6px 12px;
-        top: 6px;
-        right: 6px;
-        border-radius: 8px 15px 0 8px;
-        transform: rotate(1deg); /* Menos rotación en pantallas pequeñas */
-    }
-    .original-badge {
-        font-size: 0.7em;
-        padding: 0.2em 0.4em;
-    }
+/* Estilo para el botón de borrar búsqueda */
+.btn-clear-search {
+    position: absolute;
+    right: 12px; /* Ajusta la posición desde la derecha */
+    top: 50%; /* Centra verticalmente */
+    transform: translateY(-50%); /* Ajuste fino para centrado vertical */
+    background: none;
+    border: none;
+    color: #6c757d; /* Color de la X */
+    font-size: 1.5em; /* Tamaño de la X */
+    cursor: pointer;
+    padding: 0;
+    line-height: 1; /* Para evitar espacio extra */
+    opacity: 0.7; /* Ligeramente transparente */
+    transition: opacity 0.2s ease;
+    /* Aseguramos que la X esté por encima del input */
+    z-index: 2; 
 }
 
-/* Ajustes para móviles muy pequeños (menores de 480px) */
-@media (max-width: 480px) {
-    .section-title {
-        font-size: 1.5rem;
-        margin-top: 2rem;
-        margin-bottom: 1.5rem;
-        padding: 0.6rem 1rem;
-    }
-    .pokemon-card {
-        padding: 15px;
-    }
-    .pokemon-card h5 {
-        font-size: 1.3em;
-    }
-    .type-icon {
-        width: 30px;
-        height: 30px;
-        gap: 8px; /* Menos espacio entre iconos */
-    }
-    .pokemon-details {
-        padding-top: 10px;
-    }
-    .pokemon-card p {
-        font-size: 0.9em;
-    }
-    .legend-badge {
-        font-size: 0.65em;
-        padding: 4px 8px;
-        top: 5px;
-        right: 5px;
-    }
-    .original-badge {
-        font-size: 0.6em;
-        padding: 0.15em 0.3em;
-    }
+.btn-clear-search:hover {
+    opacity: 1; /* Más opaco al pasar el ratón */
+    color: #495057; /* Un poco más oscuro al pasar el ratón */
+}
+
+/* Ajuste para que el texto no se oculte detrás del botón */
+/* Aquí el padding-right se aplica directamente al .form-control */
+.form-control {
+    padding-right: 40px; /* Deja más espacio para el botón de borrar */
+}
+
+/* Estilo para el borde del input al hacer foco */
+.form-control:focus {
+    border-color: #CC0000; /* Color del borde al hacer foco */
+    box-shadow: 0 0 0 0.25rem rgba(204, 0, 0, 0.25); /* Color de la sombra de enfoque */
 }

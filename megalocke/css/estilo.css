@@ -65,7 +65,7 @@ p {
 /* --- Estilos para el Menú Lateral Fijo (Offcanvas) --- */
 
 .offcanvas.sidebar-fixed {
-    background-color: #222222;
+    background-color: #343a40;
     color: #FFFFFF;
     position: fixed;
     top: 0;
@@ -327,4 +327,114 @@ p {
     padding: 1rem 1.25rem;
     font-size: 0.95rem;
     color: #333;
+}
+
+.content {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+h1, h2, h3 {
+    color: #dc3545; /* Rojo de Pokémon */
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+.card-header {
+    background-color: #CC0000; /* Rojo de Pokémon */
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border-bottom: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 15px 20px;
+}
+.list-group-item {
+    background-color: #fff;
+    border-color: #eee;
+    padding: 12px 20px;
+}
+.list-group-item:last-child {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+/* Estilos para la barra de navegación superior (móvil) */
+.top-menu {
+    background-color: #343a40; /* Fondo oscuro de la barra superior */
+    padding: 0.5rem 1rem;
+}
+
+/* Para alinear el logo y el botón en la barra superior móvil */
+.top-menu .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ESTILOS PARA LA BARRA SUPERIOR MÓVIL (d-lg-none) */
+.top-menu {
+    background-color: #343a40; /* Fondo oscuro de la barra superior, como en tu captura */
+    padding: 0.5rem 1rem;
+    position: fixed; /* ¡Importante! Fija la barra en la parte superior */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ocupa todo el ancho disponible */
+    z-index: 1030; /* Asegura que la barra esté por encima del contenido */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra sutil para un mejor efecto visual */
+}
+
+/* Para alinear el botón y el logo. Los dos primeros elementos (botón y logo) irán a la izquierda. */
+.top-menu .container-fluid {
+    display: flex;
+    justify-content: flex-start; /* Alinea los elementos al inicio (izquierda) */
+    align-items: center; /* Centra verticalmente todos los elementos */
+    gap: 10px; /* Añade un pequeño espacio entre el botón y el logo */
+}
+
+/* ESTILO ESPECÍFICO PARA EL LOGO DENTRO DE LA BARRA SUPERIOR MÓVIL (AHORA AL LADO DEL BOTÓN) */
+.top-menu .navbar-brand {
+    padding-top: 0; /* Elimina padding superior/inferior si lo tuviera por defecto */
+    padding-bottom: 0; /* Elimina padding superior/inferior si lo tuviera por defecto */
+    margin-right: auto; /* Esto empujará cualquier cosa a la derecha del logo hacia la derecha */
+    margin-left: 0; /* Aseguramos que no haya margen izquierdo que lo separe mucho del botón */
+}
+
+.top-menu .navbar-brand img {
+    height: 40px; /* Ajusta esta altura. Puedes probar con 35px o incluso 30px si sigue siendo grande. */
+    width: auto; /* Mantiene la proporción de la imagen */
+    max-width: 150px; /* Ancho máximo para evitar que sea demasiado grande y se salga de la barra */
+}
+
+/* Estilo del botón de hamburguesa (fondo rojo, icono blanco) */
+.navbar-toggler {
+    background-color: #dc3545 !important; /* Rojo Pokémon para el fondo del botón */
+    border: 1px solid #dc3545 !important; /* Borde rojo */
+    border-radius: 5px; /* Bordes ligeramente redondeados */
+    padding: 0.25rem 0.75rem; /* Relleno interno del botón */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+    filter: none !important;
+}
+
+.navbar-toggler:hover {
+    background-color: #c82333 !important;
+    border-color: #c82333 !important;
+}
+
+/* Estilo del icono de Poké Ball en el menú móvil (si decides mantenerlo en otra posición) */
+/* Si lo pones a la derecha del todo, podrías añadirle un "ms-auto" en el HTML */
+.pokeball-menu-icon {
+    height: 35px; /* Ajusta este tamaño según lo que quieras */
+    width: auto;
+    /* margin-left: 10px; */ /* Si va a la derecha con ms-auto, este margen no es necesario */
 }

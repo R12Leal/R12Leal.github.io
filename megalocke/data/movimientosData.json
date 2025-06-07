@@ -1,0 +1,72 @@
+[
+    {
+        "movimiento": "Rayo",
+        "tipoMovimiento": "Special",
+        "tipo": "Electric",
+        "descripcion": "Un potente ataque eléctrico que puede paralizar al objetivo.",
+        "pp": 15
+    },
+    {
+        "movimiento": "Planta Feroz",
+        "tipoMovimiento": "Physical",
+        "tipo": "Grass",
+        "descripcion": "El usuario ataca con una furia incontrolable. El usuario debe recargar después de usar este movimiento.",
+        "pp": 5
+    },
+    {
+        "movimiento": "Danza Dragón",
+        "tipoMovimiento": "Status",
+        "tipo": "Dragon",
+        "descripcion": "El usuario ejecuta una danza mística para aumentar su Ataque y Velocidad.",
+        "pp": 20
+    },
+    {
+        "movimiento": "Carantoña",
+        "tipoMovimiento": "Physical",
+        "tipo": "Fairy",
+        "descripcion": "El usuario ataca con gran ternura. Puede bajar el Ataque del objetivo.",
+        "pp": 10
+    },
+    {
+        "movimiento": "Lanzallamas",
+        "tipoMovimiento": "Special",
+        "tipo": "Fire",
+        "descripcion": "Una potente ráfaga de fuego que puede quemar al objetivo.",
+        "pp": 15
+    },
+    {
+        "movimiento": "Hidrobomba",
+        "tipoMovimiento": "Special",
+        "tipo": "Water",
+        "descripcion": "El usuario dispara un chorro de agua a presión al objetivo.",
+        "pp": 5
+    },
+    {
+        "movimiento": "Terremoto",
+        "tipoMovimiento": "Physical",
+        "tipo": "Ground",
+        "descripcion": "El usuario provoca un terremoto para golpear a los Pokémon circundantes.",
+        "pp": 10
+    },
+    {
+        "movimiento": "Ventisca",
+        "tipoMovimiento": "Special",
+        "tipo": "Ice",
+        "descripcion": "Una ráfaga de aire helado que congela a los oponentes. Puede congelar al objetivo.",
+        "pp": 5
+    },
+    {
+        "movimiento": "Bola Sombra",
+        "tipoMovimiento": "Special",
+        "tipo": "Ghost",
+        "descripcion": "El usuario lanza una bola de energía oscura que puede bajar la Defensa Especial del objetivo.",
+        "pp": 15
+    },
+    {
+        "movimiento": "Puño Certero",
+        "tipoMovimiento": "Physical",
+        "tipo": "Fighting",
+        "descripcion": "Un poderoso puñetazo que impacta después de un breve momento de concentración.",
+        "pp": 20
+    }
+]

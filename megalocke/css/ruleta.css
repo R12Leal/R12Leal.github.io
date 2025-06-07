@@ -1,256 +1,225 @@
-	.container {
-	  display: flex;
-	  flex-direction: column;
-	  align-items: center;
-	  gap: 20px;
-	}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem; /* 20px en rem */
+  padding: 1rem;
+}
 
-	.indicador {
-	  position: absolute;
-	  /* Mantenemos el 'left' y 'transformX' para centrar horizontalmente */
-	  left: 50%;
-	  transform: translateX(-50%); /* No necesitamos rotate(180deg) aquí */
+.indicador {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  width: 0;
+  height: 0;
+  border-left: 1rem solid transparent;  /* 15px => 1rem (16px) */
+  border-right: 1rem solid transparent;
+  border-top: 1.25rem solid #CC0000; /* 20px => 1.25rem */
 
-	  width: 0;
-	  height: 0;
-	  border-left: 15px solid transparent;
-	  border-right: 15px solid transparent;
-	  /* Este es el cambio clave: Usamos border-top en lugar de border-bottom */
-	  border-top: 20px solid #CC0000; /* Color del indicador (rojo) */
+  top: -0.5rem; /* Ajustado de -8px a -0.5rem */
+  z-index: 10;
+}
 
-	  /* Ajusta el 'top' para que la punta del triángulo quede justo encima del borde de la ruleta.
-		 El valor de -8px te ha funcionado bien.
-	  */
-	  top: -8px;
+/* Contenedor principal de la ruleta y el historial */
+.ruleta-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  width: 100%;
+  max-width: 48rem; /* 800px en rem */
+  position: relative;
+  align-items: center;
+  padding: 0 1rem;
+}
 
-	  z-index: 10; /* Asegura que el indicador esté por encima de la ruleta */
-	}
+/* Wrapper de la ruleta y el indicador */
+.ruleta-visual-wrapper {
+  position: relative;
+  width: 80vw;     /* en móvil toma 80% del ancho viewport */
+  max-width: 18.75rem; /* 300px en rem */
+  height: 80vw;
+  max-height: 18.75rem;
+  margin: 1.25rem 0;
+}
 
-	.ruleta-layout {
-	  display: flex;
-	  flex-direction: column;
-	  gap: 20px;
-	  width: 100%;
-	  max-width: 800px;
-	  position: relative; /* Mantenlo, ya que contiene tanto el wrapper visual como el historial */
-	  align-items: center; /* Centra horizontalmente el wrapper visual y el historial */
-	}
+/* Media query para pantallas medianas y grandes */
+@media (min-width: 768px) {
+  .ruleta-layout {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 0;
+  }
 
-	/* Contenedor para la ruleta y el indicador */
-	.ruleta-visual-wrapper {
-	  position: relative; /* ¡CLAVE! Este es el contexto de posicionamiento para el indicador */
-	  width: 300px; /* Ancho igual que el canvas */
-	  height: 300px; /* Alto igual que el canvas */
-	  margin: 20px 0; /* Mueve el margen del canvas a este contenedor */
-	}
+  .ruleta-visual-wrapper {
+    width: 18.75rem;
+    height: 18.75rem;
+    margin: 0;
+  }
+}
 
-	@media (min-width: 768px) {
-	  .ruleta-layout {
-		flex-direction: row;
-		justify-content: center;
-		align-items: flex-start;
-	  }
-	}
+/* El canvas de la ruleta */
+canvas {
+  border: 0.3125rem solid #444; /* 5px = 0.3125rem */
+  border-radius: 50%;
+  background: radial-gradient(circle, #fff, #ddd);
+  transition: transform 4s cubic-bezier(0.33, 1, 0.68, 1);
+  z-index: 5;
+  display: block;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
 
-	canvas {
-	  border: 5px solid #444;
-	  border-radius: 50%;
-	  /* margin: 20px 0; (el margen ahora está en .ruleta-visual-wrapper) */
-	  background: radial-gradient(circle, #fff, #ddd);
-	  transition: transform 4s cubic-bezier(0.33, 1, 0.68, 1);
-	  z-index: 5; /* Z-index menor que el indicador */
-	  display: block; /* Asegura que ocupe su propio espacio dentro del wrapper */
-	}
+/* Botones y selects */
+select, button {
+  font-size: 1rem;
+  padding: 0.625rem 1rem; /* 10px 16px */
+  margin: 0.625rem;
+  border: none;
+  border-radius: 0.3125rem; /* 5px */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
-    select, button {
-      font-size: 16px;
-      padding: 10px;
-      margin: 10px;
-      border: none;
-      border-radius: 5px;
-      background-color: #CC0000; /* Color de fondo para botones */
-      color: white;
-      cursor: pointer;
-    }
-    select {
-      background-color: #2ecc71; /* Color de fondo para el select */
-    }
+select {
+  background-color: #2ecc71;
+  color: white;
+}
 
-    /* REGLA CSS PARA EL BOTÓN DESACTIVADO */
-    button:disabled {
-      background-color: #FF8A80; /* Un rojo más claro o grisáceo para indicar desactivado */
-      cursor: not-allowed; /* Cambia el cursor para indicar que no se puede hacer clic */
-      opacity: 0.7; /* Reduce la opacidad para un efecto visual de desactivado */
-    }
+button {
+  background-color: #CC0000;
+  color: white;
+}
 
-    #resultado {
-      font-size: 24px;
-      font-weight: bold;
-      margin-top: 20px;
-      color: #e74c3c;
-    }
-    #historial {
-	  /* Estilos para el contenedor del acordeón (ya los tenías) */
-      display: flex; /* Hace que #historial sea un contenedor flex */
-      flex-direction: column; /* Apila sus hijos verticalmente */
-      justify-content: center; /* Centra el contenido verticalmente */
-      align-items: center; /* Centra el contenido horizontalmente */
-      min-height: 100px; /* Dale una altura mínima para que el spinner se vea centrado */
+button:disabled {
+  background-color: #FF8A80;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
 
-	  max-width: 800px; /* Asegura que el acordeón no sea demasiado ancho */
-      margin-top: 20px; /* Espacio superior para separarlo de la ruleta */
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      overflow: hidden; /* Asegura que los bordes redondeados se apliquen bien */
-      background-color: #fff;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      width: 100%;
-	}
+/* Resultado destacado */
+#resultado {
+  font-size: 1.5rem; /* 24px */
+  font-weight: bold;
+  margin-top: 1.25rem;
+  color: #e74c3c;
+}
 
-	.registro { /* Estos estilos ya no se usarán con la estructura de acordeón */
-	  padding: 10px;
-	  border-left: 5px solid #0d6efd;
-	  background-color: #f1f8ff;
-	  margin-bottom: 10px;
-	  border-radius: 8px;
-	  transition: background-color 0.2s ease;
-	}
+/* Historial / acordeón contenedor */
+#historial, .accordion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 6.25rem; /* 100px */
+  max-width: 48rem;
+  margin-top: 1.25rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 0.5rem 0;
+}
 
-	.registro:hover { /* Estos estilos ya no se usarán con la estructura de acordeón */
-	  background-color: #e4f0ff;
-	}
+/* Accordion items */
+.accordion-item {
+  border-bottom: 1px solid #eee;
+  width: 100%;
+}
 
-	.registro .nombre { /* Estos estilos ya no se usarán con la estructura de acordeón */
-	  font-weight: 600;
-	  color: #0d6efd;
-	  margin-bottom: 4px;
-	}
+.accordion-item:last-child {
+  border-bottom: none;
+}
 
-	.registro .resultado-num { /* Estos estilos ya no se usarán con la estructura de acordeón */
-	  font-size: 1.1em;
-	  margin-bottom: 2px;
-	}
+.accordion-header {
+  background-color: #f7f7f7;
+  padding: 1rem 1.25rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
 
-	.registro .timestamp { /* Estos estilos ya no se usarán con la estructura de acordeón */
-	  font-size: 0.85em;
-	  color: #666;
-	}
+.accordion-header:hover {
+  background-color: #eaeaea;
+}
 
-    /* Estilos para el contenedor del acordeón */
-    .accordion {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      max-width: 800px; /* Asegura que el acordeón no sea demasiado ancho */
-      margin-top: 20px; /* Espacio superior para separarlo de la ruleta */
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      overflow: hidden; /* Asegura que los bordes redondeados se apliquen bien */
-      background-color: #fff;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    }
+.accordion-header::after {
+  content: '+';
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
 
-    /* Estilos para cada item del acordeón (cada jugador) */
-    .accordion-item {
-      border-bottom: 1px solid #eee; /* Separador entre items */
-      width: 100%; /* Asegura que los items del acordeón ocupen todo el ancho */
-    }
+.accordion-item.active .accordion-header {
+  background-color: #e0e0e0;
+}
 
-    .accordion-item:last-child {
-      border-bottom: none; /* No hay separador en el último item */
-    }
+.accordion-item.active .accordion-header::after {
+  content: '-';
+  transform: rotate(180deg);
+}
 
-    /* Estilos para la cabecera del item (el botón para expandir/colapsar) */
-    .accordion-header {
-      background-color: #f7f7f7;
-      padding: 15px 20px;
-      cursor: pointer;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-weight: 600;
-      color: #333;
-      transition: background-color 0.3s ease;
-    }
+.accordion-content {
+  padding: 0 1.25rem;
+  background-color: #fff;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out, padding 0.4s ease-out;
+  color: #555;
+}
 
-    .accordion-header:hover {
-      background-color: #eaeaea;
-    }
+.accordion-item.active .accordion-content {
+  max-height: 9999px;
+  padding: 1rem 1.25rem;
+}
 
-    /* Icono para indicar expandir/colapsar (puedes usar un + / - o flechas) */
-    .accordion-header::after {
-      content: '+'; /* Icono por defecto (colapsado) */
-      font-size: 1.2em;
-      transition: transform 0.3s ease;
-    }
+.accordion-content p.resultado-item {
+  margin-bottom: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  border-bottom: 1px dashed #eee;
+  font-size: 0.95rem;
+  color: #444;
+}
 
-    /* Estilos para el contenido del item (los resultados detallados del jugador) */
-    .accordion-content {
-      padding: 0 20px; /* Relleno horizontal */
-      background-color: #fff;
-      max-height: 0; /* Por defecto, oculto */
-      overflow: hidden; /* Oculta el contenido desbordado */
-      transition: max-height 0.4s ease-out, padding 0.4s ease-out; /* Transición para el colapso */
-      color: #555;
-    }
+.accordion-content p.resultado-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
 
-    /* Cuando el item está activo (expandido) */
-    .accordion-item.active .accordion-header {
-      background-color: #e0e0e0;
-    }
+.accordion-content p.resultado-item strong {
+  color: #007bff;
+}
 
-    .accordion-item.active .accordion-header::after {
-      content: '-'; /* Cambia el icono a '-' */
-      transform: rotate(180deg); /* Opcional: para una animación de flecha */
-    }
+.accordion-content p.resultado-item small {
+  color: #777;
+  display: block;
+  margin-top: 0.125rem;
+}
 
-    .accordion-item.active .accordion-content {
-      max-height: 9999px; /* AUMENTADO SIGNIFICATIVAMENTE para asegurar que no se corte el contenido */
-      padding: 15px 20px; /* Añade relleno cuando está expandido */
-    }
+/* Spinner de carga */
+.loading-spinner {
+  display: none;
+  width: 2.5rem; /* 40px */
+  height: 2.5rem;
+  border: 0.25rem solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top-color: #CC0000;
+  animation: spin 1s linear infinite;
+  flex-shrink: 0;
+  flex-grow: 0;
+  align-self: center;
+}
 
-    /* Estilos para los resultados individuales dentro del contenido del acordeón */
-    .accordion-content p.resultado-item {
-      margin-bottom: 5px;
-      padding-bottom: 5px;
-      border-bottom: 1px dashed #eee; /* Separador sutil para cada resultado */
-      font-size: 0.95em;
-      color: #444;
-    }
-
-    .accordion-content p.resultado-item:last-child {
-      border-bottom: none; /* No hay separador en el último resultado */
-      margin-bottom: 0;
-      padding-bottom: 0;
-    }
-
-    .accordion-content p.resultado-item strong {
-      color: #007bff; /* Color para el resultado principal */
-    }
-
-    .accordion-content p.resultado-item small {
-      color: #777; /* Color para la fecha/hora */
-      display: block; /* Para que la fecha quede en una nueva línea si es necesario */
-      margin-top: 2px;
-    }
-
-
-    /* ESTILOS PARA EL SPINNER DE CARGA */
-    .loading-spinner {
-        display: none; /* Oculto por defecto */
-        width: 40px;
-        height: 40px;
-        border: 4px solid rgba(0, 0, 0, 0.1);
-        border-radius: 50%;
-        border-top-color: #CC0000; /* Color del spinner */
-        animation: spin 1s linear infinite; /* Animación de giro */
-        /* margin: 20px auto; <--- ELIMINAR ESTA LÍNEA, el centrado lo hace el flexbox del padre */
-        flex-shrink: 0;
-        flex-grow: 0;
-        align-self: center; /* Asegura que el item no se estire dentro del flex container */
-    }
-
-    @keyframes spin {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-    }
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
