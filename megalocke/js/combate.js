@@ -88,7 +88,7 @@
 
             // Mostrar mensaje si no hay resultados después del filtrado
             if (filteredProfiles.length === 0 && lowerCaseSearchTerm) {
-                allTrainersContainer.innerHTML = `<p class="no-results">No se encontraron resultados para "${searchTerm}".</p>`;
+                allTrainersContainer.innerHTML = `<p class="alert alert-warning text-center mt-4" style="display: block;">No se encontraron resultados para "${searchTerm}".</p>`;
                 return; // Terminar la función si no hay nada que mostrar
             }
             // Si filteredProfiles.length es 0 y no hay searchTerm, significa que data.json está vacío.

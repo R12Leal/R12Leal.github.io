@@ -3,7 +3,7 @@
     "trainer": {
       "nombre": "Liam",
       "level": 13,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/b/bf/VSIlima_USUM.png/150px-VSIlima_USUM.png"
+      "sprite_url": "img/150px-VSIlima_USUM.png"
     },
     "display_type": "multi-team",
     "teams": [
@@ -172,7 +172,7 @@
     "trainer": {
       "nombre": "Darius",
       "level": 17,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/4/41/VSDulse.png/150px-VSDulse.png"
+      "sprite_url": "img/150px-VSDulse.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -230,7 +230,7 @@
     "trainer": {
       "nombre": "Tilo - El Pesao",
       "level": 18,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/c/c0/VSHau.png/150px-VSHau.png"
+      "sprite_url": "img/150px-VSHau.png"
     },
     "display_type": "multi-team",
     "teams": [
@@ -399,7 +399,7 @@
     "trainer": {
       "nombre": "Guay Gaspar",
       "level": 19,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/a/a9/VSAce_Trainer_M_SM.png/150px-VSAce_Trainer_M_SM.png"
+      "sprite_url": "img/150px-VSAce_Trainer_M_SM.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -441,7 +441,7 @@
     "trainer": {
       "nombre": "Kaudan",
       "level": 20,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/5/51/VSHala.png/150px-VSHala.png"
+      "sprite_url": "img/150px-VSHala.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -499,7 +499,7 @@
     "trainer": {
       "nombre": "Tilo - El Pesao",
       "level": 21,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/c/c0/VSHau.png/150px-VSHau.png"
+      "sprite_url": "img/150px-VSHau.png"
     },
     "display_type": "multi-team",
     "teams": [
@@ -668,7 +668,7 @@
     "trainer": {
       "nombre": "Gladio",
       "level": 22,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/5/55/VSGladion.png/150px-VSGladion.png"
+      "sprite_url": "img/150px-VSGladion.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -726,7 +726,7 @@
     "trainer": {
       "nombre": "Ayudante Jorge",
       "level": 23,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/b/b6/VSTrial_Guide_M.png/150px-VSTrial_Guide_M.png"
+      "sprite_url": "img/150px-VSTrial_Guide_M.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -768,7 +768,7 @@
     "trainer": {
       "nombre": "Darius",
       "level": 24,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/4/41/VSDulse.png/150px-VSDulse.png"
+      "sprite_url": "img/150px-VSDulse.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -826,7 +826,7 @@
     "trainer": {
       "nombre": "Guay Espe",
       "level": 27,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/2/29/VSAce_Trainer_F_2_SM.png/150px-VSAce_Trainer_F_2_SM.png"
+      "sprite_url": "img/150px-VSAce_Trainer_F_2_SM.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -868,7 +868,7 @@
     "trainer": {
       "nombre": "Francine",
       "level": 32,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/8/81/VSPlumeria.png/150px-VSPlumeria.png"
+      "sprite_url": "img/150px-VSPlumeria.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -926,7 +926,7 @@
     "trainer": {
       "nombre": "Mayla",
       "level": 33,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/7/71/VSOlivia_2_USUM.png/150px-VSOlivia_2_USUM.png"
+      "sprite_url": "img/150px-VSOlivia_2_USUM.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -984,7 +984,7 @@
     "trainer": {
       "nombre": "Tilo - El Acosador (también evoluciona)",
       "level": 34,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/c/c0/VSHau.png/150px-VSHau.png"
+      "sprite_url": "img/150px-VSHau.png"
     },
     "display_type": "multi-team",
     "teams": [
@@ -1153,7 +1153,7 @@
     "trainer": {
       "nombre": "Camilo",
       "level": 36,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/2/2f/Akira_Lycanroc_Midday.png/200px-Akira_Lycanroc_Midday.png"
+      "sprite_url": "img/200px-Akira_Lycanroc_Midday.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -1203,7 +1203,7 @@
     "trainer": {
       "nombre": "Guzmán",
       "level": 38,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/7/71/VSGuzma.png/150px-VSGuzma.png"
+      "sprite_url": "img/150px-VSGuzma.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -1261,7 +1261,7 @@
     "trainer": {
       "nombre": "Saúl",
       "level": 39,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/a/a2/VSAether_Foundation_Employee_M.png/150px-VSAether_Foundation_Employee_M.png"
+      "sprite_url": "img/150px-VSAether_Foundation_Employee_M.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -1319,7 +1319,7 @@
     "trainer": {
       "nombre": "Donald",
       "level": 41,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/f/ff/VSJanitor_SM.png/150px-VSJanitor_SM.png"
+      "sprite_url": "img/150px-VSJanitor_SM.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -1377,7 +1377,7 @@
     "trainer": {
       "nombre": "Francine",
       "level": 42,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/8/81/VSPlumeria.png/150px-VSPlumeria.png"
+      "sprite_url": "img/150px-VSPlumeria.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -1435,7 +1435,7 @@
     "trainer": {
       "nombre": "Ángel",
       "level": 44,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/0/0e/VSSightseer_M_SM.png/150px-VSSightseer_M_SM.png"
+      "sprite_url": "img/150px-VSSightseer_M_SM.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -1493,7 +1493,7 @@
     "trainer": {
       "nombre": "Guzmán",
       "level": 47,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/7/71/VSGuzma.png/150px-VSGuzma.png"
+      "sprite_url": "img/150px-VSGuzma.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -1551,7 +1551,7 @@
     "trainer": {
       "nombre": "Gladio",
       "level": 48,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/5/55/VSGladion.png/150px-VSGladion.png"
+      "sprite_url": "img/150px-VSGladion.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -1609,7 +1609,7 @@
     "trainer": {
       "nombre": "Denio",
       "level": 49,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/1/1b/VSNanu.png/150px-VSNanu.png"
+      "sprite_url": "img/150px-VSNanu.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -1667,7 +1667,7 @@
     "trainer": {
       "nombre": "Fabio",
       "level": 51,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/0/06/VSFaba.png/150px-VSFaba.png"
+      "sprite_url": "img/150px-VSFaba.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -1725,7 +1725,7 @@
     "trainer": {
       "nombre": "Fabio",
       "level": 53,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/0/06/VSFaba.png/150px-VSFaba.png"
+      "sprite_url": "img/150px-VSFaba.png"
     },
     "display_type": "multi-team",
     "teams": [
@@ -1841,7 +1841,7 @@
     "trainer": {
       "nombre": "Guzmán",
       "level": 55,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/7/71/VSGuzma.png/150px-VSGuzma.png"
+      "sprite_url": "img/150px-VSGuzma.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -1899,7 +1899,7 @@
     "trainer": {
       "nombre": "Darius",
       "level": 56,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/4/41/VSDulse.png/150px-VSDulse.png"
+      "sprite_url": "img/150px-VSDulse.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -1957,7 +1957,7 @@
     "trainer": {
       "nombre": "Samina",
       "level": 57,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/f/f3/VSLusamine.png/150px-VSLusamine.png"
+      "sprite_url": "img/150px-VSLusamine.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -2015,7 +2015,7 @@
     "trainer": {
       "nombre": "Naomi",
       "level": 59,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/a/ad/VSOffice_Worker_F_SM.png/150px-VSOffice_Worker_F_SM.png"
+      "sprite_url": "img/150px-VSOffice_Worker_F_SM.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -2073,7 +2073,7 @@
     "trainer": {
       "nombre": "Darius",
       "level": 60,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/4/41/VSDulse.png/150px-VSDulse.png"
+      "sprite_url": "img/150px-VSDulse.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -2131,7 +2131,7 @@
     "trainer": {
       "nombre": "Rika",
       "level": 65,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/4/48/VSMina_2_USUM.png/150px-VSMina_2_USUM.png"
+      "sprite_url": "img/150px-VSMina_2_USUM.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -2189,7 +2189,7 @@
     "trainer": {
       "nombre": "Liam",
       "level": 66,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/b/bf/VSIlima_USUM.png/150px-VSIlima_USUM.png"
+      "sprite_url": "img/150px-VSIlima_USUM.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -2247,7 +2247,7 @@
     "trainer": {
       "nombre": "Lulú",
       "level": 67,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/9/92/VSMallow.png/150px-VSMallow.png"
+      "sprite_url": "img/150px-VSMallow.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -2305,7 +2305,7 @@
     "trainer": {
       "nombre": "Kiawe",
       "level": 68,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/3/34/VSKiawe.png/150px-VSKiawe.png"
+      "sprite_url": "img/150px-VSKiawe.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -2363,7 +2363,7 @@
     "trainer": {
       "nombre": "Chris",
       "level": 69,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/a/aa/VSSophocles.png/150px-VSSophocles.png"
+      "sprite_url": "img/150px-VSSophocles.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -2421,7 +2421,7 @@
     "trainer": {
       "nombre": "Hela",
       "level": 73,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/f/ff/VSHapu.png/150px-VSHapu.png"
+      "sprite_url": "img/150px-VSHapu.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -2479,7 +2479,7 @@
     "trainer": {
       "nombre": "Gladio",
       "level": 75,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/5/55/VSGladion.png/150px-VSGladion.png"
+      "sprite_url": "img/150px-VSGladion.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -2537,7 +2537,7 @@
     "trainer": {
       "nombre": "Lario",
       "level": 100,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/8/86/VSMolayne_USUM.png/150px-VSMolayne_USUM.png"
+      "sprite_url": "img/150px-VSMolayne_USUM.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -2595,7 +2595,7 @@
     "trainer": {
       "nombre": "Mayla",
       "level": 100,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/7/71/VSOlivia_2_USUM.png/150px-VSOlivia_2_USUM.png"
+      "sprite_url": "img/150px-VSOlivia_2_USUM.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -2653,7 +2653,7 @@
     "trainer": {
       "nombre": "Zarala",
       "level": 100,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/6/6c/VSAcerola.png/150px-VSAcerola.png"
+      "sprite_url": "img/150px-VSAcerola.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -2711,7 +2711,7 @@
     "trainer": {
       "nombre": "Kahili",
       "level": 100,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/e/eb/VSKahili_USUM.png/150px-VSKahili_USUM.png"
+      "sprite_url": "img/150px-VSKahili_USUM.png"
     },
     "display_type": "single",
     "pokemon_team": [
@@ -2769,7 +2769,7 @@
     "trainer": {
       "nombre": "Tilo - El Tocahuevos final (Última etapa evolutiva)",
       "level": 100,
-      "sprite_url": "https://archives.bulbagarden.net/media/upload/thumb/c/c0/VSHau.png/150px-VSHau.png"
+      "sprite_url": "img/150px-VSHau.png"
     },
     "display_type": "multi-team",
     "teams": [
