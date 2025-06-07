@@ -963,7 +963,7 @@
         "movimientos": ["última palabra", "energibola", "escaldar", "bomba lodo"]
       },
       {
-        "name": "Lyncaroc (Nocturno)",
+        "name": "Lycanroc (Nocturno)",
         "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10126.png",
         "types": ["rock", "dark"],
         "hab": "intimidación",
@@ -971,7 +971,7 @@
         "movimientos": ["roca veloz", "persecución", "acróbata", "última palabra"]
       },
       {
-        "name": "Lyncaroc (Diurno)",
+        "name": "Lycanroc (Diurno)",
         "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/745.png",
         "types": ["rock", "normal"],
         "hab": "entusiamo",
@@ -1572,8 +1572,8 @@
         "movimientos": ["Furia", "Cabeza de Hierro", "Derribo", "Última Palabra"]
       },
       {
-        "name": "Lycanroc",
-        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/745.png",
+        "name": "Lycanroc (Crespuscular)",
+        "sprite_url": "https://img.pokemondb.net/sprites/sword-shield/normal/lycanroc-dusk.png",
         "types": ["rock", "fighting"],
         "hab": "Audaz",
         "objeto": "Vidasfera",

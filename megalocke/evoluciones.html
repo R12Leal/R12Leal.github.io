@@ -1,956 +1,158 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Pokemon Ultra Pamboli - Evoluciones</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="css/estilo_evo.css">
-</head>
-<body>
-    <div class="offcanvas offcanvas-start bg-dark text-white sidebar-fixed" tabindex="-1" id="offcanvasMenuPrincipal" aria-labelledby="offcanvasMenuPrincipalLabel">
-        <div class="offcanvas-header">
-            <a class="navbar-brand text-center d-block mx-auto py-3" href="#">
-                <img src="img/logo_pk.png" alt="Pokémon Ultra Pamboli" class="img-fluid logo-menu-pokemon">
-            </a>
-            <button type="button" class="btn-close text-reset btn-close-white d-lg-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body d-flex flex-column pt-0">
-            <ul class="navbar-nav flex-grow-1 pe-3">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Reglas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="pokemon.html">Modificaciones</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="combates.html">Combates</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="evoluciones.html">Evoluciones</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="habilidades.html">Habilidades</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="pokeruleta.html">PokeRuleta</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <nav class="navbar top-menu d-lg-none bg-dark">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenuPrincipal" aria-controls="offcanvasMenuPrincipal" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a href="#" class="pokeball-icon-link">
-                <img src="img/pokeball.png" alt="Poké Ball" class="img-fluid pokeball-menu-icon">
-            </a>
-            <span class="navbar-text" style="width: 40px;"></span>
-        </div>
-    </nav>
-    <main class="content-wrapper">
-        <div class="container">
-            <p></p>
-            <br />
-            <div class="evolution-section">
-                <h3>Objeto Equipado</h3>
-                <ul class="evolution-list">
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png" alt="Onix" />
-                                Onix
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png" alt="Steelix" />
-                                Steelix
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Revest. Metálico</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png" alt="Scyther" />
-                                Scyther
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png" alt="Scizor" />
-                                Scizor
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Revest. Metálico</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png" alt="Porygon" />
-                                Porygon
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png" alt="Porygon2" />
-                                Porygon2
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Mejora</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png" alt="Porygon2" />
-                                Porygon2
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/474.png" alt="Porygon-Z" />
-                                Porygon-Z
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Disco Extraño</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png" alt="Seadra" />
-                                Seadra
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/230.png" alt="Kingdra" />
-                                Kingdra
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Gema Dragón</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png" alt="Electabuzz" />
-                                Electabuzz
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/466.png" alt="Electivire" />
-                                Electivire
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Electrizador</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png" alt="Magmar" />
-                                Magmar
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png" alt="Magmortar" />
-                                Magmortar
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Magmatizador</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/207.png" alt="Gligar" />
-                                Gligar
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/472.png" alt="Gliscor" />
-                                Gliscor
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Gema Siniestra</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/215.png" alt="Sneasel" />
-                                Sneasel
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png" alt="Weavile" />
-                                Weavile
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Gema Siniestra</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png" alt="Rhydon" />
-                                Rhydon
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png" alt="Rhyperior" />
-                                Rhyperior
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Gema Roca</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png" alt="Lickitung" />
-                                Lickitung
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/463.png" alt="Lickilicky" />
-                                Lickilicky
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Gema Normal</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png" alt="Tangela" />
-                                Tangela
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/465.png" alt="Tangrowth" />
-                                Tangrowth
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Gema Planta</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/193.png" alt="Yanma" />
-                                Yanma
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/469.png" alt="Yanmega" />
-                                Yanmega
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Gema Dragón</div>
-                    </li>
-                     <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/315.png" alt="Roselia" />
-                                Roselia
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png" alt="Roserade" />
-                                Roserade
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Gema Planta</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/737.png" alt="Charjabug" />
-                                Charjabug
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/738.png" alt="Vikavolt" />
-                                Vikavolt
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Gema Eléctrica</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png" alt="Cubone" />
-                                Cubone
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png" alt="Marowak" />
-                                Marowak 
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10115.png" alt="Marowak-Alola" />
-                                Marowak-Alola
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Gema Lucha / Fantasma</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/299.png" alt="Nosepass" />
-                                Nosepass
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/476.png" alt="Probopass" />
-                                Probopass
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Gema Acero</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/803.png" alt="Poipole" />
-                                Poipole
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/804.png" alt="Naganadel" />
-                                Naganadel
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Gema Veneno</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/328.png" alt="Trapinch" />
-                                Trapinch
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/330.png" alt="Flygon" />
-                                Flygon
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Gema Dragón</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/281.png" alt="Kirlia" />
-                                Kirlia
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/475.png" alt="Gallade" />
-                                Gallade
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Gema Lucha (♂)</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/281.png" alt="Kirlia" />
-                                Kirlia
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png" alt="Gardevoir" />
-                                Gardevoir
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Gema Psíquica</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/783.png" alt="Hakamo-o" />
-                                Hakamo-o
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/784.png" alt="Kommo-o" />
-                                Kommo-o
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Gema Dragón</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/772.png" alt="Código Cero" />
-                                Código Cero
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773.png" alt="Silvally" />
-                                Silvally
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Gema Normal</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/739.png" alt="Crabrawler" />
-                                Crabrawler
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/740.png" alt="Crabominable" />
-                                Crabominable
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Gema Hielo</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png" alt="Exeggcute" />
-                                Exeggcute
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png" alt="Exeggutor" />
-                                Exeggutor
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Gema Psíquica</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png" alt="Togetic" />
-                                Togetic
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/468.png" alt="Togekiss" />
-                                Togekiss
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Gema Voladora</div>
-                    </li>
-                     <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png" alt="Misdreavus" />
-                                Misdreavus
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/429.png" alt="Mismagius" />
-                                Mismagius
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Gema Psíquica</div>
-                    </li>
-                     <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png" alt="Murkrow" />
-                                Murkrow
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/430.png" alt="Honchkrow" />
-                                Honchkrow
-                            </div>
-                        </div>
-                        <div class="evolution-details">Objeto equipado: Gema Siniestra</div>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="evolution-section">
-                <h3>Piedras Evolutivas</h3>
-                <div class="stones-grid-container"> <div class="grid-stone-item">
-                        <div class="stone-icon-wrapper">
-                            <img class="stone-icon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/water-stone.png" alt="Piedra Agua" onerror="this.onerror=null;this.src='https://placehold.co/50x50?text=💧';" />
-                        </div>
-                        <h4 class="stone-name">Piedra Agua</h4>
-                        <div class="pokemon-evolve-grid">
-                            <div class="pokemon-entry">
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png" alt="Staryu" />
-                                <span>Staryu</span>
-                            </div>
-                            <div class="pokemon-entry">
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png" alt="Shellder" />
-                                <span>Shellder</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="grid-stone-item">
-                        <div class="stone-icon-wrapper">
-                            <img class="stone-icon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sun-stone.png" alt="Piedra Solar" onerror="this.onerror=null;this.src='https://placehold.co/50x50?text=☀️';" />
-                        </div>
-                        <h4 class="stone-name">Piedra Solar</h4>
-                        <div class="pokemon-evolve-grid">
-                            <div class="pokemon-entry">
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/191.png" alt="Sunkern" />
-                                <span>Sunkern</span>
-                            </div>
-                            <div class="pokemon-entry">
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/694.png" alt="Helioptile" />
-                                <span>Helioptile</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="grid-stone-item">
-                        <div class="stone-icon-wrapper">
-                            <img class="stone-icon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fire-stone.png" alt="Piedra Fuego" onerror="this.onerror=null;this.src='https://placehold.co/50x50?text=🔥';" />
-                        </div>
-                        <h4 class="stone-name">Piedra Fuego</h4>
-                        <div class="pokemon-evolve-grid">
-                            <div class="pokemon-entry">
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png" alt="Growlithe" />
-                                <span>Growlithe</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="grid-stone-item">
-                        <div class="stone-icon-wrapper">
-                            <img class="stone-icon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leaf-stone.png" alt="Piedra Hoja" onerror="this.onerror=null;this.src='https://placehold.co/50x50?text=🍂';" />
-                        </div>
-                        <h4 class="stone-name">Piedra Hoja</h4>
-                        <div class="pokemon-evolve-grid">
-                            <div class="pokemon-entry">
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png" alt="Weepinbell" />
-                                <span>Weepinbell</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="grid-stone-item">
-                        <div class="stone-icon-wrapper">
-                            <img class="stone-icon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/thunder-stone.png" alt="Piedra Trueno" onerror="this.onerror=null;this.src='https://placehold.co/50x50?text=⚡';" />
-                        </div>
-                        <h4 class="stone-name">Piedra Trueno</h4>
-                        <div class="pokemon-evolve-grid">
-                            <div class="pokemon-entry">
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="Pikachu" />
-                                <span>Pikachu</span>
-                            </div>
-                            <div class="pokemon-entry">
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10100.png" alt="Raichu-Alola" />
-                                <span>Raichu-Alola</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="grid-stone-item">
-                        <div class="stone-icon-wrapper">
-                            <img class="stone-icon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dusk-stone.png" alt="Piedra Noche" onerror="this.onerror=null;this.src='https://placehold.co/50x50?text=🌑';" />
-                        </div>
-                        <h4 class="stone-name">Piedra Noche</h4>
-                        <div class="pokemon-evolve-grid">
-                            <div class="pokemon-entry">
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/680.png" alt="Doublade" />
-                                <span>Doublade</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="grid-stone-item eevee-stone-item">
-                        <div class="stone-icon-wrapper">
-                            <img class="stone-icon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fire-stone.png" alt="Piedras varias" onerror="this.onerror=null;this.src='https://placehold.co/50x50?text=💎';" />
-                        </div>
-                        <h4 class="stone-name">Piedras: Fuego, Agua, Trueno, Hielo, Hoja, Hada, Psíquica, Siniestra</h4>
-                        <div class="pokemon-evolve-grid">
-                            <div class="pokemon-entry">
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png" alt="Eevee" />
-                                <span>Eevee</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="evolution-section">
-                <h3>Amistad</h3>
-                <ul class="evolution-list">
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/172.png" alt="Pichu" />
-                                Pichu
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="Pikachu" />
-                                Pikachu
-                            </div>
-                        </div>
-                        <div class="evolution-details">Amistad</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png" alt="Cleffa" />
-                                Cleffa
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png" alt="Clefairy" />
-                                Clefairy
-                            </div>
-                        </div>
-                        <div class="evolution-details">Amistad</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png" alt="Igglybuff" />
-                                Igglybuff
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png" alt="Jigglypuff" />
-                                Jigglypuff
-                            </div>
-                        </div>
-                        <div class="evolution-details">Amistad</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png" alt="Togepi" />
-                                Togepi
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png" alt="Togetic" />
-                                Togetic
-                            </div>
-                        </div>
-                        <div class="evolution-details">Amistad</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/298.png" alt="Azurill" />
-                                Azurill
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/183.png" alt="Marill" />
-                                Marill
-                            </div>
-                        </div>
-                        <div class="evolution-details">Amistad</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/406.png" alt="Budew" />
-                                Budew
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/315.png" alt="Roselia" />
-                                Roselia
-                            </div>
-                        </div>
-                        <div class="evolution-details">Amistad</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png" alt="Munchlax" />
-                                Munchlax
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png" alt="Snorlax" />
-                                Snorlax
-                            </div>
-                        </div>
-                        <div class="evolution-details">Amistad</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/447.png" alt="Riolu" />
-                                Riolu
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png" alt="Lucario" />
-                                Lucario
-                            </div>
-                        </div>
-                        <div class="evolution-details">Amistad</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/433.png" alt="Chingling" />
-                                Chingling
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/358.png" alt="Chimecho" />
-                                Chimecho
-                            </div>
-                        </div>
-                        <div class="evolution-details">Amistad</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/427.png" alt="Buneary" />
-                                Buneary
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/428.png" alt="Lopunny" />
-                                Lopunny
-                            </div>
-                        </div>
-                        <div class="evolution-details">Amistad</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/527.png" alt="Woobat" />
-                                Woobat
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/528.png" alt="Swoobat" />
-                                Swoobat
-                            </div>
-                        </div>
-                        <div class="evolution-details">Amistad</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/541.png" alt="Swadloon" />
-                                Swadloon
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/542.png" alt="Leavanny" />
-                                Leavanny
-                            </div>
-                        </div>
-                        <div class="evolution-details">Amistad</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/772.png" alt="Código Cero" />
-                                Código Cero
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773.png" alt="Silvally" />
-                                Silvally
-                            </div>
-                        </div>
-                        <div class="evolution-details">Amistad</div>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="evolution-section">
-                <h3>Método Específico</h3>
-                <ul class="evolution-list">
-                     <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/236.png" alt="Tyrogue" />
-                                Tyrogue
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png" alt="Hitmonlee" />
-                                Hitmonlee
-                            </div>
-                        </div>
-                        <div class="evolution-details">Atq > Def al nivel 20</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/236.png" alt="Tyrogue" />
-                                Tyrogue
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png" alt="Hitmonchan" />
-                                Hitmonchan
-                            </div>
-                        </div>
-                        <div class="evolution-details">Def > Atq al nivel 20</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/236.png" alt="Tyrogue" />
-                                Tyrogue
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/237.png" alt="Hitmontop" />
-                                Hitmontop
-                            </div>
-                        </div>
-                        <div class="evolution-details">Atq = Def al nivel 20</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/674.png" alt="Pangoro" />
-                                Pangoro
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/675.png" alt="Pangoro" />
-                                Pangoro
-                            </div>
-                        </div>
-                        <div class="evolution-details">+LvL y tipo Siniestro en el equipo</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/265.png" alt="Wurmple" />
-                                Wurmple
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/266.png" alt="Silcoon" />
-                                Silcoon
-                            </div>
-                        </div>
-                        <div class="evolution-details">Nivel 10 por la mañana</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/265.png" alt="Wurmple" />
-                                Wurmple
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/267.png" alt="Cascoon" />
-                                Cascoon
-                            </div>
-                        </div>
-                        <div class="evolution-details">Nivel 10 por la noche</div>
-                    </li>
-                     <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/412.png" alt="Burmy (♀)" />
-                                Burmy (♀)
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/413.png" alt="Wormadam" />
-                                Wormadam
-                            </div>
-                        </div>
-                        <div class="evolution-details">Sube de nivel siendo ♀</div>
-                    </li>
-                     <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/412.png" alt="Burmy (♂)" />
-                                Burmy (♂)
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/414.png" alt="Mothim" />
-                                Mothim
-                            </div>
-                        </div>
-                        <div class="evolution-details">Sube de nivel siendo ♂</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png" alt="Combee (♀)" />
-                                Combee (♀)
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/416.png" alt="Vespiquen" />
-                                Vespiquen
-                            </div>
-                        </div>
-                        <div class="evolution-details">Sube de nivel siendo ♀</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/677.png" alt="Espurr" />
-                                Espurr
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://archives.bulbagarden.net/media/upload/thumb/9/92/0678Meowstic.png/250px-0678Meowstic.png" alt="Forma específica" style="width: 96px;height: 96px;image-rendering: pixelated;"/>
-                                Forma específica
-                            </div>
-                        </div>
-                        <div class="evolution-details">Evoluciona según el género</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/290.png" alt="Nincada" />
-                                Nincada
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/292.png" alt="Shedinja" />
-                                Shedinja
-                            </div>
-                        </div>
-                        <div class="evolution-details">Hueco en el equipo + Poké Ball</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/790.png" alt="Cosmoem" />
-                                Cosmoem
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/791.png" alt="Solgaleo" />
-                                Solgaleo
-                            </div>
-                        </div>
-                        <div class="evolution-details">Nivel 100 con Zona Extraña</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/790.png" alt="Cosmoem" />
-                                Cosmoem
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/792.png" alt="Lunala" />
-                                Lunala
-                            </div>
-                        </div>
-                        <div class="evolution-details">Nivel 100 con Zona Mágica</div>
-                    </li>
-                    <li>
-                        <div class="evolution-header">
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/803.png" alt="Poipole" />
-                                Poipole
-                            </div>
-                            <span class="evolution-arrow">→</span>
-                            <div class="pokemon-display">
-                                <img class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/804.png" alt="Naganadel" />
-                                Naganadel
-                            </div>
-                        </div>
-                        <div class="evolution-details">Aprende Pulso Dragón</div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+	<head>
+		<meta charset="utf-8"/>
+		<meta content="width=device-width, initial-scale=1" name="viewport"/>
+		<title>Pokemon Ultra Pamboli - Evoluciones</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+		<link href="css/estilo.css" rel="stylesheet"/>
+		<link href="css/estilo_evo.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div aria-labelledby="offcanvasMenuPrincipalLabel" class="offcanvas offcanvas-start bg-dark text-white sidebar-fixed" id="offcanvasMenuPrincipal" tabindex="-1">
+			<div class="offcanvas-header">
+				<a class="navbar-brand text-center d-block mx-auto py-3" href="#">
+					<img alt="Pokémon Ultra Pamboli" class="img-fluid logo-menu-pokemon" src="img/logo_pk.png"/>
+				</a>
+				<button aria-label="Close" class="btn-close text-reset btn-close-white d-lg-none" data-bs-dismiss="offcanvas" type="button"></button>
+			</div>
+			<div class="offcanvas-body d-flex flex-column pt-0">
+				<ul class="navbar-nav flex-grow-1 pe-3">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Reglas</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="pokemon.html">Modificaciones</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="combates.html">Combates</a>
+					</li>
+					<li class="nav-item">
+						<a aria-current="page" class="nav-link active" href="evoluciones.html">Evoluciones</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="habilidades.html">Hab | Objetos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="pokeruleta.html">PokeRuleta</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<nav class="navbar top-menu d-lg-none bg-dark">
+			<div class="container-fluid">
+				<button aria-controls="offcanvasMenuPrincipal" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#offcanvasMenuPrincipal" data-bs-toggle="offcanvas" type="button">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<a class="pokeball-icon-link" href="#">
+					<img alt="Poké Ball" class="img-fluid pokeball-menu-icon" src="img/pokeball.png"/>
+				</a>
+				<span class="navbar-text" style="width: 40px;"></span>
+			</div>
+		</nav>
+		<main class="content-wrapper">
+			<div class="container">
+				<p></p>
+				<br/>
+				<div class="evolution-section">
+					<h3>Objeto Equipado / Gemas</h3>
+					<ul class="evolution-list">
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Pikachu" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"/> Pikachu</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Raichu" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png"/> Raichu</div></div><div class="evolution-details">Con Gema Eléctrica, Nv. 33 (día/noche) </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Pikachu" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"/> Pikachu</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Raichu-Alola" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10100.png"/> Raichu (Alola)</div></div><div class="evolution-details">Con Gema Psíquica, Nv. 33 (día/noche) </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Nidorina" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png"/> Nidorina</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Nidoqueen" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png"/> Nidoqueen</div></div><div class="evolution-details">Con Gema Tierra, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Nidorino" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png"/> Nidorino</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Nidoking" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"/> Nidoking</div></div><div class="evolution-details">Con Gema Tierra, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Golbat" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png"/> Golbat</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Crobat" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png"/> Crobat</div></div><div class="evolution-details">Con Gema Voladora, Nv. 33 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Gloom" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png"/> Gloom</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Vileplume" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png"/> Vileplume</div></div><div class="evolution-details">Con Gema Veneno, Nv. 32 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Gloom" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png"/> Gloom</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Bellossom" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/182.png"/> Bellossom</div></div><div class="evolution-details">Con Gema Hada, Nv. 32 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Poliwhirl" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png"/> Poliwhirl</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Poliwrath" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png"/> Poliwrath</div></div><div class="evolution-details">Con Gema Lucha, Nv. 34 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Poliwhirl" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png"/> Poliwhirl</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Politoed" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/186.png"/> Politoed</div></div><div class="evolution-details">Con Gema Agua, Nv. 34 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Machoke" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png"/> Machoke</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Machamp" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png"/> Machamp</div></div><div class="evolution-details">Con Gema Lucha, Nv. 36 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Graveler" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png"/> Graveler</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Golem" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png"/> Golem</div></div><div class="evolution-details">Con Gema Roca, Nv. 36 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Graveler (Alola)" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10110.png"/> Graveler (A)</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Golem (Alola)" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10111.png"/> Golem (A)</div></div><div class="evolution-details">Con Gema Roca, Nv. 36 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Slowpoke" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png"/> Slowpoke</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Slowbro" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png"/> Slowbro</div></div><div class="evolution-details">Con Gema Agua, Nv. 29 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Slowpoke" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png"/> Slowpoke</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Slowking" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/199.png"/> Slowking</div></div><div class="evolution-details">Con Gema Psíquica, Nv. 29 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Magneton" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png"/> Magneton</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Magnezone" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png"/> Magnezone</div></div><div class="evolution-details">Con Gema Eléctrica, Nv. 38 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Haunter" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png"/> Haunter</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Gengar" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"/> Gengar</div></div><div class="evolution-details">Con Gema Fantasma, Nv. 36 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Onix" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png"/> Onix</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Steelix" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png"/> Steelix</div></div><div class="evolution-details">Con Gema Acero, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Cubone" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png"/> Cubone</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Marowak" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png"/> Marowak</div></div><div class="evolution-details">Con Gema Lucha, Nv. 28 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Cubone" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png"/> Cubone</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Marowak-1" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10115.png"/> Marowak-1</div></div><div class="evolution-details">Con Gema Fantasma, Nv. 28 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Lickitung" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png"/> Lickitung</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Lickilicky" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/463.png"/> Lickilicky</div></div><div class="evolution-details">Con Gema Normal, Nv. 33 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Rhyhorn" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png"/> Rhyhorn</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Rhydon" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png"/> Rhydon</div></div><div class="evolution-details">Con Gema Roca, Nv. 35 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Luvdisc" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/370.png"/> Luvdisc</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Espathra" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/979.png"/> Alomomola</div></div><div class="evolution-details">Con Gema Agua, Nv. 35 </div></li>
+                        <li><div class="evolution-header"><div class="pokemon-display"><img alt="Rhydon" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png"/> Rhydon</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Rhyperior" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png"/> Rhyperior</div></div><div class="evolution-details">Con Gema Roca, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Chansey" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png"/> Chansey</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Blissey" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png"/> Blissey</div></div><div class="evolution-details">Con Gema Normal, Nv. 32 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Tangela" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png"/> Tangela</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Tangrowth" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/465.png"/> Tangrowth</div></div><div class="evolution-details">Con Gema Planta, Nv. 35 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Seadra" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png"/> Seadra</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Kingdra" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/230.png"/> Kingdra</div></div><div class="evolution-details">Con Gema Dragón, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Scyther" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png"/> Scyther</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Scizor" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png"/> Scizor</div></div><div class="evolution-details">Con Gema Acero, Nv. 35 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Electabuzz" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png"/> Electabuzz</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Electivire" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/466.png"/> Electivire</div></div><div class="evolution-details">Con Gema Lucha, Nv. 38 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Magmar" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png"/> Magmar</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Magmortar" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png"/> Magmortar</div></div><div class="evolution-details">Con Gema Acero, Nv. 38 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Eevee" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"/> Eevee</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Vaporeon" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png"/> Vaporeon</div></div><div class="evolution-details">Con Gema Agua, Nv. 25 (día) </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Eevee" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"/> Eevee</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Jolteon" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png"/> Jolteon</div></div><div class="evolution-details">Con Gema Eléctrica, Nv. 25 (día) </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Eevee" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"/> Eevee</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Flareon" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png"/> Flareon</div></div><div class="evolution-details">Con Gema Fuego, Nv. 25 (día) </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Eevee" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"/> Eevee</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Espeon" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png"/> Espeon</div></div><div class="evolution-details">Con Gema Psíquica, Nv. 25 (día) </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Eevee" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"/> Eevee</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Umbreon" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png"/> Umbreon</div></div><div class="evolution-details">Con Gema Siniestra, Nv. 25 (noche) </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Eevee" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"/> Eevee</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Leafeon" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/470.png"/> Leafeon</div></div><div class="evolution-details">Con Gema Planta, Nv. 25 (día) </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Eevee" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"/> Eevee</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Glaceon" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/471.png"/> Glaceon</div></div><div class="evolution-details">Con Gema Hielo, Nv. 25 (noche) </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Eevee" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"/> Eevee</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Sylveon" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/700.png"/> Sylveon</div></div><div class="evolution-details">Con Gema Hada, Nv. 25 (día) </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Porygon2" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png"/> Porygon2</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Porygon-Z" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/474.png"/> Porygon-Z</div></div><div class="evolution-details">Con Disco Extraño, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Porygon-Z" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/474.png"/> Porygon-Z</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Porygon2" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png"/> Porygon2</div></div><div class="evolution-details">Con Mejora, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Dragonair" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png"/> Dragonair</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Dragonite" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png"/> Dragonite</div></div><div class="evolution-details">Con Gema Voladora, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Togetic" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png"/> Togetic</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Togekiss" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/468.png"/> Togekiss</div></div><div class="evolution-details">Con Gema Voladora, Nv. 32 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Yanma" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/193.png"/> Yanma</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Yanmega" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/469.png"/> Yanmega</div></div><div class="evolution-details">Con Gema Dragón, Nv. 35 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Murkrow" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png"/> Murkrow</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Honchkrow" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/430.png"/> Honchkrow</div></div><div class="evolution-details">Con Gema Siniestra, Nv. 31 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Misdreavus" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png"/> Misdreavus</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Mismagius" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/429.png"/> Mismagius</div></div><div class="evolution-details">Con Gema Psíquica, Nv. 32 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Gligar" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/207.png"/> Gligar</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Gliscor" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/472.png"/> Gliscor</div></div><div class="evolution-details">Con Gema Siniestra, Nv. 35 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Sneasel" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/215.png"/> Sneasel</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Weavile" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png"/> Weavile</div></div><div class="evolution-details">Con Gema Siniestra, Nv. 32 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Piloswine" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/221.png"/> Piloswine</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Mamoswine" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/473.png"/> Mamoswine</div></div><div class="evolution-details">Con Gema Hielo, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Pupitar" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/247.png"/> Pupitar</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Tyranitar" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/248.png"/> Tyranitar</div></div><div class="evolution-details">Con Gema Siniestra, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Lombre" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/271.png"/> Lombre</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Ludicolo" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/272.png"/> Ludicolo</div></div><div class="evolution-details">Con Gema Agua, Nv. 32 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Nuzleaf" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/274.png"/> Nuzleaf</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Shiftry" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/275.png"/> Shiftry</div></div><div class="evolution-details">Con Gema Siniestra, Nv. 32 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Kirlia" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/281.png"/> Kirlia</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Gardevoir" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png"/> Gardevoir</div></div><div class="evolution-details">Con Gema Psíquica, Nv. 33 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Kirlia" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/281.png"/> Kirlia</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Gallade" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/475.png"/> Gallade</div></div><div class="evolution-details">Con Gema Lucha, Nv. 33 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Vigoroth" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/288.png"/> Vigoroth</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Slaking" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/289.png"/> Slaking</div></div><div class="evolution-details">Con Gema Hielo, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Loudred" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/294.png"/> Loudred</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Exploud" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/295.png"/> Exploud</div></div><div class="evolution-details">Con Gema Dragón, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Nosepass" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/299.png"/> Nosepass</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Probopass" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/476.png"/> Probopass</div></div><div class="evolution-details">Con Gema Acero, Nv. 35 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Lairon" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/305.png"/> Lairon</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Aggron" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/306.png"/> Aggron</div></div><div class="evolution-details">Con Gema Acero, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Roselia" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/315.png"/> Roselia</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Roserade" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png"/> Roserade</div></div><div class="evolution-details">Con Gema Planta, Nv. 32 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Wailmer" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/320.png"/> Wailmer</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Wailord" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/321.png"/> Wailord</div></div><div class="evolution-details">Con Gema Agua, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Vibrava" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/329.png"/> Vibrava</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Flygon" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/330.png"/> Flygon</div></div><div class="evolution-details">Con Gema Dragón, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Dusclops" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/356.png"/> Dusclops</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Dusknoir" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/477.png"/> Dusknoir</div></div><div class="evolution-details">Con Gema Lucha, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Wynaut" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/360.png"/> Wynaut</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Wobbuffet" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/202.png"/> Wobbuffet</div></div><div class="evolution-details">Con Gema Psíquica, Nv. 30 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Snorunt" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/361.png"/> Snorunt</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Glalie" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/362.png"/> Glalie</div></div><div class="evolution-details">Con Gema Hielo, Nv. 25 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Snorunt" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/361.png"/> Snorunt</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Froslass" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/478.png"/> Froslass</div></div><div class="evolution-details">Con Gema Fantasma, Nv. 25 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Sealeo" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/364.png"/> Sealeo</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Walrein" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/365.png"/> Walrein</div></div><div class="evolution-details">Con Gema Hielo, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Clamperl" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/366.png"/> Clamperl</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Huntail" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/367.png"/> Huntail</div></div><div class="evolution-details">Con Gema Siniestra, Nv. 32 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Clamperl" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/366.png"/> Clamperl</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Gorebyss" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/368.png"/> Gorebyss</div></div><div class="evolution-details">Con Gema Psíquica, Nv. 32 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Luvdisc" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/370.png"/> Luvdisc</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Alomomola" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/594.png"/> Alomomola</div></div><div class="evolution-details">Con Gema Agua, Nv. 35 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Shelgon" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/372.png"/> Shelgon</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Salamence" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/373.png"/> Salamence</div></div><div class="evolution-details">Con Gema Voladora, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Metang" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/375.png"/> Metang</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Metagross" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/376.png"/> Metagross</div></div><div class="evolution-details">Con Gema Acero, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Gabite" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/444.png"/> Gabite</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Garchomp" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png"/> Garchomp</div></div><div class="evolution-details">Con Gema Dragón, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Phione" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/489.png"/> Phione</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Manaphy" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/490.png"/> Manaphy</div></div><div class="evolution-details">Con Gema Psíquica, Nv. 35 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Boldore" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/525.png"/> Boldore</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Gigalith" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/526.png"/> Gigalith</div></div><div class="evolution-details">Con Gema Roca, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Gurdurr" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/533.png"/> Gurdurr</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Conkeldurr" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/534.png"/> Conkeldurr</div></div><div class="evolution-details">Con Gema Roca, Nv. 36 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Krokorok" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/552.png"/> Krokorok</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Krookodile" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/553.png"/> Krookodile</div></div><div class="evolution-details">Con Gema Siniestra, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Karrablast" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/588.png"/> Karrablast</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Escavalier" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/589.png"/> Escavalier</div></div><div class="evolution-details">Con Gema Acero, Nv. 32 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Klang" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/600.png"/> Klang</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Klinklang" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/601.png"/> Klinklang</div></div><div class="evolution-details">Con Gema Acero, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Eelektrik" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/603.png"/> Eelektrik</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Eelektross" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/604.png"/> Eelektross</div></div><div class="evolution-details">Con Gema Eléctrica, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Lampent" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/608.png"/> Lampent</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Chandelure" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/609.png"/> Chandelure</div></div><div class="evolution-details">Con Gema Fantasma, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Fraxure" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/611.png"/> Fraxure</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Haxorus" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/612.png"/> Haxorus</div></div><div class="evolution-details">Con Gema Dragón, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Shelmet" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/616.png"/> Shelmet</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Accelgor" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/617.png"/> Accelgor</div></div><div class="evolution-details">Con Gema Siniestra, Nv. 32 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Zweilous" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/634.png"/> Zweilous</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Hydreigon" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/635.png"/> Hydreigon</div></div><div class="evolution-details">Con Gema Dragón, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Doublade" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/680.png"/> Doublade</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Aegislash" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/681.png"/> Aegislash</div></div><div class="evolution-details">Con Gema Fantasma, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Carbink" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/704.png"/> Carbink</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Diancie" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/719.png"/> Diancie</div></div><div class="evolution-details">Con Gema Roca, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Sliggoo" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/705.png"/> Sliggoo</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Goodra" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png"/> Goodra</div></div><div class="evolution-details">Con Gema Dragón, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Pumpkaboo" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/710.png"/> Pumpkaboo</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Gourgeist" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png"/> Gourgeist</div></div><div class="evolution-details">Con Gema Fantasma, Nv. 30 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Charjabug" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/737.png"/> Charjabug</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Vikavolt" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/738.png"/> Vikavolt</div></div><div class="evolution-details">Con Gema Eléctrica, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Crabrawler" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/739.png"/> Crabrawler</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Crabominable" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/740.png"/> Crabominable</div></div><div class="evolution-details">Con Gema Hielo, Nv. 32 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Rockruff" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/744.png"/> Rockruff</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Lycanroc (D)" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/745.png"/> Lycanroc (D)</div></div><div class="evolution-details">Con Gema Normal, Nv. 28 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Rockruff" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/744.png"/> Rockruff</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Lycanroc (N)" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10126.png"/> Lycanroc (N)</div></div><div class="evolution-details">Con Gema Siniestra, Nv. 28 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Rockruff" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/744.png"/> Rockruff</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Lycanroc (C)" class="item-img" src="https://img.pokemondb.net/sprites/sword-shield/normal/lycanroc-dusk.png" style="width: 96px;height: 96px;"/> Lycanroc (C)</div></div><div class="evolution-details">Con Gema Lucha, Nv. 28 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Código Cero" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/772.png"/> Código Cero</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Silvally" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773.png"/> Silvally</div></div><div class="evolution-details">Con Gema Normal, Nv. 50 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Hakamo-o" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/783.png"/> Hakamo-o</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Kommo-o" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/784.png"/> Kommo-o</div></div><div class="evolution-details">Con Gema Dragón, Nv. 40 </div></li>
+						<li><div class="evolution-header"><div class="pokemon-display"><img alt="Poipole" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/803.png"/> Poipole</div><span class="evolution-arrow">→</span><div class="pokemon-display"><img alt="Naganadel" class="item-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/804.png"/> Naganadel</div></div><div class="evolution-details">Con Gema Veneno, Nv. 45 </div></li>
+					</ul>
+				</div>  
+			</div>
+		</main>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </html>

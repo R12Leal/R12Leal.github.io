@@ -82,8 +82,8 @@ body {
 /* Estilos para el botón de borrar búsqueda (la "X") */
 .clear-search-button {
     position: absolute; /* Vuelve a absolute para posicionarlo dentro del input */
-    right: 15px; /* Ajusta la posición a la derecha del input */
-    top: 50%;
+    right: 20px; /* Ajusta la posición a la derecha del input */
+    top: 43%;
     transform: translateY(-50%);
     font-size: 1.8rem;
     color: var(--text-medium);
@@ -443,7 +443,7 @@ h3 { font-size: 1.8rem; }
         padding: 10px 15px;
     }
     .clear-search-button {
-        right: 15px;
+        right: 20px;
         font-size: 1.6rem;
     }
 }
@@ -511,7 +511,7 @@ h3 { font-size: 1.8rem; }
         font-size: 1rem;
     }
     .clear-search-button {
-        right: 10px;
+        right: 20px;
         font-size: 1.4rem;
     }
 }

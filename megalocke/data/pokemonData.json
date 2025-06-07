@@ -117,7 +117,8 @@
       "Antibalas"
     ],
     "types": [
-      "water"
+      "water",
+      "steel"
     ]
   },
   {
@@ -272,7 +273,7 @@
   },
   {
     "id": 21,
-    "name": "Spearow",
+    "name": "Spearow (Alola)",
     "gen": "Gen I",
     "stats": 350,
     "abilities": [
@@ -286,7 +287,7 @@
   },
   {
     "id": 22,
-    "name": "Fearow",
+    "name": "Fearow (Alola)",
     "gen": "Gen I",
     "stats": 525,
     "abilities": [
@@ -779,7 +780,7 @@
   },
   {
     "id": 58,
-    "name": "Growlithe",
+    "name": "Growlithe (Alola)",
     "gen": "Gen I",
     "stats": 400,
     "abilities": [
@@ -793,7 +794,7 @@
   },
   {
     "id": 59,
-    "name": "Arcanine",
+    "name": "Arcanine (Alola)",
     "gen": "Gen I",
     "stats": 575,
     "abilities": [
@@ -1595,7 +1596,7 @@
   },
   {
     "id": 118,
-    "name": "Goldeen",
+    "name": "Goldeen (Alola)",
     "gen": "Gen I",
     "stats": 410,
     "abilities": [
@@ -1609,7 +1610,7 @@
   },
   {
     "id": 119,
-    "name": "Seaking",
+    "name": "Seaking (Alola)",
     "gen": "Gen I",
     "stats": 535,
     "abilities": [
@@ -1698,7 +1699,7 @@
     "stats": 525,
     "abilities": [
       "Voltaje Salvaje",
-      "Terravoltaje"
+      "Electrogénesis"
     ],
     "types": [
       "electric"
@@ -1710,7 +1711,7 @@
     "gen": "Gen I",
     "stats": 525,
     "abilities": [
-      "Turbollama",
+      "Sequía",
       "Impulso Solar"
     ],
     "types": [
@@ -2101,7 +2102,7 @@
     "stats": 320,
     "abilities": [
       "Mar Llamas",
-      "Absorbe Fuego"
+      "Instinto"
     ],
     "types": [
       "fire"
@@ -2114,7 +2115,7 @@
     "stats": 435,
     "abilities": [
       "Mar Llamas",
-      "Absorbe Fuego"
+      "Instinto"
     ],
     "types": [
       "fire"
@@ -2126,11 +2127,12 @@
     "gen": "Gen II",
     "stats": 550,
     "abilities": [
-      "Superioridad",
-      "Cólera"
+      "Maestría",
+      "Instinto"
     ],
     "types": [
-      "fire"
+      "fire",
+      "ground"
     ]
   },
   {
@@ -2489,7 +2491,7 @@
   },
   {
     "id": 184,
-    "name": "Azumarill",
+    "name": "Azumarill (Alola)",
     "gen": "Gen II",
     "stats": 515,
     "abilities": [
@@ -3053,7 +3055,7 @@
     "stats": 480,
     "abilities": [
       "Entusiasmo",
-      "Experto"
+      "Piel Feérica"
     ],
     "types": [
       "ice",
@@ -3540,7 +3542,7 @@
   },
   {
     "id": 261,
-    "name": "Poochyena",
+    "name": "Poochyena (Forma Alola)",
     "gen": "Gen III",
     "stats": 370,
     "abilities": [
@@ -3554,7 +3556,7 @@
   },
   {
     "id": 262,
-    "name": "Mightyena",
+    "name": "Mightyena (Forma Alola)",
     "gen": "Gen III",
     "stats": 515,
     "abilities": [
@@ -3897,7 +3899,7 @@
   },
   {
     "id": 287,
-    "name": "Slakoth",
+    "name": "Slakoth (Alola)",
     "gen": "Gen III",
     "stats": 335,
     "abilities": [
@@ -3910,7 +3912,7 @@
   },
   {
     "id": 288,
-    "name": "Vigoroth",
+    "name": "Vigoroth (Alola)",
     "gen": "Gen III",
     "stats": 480,
     "abilities": [
@@ -3923,7 +3925,7 @@
   },
   {
     "id": 289,
-    "name": "Slaking",
+    "name": "Slaking (Alola)",
     "gen": "Gen III",
     "stats": 575,
     "abilities": [
@@ -4043,7 +4045,7 @@
   },
   {
     "id": 298,
-    "name": "Azurill",
+    "name": "Azurill (Alola)",
     "gen": "Gen III",
     "stats": 300,
     "abilities": [
@@ -4196,7 +4198,7 @@
   },
   {
     "id": 309,
-    "name": "Electrike",
+    "name": "Electrike (Alola)",
     "gen": "Gen III",
     "stats": 370,
     "abilities": [
@@ -4210,7 +4212,7 @@
   },
   {
     "id": 310,
-    "name": "Manectric",
+    "name": "Manectric (Alola)",
     "gen": "Gen III",
     "stats": 535,
     "abilities": [
@@ -4229,8 +4231,7 @@
     "stats": 500,
     "abilities": [
       "Dicha",
-      "Impulso",
-      "Batería"
+      "Impulso"
     ],
     "types": [
       "electric",
@@ -4258,7 +4259,7 @@
     "stats": 515,
     "abilities": [
       "Bromista",
-      "Voltaje Salvaje"
+      "Experto"
     ],
     "types": [
       "bug",
@@ -4403,7 +4404,7 @@
   },
   {
     "id": 324,
-    "name": "Torkoal",
+    "name": "Torkoal (Alola)",
     "gen": "Gen III",
     "stats": 525,
     "abilities": [
@@ -6707,7 +6708,7 @@
     "id": 492,
     "name": "Shaymin",
     "gen": "Gen IV",
-    "stats": 500,
+    "stats": 530,
     "abilities": [
       "Herbogénesis",
       "Piel Feérica"
@@ -11114,9 +11115,8 @@
     "id": 813,
     "name": "Mega Shaymin",
     "gen": "Forma Alterna",
-    "stats": 600,
+    "stats": 660,
     "abilities": [
-      "Dicha",
       "Piel Celeste"
     ],
     "types": [
@@ -11380,10 +11380,9 @@
     "id": 831,
     "name": "Mega Keldeo",
     "gen": "Forma Alterna",
-    "stats": 600,
+    "stats": 680,
     "abilities": [
-      "Maestría",
-      "Audaz"
+      "Maestría"
     ],
     "types": [
       "water",
@@ -11441,8 +11440,7 @@
     "gen": "Forma Alterna",
     "stats": 625,
     "abilities": [
-      "Sexto Sentido",
-      "Sombra Trampa"
+      "Sexto Sentido"
     ],
     "types": [
       "ghost",
@@ -11605,8 +11603,7 @@
     "gen": "Forma Alterna",
     "stats": 635,
     "abilities": [
-      "Aura Feérica",
-      "Espejo Mágico"
+      "Aura Feérica"
     ],
     "types": [
       "psychic",
@@ -11620,8 +11617,7 @@
     "gen": "Forma Alterna",
     "stats": 635,
     "abilities": [
-      "Peluche",
-      "Voltaje Salvaje"
+      "Peluche"
     ],
     "types": [
       "electric",
@@ -11635,8 +11631,7 @@
     "gen": "Forma Alterna",
     "stats": 650,
     "abilities": [
-      "Sebo",
-      "Manto Frondoso"
+      "Sebo"
     ],
     "types": [
       "grass",
@@ -11650,8 +11645,7 @@
     "gen": "Forma Alterna",
     "stats": 650,
     "abilities": [
-      "Potencia Bruta",
-      "Levitación"
+      "Potencia Bruta"
     ],
     "types": [
       "fire",
@@ -11665,8 +11659,7 @@
     "gen": "Forma Alterna",
     "stats": 650,
     "abilities": [
-      "Sequía",
-      "Piel Celeste"
+      "Sequía"
     ],
     "types": [
       "fire",
@@ -11721,8 +11714,7 @@
     "gen": "Forma Alterna",
     "stats": 625,
     "abilities": [
-      "Energía Pura",
-      "Sexto Sentido"
+      "Energía Pura"
     ],
     "types": [
       "fighting",
@@ -11736,8 +11728,7 @@
     "gen": "Forma Alterna",
     "stats": 635,
     "abilities": [
-      "Superioridad",
-      "Aura Oscura"
+      "Superioridad"
     ],
     "types": [
       "dark",
@@ -11751,8 +11742,7 @@
     "gen": "Forma Alterna",
     "stats": 700,
     "abilities": [
-      "Punta Acero",
-      "Antibalas"
+      "Punta Acero"
     ],
     "types": [
       "steel",
@@ -11766,8 +11756,7 @@
     "gen": "Forma Alterna",
     "stats": 625,
     "abilities": [
-      "Garra Dura",
-      "Sombra Trampa"
+      "Garra Dura"
     ],
     "types": [
       "ghost",
@@ -11781,8 +11770,7 @@
     "gen": "Forma Alterna",
     "stats": 700,
     "abilities": [
-      "Intimidación",
-      "Poder Arena"
+      "Intimidación"
     ],
     "types": [
       "rock",
@@ -11796,8 +11784,7 @@
     "gen": "Forma Alterna",
     "stats": 635,
     "abilities": [
-      "Garra Dura",
-      "Intimidación"
+      "Garra Dura"
     ],
     "types": [
       "bug",
@@ -11811,8 +11798,7 @@
     "gen": "Forma Alterna",
     "stats": 635,
     "abilities": [
-      "Piel Celeste",
-      "Entusiasmo"
+      "Piel Celeste"
     ],
     "types": [
       "bug",
@@ -11896,8 +11882,7 @@
     "gen": "Forma Alterna",
     "stats": 625,
     "abilities": [
-      "Talento Innato",
-      "Intimidación"
+      "Talento Innato"
     ],
     "types": [
       "normal"
@@ -11924,8 +11909,7 @@
     "gen": "Forma Alterna",
     "stats": 625,
     "abilities": [
-      "Piel Feérica",
-      "Cuerpo Vívido"
+      "Piel Feérica"
     ],
     "types": [
       "dark",
@@ -11952,8 +11936,7 @@
     "gen": "Forma Alterna",
     "stats": 635,
     "abilities": [
-      "Entusiasmo",
-      "Experto"
+      "Entusiasmo"
     ],
     "types": [
       "bug",
@@ -11967,8 +11950,7 @@
     "gen": "Forma Alterna",
     "stats": 615,
     "abilities": [
-      "Potencia Bruta",
-      "Entusiasmo"
+      "Potencia Bruta"
     ],
     "types": [
       "steel",
@@ -11982,8 +11964,7 @@
     "gen": "Forma Alterna",
     "stats": 635,
     "abilities": [
-      "Electrogénesis",
-      "Instinto"
+      "Electrogénesis"
     ],
     "types": [
       "electric",
@@ -12011,8 +11992,7 @@
     "gen": "Forma Alterna",
     "stats": 700,
     "abilities": [
-      "Impulso",
-      "Levitación"
+      "Impulso"
     ],
     "types": [
       "dragon",
@@ -12026,8 +12006,7 @@
     "gen": "Forma Alterna",
     "stats": 700,
     "abilities": [
-      "Impulso",
-      "Levitación"
+      "Impulso"
     ],
     "types": [
       "dragon",
@@ -12041,8 +12020,7 @@
     "gen": "Forma Alterna",
     "stats": 650,
     "abilities": [
-      "Cabezón",
-      "Nado Rápido"
+      "Cabezón"
     ],
     "types": [
       "water",
@@ -12070,8 +12048,7 @@
     "gen": "Forma Alterna",
     "stats": 625,
     "abilities": [
-      "Espejo Mágico",
-      "Escudo Energía"
+      "Espejo Mágico"
     ],
     "types": [
       "ghost",
@@ -12113,8 +12090,7 @@
     "gen": "Forma Alterna",
     "stats": 600,
     "abilities": [
-      "Regeneración",
-      "Espejo Mágico"
+      "Regeneración"
     ],
     "types": [
       "fairy",
@@ -12128,8 +12104,7 @@
     "gen": "Forma Alterna",
     "stats": 625,
     "abilities": [
-      "Potencia Bruta",
-      "Instinto"
+      "Potencia Bruta"
     ],
     "types": [
       "water",
@@ -12143,8 +12118,7 @@
     "gen": "Forma Alterna",
     "stats": 615,
     "abilities": [
-      "Antibalas",
-      "Caparazón"
+      "Antibalas"
     ],
     "types": [
       "water",
@@ -12269,8 +12243,7 @@
     "gen": "Forma Alterna",
     "stats": 700,
     "abilities": [
-      "Levitación",
-      "Talento Innato"
+      "Levitación"
     ],
     "types": [
       "psychic",
@@ -12298,8 +12271,7 @@
     "gen": "Forma Alterna",
     "stats": 580,
     "abilities": [
-      "Intrépido",
-      "Audaz"
+      "Intrépido"
     ],
     "types": [
       "normal",
@@ -12313,7 +12285,6 @@
     "gen": "Forma Alterna",
     "stats": 700,
     "abilities": [
-      "Maestría",
       "Levitación"
     ],
     "types": [
@@ -12328,8 +12299,7 @@
     "gen": "Forma Alterna",
     "stats": 580,
     "abilities": [
-      "Adaptable",
-      "Levitación"
+      "Adaptable"
     ],
     "types": [
       "bug",
@@ -12669,8 +12639,7 @@
     "gen": "Forma Alterna",
     "stats": 650,
     "abilities": [
-      "Maestría",
-      "Indefenso"
+      "Maestría"
     ],
     "types": [
       "water",

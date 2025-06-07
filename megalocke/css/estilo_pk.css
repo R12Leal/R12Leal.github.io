@@ -192,8 +192,8 @@
 /* Estilo para el botón de borrar búsqueda */
 .btn-clear-search {
     position: absolute;
-    right: 12px; /* Ajusta la posición desde la derecha */
-    top: 50%; /* Centra verticalmente */
+    right: 20px; /* Ajusta la posición desde la derecha */
+    top: 43%; /* Centra verticalmente */
     transform: translateY(-50%); /* Ajuste fino para centrado vertical */
     background: none;
     border: none;
