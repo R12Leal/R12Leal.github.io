@@ -852,7 +852,7 @@
     "potencia": 130,
     "precision": 85,
     "prioridad": 0,
-    "esNuevo": false
+    "esNuevo": true
   },
   {
     "movimiento": "Sacrificio",
@@ -2952,8 +2952,7 @@
     "potencia": 150,
     "precision": 100,
     "prioridad": 0,
-    "descripcion": "Disparo brutal de electricidad. Baja el At. Esp. del usuario en 2 niveles tras su uso.",
-    "esNuevo": true
+    "descripcion": "Disparo brutal de electricidad. Baja el At. Esp. del usuario en 2 niveles tras su uso."
   },
   {
     "movimiento": "Ira del Trueno",
@@ -3251,7 +3250,8 @@
     "potencia": 50,
     "precision": 100,
     "prioridad": 0,
-    "descripcion": "Picotazo preciso. 20% de bajar la Defensa del rival."
+    "descripcion": "Picotazo preciso. 20% de bajar la Defensa del rival.",
+    "esNuevo": true
   },
   {
     "movimiento": "Golpe Aéreo",
@@ -3576,7 +3576,8 @@
     "potencia": 60,
     "precision": 100,
     "prioridad": 0,
-    "descripcion": "Lanza barro que siempre baja la Velocidad del rival en 1 nivel."
+    "descripcion": "Lanza barro que siempre baja la Velocidad del rival en 1 nivel.",
+    "esNuevo": true
   },
   {
     "movimiento": "Arenas Ardientes",
@@ -3585,7 +3586,8 @@
     "potencia": 75,
     "precision": 100,
     "prioridad": 0,
-    "descripcion": "Envuelve al rival en arena ardiente. 30% de probabilidad de quemar."
+    "descripcion": "Envuelve al rival en arena ardiente. 30% de probabilidad de quemar.",
+    "esNuevo": true
   },
   {
     "movimiento": "Tierra Viva",
@@ -3657,7 +3659,8 @@
     "potencia": 90,
     "precision": 100,
     "prioridad": 0,
-    "descripcion": "Puñetazo sísmico. 30% de bajar la Defensa del rival. Contacto."
+    "descripcion": "Puñetazo sísmico. 30% de bajar la Defensa del rival. Contacto.",
+    "esNuevo": true
   },
   {
     "movimiento": "Fuerza Equina",
@@ -3675,7 +3678,8 @@
     "potencia": 120,
     "precision": 90,
     "prioridad": 0,
-    "descripcion": "Patada monstruosa. 30% de bajar la Defensa del rival."
+    "descripcion": "Patada monstruosa. 30% de bajar la Defensa del rival.",
+    "esNuevo": true
   },
   {
     "movimiento": "Filo del Abismo",
@@ -3693,7 +3697,8 @@
     "potencia": 150,
     "precision": 100,
     "prioridad": 0,
-    "descripcion": "Embestida total. 50% de retroceso. Baja ambos stats defensivos del usuario en 1 nivel."
+    "descripcion": "Embestida total. 50% de retroceso. Baja ambos stats defensivos del usuario en 1 nivel.",
+    "esNuevo": true
   },
   {
     "movimiento": "Tierra Curativa",
@@ -3702,7 +3707,8 @@
     "potencia": null,
     "precision": null,
     "prioridad": 4,
-    "descripcion": "Cubre el cuerpo con minerales. Cura 50% de PS (66% en arena)."
+    "descripcion": "Cubre el cuerpo con minerales. Cura 50% de PS (66% en arena).",
+    "esNuevo": true
   },
   {
     "movimiento": "Poder Pasado",
@@ -3729,7 +3735,8 @@
     "potencia": 150,
     "precision": 100,
     "prioridad": 0,
-    "descripcion": "Lluvia de cristales y gemas. Baja el At. Esp. del usuario en 2 niveles tras usarla."
+    "descripcion": "Lluvia de cristales y gemas. Baja el At. Esp. del usuario en 2 niveles tras usarla.",
+    "esNuevo": true
   },
   {
     "movimiento": "Roca Veloz",
@@ -3756,7 +3763,8 @@
     "potencia": 80,
     "precision": 100,
     "prioridad": 0,
-    "descripcion": "Ataque con bordes afilados. 50% de crítico. Contacto."
+    "descripcion": "Ataque con bordes afilados. 50% de crítico. Contacto.",
+    "esNuevo": true
   },
   {
     "movimiento": "Antiaéreo",
@@ -3774,7 +3782,8 @@
     "potencia": 85,
     "precision": 100,
     "prioridad": 0,
-    "descripcion": "Mordida con colmillos afilados. 30% de bajar Defensa. Contacto."
+    "descripcion": "Mordida con colmillos afilados. 30% de bajar Defensa. Contacto.",
+    "esNuevo": true
   },
   {
     "movimiento": "Golpe Rocoso",
@@ -3783,7 +3792,8 @@
     "potencia": 85,
     "precision": 100,
     "prioridad": 0,
-    "descripcion": "Golpea con fuerza pétrea. Baja la Defensa del rival en 1 nivel. Siempre. Contacto."
+    "descripcion": "Golpea con fuerza pétrea. Baja la Defensa del rival en 1 nivel. Siempre. Contacto.",
+    "esNuevo": true
   },
   {
     "movimiento": "Treparrocas",
