@@ -1,72 +1,4077 @@
 [
-    {
-        "movimiento": "Rayo",
-        "tipoMovimiento": "Special",
-        "tipo": "Electric",
-        "descripcion": "Un potente ataque eléctrico que puede paralizar al objetivo.",
-        "pp": 15
-    },
-    {
-        "movimiento": "Planta Feroz",
-        "tipoMovimiento": "Physical",
-        "tipo": "Grass",
-        "descripcion": "El usuario ataca con una furia incontrolable. El usuario debe recargar después de usar este movimiento.",
-        "pp": 5
-    },
-    {
-        "movimiento": "Danza Dragón",
-        "tipoMovimiento": "Status",
-        "tipo": "Dragon",
-        "descripcion": "El usuario ejecuta una danza mística para aumentar su Ataque y Velocidad.",
-        "pp": 20
-    },
-    {
-        "movimiento": "Carantoña",
-        "tipoMovimiento": "Physical",
-        "tipo": "Fairy",
-        "descripcion": "El usuario ataca con gran ternura. Puede bajar el Ataque del objetivo.",
-        "pp": 10
-    },
-    {
-        "movimiento": "Lanzallamas",
-        "tipoMovimiento": "Special",
-        "tipo": "Fire",
-        "descripcion": "Una potente ráfaga de fuego que puede quemar al objetivo.",
-        "pp": 15
-    },
-    {
-        "movimiento": "Hidrobomba",
-        "tipoMovimiento": "Special",
-        "tipo": "Water",
-        "descripcion": "El usuario dispara un chorro de agua a presión al objetivo.",
-        "pp": 5
-    },
-    {
-        "movimiento": "Terremoto",
-        "tipoMovimiento": "Physical",
-        "tipo": "Ground",
-        "descripcion": "El usuario provoca un terremoto para golpear a los Pokémon circundantes.",
-        "pp": 10
-    },
-    {
-        "movimiento": "Ventisca",
-        "tipoMovimiento": "Special",
-        "tipo": "Ice",
-        "descripcion": "Una ráfaga de aire helado que congela a los oponentes. Puede congelar al objetivo.",
-        "pp": 5
-    },
-    {
-        "movimiento": "Bola Sombra",
-        "tipoMovimiento": "Special",
-        "tipo": "Ghost",
-        "descripcion": "El usuario lanza una bola de energía oscura que puede bajar la Defensa Especial del objetivo.",
-        "pp": 15
-    },
-    {
-        "movimiento": "Puño Certero",
-        "tipoMovimiento": "Physical",
-        "tipo": "Fighting",
-        "descripcion": "Un poderoso puñetazo que impacta después de un breve momento de concentración.",
-        "pp": 20
-    }
+  {
+    "movimiento": "Sprint Flamígero",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fire",
+    "descripcion": "El usuario se cubre en llamas y embiste con velocidad. Tiene prioridad +1.",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Furia Desatada",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fire",
+    "descripcion": "El usuario desata su furia ardiente. Si ha recibido daño este turno, el poder se duplica. Aumenta el Ataque en 1 nivel.",
+    "potencia": 50,
+    "precision": "—",
+    "prioridad": 0,
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Ráfaga Ardiente",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fire",
+    "descripcion": "Dispara 3 proyectiles ígneos. Siempre quema.",
+    "potencia": 20,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Rueda Fuego",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fire",
+    "descripcion": "El usuario se envuelve en fuego y carga al enemigo. Sube la Velocidad en un 1 nivel.",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Colmillo Ígneo",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fire",
+    "descripcion": "Mordisco llameante con 10% de quemar y 20% de hacer retroceder.",
+    "potencia": 75,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Puño Fuego",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fire",
+    "descripcion": "Puñetazo ígneo. Tiene un 10% de quemar.",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Látigo Ígneo",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fire",
+    "descripcion": "Látigo de fuego que siempre baja la Defensa del objetivo en 1 nivel.",
+    "potencia": 85,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Golpe Calor",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fire",
+    "descripcion": "El daño aumenta según el peso del usuario comparado al del rival. 30% de quemar.",
+    "potencia": "-",
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Patada Ígnea",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fire",
+    "descripcion": "Patada en llamas. 20% de quemar.",
+    "potencia": 95,
+    "precision": 95,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Envite Ígneo",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fire",
+    "descripcion": "El usuario se lanza envuelto en llamas. Causa 25% de retroceso y 25% de quemar.",
+    "potencia": 125,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Ira Volcánica",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fire",
+    "descripcion": "Embestida abrasadora. Causa 50% de retroceso y baja las Defensas del usuario en 1 nivel.",
+    "potencia": 150,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Ignición",
+    "tipoMovimiento": "Special",
+    "tipo": "Fire",
+    "descripcion": "Llama rápida e inmediata. Prioridad +1.",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Giro Fuego",
+    "tipoMovimiento": "Special",
+    "tipo": "Fire",
+    "descripcion": "Encierra al rival en un vórtice de fuego durante 6 turnos. Daña un 12% por turno y evita el cambio.",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Llama Embrujada",
+    "tipoMovimiento": "Special",
+    "tipo": "Fire",
+    "descripcion": "Fuego místico que baja ambos Ataques en 1 nivel.",
+    "potencia": 70,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Pirotecnia",
+    "tipoMovimiento": "Special",
+    "tipo": "Fire",
+    "descripcion": "Llama en ráfaga que golpea 3 veces. El daño colateral en dobles equivale al 18% de los PS máximos.",
+    "potencia": 25,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Voto Fuego",
+    "tipoMovimiento": "Special",
+    "tipo": "Fire",
+    "descripcion": "Llama coordinada que se puede combinar con movimientos de tipo Planta o Agua. 25% de subir el At. Esp. en 1 nivel.",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Malicia Ígnea",
+    "tipoMovimiento": "Special",
+    "tipo": "Fire",
+    "descripcion": "Llama maliciosa que consume bayas y gemas del enemigo.",
+    "potencia": 85,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Cresta de Llamas",
+    "tipoMovimiento": "Special",
+    "tipo": "Fire",
+    "descripcion": "Nube ardiente que envuelve al rival. Tiene un 30% de quemar.",
+    "potencia": 85,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Lanzallamas",
+    "tipoMovimiento": "Special",
+    "tipo": "Fire",
+    "descripcion": "Llama directa e intensa. 10% de quemar.",
+    "potencia": 90,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Onda Ígnea",
+    "tipoMovimiento": "Special",
+    "tipo": "Fire",
+    "descripcion": "Onda abrasadora de calor que afecta a ambos rivales. Crítico asegurado.",
+    "potencia": 65,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Bomba Ígnea",
+    "tipoMovimiento": "Special",
+    "tipo": "Fire",
+    "descripcion": "Disparo de fuego extremo. 50% de probabilidad de quemar.",
+    "potencia": 100,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Llamarada",
+    "tipoMovimiento": "Special",
+    "tipo": "Fire",
+    "descripcion": "Explosión de fuego masiva. 20% de quemar.",
+    "potencia": 120,
+    "precision": 90,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Sofoco",
+    "tipoMovimiento": "Special",
+    "tipo": "Fire",
+    "descripcion": "El calor que excede del cuerpo del usuario se libera en un poderoso ataque. Hace daño de recoil \ny tiene probabilidad de quemar.",
+    "potencia": 125,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Vórtice de Fuego",
+    "tipoMovimiento": "Special",
+    "tipo": "Fire",
+    "descripcion": "Torbellino abrasador que golpea durante 3 turnos, dañando un 12% por turno si el rival no escapa.",
+    "potencia": 130,
+    "precision": 85,
+    "prioridad": 0,
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Infierno",
+    "tipoMovimiento": "Special",
+    "tipo": "Fire",
+    "descripcion": "El usuario envuelve al rival en un infierno catastrófico. Siempre quema.",
+    "potencia": 130,
+    "precision": 70,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Llama Final",
+    "tipoMovimiento": "Special",
+    "tipo": "Fire",
+    "descripcion": "Llama devastadora que elimina el tipo Fuego del usuario tras usarla. Solo se puede usar una vez antes de cambiar. Siempre quema.",
+    "potencia": 140,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Anillo Ígneo",
+    "tipoMovimiento": "Special",
+    "tipo": "Fire",
+    "descripcion": "Explosión ígnea masiva. Baja el At. Esp. del usuario en 2 niveles tras su uso.",
+    "potencia": 150,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Estallido",
+    "tipoMovimiento": "Special",
+    "tipo": "Fire",
+    "descripcion": "Cuanto más PS tenga el usuario, mayor será el daño. A pleno PS, su poder es 150.",
+    "potencia": 150,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Rabia Ígnea",
+    "tipoMovimiento": "Special",
+    "tipo": "Fire",
+    "descripcion": "Ráfaga destructiva de fuego abrasador. Baja el At. Esp. del usuario en 4 niveles tras el uso.",
+    "potencia": 180,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Detonación",
+    "tipoMovimiento": "Special",
+    "tipo": "Fire",
+    "descripcion": "El usuario se autodestruye en una explosión de fuego, debilitándose. Quema todo a su alrededor y atraviesa Protección.",
+    "potencia": 250,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Eco Voz",
+    "tipo": "Normal",
+    "tipoMovimiento": "Special",
+    "potencia": 30,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario ataca con una voz resonante. Si se usa consecutivamente, su poder aumenta en 40 hasta un máximo de 200."
+  },
+  {
+    "movimiento": "Rapidez",
+    "tipo": "Normal",
+    "tipoMovimiento": "Special",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 2,
+    "descripcion": "Lanza estrellas fugaces al objetivo. No puede fallar."
+  },
+  {
+    "movimiento": "Ronquido",
+    "tipo": "Normal",
+    "tipoMovimiento": "Special",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Este sonido estridente solo puede usarse si el usuario está dormido. El ruido SIEMPRE hace retroceder al objetivo."
+  },
+  {
+    "movimiento": "Armonía",
+    "tipo": "Normal",
+    "tipoMovimiento": "Special",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario canta con su voz. Otros pueden unirse para aumentar el poder. Esto SIEMPRE baja en 1 ambos stats ofensivos del rival.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Serenata",
+    "tipo": "Normal",
+    "tipoMovimiento": "Special",
+    "potencia": 70,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Canta una melodía que tranquiliza a los oponentes. Esto los adormece, haciendo que se duerman en el siguiente turno.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Conmoción",
+    "tipo": "Normal",
+    "tipoMovimiento": "Special",
+    "potencia": 85,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario emite ondas sonoras ensordecedoras. Esto SIEMPRE confunde al objetivo durante 4 turnos.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Vozarrón",
+    "tipo": "Normal",
+    "tipoMovimiento": "Special",
+    "potencia": 95,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario grita con una voz tan fuerte que inflige daño."
+  },
+  {
+    "movimiento": "Tri Ataque",
+    "tipo": "Normal",
+    "tipoMovimiento": "Special",
+    "potencia": 35,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Lanza tres rayos que pueden quemar, paralizar o congelar. Cada uno tiene un 10% de probabilidad de causar un Status."
+  },
+  {
+    "movimiento": "Sincrorruido",
+    "tipo": "Normal",
+    "tipoMovimiento": "Special",
+    "potencia": 120,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Emite una onda extraña que daña a todos los Pokémon que compartan al menos un tipo con el usuario. Esto SIEMPRE sube el At. Esp. del usuario."
+  },
+  {
+    "movimiento": "Estruendo",
+    "tipo": "Normal",
+    "tipoMovimiento": "Special",
+    "potencia": 125,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario libera un estallido sónico devastador."
+  },
+  {
+    "movimiento": "Hiperrayo",
+    "tipo": "Normal",
+    "tipoMovimiento": "Special",
+    "potencia": 160,
+    "precision": 90,
+    "prioridad": 0,
+    "descripcion": "El objetivo es atacado con un rayo potente. Esto baja en 2 niveles el At. Esp. del usuario después de usarlo."
+  },
+  {
+    "movimiento": "Explosión",
+    "tipo": "Normal",
+    "tipoMovimiento": "Special",
+    "potencia": 250,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario se autodestruye causando daño masivo. Esto SIEMPRE resulta en KO y atraviesa Protección."
+  },
+  {
+    "movimiento": "Ataque Rápido",
+    "tipo": "Normal",
+    "tipoMovimiento": "Physical",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "descripcion": "El usuario se lanza rápidamente contra el objetivo. Tiene prioridad +1 y no falla."
+  },
+  {
+    "movimiento": "Sorpresa",
+    "tipo": "Normal",
+    "tipoMovimiento": "Physical",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 5,
+    "descripcion": "El usuario amaga al objetivo, que retrocede. Solo puede usarse en el primer turno. Tiene prioridad +5 y atraviesa Protección."
+  },
+  {
+    "movimiento": "Giro Rápido",
+    "tipo": "Normal",
+    "tipoMovimiento": "Physical",
+    "potencia": 50,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Giro que aumenta la Velocidad en 2 niveles. También elimina púas, trampas, red viscosa y más."
+  },
+  {
+    "movimiento": "Placaje",
+    "tipo": "Normal",
+    "tipoMovimiento": "Physical",
+    "potencia": 55,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Ataque físico en el que el usuario se abalanza sobre el objetivo."
+  },
+  {
+    "movimiento": "Atadura",
+    "tipo": "Normal",
+    "tipoMovimiento": "Physical",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Aprieta al rival durante 6 turnos, causando daño continuo."
+  },
+  {
+    "movimiento": "Doble Bofetón",
+    "tipo": "Normal",
+    "tipoMovimiento": "Physical",
+    "potencia": 30,
+    "precision": 90,
+    "prioridad": 0,
+    "descripcion": "Bofetadas que golpean 2 veces. Cada una tiene un 15% de hacer retroceder."
+  },
+  {
+    "movimiento": "Plumerazo",
+    "tipo": "Normal",
+    "tipoMovimiento": "Physical",
+    "potencia": 25,
+    "precision": 85,
+    "prioridad": 0,
+    "descripcion": "Golpea con la cola de 2 a 5 veces."
+  },
+  {
+    "movimiento": "Pisotón",
+    "tipo": "Normal",
+    "tipoMovimiento": "Physical",
+    "potencia": 70,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Pisotón con un 30% de probabilidad de hacer retroceder."
+  },
+  {
+    "movimiento": "Golpe Cabeza",
+    "tipoMovimiento": "Physical",
+    "tipo": "Normal",
+    "potencia": 75,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Cabezazo con un 30% de probabilidad de hacer retroceder."
+  },
+  {
+    "movimiento": "Furia",
+    "tipoMovimiento": "Physical",
+    "tipo": "Normal",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Cada vez que el usuario es golpeado, sube su Ataque."
+  },
+  {
+    "movimiento": "Cuchillada",
+    "tipoMovimiento": "Physical",
+    "tipo": "Normal",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Corte con alta probabilidad de golpe crítico (50%)."
+  },
+  {
+    "movimiento": "Velocidad Extrema",
+    "tipoMovimiento": "Physical",
+    "tipo": "Normal",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 3,
+    "descripcion": "Ataque muy veloz con prioridad +3 y que no falla."
+  },
+  {
+    "movimiento": "Sacudida",
+    "tipoMovimiento": "Physical",
+    "tipo": "Normal",
+    "potencia": 85,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Azota con una cola o liana. Siempre baja la Defensa del objetivo en 1 nivel.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Golpe Cuerpo",
+    "tipoMovimiento": "Physical",
+    "tipo": "Normal",
+    "potencia": 90,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Golpea con todo el cuerpo. 30% de paralizar."
+  },
+  {
+    "movimiento": "Represalia",
+    "tipoMovimiento": "Physical",
+    "tipo": "Normal",
+    "potencia": 95,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Si un aliado fue debilitado el turno anterior, el poder se duplica."
+  },
+  {
+    "movimiento": "Retribución",
+    "tipoMovimiento": "Physical",
+    "tipo": "Normal",
+    "potencia": 102,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Ataque que se vuelve más fuerte cuanto más aprecio tenga el Pokémon hacia su entrenador."
+  },
+  {
+    "movimiento": "Fuerza",
+    "tipoMovimiento": "Physical",
+    "tipo": "Normal",
+    "potencia": 120,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Ataque potente a corta distancia. Baja la Defensa del objetivo en 1 nivel."
+  },
+  {
+    "movimiento": "Doble Filo",
+    "tipoMovimiento": "Physical",
+    "tipo": "Normal",
+    "potencia": 125,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Ataque muy fuerte que también daña al usuario. Tiene un 50% de bajar la Defensa del objetivo."
+  },
+  {
+    "movimiento": "Cabezazo",
+    "tipoMovimiento": "Physical",
+    "tipo": "Normal",
+    "potencia": 90,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Carga el primer turno, ataca en el segundo. SIEMPRE sube la Defensa en el primer turno."
+  },
+  {
+    "movimiento": "Última Baza",
+    "tipoMovimiento": "Physical",
+    "tipo": "Normal",
+    "potencia": 140,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Solo puede usarse si el usuario ya ha usado todos sus otros movimientos. Siempre golpe crítico."
+  },
+  {
+    "movimiento": "Giga Impacto",
+    "tipoMovimiento": "Physical",
+    "tipo": "Normal",
+    "potencia": 160,
+    "precision": 90,
+    "prioridad": 0,
+    "descripcion": "Ataque devastador que deja al usuario sin poder atacar el siguiente turno."
+  },
+  {
+    "movimiento": "Azote",
+    "tipoMovimiento": "Physical",
+    "tipo": "Normal",
+    "potencia": "20–200",
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Cuanto menos PS tenga el usuario, más poder tendrá el ataque."
+  },
+  {
+    "movimiento": "Esfuerzo",
+    "tipoMovimiento": "Physical",
+    "tipo": "Normal",
+    "potencia": "-",
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Reduce los PS del objetivo hasta igualar los del usuario."
+  },
+  {
+    "movimiento": "Venganza",
+    "tipoMovimiento": "Physical",
+    "tipo": "Normal",
+    "potencia": "-",
+    "precision": 100,
+    "prioridad": 1,
+    "descripcion": "El usuario aguanta 2 turnos recibiendo daño, luego devuelve el doble. Tiene prioridad +1."
+  },
+  {
+    "movimiento": "Poder Oculto",
+    "tipoMovimiento": "Special",
+    "tipo": "Normal",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El tipo de este movimiento varía según los IV del usuario."
+  },
+  {
+    "movimiento": "Meteorobola",
+    "tipoMovimiento": "Special",
+    "tipo": "Normal",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Lanza una bola de energía cuyo tipo y poder cambian según el clima. Tiene un 50% de bajar el At. Esp. del rival."
+  },
+  {
+    "movimiento": "Danza Despertar",
+    "tipoMovimiento": "Special",
+    "tipo": "Normal",
+    "potencia": 90,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario baila según su tipo principal. Tiene un 50% de aumentar su At. Esp."
+  },
+  {
+    "movimiento": "Furia Natural",
+    "tipoMovimiento": "Special",
+    "tipo": "Normal",
+    "potencia": 110,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario consume una baya para liberar un ataque de tipo y poder variable según dicha baya."
+  },
+  {
+    "movimiento": "Adaptación",
+    "tipoMovimiento": "Special",
+    "tipo": "Normal",
+    "potencia": "-",
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El movimiento cambia dependiendo del entorno o terreno de combate."
+  },
+  {
+    "movimiento": "Aura",
+    "tipoMovimiento": "Status",
+    "tipo": "Normal",
+    "potencia": "-",
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario brilla intensamente, aumentando su At. Esp. en 3 niveles.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Al límite",
+    "tipoMovimiento": "Status",
+    "tipo": "Normal",
+    "potencia": "-",
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario se mueve tan rápido que confunde al rival. Aumenta su Velocidad en 3 niveles.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Aullido",
+    "tipoMovimiento": "Status",
+    "tipo": "Normal",
+    "potencia": "-",
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario aúlla con fuerza, aumentando su Ataque y At. Esp. en 1 nivel."
+  },
+  {
+    "movimiento": "Refugio",
+    "tipoMovimiento": "Status",
+    "tipo": "Normal",
+    "potencia": "-",
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario se esconde en su caparazón, aumentando su Defensa y At. Esp. en 1 nivel."
+  },
+  {
+    "movimiento": "Danza Espada",
+    "tipoMovimiento": "Status",
+    "tipo": "Normal",
+    "potencia": "-",
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario realiza una danza que aumenta su Ataque en 2 niveles."
+  },
+  {
+    "movimiento": "Avivar",
+    "tipoMovimiento": "Status",
+    "tipo": "Normal",
+    "potencia": "-",
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario se anima y aumenta su Ataque y At. Esp. en 1 nivel."
+  },
+  {
+    "movimiento": "Reserva",
+    "tipoMovimiento": "Status",
+    "tipo": "Normal",
+    "potencia": "-",
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario acumula energía, aumentando su Defensa y Defensa Esp. en 1 nivel. Máximo 3 veces."
+  },
+  {
+    "movimiento": "Foco Energía",
+    "tipoMovimiento": "Status",
+    "tipo": "Normal",
+    "potencia": "-",
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario se concentra, aumentando su ratio de golpe crítico."
+  },
+  {
+    "movimiento": "Tambor",
+    "tipoMovimiento": "Status",
+    "tipo": "Normal",
+    "potencia": "-",
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario golpea su barriga para maximizar su Ataque, perdiendo la mitad de sus PS máximos."
+  },
+  {
+    "movimiento": "Rompecoraza",
+    "tipoMovimiento": "Status",
+    "tipo": "Normal",
+    "potencia": "-",
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario rompe su caparazón para bajar Defensa y Defensa Esp. en 1 nivel y subir ambos Ataques y Velocidad en 2 niveles."
+  },
+  {
+    "movimiento": "Relevo",
+    "tipoMovimiento": "Status",
+    "potencia": "-",
+    "precision": "-",
+    "prioridad": -6,
+    "descripcion": "El usuario pasa todos sus aumentos de stats a otro Pokémon del equipo. Siempre actúa al final del turno.",
+    "tipo": "Normal",
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Chirrido",
+    "tipoMovimiento": "Status",
+    "potencia": "-",
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Un chillido desgarrador que baja la Defensa de todos los enemigos en 2 niveles.",
+    "tipo": "Normal",
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Coletazo",
+    "tipoMovimiento": "Status",
+    "potencia": "-",
+    "precision": 100,
+    "prioridad": 4,
+    "descripcion": "El usuario mueve la cola de forma adorable para bajar la Defensa del objetivo en 1 nivel. Tiene prioridad +4.",
+    "tipo": "Normal",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Gruñido",
+    "tipoMovimiento": "Status",
+    "potencia": "-",
+    "precision": "-",
+    "prioridad": 0,
+    "descripcion": "El usuario gruñe, bajando el Ataque y la Velocidad del objetivo en 1 nivel.",
+    "tipo": "Normal",
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Onda Vacío",
+    "tipoMovimiento": "Special",
+    "tipo": "Fighting",
+    "descripcion": "El usuario crea una onda de vacío y la lanza al objetivo. Tiene prioridad +2.",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 2,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Choque",
+    "tipoMovimiento": "Special",
+    "tipo": "Fighting",
+    "descripcion": "El usuario lanza dos ondas desde sus palmas. Golpea dos veces y cada golpe tiene un 30% de paralizar.",
+    "potencia": 40,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Kamehameha",
+    "tipoMovimiento": "Special",
+    "tipo": "Fighting",
+    "descripcion": "El usuario lanza una gran esfera de aura desde su interior. Tiene un 20% de reducir la Defensa Esp. del rival y nunca falla.",
+    "potencia": 90,
+    "precision": null,
+    "prioridad": 0,
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Alboroto",
+    "tipoMovimiento": "Special",
+    "tipo": "Fighting",
+    "descripcion": "El usuario grita durante 3 turnos sin parar. Nadie puede quedarse dormido durante ese tiempo.",
+    "potencia": 120,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Bing Bang Attack",
+    "tipoMovimiento": "Special",
+    "tipo": "Fighting",
+    "descripcion": "El usuario lanza un rayo concentrado que golpea con fuerza. Baja la Defensa Esp. del rival un 30% de las veces.",
+    "potencia": 130,
+    "precision": 85,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Sacrificio",
+    "tipoMovimiento": "Special",
+    "tipo": "Fighting",
+    "descripcion": "El usuario se sacrifica infligiendo daño igual a sus PS actuales. Siempre golpea.",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Palmeo",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "El usuario golpea con la palma abierta. Tiene un 100% de paralizar al objetivo.",
+    "potencia": 40,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Ultrapuño",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "El usuario lanza un puñetazo veloz. Tiene prioridad +1.",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Puño Incremento",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "Golpea al rival y sube el Ataque del usuario en 1 nivel tras cada impacto.",
+    "potencia": 50,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Patada Giro",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "Una patada giratoria que golpea con fuerza. Boostea tu Velocidad.",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Golpe Karate",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "Un ataque preciso con probabilidad de crítico (12%).",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Doble Patada",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "Da dos patadas consecutivas. Cada golpe tiene un 15% de hacer retroceder.",
+    "potencia": 35,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Aporrear",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "Golpes simples pero insistentes. El movimiento golpea de 2 a 5 veces.",
+    "potencia": 25,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Patada Baja",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "Patea al rival para hacerlo tropezar, bajando su Velocidad en 1 nivel. Más pesado el objetivo, más daño.",
+    "potencia": "20–120",
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Rifi-Rafe",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "El usuario embiste de frente al rival. Siempre baja el Ataque y la Defensa del oponente en 1 nivel.",
+    "potencia": 70,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Tajo Cruzado",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "Golpea en cruz con los brazos. Tiene un 50% de golpe crítico.",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Espabila",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "Golpea al rival dormido para despertarlo. Daña el doble y siempre hace retroceder si está dormido.",
+    "potencia": 75,
+    "precision": null,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Estímulo",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "Golpea y despierta al rival dormido. Si está dormido, el ataque es doble y siempre hace retroceder.",
+    "potencia": 75,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Puño Drenaje",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "Golpea al enemigo y drena el 50% del daño infligido en forma de PS.",
+    "potencia": 75,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Puntapié",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "Ataca las piernas del rival. Tiene un 30% de flinch.",
+    "potencia": 75,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Demolición",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "Golpea con un brazo o pierna para romper barreras como Reflejo o Pantalla Luz.",
+    "potencia": 85,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Triple Patada",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "Da 3 patadas seguidas. Cada golpe es más fuerte que el anterior (10, 30 y 45). No falla.",
+    "potencia": 10,
+    "precision": null,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Llave Giro",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "Lanza al oponente fuera del combate, forzando el cambio. Siempre actúa al final. No falla.",
+    "potencia": 95,
+    "precision": null,
+    "prioridad": -4,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Espada Santa",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "Corta con una espada mística que siempre hace crítico.",
+    "potencia": 65,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Gancho Alto",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "El usuario lanza un gancho ascendente. Tiene un 25% de probabilidad de hacer retroceder.",
+    "potencia": 100,
+    "precision": 95,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Derribo",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "El usuario embiste con fuerza, recibiendo un 20% del daño como retroceso. Tiene un 30% de bajar la Defensa del rival.",
+    "potencia": 110,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Llave Corsé",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "El usuario lanza al rival con violencia. Siempre resulta en un golpe crítico y atraviesa Protección.",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Machada",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "El usuario golpea con su pesado brazo. Baja la Velocidad del usuario en 1 nivel y anula levitación y baja a los Voladores.",
+    "potencia": 120,
+    "precision": 90,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "A bocajarro",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "Ataque a quemarropa muy poderoso. Baja la Defensa y la Defensa Especial del usuario en 1 nivel.",
+    "potencia": 120,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Puño Anestesia",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "El usuario lanza un puñetazo devastador. El rival se duerme al finalizar el siguiente turno por el impacto.",
+    "potencia": 130,
+    "precision": 80,
+    "prioridad": 0,
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Patada Salto Alta",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "El usuario se lanza con una patada voladora. Si falla, pierde la mitad de sus PS máximos.",
+    "potencia": 140,
+    "precision": 90,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Sumisión",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "El usuario somete brutalmente al objetivo. El 50% del daño se devuelve como retroceso. Baja la Defensa del usuario en 1 nivel.",
+    "potencia": 150,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Fuerza Bruta",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "El usuario golpea con toda su fuerza. Baja su Ataque y Defensa en 2 niveles tras usarlo.",
+    "potencia": 150,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Puño Certero",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "El usuario se concentra para lanzar un puñetazo potente. Si recibe daño antes, falla. Siempre acierta y es golpe crítico. Aumenta la Precisión en 1 nivel al usarlo.",
+    "potencia": 120,
+    "precision": null,
+    "prioridad": -5,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Mov. Sísmico",
+    "tipoMovimiento": "Physical",
+    "tipo": "Fighting",
+    "descripcion": "Lanza al objetivo contra el suelo. El daño es igual al nivel del usuario. Aumenta la Precisión en 1 nivel tras usarlo.",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Tiempo Muerto",
+    "tipoMovimiento": "Status",
+    "tipo": "Fighting",
+    "descripcion": "El usuario pide un descanso. Recupera el 50% de los PS propios y de todos los aliados en combate.",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 0,
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Grito de Guerra",
+    "tipoMovimiento": "Status",
+    "tipo": "Fighting",
+    "descripcion": "El usuario suelta un grito feroz que intimida al rival. Baja el Ataque y el Ataque Especial en 2 niveles.",
+    "potencia": null,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Piensa Rápido",
+    "tipoMovimiento": "Physical",
+    "tipo": "Psychic",
+    "descripcion": "El usuario utiliza su ingenio para sorprender al rival con un golpe rápido. Prioridad +2, atraviesa Protección.",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 2,
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Psicocorte",
+    "tipoMovimiento": "Physical",
+    "tipo": "Psychic",
+    "descripcion": "El usuario corta al enemigo con cuchillas psíquicas. Tiene un 50% de probabilidad de golpe crítico.",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Barrido Demente",
+    "tipoMovimiento": "Physical",
+    "tipo": "Psychic",
+    "descripcion": "Golpea al enemigo tres veces con puñetazos confusos. Cada golpe tiene un 30% de confundir durante 4 turnos.",
+    "potencia": 30,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Psicocolmillo",
+    "tipoMovimiento": "Physical",
+    "tipo": "Psychic",
+    "descripcion": "El usuario muerde con colmillos psíquicos. Elimina pantallas del objetivo al impactar.",
+    "potencia": 85,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Cabezazo Zen",
+    "tipoMovimiento": "Physical",
+    "tipo": "Psychic",
+    "descripcion": "El usuario se concentra y embiste al rival. Tiene un 25% de hacer retroceder.",
+    "potencia": 100,
+    "precision": 95,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Grieta Psíquica",
+    "tipoMovimiento": "Physical",
+    "tipo": "Psychic",
+    "descripcion": "El usuario se teletransporta junto al rival y golpea con gran fuerza. Baja su propia Defensa en 1 nivel tras usarlo.",
+    "potencia": 120,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Flujo Salvaje",
+    "tipoMovimiento": "Special",
+    "tipo": "Psychic",
+    "descripcion": "El usuario invoca rápidamente un rayo psíquico. Prioridad +1.",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Confusión",
+    "tipoMovimiento": "Special",
+    "tipo": "Psychic",
+    "descripcion": "El objetivo es golpeado por una fuerza telequinética. Tiene un 50% de probabilidad de confusión durante 4 turnos.",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Paranormal",
+    "tipoMovimiento": "Special",
+    "tipo": "Psychic",
+    "descripcion": "Ataque psíquico invisible. Tiene un 30% de hacer retroceder.",
+    "potencia": 75,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Psíquico",
+    "tipoMovimiento": "Special",
+    "tipo": "Psychic",
+    "descripcion": "Golpea con energía psíquica pura. Baja la Defensa Esp. del rival un 25% de las veces.",
+    "potencia": 90,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Psicocarga",
+    "tipoMovimiento": "Special",
+    "tipo": "Psychic",
+    "descripcion": "Ataca con una onda psíquica extraña. El daño se calcula usando la Defensa del objetivo.",
+    "potencia": 95,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Comesueños",
+    "tipoMovimiento": "Special",
+    "tipo": "Psychic",
+    "descripcion": "Devora los sueños del rival dormido. Cura al usuario el 100% del daño infligido.",
+    "potencia": 120,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Falla Astral",
+    "tipoMovimiento": "Special",
+    "tipo": "Psychic",
+    "descripcion": "El usuario rasga el espacio alrededor del rival. Siempre es golpe crítico, atraviesa Protección y nunca falla.",
+    "potencia": 80,
+    "precision": null,
+    "prioridad": 0,
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Onda Mental",
+    "tipoMovimiento": "Special",
+    "tipo": "Psychic",
+    "descripcion": "El usuario materializa un golpe caótico que daña usando la Defensa del rival.",
+    "potencia": 130,
+    "precision": 85,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Psicoataque",
+    "tipoMovimiento": "Special",
+    "tipo": "Psychic",
+    "descripcion": "Explosión de energía psíquica inmensa. Baja el At. Esp. del usuario en 2 niveles tras el uso.",
+    "potencia": 150,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Premonición",
+    "tipoMovimiento": "Special",
+    "tipo": "Psychic",
+    "descripcion": "Predice un ataque que golpeará con gran potencia tras 2 turnos.",
+    "potencia": 160,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Poder Reserva",
+    "tipoMovimiento": "Special",
+    "tipo": "Psychic",
+    "descripcion": "Cuanto más aumenten las estadísticas del usuario, más poder gana el ataque. +20 de potencia por mejora.",
+    "potencia": 20,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Caos Cósmico",
+    "tipoMovimiento": "Special",
+    "tipo": "Psychic",
+    "descripcion": "El usuario desata un caos cósmico que SIEMPRE reduce los PS del rival al 50% y siempre hace retroceder.",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 4,
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Manto Espejo",
+    "tipoMovimiento": "Special",
+    "tipo": "Psychic",
+    "descripcion": "Refleja el daño recibido por ataques especiales con el doble de potencia.",
+    "potencia": null,
+    "precision": 100,
+    "prioridad": -6,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Meditación",
+    "tipoMovimiento": "Status",
+    "tipo": "Psychic",
+    "descripcion": "El usuario medita para aumentar su Ataque y Defensa Especial en un nivel.",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 0,
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Mirada Hipnótica",
+    "tipoMovimiento": "Special",
+    "tipo": "Psychic",
+    "descripcion": "Mirada Hipnótica que duerme al objetivo pero falla con los tipos fantasma.",
+    "potencia": null,
+    "precision": 100,
+    "prioridad": 0,
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Sombra Vil",
+    "tipo": "Ghost",
+    "tipoMovimiento": "Physical",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "descripcion": "El usuario se desliza por las sombras para atacar primero. Atraviesa Sustituto y tiene contacto.",
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Garra Umbria",
+    "tipo": "Ghost",
+    "tipoMovimiento": "Physical",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario corta con una garra sombría. Tiene un 50% de probabilidad de golpe critico.",
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Puño Sombra",
+    "tipo": "Ghost",
+    "tipoMovimiento": "Physical",
+    "potencia": 80,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "El usuario lanza un puñetazo desde las sombras. Nunca falla y atraviesa Sustituto.",
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Robasombra",
+    "tipo": "Ghost",
+    "tipoMovimiento": "Physical",
+    "potencia": 95,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Se oculta en la sombra del rival, roba sus mejoras de stats y luego ataca. Nunca falla y atraviesa Sustituto.",
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Golpe Fantasma",
+    "tipo": "Ghost",
+    "tipoMovimiento": "Physical",
+    "potencia": 105,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Desaparece un turno y ataca en el siguiente. Atraviesa Proteccion y Sustituto. Baja la Defensa del usuario en 1 nivel.",
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Golpe Umbrio",
+    "tipo": "Ghost",
+    "tipoMovimiento": "Physical",
+    "potencia": 120,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Desaparece y ataca con gran poder el turno siguiente. Atraviesa Proteccion y Sustituto. Baja la Defensa del usuario en 2 niveles.",
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Espanto",
+    "tipo": "Ghost",
+    "tipoMovimiento": "Special",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "descripcion": "El usuario asusta subitamente al rival. Prioridad +1.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Absorbealmas",
+    "tipo": "Ghost",
+    "tipoMovimiento": "Special",
+    "potencia": null,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario absorbe la fuerza vital del enemigo. Hace dano igual al nivel del usuario y cura esa misma cantidad.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Viento Aciago",
+    "tipo": "Ghost",
+    "tipoMovimiento": "Special",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Golpea con una rabaga lugubre. Siempre baja en 1 nivel el Ataque y el At. Esp. del rival.",
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Infortunio",
+    "tipo": "Ghost",
+    "tipoMovimiento": "Special",
+    "potencia": 70,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Ataca con energia siniestra. Doble dano si el objetivo tiene un estado alterado.",
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Bola Sombra",
+    "tipo": "Ghost",
+    "tipoMovimiento": "Special",
+    "potencia": 85,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Lanza una bola de sombra. Tiene un 20% de bajar la Defensa Esp. del rival.",
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Marcha Infernal",
+    "tipo": "Ghost",
+    "tipoMovimiento": "Special",
+    "potencia": 130,
+    "precision": 70,
+    "prioridad": 0,
+    "descripcion": "Golpea con una llama infernal. Siempre quema al rival.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Luz Maldita",
+    "tipo": "Ghost",
+    "tipoMovimiento": "Special",
+    "potencia": 150,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Lanza un rayo espectral que ignora habilidades del rival. Baja el At. Esp. del usuario en 2 niveles tras usarlo.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Rencor",
+    "tipo": "Ghost",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": 100,
+    "prioridad": 4,
+    "descripcion": "Impide que el rival use movimientos de tipo Hada durante 15 turnos y reduce los PP de su ultimo ataque usado en 4.",
+    "esNuevo": false
+  },
+  {
+    "movimiento": "Onda Vil",
+    "tipo": "Dark",
+    "tipoMovimiento": "Special",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "descripcion": "El usuario lanza una ráfaga oscura a gran velocidad. Tiene prioridad +1.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Grito Fúnebre",
+    "tipo": "Dark",
+    "tipoMovimiento": "Special",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario emite un llanto tétrico que desmoraliza al rival. Siempre baja en 1 nivel ambos stats ofensivos del objetivo.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Pulso Umbrío",
+    "tipo": "Dark",
+    "tipoMovimiento": "Special",
+    "potencia": 85,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario lanza un pulso de energía oscura. Tiene un 25% de hacer retroceder e infunde pesadilla a un objetivo dormido."
+  },
+  {
+    "movimiento": "Pulso Noche",
+    "tipo": "Dark",
+    "tipoMovimiento": "Special",
+    "potencia": 100,
+    "precision": 95,
+    "prioridad": 0,
+    "descripcion": "Explosión sombría que puede hacer retroceder. Tiene un 25% de hacer retroceder y un 10% de provocar pesadilla."
+  },
+  {
+    "movimiento": "Ocaso Absoluto",
+    "tipo": "Dark",
+    "tipoMovimiento": "Special",
+    "potencia": 150,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario dispara un cañón oscuro. Baja en 2 niveles ambos stats ofensivos del rival tras impactar.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Deseo Oculto",
+    "tipo": "Dark",
+    "tipoMovimiento": "Special",
+    "potencia": 160,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Se carga energía durante 2 turnos y luego impacta con fuerza oscura devastadora."
+  },
+  {
+    "movimiento": "Rayo Mortífero",
+    "tipo": "Dark",
+    "tipoMovimiento": "Special",
+    "potencia": 180,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Rayo apocalíptico que ignora habilidades. Baja el At. Esp. del usuario en 4 niveles tras usarlo.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Castigo",
+    "tipo": "Dark",
+    "tipoMovimiento": "Physical",
+    "potencia": 60,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Golpea más fuerte si el objetivo se ha subido las estadísticas. Gana +20 de potencia por cada mejora. Nunca falla."
+  },
+  {
+    "movimiento": "Desarme",
+    "tipo": "Dark",
+    "tipoMovimiento": "Physical",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Golpea y elimina el objeto del rival hasta final del combate. Hace 1.5× más daño si el rival lleva objeto."
+  },
+  {
+    "movimiento": "Ladrón",
+    "tipo": "Dark",
+    "tipoMovimiento": "Physical",
+    "potencia": 65,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Ataca y roba el objeto del rival si el usuario no lleva ninguno."
+  },
+  {
+    "movimiento": "Golpes Furia",
+    "tipo": "Dark",
+    "tipoMovimiento": "Physical",
+    "potencia": 25,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Golpea de 2 a 5 veces con garras o colmillos."
+  },
+  {
+    "movimiento": "Persecución",
+    "tipo": "Dark",
+    "tipoMovimiento": "Physical",
+    "potencia": 50,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Si el rival cambia, el poder se duplica y es golpe crítico asegurado."
+  },
+  {
+    "movimiento": "Tajo Umbrío",
+    "tipo": "Dark",
+    "tipoMovimiento": "Physical",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Cuchillada precisa. Tiene un 50% de probabilidad de golpe crítico."
+  },
+  {
+    "movimiento": "Buena Baza",
+    "tipo": "Dark",
+    "tipoMovimiento": "Physical",
+    "potencia": 75,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Si el rival ya ha recibido daño ese turno, el poder se duplica."
+  },
+  {
+    "movimiento": "Golpe Bajo",
+    "tipo": "Dark",
+    "tipoMovimiento": "Physical",
+    "potencia": 70,
+    "precision": null,
+    "prioridad": 2,
+    "descripcion": "Ataca antes si el rival usa un movimiento ofensivo. Si no, falla."
+  },
+  {
+    "movimiento": "Triturar",
+    "tipo": "Dark",
+    "tipoMovimiento": "Physical",
+    "potencia": 85,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Mordisco potente que baja la Defensa del rival en un 30% de los casos."
+  },
+  {
+    "movimiento": "Carga Maldita",
+    "tipo": "Dark",
+    "tipoMovimiento": "Physical",
+    "potencia": 100,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Golpe brutal que bloquea movimientos de tipo Hada durante 2 turnos.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Golpe Oscuro",
+    "tipo": "Dark",
+    "tipoMovimiento": "Physical",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Golpe preciso que siempre resulta en golpe crítico y atraviesa Protección.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Vendetta",
+    "tipo": "Dark",
+    "tipoMovimiento": "Physical",
+    "potencia": 60,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Si el usuario ataca después del rival, el poder se duplica. No falla."
+  },
+  {
+    "movimiento": "Giro Cruel",
+    "tipo": "Dark",
+    "tipoMovimiento": "Physical",
+    "potencia": 125,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Gira sobre sí mismo y golpea al oponente con ambos brazos. Ignora los cambios en las características del objetivo y recibes un 25% de recoil.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Chulería",
+    "tipo": "Dark",
+    "tipoMovimiento": "Physical",
+    "potencia": 20,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Ataca con más fuerza cuanto más hayan subido las características del usuario. Cada vez que se usa aumenta tu ataque."
+  },
+  {
+    "movimiento": "Paliza",
+    "tipo": "Dark",
+    "tipoMovimiento": "Physical",
+    "potencia": null,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Ataca usando el ataque del rival y pega todo el equipo Pokémon. Cuantos más haya, más veces se atacará."
+  },
+  {
+    "movimiento": "Afilagarras",
+    "tipo": "Dark",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "El usuario afila sus garras o armas. Aumenta su Ataque en 1 nivel y su Precisión en 2 niveles."
+  },
+  {
+    "movimiento": "Malicioso",
+    "tipo": "Dark",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "El usuario lanza una mirada intimidante al rival. Baja la Defensa y la Defensa Esp. del objetivo en 1 nivel."
+  },
+  {
+    "movimiento": "Confidencia",
+    "tipo": "Dark",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "El usuario le revela un secreto impactante al rival. Baja su Ataque Esp. y Defensa Esp. en 1 nivel. Atraviesa Protección."
+  },
+  {
+    "movimiento": "Cara Susto",
+    "tipo": "Dark",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "El usuario pone cara de miedo para intimidar. Baja el Ataque en 1 nivel, la Velocidad en 2 y provoca Pesadilla."
+  },
+  {
+    "movimiento": "Clemencia",
+    "tipo": "Fairy",
+    "tipoMovimiento": "Physical",
+    "potencia": 45,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "El usuario golpea con cuidado para no debilitar al rival. Siempre deja al enemigo con al menos 1 PS. Sube el Ataque y Precisión del usuario en 1 nivel tras usarlo."
+  },
+  {
+    "movimiento": "Golpe Feérico",
+    "tipo": "Fairy",
+    "tipoMovimiento": "Physical",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "descripcion": "Golpe encantador que toma desprevenido al rival. Tiene prioridad +1 y causa contacto.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Antojo",
+    "tipo": "Fairy",
+    "tipoMovimiento": "Physical",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Ataca y roba el objeto del rival si el usuario no lleva ninguno."
+  },
+  {
+    "movimiento": "Puño Celestial",
+    "tipo": "Fairy",
+    "tipoMovimiento": "Physical",
+    "potencia": 25,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Golpea entre 2 y 5 veces con puñetazos celestiales."
+  },
+  {
+    "movimiento": "Artimaña",
+    "tipo": "Fairy",
+    "tipoMovimiento": "Physical",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Golpea con fuerza tras distraer al rival. Tiene un 30% de hacer retroceder.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Puño Místico",
+    "tipo": "Fairy",
+    "tipoMovimiento": "Physical",
+    "potencia": 95,
+    "precision": 95,
+    "prioridad": 0,
+    "descripcion": "Puñetazo imbuido de energía mística. Tiene un 25% de subir el Ataque del usuario en 1 nivel.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Carantoña",
+    "tipo": "Fairy",
+    "tipoMovimiento": "Physical",
+    "potencia": 110,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Pelea juguetona pero peligrosa. Provoca un 20% de retroceso al usuario y un 50% de bajar el Ataque del rival."
+  },
+  {
+    "movimiento": "Tangana",
+    "tipo": "Fairy",
+    "tipoMovimiento": "Physical",
+    "potencia": 120,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Embiste caóticamente durante 2–3 turnos o hasta quedar confundido. Golpea al azar.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Bruma Feérica",
+    "tipo": "Fairy",
+    "tipoMovimiento": "Special",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "descripcion": "Sopla polvo mágico sobre el rival. Tiene prioridad +1.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Beso Drenaje",
+    "tipo": "Fairy",
+    "tipoMovimiento": "Special",
+    "potencia": 50,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Besa al rival y absorbe el 75% del daño infligido como PS."
+  },
+  {
+    "movimiento": "Voz Cautivadora",
+    "tipo": "Fairy",
+    "tipoMovimiento": "Special",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Voz encantadora que subyuga al enemigo. Baja ambos stats ofensivos del rival en 1 nivel."
+  },
+  {
+    "movimiento": "Brillo Mágico",
+    "tipo": "Fairy",
+    "tipoMovimiento": "Special",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Explosión de luz deslumbrante. Tiene un 25% de subir el Ataque Esp. del usuario en 1 nivel."
+  },
+  {
+    "movimiento": "Sable Radiante",
+    "tipo": "Fairy",
+    "tipoMovimiento": "Special",
+    "potencia": 65,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario forma una espada de luz y corta al rival. Hace daño físico y siempre es crítico.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Fuerza Lunar",
+    "tipo": "Fairy",
+    "tipoMovimiento": "Special",
+    "potencia": 100,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Ataque lunar que puede bajar el At. Esp. del rival en un 30%."
+  },
+  {
+    "movimiento": "Luz Eterna",
+    "tipo": "Fairy",
+    "tipoMovimiento": "Special",
+    "potencia": 125,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Rayo eterno cargado de su propida energía vital. Hace un 25% de daño de recoil y tiene chance de bajar la Defensa Especial del objetivo.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Cañón Floral",
+    "tipo": "Fairy",
+    "tipoMovimiento": "Special",
+    "potencia": 150,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Cañón de energía floral. Baja el At. Esp. del usuario en 2 niveles tras su uso."
+  },
+  {
+    "movimiento": "Láser Arcoiris",
+    "tipo": "Fairy",
+    "tipoMovimiento": "Special",
+    "potencia": 180,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Explosión de energía arcoíris. Baja el At. Esp. del usuario en 4 niveles tras el ataque.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Encantamiento",
+    "tipo": "Fairy",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Invoca un círculo mágico que sube el At. Esp., la Defensa Esp. y la Velocidad en 2 niveles.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Danza Lunar",
+    "tipo": "Fairy",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "El usuario absorbe energía lunar y baila. Aumenta el Ataque Especial, Defensa Especial y Velocidad en 1 nivel."
+  },
+  {
+    "movimiento": "Congeniar",
+    "tipo": "Fairy",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario se gana la confianza del rival, bajando su Ataque Especial en 2 niveles.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Niebla Aromática",
+    "tipo": "Fairy",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Emite un aroma que reduce la Defensa Especial y el Ataque Especial del objetivo en 2 niveles."
+  },
+  {
+    "movimiento": "Camaradería",
+    "tipo": "Fairy",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 4,
+    "descripcion": "El usuario actúa de forma amistosa. Baja el Ataque Especial del rival en 1 nivel."
+  },
+  {
+    "movimiento": "Ojitos Tiernos",
+    "tipo": "Fairy",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 4,
+    "descripcion": "El usuario mira con ternura al rival. Baja su Ataque en 1 nivel."
+  },
+  {
+    "movimiento": "Golpe Contenido",
+    "tipo": "Dragon",
+    "tipoMovimiento": "Physical",
+    "potencia": 45,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Golpe controlado que nunca debilita al rival. Aumenta el Ataque y la Precisión del usuario en 1 nivel.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Impulso Draco",
+    "tipo": "Dragon",
+    "tipoMovimiento": "Physical",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "descripcion": "El usuario se lanza con velocidad dracónica. Prioridad +1.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Barrido Salvaje",
+    "tipo": "Dragon",
+    "tipoMovimiento": "Physical",
+    "potencia": 70,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Ataque amplio que golpea a todos los rivales. Siempre baja en 1 nivel ambos stats ofensivos.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Garra Dragón",
+    "tipo": "Dragon",
+    "tipoMovimiento": "Physical",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Arañazo potente con garras imbuidas en energía dracónica. 50% crítico."
+  },
+  {
+    "movimiento": "Cola Dragón",
+    "tipo": "Dragon",
+    "tipoMovimiento": "Physical",
+    "potencia": 95,
+    "precision": null,
+    "prioridad": -4,
+    "descripcion": "Golpea con la cola y obliga a cambiar de Pokémon. Siempre actúa al final. Nunca falla."
+  },
+  {
+    "movimiento": "Martillo Dragón",
+    "tipo": "Dragon",
+    "tipoMovimiento": "Physical",
+    "potencia": 110,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Mazazo que causa 20% de retroceso y tiene un 50% de bajar la Defensa del rival."
+  },
+  {
+    "movimiento": "Carga Dragón",
+    "tipo": "Dragon",
+    "tipoMovimiento": "Physical",
+    "potencia": 120,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Carga violenta que baja la Defensa del rival tras el impacto. 30% de hacer retroceder."
+  },
+  {
+    "movimiento": "Enfado",
+    "tipo": "Dragon",
+    "tipoMovimiento": "Physical",
+    "potencia": 130,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Ataque furioso durante 2 o 3 turnos. Luego el usuario queda confundido. Nunca falla."
+  },
+  {
+    "movimiento": "Ascenso Draco",
+    "tipo": "Dragon",
+    "tipoMovimiento": "Physical",
+    "potencia": 150,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Descenso poderoso con fuerza dracónica. Baja el Ataque del usuario en 2 niveles."
+  },
+  {
+    "movimiento": "Ciclón",
+    "tipo": "Dragon",
+    "tipoMovimiento": "Special",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "descripcion": "Torbellino de energía dracónica. Prioridad +1."
+  },
+  {
+    "movimiento": "Dragoaliento",
+    "tipo": "Dragon",
+    "tipoMovimiento": "Special",
+    "potencia": 75,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Aliento de dragón que tiene un 30% de probabilidad de quemar."
+  },
+  {
+    "movimiento": "Pulso Dragón",
+    "tipo": "Dragon",
+    "tipoMovimiento": "Special",
+    "potencia": 100,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Pulso destructivo de energía dracónica. Tiene un 30% de paralizar al objetivo."
+  },
+  {
+    "movimiento": "Oleada Dracónica",
+    "tipo": "Dragon",
+    "tipoMovimiento": "Special",
+    "potencia": 125,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario libera una onda sonora de luz dracónica que inflige daño.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Furia del Dragón",
+    "tipo": "Dragon",
+    "tipoMovimiento": "Special",
+    "potencia": 130,
+    "precision": 70,
+    "prioridad": 0,
+    "descripcion": "Ruge con poder extremo y fuego dracónico. Siempre quema al rival.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Cometa Draco",
+    "tipo": "Dragon",
+    "tipoMovimiento": "Special",
+    "potencia": 150,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Meteoro de energía que daña masivamente. Baja en 2 niveles el At. Esp. del usuario tras su uso."
+  },
+  {
+    "movimiento": "Dracorayo",
+    "tipo": "Dragon",
+    "tipoMovimiento": "Special",
+    "potencia": 180,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Rayo descomunal de energía dracónica. Baja el At. Esp. del usuario en 4 niveles tras el impacto.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Draco Estallido",
+    "tipo": "Dragon",
+    "tipoMovimiento": "Special",
+    "potencia": 1,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Lanzas 3 ráfagas de furiosas ondas de choque que quitan 40 PS para un total de 120 PS.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Semillazo",
+    "tipoMovimiento": "Physical",
+    "tipo": "Grass",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "descripcion": "Dispara semillas rápidamente al rival. Tiene prioridad +1.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Constricción",
+    "tipoMovimiento": "Physical",
+    "tipo": "Grass",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Oprime al objetivo de 3 a 5 turnos con ramas o con su cuerpo y no le permite huir."
+  },
+  {
+    "movimiento": "Hoja Afilada",
+    "tipoMovimiento": "Physical",
+    "tipo": "Grass",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Lanza hojas afiladas a todos los rivales. Tiene un 12% de golpe crítico."
+  },
+  {
+    "movimiento": "Recurrente",
+    "tipoMovimiento": "Physical",
+    "tipo": "Grass",
+    "potencia": 25,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Lanza semillas duras de 2 a 5 veces consecutivas."
+  },
+  {
+    "movimiento": "Hierba Lazo",
+    "tipoMovimiento": "Physical",
+    "tipo": "Grass",
+    "potencia": "20–120",
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Ata al rival con raíces. Cuanto más pese el rival, más daño causa. Baja la velocidad del objetivo."
+  },
+  {
+    "movimiento": "Hoja Aguda",
+    "tipoMovimiento": "Physical",
+    "tipo": "Grass",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Hoja afilada que tiene un 50% de golpe crítico."
+  },
+  {
+    "movimiento": "Bomba germen",
+    "tipoMovimiento": "Physical",
+    "tipo": "Grass",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Lluvia de semillas explosivas. Tiene un 20% de probabilidad de hacer retroceder."
+  },
+  {
+    "movimiento": "Lianas Dobles",
+    "tipoMovimiento": "Physical",
+    "tipo": "Grass",
+    "potencia": 40,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Golpea dos veces con lianas. Cada golpe baja la Defensa en 1 nivel.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Patada Tropical",
+    "tipoMovimiento": "Physical",
+    "tipo": "Grass",
+    "potencia": 90,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Patada tropical que siempre baja el Ataque y el Ataque Esp. del rival en 1 nivel."
+  },
+  {
+    "movimiento": "Drenasavia",
+    "tipoMovimiento": "Physical",
+    "tipo": "Grass",
+    "potencia": 90,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Golpea con ramas drenantes. Restaura el 50% del daño causado.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Brote Letal",
+    "tipoMovimiento": "Physical",
+    "tipo": "Grass",
+    "potencia": 95,
+    "precision": 95,
+    "prioridad": 0,
+    "descripcion": "Golpea con un apéndice espinoso. 30% de probabilidad de hacer retroceder.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Latigazo",
+    "tipoMovimiento": "Physical",
+    "tipo": "Grass",
+    "potencia": 120,
+    "precision": 90,
+    "prioridad": 0,
+    "descripcion": "Látigo devastador. 30% de bajar la Defensa del objetivo."
+  },
+  {
+    "movimiento": "Mazazo",
+    "tipoMovimiento": "Physical",
+    "tipo": "Grass",
+    "potencia": 125,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Golpea con un tronco. 25% de retroceso y 30% de bajar la Defensa del rival."
+  },
+  {
+    "movimiento": "Solar Blade",
+    "tipoMovimiento": "Physical",
+    "tipo": "Grass",
+    "potencia": 90,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Ataque en dos turnos. El primer turno carga energía solar. Siempre golpe crítico. Atraviesa Protección."
+  },
+  {
+    "movimiento": "Planta Feroz",
+    "tipoMovimiento": "Physical",
+    "tipo": "Grass",
+    "potencia": 150,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Explosión vegetal incontrolable. Baja el Ataque del usuario en 2 niveles tras usarlo."
+  },
+  {
+    "movimiento": "Ráfaga Botánica",
+    "tipoMovimiento": "Special",
+    "tipo": "Grass",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "descripcion": "Torbellino de hojas. Prioridad +1.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Megaagotar",
+    "tipoMovimiento": "Special",
+    "tipo": "Grass",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Absorbe el 75% del daño causado como PS."
+  },
+  {
+    "movimiento": "Hoja Mágica",
+    "tipoMovimiento": "Special",
+    "tipo": "Grass",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Hojas místicas que siempre aciertan. Sube la Defensa Esp. en 1 nivel."
+  },
+  {
+    "movimiento": "Voto Planta",
+    "tipoMovimiento": "Special",
+    "tipo": "Grass",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Daño combinado. 25% de subir el Ataque Esp. en 1 nivel."
+  },
+  {
+    "movimiento": "Energibola",
+    "tipoMovimiento": "Special",
+    "tipo": "Grass",
+    "potencia": 95,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Bola de energía que tiene un 25% de bajar la Defensa Esp. del rival."
+  },
+  {
+    "movimiento": "Tormenta Floral",
+    "tipoMovimiento": "Special",
+    "tipo": "Grass",
+    "potencia": 100,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Torbellino de pétalos. Siempre baja la Velocidad de los objetivos en 1 nivel."
+  },
+  {
+    "movimiento": "Fogonazo",
+    "tipoMovimiento": "Special",
+    "tipo": "Grass",
+    "potencia": 120,
+    "precision": 85,
+    "prioridad": 0,
+    "descripcion": "Lanza una explosión de semillas. 50% de bajar la Defensa Esp. del rival en 2 niveles."
+  },
+  {
+    "movimiento": "Clorodescarga",
+    "tipoMovimiento": "Special",
+    "tipo": "Grass",
+    "potencia": 125,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario libera una ráfaga de energía clorofílica acumulada. Provoca un 25% de daño de retroceso.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Rayo Solar",
+    "tipoMovimiento": "Special",
+    "tipo": "Grass",
+    "potencia": 90,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Recoge luz solar el primer turno y ataca el segundo. Siempre golpe crítico y atraviesa Protección."
+  },
+  {
+    "movimiento": "Lluevehojas",
+    "tipoMovimiento": "Special",
+    "tipo": "Grass",
+    "potencia": 150,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Tormenta de hojas que reduce el At. Esp. del usuario en 2 niveles tras el uso."
+  },
+  {
+    "movimiento": "Arraigo",
+    "tipoMovimiento": "Status",
+    "tipo": "Grass",
+    "descripcion": "Raíces que impiden el cambio. Sube At. Esp., Def. Esp. en 3 niveles. Baja Velocidad en 3 niveles."
+  },
+  {
+    "movimiento": "Fetilizante",
+    "tipoMovimiento": "Status",
+    "tipo": "Grass",
+    "descripcion": "Remueve el suelo. Sube At. y At. Esp. de los tipo Planta en el campo en 2 niveles."
+  },
+  {
+    "movimiento": "Desarollo",
+    "tipoMovimiento": "Status",
+    "tipo": "Grass",
+    "descripcion": "Sube Ataque y At. Esp. en 1 nivel. En sol, sube en 2."
+  },
+  {
+    "movimiento": "Guardia Floral",
+    "tipoMovimiento": "Status",
+    "tipo": "Grass",
+    "descripcion": "Sube la Defensa y Defensa Esp. de todos los tipo Planta del equipo (incluyendo al usuario) en 1 nivel.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Baile Primaveral",
+    "tipoMovimiento": "Status",
+    "tipo": "Grass",
+    "descripcion": "Danza mágica y floral que sube ambos Ataques en 1 nivel y la Velocidad en 2 niveles.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Esporagodón",
+    "tipoMovimiento": "Status",
+    "tipo": "Grass",
+    "precision": 100,
+    "descripcion": "Baja la Velocidad y el Ataque Especial del objetivo en 2 niveles."
+  },
+  {
+    "movimiento": "Dulce Aroma",
+    "tipoMovimiento": "Status",
+    "tipo": "Grass",
+    "precision": 100,
+    "descripcion": "Aroma dulce que baja el Ataque Especial y Defensa Especial en 1 nivel."
+  },
+  {
+    "movimiento": "Acua jet",
+    "tipo": "Water",
+    "tipoMovimiento": "Physical",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "descripcion": "El usuario embiste rápidamente. Tiene prioridad +1."
+  },
+  {
+    "movimiento": "Tenaza",
+    "tipo": "Water",
+    "tipoMovimiento": "Physical",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Atrapa y atenaza con fuerza durante cuatro o cinco turnos."
+  },
+  {
+    "movimiento": "Concha Filo",
+    "tipo": "Water",
+    "tipoMovimiento": "Physical",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Corta con un caparazón afilado. 50% de golpe crítico."
+  },
+  {
+    "movimiento": "Buceo",
+    "tipo": "Water",
+    "tipoMovimiento": "Physical",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Se esconde el primer turno y ataca el segundo. Boostea la Precisión en 1 nivel y atraviesa Protección."
+  },
+  {
+    "movimiento": "Hidroariete",
+    "tipo": "Water",
+    "tipoMovimiento": "Physical",
+    "potencia": 85,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Golpe fuerte de agua. Baja Defensa del rival un 25% de las veces."
+  },
+  {
+    "movimiento": "Acua Cola",
+    "tipo": "Water",
+    "tipoMovimiento": "Physical",
+    "potencia": 100,
+    "precision": 95,
+    "prioridad": 0,
+    "descripcion": "Golpe de cola con agua. Tiene 30% de bajar Defensa."
+  },
+  {
+    "movimiento": "Azote Torrencial",
+    "tipo": "Water",
+    "tipoMovimiento": "Physical",
+    "potencia": 25,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Golpea 3 veces con fuerza de tsunami. Siempre golpe crítico. Atraviesa Protección.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Martillazo",
+    "tipo": "Water",
+    "tipoMovimiento": "Physical",
+    "potencia": 80,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Golpea con fuerza con una pinza enorme. Suele ser crítico y chance de bajar Defensa del objetivo."
+  },
+  {
+    "movimiento": "Envite Acuático",
+    "tipo": "Water",
+    "tipoMovimiento": "Physical",
+    "potencia": 125,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Embiste con un gran impulso que puede hacer retroceder. Recibes 25% de daño de recoil.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Chorro Veloz",
+    "tipo": "Water",
+    "tipoMovimiento": "Special",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "descripcion": "Disparo de burbuja a presión. Prioridad +1.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Burbuja Triple",
+    "tipo": "Water",
+    "tipoMovimiento": "Special",
+    "potencia": 20,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Lanza 3 burbujas seguidas. Baja la Velocidad en 1 nivel por cada impacto.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Hidropulso",
+    "tipo": "Water",
+    "tipoMovimiento": "Special",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Pulso acuático. Siempre baja ambos stats ofensivos en 1 nivel."
+  },
+  {
+    "movimiento": "Salmuera",
+    "tipo": "Water",
+    "tipoMovimiento": "Special",
+    "potencia": 70,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Doble daño si el rival tiene menos del 50% de PS."
+  },
+  {
+    "movimiento": "Escaldar",
+    "tipo": "Water",
+    "tipoMovimiento": "Special",
+    "potencia": 75,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Agua muy caliente. 30% de quemar."
+  },
+  {
+    "movimiento": "Voto Agua",
+    "tipo": "Water",
+    "tipoMovimiento": "Special",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Pilar de agua combinable. 25% de subir At. Esp. en 1 nivel."
+  },
+  {
+    "movimiento": "Surf",
+    "tipo": "Water",
+    "tipoMovimiento": "Special",
+    "potencia": 95,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Onda acuática masiva. Daño a todos."
+  },
+  {
+    "movimiento": "Pulso Torrencial",
+    "tipo": "Water",
+    "tipoMovimiento": "Special",
+    "potencia": 100,
+    "precision": 90,
+    "prioridad": 0,
+    "descripcion": "Ataca al objetivo con una infinidad de rayos de luz azulada. 50% de reducir la Defensia Especial del objetivo.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Brote Espuma",
+    "tipo": "Water",
+    "tipoMovimiento": "Special",
+    "potencia": 100,
+    "precision": 95,
+    "prioridad": 0,
+    "descripcion": "Explosión de burbujas. Baja Velocidad del rival en 1 nivel.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Agua Lodosa",
+    "tipo": "Water",
+    "tipoMovimiento": "Special",
+    "potencia": 110,
+    "precision": 90,
+    "prioridad": 0,
+    "descripcion": "Onda fangosa. Siempre baja Velocidad de todos los rivales en 1 nivel."
+  },
+  {
+    "movimiento": "Hidrobomba",
+    "tipo": "Water",
+    "tipoMovimiento": "Special",
+    "potencia": 120,
+    "precision": 90,
+    "prioridad": 0,
+    "descripcion": "Chorro a alta presión. Sin efectos secundarios."
+  },
+  {
+    "movimiento": "Torbellino",
+    "tipo": "Water",
+    "tipoMovimiento": "Special",
+    "potencia": 130,
+    "precision": 85,
+    "prioridad": 0,
+    "descripcion": "Una tromba de agua atrapa al objetivo durante cuatro o cinco turnos."
+  },
+  {
+    "movimiento": "Hidrocañon",
+    "tipo": "Water",
+    "tipoMovimiento": "Special",
+    "potencia": 150,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Cañón de agua extrema. Baja At. Esp. del usuario en 2 niveles tras usarlo."
+  },
+  {
+    "movimiento": "Rehidratarse",
+    "tipo": "Water",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 5,
+    "descripcion": "Un manto de agua cubre al Pokémon que lo usa. Recupera la mitad de la vida máxima.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Esquirla Helada",
+    "tipo": "Ice",
+    "tipoMovimiento": "Physical",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "descripcion": "Fragmento de hielo lanzado a alta velocidad. Prioridad +1."
+  },
+  {
+    "movimiento": "Colmillo Hielo",
+    "tipo": "Ice",
+    "tipoMovimiento": "Physical",
+    "potencia": 75,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Mordida helada. 25% de hacer retroceder, 10% de congelar."
+  },
+  {
+    "movimiento": "Puño Hielo",
+    "tipo": "Ice",
+    "tipoMovimiento": "Physical",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Puñetazo de hielo. 10% de congelar. Contacto."
+  },
+  {
+    "movimiento": "Chuzos",
+    "tipo": "Ice",
+    "tipoMovimiento": "Physical",
+    "potencia": 110,
+    "precision": 90,
+    "prioridad": 0,
+    "descripcion": "Lanza carámbanos de forma brutal. 30% de hacer retroceder."
+  },
+  {
+    "movimiento": "Escarcha Furiosa",
+    "tipo": "Ice",
+    "tipoMovimiento": "Physical",
+    "potencia": 25,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Lanza 3 carámbanos a puntos débiles. Siempre golpe crítico.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Martillo Hielo",
+    "tipo": "Ice",
+    "tipoMovimiento": "Physical",
+    "potencia": 125,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Maza helada devastadora. Causa 25% de retroceso y baja Defensa 30% de las veces al objetivo."
+  },
+  {
+    "movimiento": "Alud",
+    "tipo": "Ice",
+    "tipoMovimiento": "Physical",
+    "potencia": 70,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Avalancha poderosa que duplica su fuerza si el usuario ha recibido daño ese turno. Nunca falla."
+  },
+  {
+    "movimiento": "Furia Helada",
+    "tipo": "Ice",
+    "tipoMovimiento": "Physical",
+    "potencia": 140,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "El usuario carga un bloque de hielo electrizado en el primer turno y ataca con él en el segundo. Siempre crítico, siempre paraliza y atraviesa Protección.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Ráfaga Gélida",
+    "tipo": "Ice",
+    "tipoMovimiento": "Special",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "descripcion": "Torbellino de nieve y escarcha. Prioridad +1.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Viento Hielo",
+    "tipo": "Ice",
+    "tipoMovimiento": "Special",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Viento gélido que siempre baja la Velocidad en 1 nivel."
+  },
+  {
+    "movimiento": "Rayo Aurora",
+    "tipo": "Ice",
+    "tipoMovimiento": "Special",
+    "potencia": 70,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Rayo de colores. Siempre baja ambos Ataques del rival en 1 nivel."
+  },
+  {
+    "movimiento": "Liofilización",
+    "tipo": "Ice",
+    "tipoMovimiento": "Special",
+    "potencia": 85,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Congelación rápida. Eficaz contra Pokémon de tipo Agua. 10% de congelar."
+  },
+  {
+    "movimiento": "Vaho Gélido",
+    "tipo": "Ice",
+    "tipoMovimiento": "Special",
+    "potencia": 65,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Aliento helado. Siempre golpe crítico."
+  },
+  {
+    "movimiento": "Mundo Gélido",
+    "tipo": "Ice",
+    "tipoMovimiento": "Special",
+    "potencia": 110,
+    "precision": 90,
+    "prioridad": 0,
+    "descripcion": "Congela el entorno. Baja la Velocidad de los enemigos en 2 niveles."
+  },
+  {
+    "movimiento": "Ventisca",
+    "tipo": "Ice",
+    "tipoMovimiento": "Special",
+    "potencia": 120,
+    "precision": 85,
+    "prioridad": 0,
+    "descripcion": "Tormenta de nieve. 10% de congelar."
+  },
+  {
+    "movimiento": "Gélida Agonía",
+    "tipo": "Ice",
+    "tipoMovimiento": "Special",
+    "potencia": 120,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Ataca al objetivo en el segundo turno rodeándolo de un aire gélido. Siempre quema y atraviesa Protección.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Chispa",
+    "tipo": "Electric",
+    "tipoMovimiento": "Physical",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 2,
+    "descripcion": "Carga eléctrica con prioridad +2."
+  },
+  {
+    "movimiento": "Colmillo Rayo",
+    "tipo": "Electric",
+    "tipoMovimiento": "Physical",
+    "potencia": 75,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Mordida eléctrica. 25% de hacer retroceder y 10% de paralizar."
+  },
+  {
+    "movimiento": "Puño Trueno",
+    "tipo": "Electric",
+    "tipoMovimiento": "Physical",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Puñetazo eléctrico. 10% de paralizar."
+  },
+  {
+    "movimiento": "Electropunzada",
+    "tipo": "Electric",
+    "tipoMovimiento": "Physical",
+    "potencia": 85,
+    "precision": 90,
+    "prioridad": 0,
+    "descripcion": "Ataque veloz. 30% de hacer retroceder. Siempre sube la Velocidad en 1 nivel."
+  },
+  {
+    "movimiento": "Voltio Cruel",
+    "tipo": "Electric",
+    "tipoMovimiento": "Physical",
+    "potencia": 110,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Embestida eléctrica. 25% de retroceso y 20% de paralizar."
+  },
+  {
+    "movimiento": "Placaje Eléctrico",
+    "tipo": "Electric",
+    "tipoMovimiento": "Physical",
+    "potencia": 125,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Carga agresiva electrificada. 25% de retroceso y 25% de paralizar."
+  },
+  {
+    "movimiento": "Juez Eléctrico",
+    "tipo": "Electric",
+    "tipoMovimiento": "Physical",
+    "potencia": 150,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Carga violenta que inflige 50% de retroceso. Baja la Defensa del usuario en 1 nivel.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Impactrueno",
+    "tipo": "Electric",
+    "tipoMovimiento": "Special",
+    "potencia": 40,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Descarga básica. Siempre paraliza al rival."
+  },
+  {
+    "movimiento": "Rayo Carga",
+    "tipo": "Electric",
+    "tipoMovimiento": "Special",
+    "potencia": 50,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Rayo que siempre sube el At. Esp. del usuario en 1 nivel."
+  },
+  {
+    "movimiento": "Onda Voltio",
+    "tipo": "Electric",
+    "tipoMovimiento": "Special",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 2,
+    "descripcion": "Onda eléctrica de alta precisión. Prioridad +2."
+  },
+  {
+    "movimiento": "Electrotela",
+    "tipo": "Electric",
+    "tipoMovimiento": "Special",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Red eléctrica que baja la Velocidad en 1 nivel."
+  },
+  {
+    "movimiento": "Carga parábola",
+    "tipo": "Electric",
+    "tipoMovimiento": "Special",
+    "potencia": 70,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Cura al usuario el 50% del daño infligido."
+  },
+  {
+    "movimiento": "Bola Voltio",
+    "tipo": "Electric",
+    "tipoMovimiento": "Special",
+    "potencia": "40–150",
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Contra más rápido sea el usuario mas daño inflige. Sube la Velocidad en 1 nivel tras cada uso."
+  },
+  {
+    "movimiento": "Voltiocambio",
+    "tipo": "Electric",
+    "tipoMovimiento": "Special",
+    "potencia": 75,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Ataca y luego cambia automáticamente al siguiente Pokémon. Nunca falla."
+  },
+  {
+    "movimiento": "Chispazo",
+    "tipo": "Electric",
+    "tipoMovimiento": "Special",
+    "potencia": 85,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Onda eléctrica que puede paralizar (30%) a todos los rivales."
+  },
+  {
+    "movimiento": "Rayo",
+    "tipo": "Electric",
+    "tipoMovimiento": "Special",
+    "potencia": 90,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Rayo directo. 10% de paralizar."
+  },
+  {
+    "movimiento": "Trueno",
+    "tipo": "Electric",
+    "tipoMovimiento": "Special",
+    "potencia": 120,
+    "precision": 85,
+    "prioridad": 0,
+    "descripcion": "Rayo intenso con 30% de paralizar. No puede fallar bajo lluvia."
+  },
+  {
+    "movimiento": "Fulgor Supremo",
+    "tipo": "Electric",
+    "tipoMovimiento": "Special",
+    "potencia": 130,
+    "precision": 70,
+    "prioridad": 0,
+    "descripcion": "Disparo de plasma supercaliente. Siempre quema y vuelve los movimientos de tipo Normal en tipo Eléctrico.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Electrocañon",
+    "tipo": "Electric",
+    "tipoMovimiento": "Special",
+    "potencia": 150,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Disparo brutal de electricidad. Baja el At. Esp. del usuario en 2 niveles tras su uso.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Ira del Trueno",
+    "tipo": "Electric",
+    "tipoMovimiento": "Special",
+    "potencia": 180,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Ráfaga destructiva de rayos. Baja el At. Esp. del usuario en 4 niveles tras usarlo. Duplica poder si se ha usado antes Juez Eléctrico.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Recargar",
+    "tipo": "Electric",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Recarga su energía, restaurando 1/3 de los PS máximos y duplicando el poder del siguiente ataque Eléctrico.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Polución",
+    "tipo": "Poison",
+    "tipoMovimiento": "Special",
+    "potencia": 40,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Niebla tóxica que envenena siempre."
+  },
+  {
+    "movimiento": "Lodo Infecto",
+    "tipo": "Poison",
+    "tipoMovimiento": "Special",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "descripcion": "Disparo de lodo repentino. Prioridad +1.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Bomba Ácida",
+    "tipo": "Poison",
+    "tipoMovimiento": "Special",
+    "potencia": 50,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Ácido que baja la Defensa Esp. del rival en 4niveles."
+  },
+  {
+    "movimiento": "Mugretazo",
+    "tipo": "Poison",
+    "tipoMovimiento": "Special",
+    "potencia": 60,
+    "precision": null,
+    "prioridad": 4,
+    "descripcion": "Disparo asqueroso que siempre envenena, hace retroceder y nunca falla. Prioridad +4.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Niebla Clara",
+    "tipo": "Poison",
+    "tipoMovimiento": "Special",
+    "potencia": 55,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Anula todos los cambios de stats del rival."
+  },
+  {
+    "movimiento": "Lanzarroña",
+    "tipo": "Poison",
+    "tipoMovimiento": "Special",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Lanza lodo que baja la Velocidad del rival en 1 nivel.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Carga Tóxica",
+    "tipo": "Poison",
+    "tipoMovimiento": "Special",
+    "potencia": 70,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Doble daño si el objetivo está envenenado."
+  },
+  {
+    "movimiento": "Bomba Lodo",
+    "tipo": "Poison",
+    "tipoMovimiento": "Special",
+    "potencia": 95,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Bomba de lodo. 30% de envenenar."
+  },
+  {
+    "movimiento": "Onda Tóxica",
+    "tipo": "Poison",
+    "tipoMovimiento": "Special",
+    "potencia": 110,
+    "precision": 90,
+    "prioridad": 0,
+    "descripcion": "Ola de veneno. Siempre baja la Velocidad del rival en 1 nivel."
+  },
+  {
+    "movimiento": "Eructo",
+    "tipo": "Poison",
+    "tipoMovimiento": "Special",
+    "potencia": 120,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Solo usable tras comer una baya. 30% de hacer retroceder. Sube el At. Esp. del usuario en 1 nivel."
+  },
+  {
+    "movimiento": "Vomitar",
+    "tipo": "Poison",
+    "tipoMovimiento": "Special",
+    "potencia": "-",
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Ataque basado en la acumulación de vómito tóxico. Cada boosteo potencia aún más el ataque. Baja la Defensa Esp. del rival en 4 niveles y siempre crítico.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Dardo Tóxico",
+    "tipo": "Poison",
+    "tipoMovimiento": "Physical",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "descripcion": "Dardo venenoso lanzado a gran velocidad. Prioridad +1.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Dosis Letal",
+    "tipo": "Poison",
+    "tipoMovimiento": "Physical",
+    "potencia": 20,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Lanza 3 púas venenosas. Cada golpe envenena automáticamente.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Restricción",
+    "tipo": "Poison",
+    "tipoMovimiento": "Physical",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Atrapa al objetivo de 2 a 5 turnos. Impide cambiar."
+  },
+  {
+    "movimiento": "Veneno X",
+    "tipo": "Poison",
+    "tipoMovimiento": "Physical",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Corte venenoso en forma de cruz. 50% de crítico y 20% de envenenar."
+  },
+  {
+    "movimiento": "Colmillo Ven.",
+    "tipo": "Poison",
+    "tipoMovimiento": "Physical",
+    "potencia": 75,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Mordida tóxica. 50% de envenenar gravemente."
+  },
+  {
+    "movimiento": "Cola Veneno",
+    "tipo": "Poison",
+    "tipoMovimiento": "Physical",
+    "potencia": 95,
+    "precision": 95,
+    "prioridad": 0,
+    "descripcion": "Golpe con cola envenenada. 30% de envenenar. 30% de hacer retroceder."
+  },
+  {
+    "movimiento": "Lanzamugre",
+    "tipo": "Poison",
+    "tipoMovimiento": "Physical",
+    "potencia": 120,
+    "precision": 90,
+    "prioridad": 0,
+    "descripcion": "Disparo de basura tóxica. 50% de envenenar."
+  },
+  {
+    "movimiento": "Armadura Ácida",
+    "tipo": "Poison",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Licua el cuerpo para subir la Defensa en 3 niveles."
+  },
+  {
+    "movimiento": "Vómito Ácido",
+    "tipo": "Poison",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Expulsa ácido desde el estómago. Baja la Defensa Esp. del rival en 4 niveles y lo envenena.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Hilo Venenoso",
+    "tipo": "Poison",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Ataca al oponente con hilillos venenosos que reducen su Velocidad y Evasión en 4 niveles y lo envenena."
+  },
+  {
+    "movimiento": "Trampa Venenosa",
+    "tipo": "Poison",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Impregna a su objetivo con un líquido venenoso que disminuye el Ataque, el At. Esp. y la Velocidad en 3 niveles pero solo afecta a objetivos envenenados."
+  },
+  {
+    "movimiento": "Tornado",
+    "tipo": "Flying",
+    "tipoMovimiento": "Special",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "descripcion": "Ráfaga de viento rápida y precisa. Prioridad +1."
+  },
+  {
+    "movimiento": "Aire Afilado",
+    "tipo": "Flying",
+    "tipoMovimiento": "Special",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Corte de aire. 25% de hacer retroceder y +1 (12%) de golpe crítico."
+  },
+  {
+    "movimiento": "Bola Pluma",
+    "tipo": "Flying",
+    "tipoMovimiento": "Special",
+    "potencia": 70,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Lanza una bola de plumas. Siempre baja ambos stats ofensivos del rival en 1 nivel.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Tajo Aéreo",
+    "tipo": "Flying",
+    "tipoMovimiento": "Special",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Golpe de aire. 30% de hacer retroceder."
+  },
+  {
+    "movimiento": "Aerochorro",
+    "tipo": "Flying",
+    "tipoMovimiento": "Special",
+    "potencia": 65,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Ráfaga devastadora. Siempre golpe crítico."
+  },
+  {
+    "movimiento": "Vendaval",
+    "tipo": "Flying",
+    "tipoMovimiento": "Special",
+    "potencia": 120,
+    "precision": 85,
+    "prioridad": 0,
+    "descripcion": "Torbellino salvaje. No falla con lluvia. 20% de hacer retroceder."
+  },
+  {
+    "movimiento": "Viento Cortante",
+    "tipo": "Flying",
+    "tipoMovimiento": "Special",
+    "potencia": 120,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Ataque en 2 turnos. Siempre crítico y 30% de retroceder. No puede fallar."
+  },
+  {
+    "movimiento": "Picotazo",
+    "tipo": "Flying",
+    "tipoMovimiento": "Physical",
+    "potencia": 50,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Picotazo preciso. 20% de bajar la Defensa del rival."
+  },
+  {
+    "movimiento": "Golpe Aéreo",
+    "tipo": "Flying",
+    "tipoMovimiento": "Physical",
+    "potencia": 45,
+    "precision": null,
+    "prioridad": 2,
+    "descripcion": "Ataque veloz. Prioridad +2."
+  },
+  {
+    "movimiento": "Picoteo Furioso",
+    "tipo": "Flying",
+    "tipoMovimiento": "Physical",
+    "potencia": 25,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Picoteos furiosos. Golpea 2 a 5 veces.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Picoteo",
+    "tipo": "Flying",
+    "tipoMovimiento": "Physical",
+    "potencia": 65,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Si el rival lleva una baya, el usuario se la come y obtiene su efecto."
+  },
+  {
+    "movimiento": "Bote",
+    "tipo": "Flying",
+    "tipoMovimiento": "Physical",
+    "potencia": 75,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Ataque en dos turnos. 30% de paralizar y atraviesa Protección."
+  },
+  {
+    "movimiento": "Pico Taladro",
+    "tipo": "Flying",
+    "tipoMovimiento": "Physical",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Picotazo giratorio. 50% de golpe crítico."
+  },
+  {
+    "movimiento": "Vuelo",
+    "tipo": "Flying",
+    "tipoMovimiento": "Physical",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Ataque en 2 turnos. Sube Precisión en 1 nivel tras usarlo y atraviesa Protección."
+  },
+  {
+    "movimiento": "Ala Bis",
+    "tipo": "Flying",
+    "tipoMovimiento": "Physical",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Golpea dos veces con las alas. 15% de retroceder con cada golpe.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Caída Libre",
+    "tipo": "Flying",
+    "tipoMovimiento": "Physical",
+    "potencia": 95,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Eleva y lanza al rival en el siguiente turno. 30% de retroceder."
+  },
+  {
+    "movimiento": "Pájaro Osado",
+    "tipo": "Flying",
+    "tipoMovimiento": "Physical",
+    "potencia": 125,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Causa 25% de retroceso. 30% de bajar la Defensa del rival en 1 nivel."
+  },
+  {
+    "movimiento": "Picado Letal",
+    "tipo": "Flying",
+    "tipoMovimiento": "Physical",
+    "potencia": 140,
+    "precision": 90,
+    "prioridad": 0,
+    "descripcion": "Caída libre temeraria. Si falla, el usuario pierde la mitad de sus PS.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Ataque Aéreo",
+    "tipo": "Flying",
+    "tipoMovimiento": "Physical",
+    "potencia": 120,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Ataque en dos turnos. Siempre crítico. No falla. 30% de retroceder."
+  },
+  {
+    "movimiento": "Drenar",
+    "tipo": "Bug",
+    "tipoMovimiento": "Special",
+    "potencia": 50,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario extrae la fuerza vital del rival. Cura al usuario un 100% del daño infligido.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Ráfaga Plateada",
+    "tipo": "Bug",
+    "tipoMovimiento": "Special",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "descripcion": "Torbellino de escamas plateadas. Prioridad +1.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Acoso",
+    "tipo": "Bug",
+    "tipoMovimiento": "Special",
+    "potencia": 50,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Hostiga al objetivo durante cuatro o cinco turnos e impide que pueda huir mientras tanto."
+  },
+  {
+    "movimiento": "Estoicismo",
+    "tipo": "Bug",
+    "tipoMovimiento": "Special",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Baja ambos stats ofensivos del rival en 1 nivel."
+  },
+  {
+    "movimiento": "Doble Rayo",
+    "tipo": "Bug",
+    "tipoMovimiento": "Special",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Rayo pulsante. 25% de subir el At. Esp. en 1 nivel."
+  },
+  {
+    "movimiento": "Zumbido",
+    "tipo": "Bug",
+    "tipoMovimiento": "Special",
+    "potencia": 95,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Onda vibrante. 30% de hacer retroceder."
+  },
+  {
+    "movimiento": "Bola Nido",
+    "tipo": "Bug",
+    "tipoMovimiento": "Special",
+    "potencia": 25,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Lanza 3 bombas bicho. Cada golpe es crítico, atraviesa Protección y cura al aliado.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Corte Furia",
+    "tipo": "Bug",
+    "tipoMovimiento": "Physical",
+    "potencia": 30,
+    "precision": 90,
+    "prioridad": 0,
+    "descripcion": "Aumenta el daño en cada turno consecutivo."
+  },
+  {
+    "movimiento": "Golpe Sigiloso",
+    "tipo": "Bug",
+    "tipoMovimiento": "Physical",
+    "potencia": 50,
+    "precision": null,
+    "prioridad": 1,
+    "descripcion": "Emboscada sigilosa. Prioridad +1 y no falla.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Estocada Letal",
+    "tipo": "Bug",
+    "tipoMovimiento": "Physical",
+    "potencia": 35,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Siempre golpe crítico. Si derrota al rival, sube el Ataque en 3 niveles.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Chupavidas",
+    "tipo": "Bug",
+    "tipoMovimiento": "Physical",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Drena vida. Cura el 100% del daño infligido."
+  },
+  {
+    "movimiento": "Pin Misil",
+    "tipo": "Bug",
+    "tipoMovimiento": "Physical",
+    "potencia": 25,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Golpea de 2 a 5 veces."
+  },
+  {
+    "movimiento": "Irrupción",
+    "tipo": "Bug",
+    "tipoMovimiento": "Physical",
+    "potencia": 70,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Golpea y luego se escabulle. Baja ambos stats ofensivos y atraviesa mejoras de stats.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Tijera X",
+    "tipo": "Bug",
+    "tipoMovimiento": "Physical",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Cruza sus cuchillas para golpear. 50% de golpe crítico."
+  },
+  {
+    "movimiento": "Ida y Vuelta",
+    "tipo": "Bug",
+    "tipoMovimiento": "Physical",
+    "potencia": 75,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Ataca y luego cambia de Pokémon. Nunca falla."
+  },
+  {
+    "movimiento": "Plancha",
+    "tipo": "Bug",
+    "tipoMovimiento": "Physical",
+    "potencia": 85,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Embestida total. Baja la Defensa del rival en 1 nivel."
+  },
+  {
+    "movimiento": "Escaramuza",
+    "tipo": "Bug",
+    "tipoMovimiento": "Physical",
+    "potencia": 60,
+    "precision": null,
+    "prioridad": 4,
+    "descripcion": "Solo se puede usar el primer turno. Siempre golpe crítico. Atraviesa Protección."
+  },
+  {
+    "movimiento": "Rodillo de Púas",
+    "tipo": "Bug",
+    "tipoMovimiento": "Physical",
+    "potencia": 130,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Aplasta con fuerza. 30% de retroceso. Sube Velocidad en 2 niveles tras usarlo."
+  },
+  {
+    "movimiento": "Megacuerno",
+    "tipo": "Bug",
+    "tipoMovimiento": "Physical",
+    "potencia": 120,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Golpe de cuerno brutal. Baja las defensas del usuario en 1 nivel."
+  },
+  {
+    "movimiento": "Cambio de Piel",
+    "tipo": "Bug",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "El usuario muda la piel, curando el 50% de sus PS.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Danza Aleteo",
+    "tipo": "Bug",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Danza mística que sube el Ataque Especial y la Velocidad en 1 nivel."
+  },
+  {
+    "movimiento": "Disparo Demora",
+    "tipo": "Bug",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Lanza seda a los rivales y reduce mucho su Velocidad y Ataque especial."
+  },
+  {
+    "movimiento": "Disparo de Lodo",
+    "tipo": "Ground",
+    "tipoMovimiento": "Special",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "descripcion": "Dispara barro a gran velocidad. +1 Prioridad."
+  },
+  {
+    "movimiento": "Lanzabarro",
+    "tipo": "Ground",
+    "tipoMovimiento": "Special",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Lanza barro que siempre baja la Velocidad del rival en 1 nivel."
+  },
+  {
+    "movimiento": "Arenas Ardientes",
+    "tipo": "Ground",
+    "tipoMovimiento": "Special",
+    "potencia": 75,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Envuelve al rival en arena ardiente. 30% de probabilidad de quemar."
+  },
+  {
+    "movimiento": "Tierra Viva",
+    "tipo": "Ground",
+    "tipoMovimiento": "Special",
+    "potencia": 90,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Erupción de energía terrestre. 20% de bajar la Defensa Esp. del rival."
+  },
+  {
+    "movimiento": "Bomba Fango",
+    "tipo": "Ground",
+    "tipoMovimiento": "Special",
+    "potencia": 110,
+    "precision": 90,
+    "prioridad": 0,
+    "descripcion": "Bola de barro explosiva. Siempre baja la Velocidad del rival en 1 nivel."
+  },
+  {
+    "movimiento": "Fuerza Telúrica",
+    "tipo": "Ground",
+    "tipoMovimiento": "Special",
+    "potencia": 150,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Explosión de energía terrestre. Baja el At. Esp. del usuario en 2 niveles."
+  },
+  {
+    "movimiento": "Magnitud",
+    "tipo": "Ground",
+    "tipoMovimiento": "Physical",
+    "potencia": "-",
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Magnitud variable. Potencia promedio: 70."
+  },
+  {
+    "movimiento": "Taladradora",
+    "tipo": "Ground",
+    "tipoMovimiento": "Physical",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Ataque taladro. 50% de golpe crítico."
+  },
+  {
+    "movimiento": "Excavar",
+    "tipo": "Ground",
+    "tipoMovimiento": "Physical",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Ataca en el segundo turno. Sube Precisión del usuario en 1 nivel. Atraviesa Protección."
+  },
+  {
+    "movimiento": "Pataleta",
+    "tipo": "Ground",
+    "tipoMovimiento": "Physical",
+    "potencia": 75,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Si el ataque anterior falló, este duplica el poder. Nunca falla."
+  },
+  {
+    "movimiento": "Puño Sísmico",
+    "tipo": "Ground",
+    "tipoMovimiento": "Physical",
+    "potencia": 90,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Puñetazo sísmico. 30% de bajar la Defensa del rival. Contacto."
+  },
+  {
+    "movimiento": "Fuerza Equina",
+    "tipo": "Ground",
+    "tipoMovimiento": "Physical",
+    "potencia": 95,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Patada brutal. 30% de hacer retroceder."
+  },
+  {
+    "movimiento": "Patada Megatón",
+    "tipo": "Ground",
+    "tipoMovimiento": "Physical",
+    "potencia": 120,
+    "precision": 90,
+    "prioridad": 0,
+    "descripcion": "Patada monstruosa. 30% de bajar la Defensa del rival."
+  },
+  {
+    "movimiento": "Filo del Abismo",
+    "tipo": "Ground",
+    "tipoMovimiento": "Physical",
+    "potencia": 130,
+    "precision": 85,
+    "prioridad": 0,
+    "descripcion": "Cuchillas de roca. 30% de quemar."
+  },
+  {
+    "movimiento": "Arremetida",
+    "tipo": "Ground",
+    "tipoMovimiento": "Physical",
+    "potencia": 150,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Embestida total. 50% de retroceso. Baja ambos stats defensivos del usuario en 1 nivel."
+  },
+  {
+    "movimiento": "Tierra Curativa",
+    "tipo": "Ground",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 4,
+    "descripcion": "Cubre el cuerpo con minerales. Cura 50% de PS (66% en arena)."
+  },
+  {
+    "movimiento": "Poder Pasado",
+    "tipo": "Rock",
+    "tipoMovimiento": "Special",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Poder prehistórico que baja ambos stats ofensivos del rival."
+  },
+  {
+    "movimiento": "Joya de Luz",
+    "tipo": "Rock",
+    "tipoMovimiento": "Special",
+    "potencia": 95,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Rayo de luz tipo gema. 25% de subir el At. Esp. del usuario."
+  },
+  {
+    "movimiento": "Lluvia Mineral",
+    "tipo": "Rock",
+    "tipoMovimiento": "Special",
+    "potencia": 150,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Lluvia de cristales y gemas. Baja el At. Esp. del usuario en 2 niveles tras usarla."
+  },
+  {
+    "movimiento": "Roca Veloz",
+    "tipo": "Rock",
+    "tipoMovimiento": "Physical",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "descripcion": "Embestida veloz. Prioridad +1."
+  },
+  {
+    "movimiento": "Tumba Rocas",
+    "tipo": "Rock",
+    "tipoMovimiento": "Physical",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Baja la Velocidad del objetivo. Siempre."
+  },
+  {
+    "movimiento": "Filo Dentado",
+    "tipo": "Rock",
+    "tipoMovimiento": "Physical",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Ataque con bordes afilados. 50% de crítico. Contacto."
+  },
+  {
+    "movimiento": "Antiaéreo",
+    "tipo": "Rock",
+    "tipoMovimiento": "Physical",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Hace que el objetivo pierda levitación o vuelo. 30% de hacer retroceder."
+  },
+  {
+    "movimiento": "Colmillo Pétreo",
+    "tipo": "Rock",
+    "tipoMovimiento": "Physical",
+    "potencia": 85,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Mordida con colmillos afilados. 30% de bajar Defensa. Contacto."
+  },
+  {
+    "movimiento": "Golpe Rocoso",
+    "tipo": "Rock",
+    "tipoMovimiento": "Physical",
+    "potencia": 85,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Golpea con fuerza pétrea. Baja la Defensa del rival en 1 nivel. Siempre. Contacto."
+  },
+  {
+    "movimiento": "Treparrocas",
+    "tipo": "Rock",
+    "tipoMovimiento": "Physical",
+    "potencia": 110,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Embestida ascendente. 20% de daño de retroceso y 30% de bajar la Defensa del objetivo."
+  },
+  {
+    "movimiento": "Roca Afilada",
+    "tipo": "Rock",
+    "tipoMovimiento": "Physical",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Siempre crítico. Atraviesa Protección."
+  },
+  {
+    "movimiento": "Testarazo",
+    "tipo": "Rock",
+    "tipoMovimiento": "Physical",
+    "potencia": 150,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Golpe brutal. 50% de retroceso. Baja ambas Defensas del usuario."
+  },
+  {
+    "movimiento": "Romperrocas",
+    "tipo": "Rock",
+    "tipoMovimiento": "Physical",
+    "potencia": 150,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Lanza una roca gigante. Baja el Ataque del usuario en 2 niveles."
+  },
+  {
+    "movimiento": "Pulimento",
+    "tipo": "Rock",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Aumenta la Velocidad en 2 niveles y la Precisión en 1 nivel."
+  },
+  {
+    "movimiento": "Onda Acelerada",
+    "tipo": "Steel",
+    "tipoMovimiento": "Special",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "descripcion": "Ráfaga de bombas magnéticas. Prioridad +1.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Disparo Espejo",
+    "tipo": "Steel",
+    "tipoMovimiento": "Special",
+    "potencia": 95,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Luz reflectante. 25% de aumentarte el Ataque Especial."
+  },
+  {
+    "movimiento": "Foco Resplandor",
+    "tipo": "Steel",
+    "tipoMovimiento": "Special",
+    "potencia": 125,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Cañón de luz metálica. 50% de bajar Defensa Esp. y 25% de retroceso."
+  },
+  {
+    "movimiento": "Puño Bala",
+    "tipo": "Steel",
+    "tipoMovimiento": "Physical",
+    "potencia": 45,
+    "precision": 100,
+    "prioridad": 1,
+    "descripcion": "Puñetazo metálico veloz. Prioridad +1."
+  },
+  {
+    "movimiento": "Agarre",
+    "tipo": "Steel",
+    "tipoMovimiento": "Physical",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Sujeta al rival. 6 turnos sin poder escapar. Daño extra (12%) por turno."
+  },
+  {
+    "movimiento": "Garra Metal",
+    "tipo": "Steel",
+    "tipoMovimiento": "Physical",
+    "potencia": 60,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Garra metálica. 12% de probabilidad de crítico."
+  },
+  {
+    "movimiento": "Ala de Acero",
+    "tipo": "Steel",
+    "tipoMovimiento": "Physical",
+    "potencia": 90,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Alas de acero. Siempre sube Defensa en 1 nivel tras usarlo."
+  },
+  {
+    "movimiento": "Clavo Cañon",
+    "tipo": "Steel",
+    "tipoMovimiento": "Physical",
+    "potencia": 25,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Disparo de púas. Golpea 2 a 5 veces."
+  },
+  {
+    "movimiento": "Cuerno Certero",
+    "tipo": "Steel",
+    "tipoMovimiento": "Physical",
+    "potencia": 75,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Ataque certero. Nunca falla y sube Precisión del usuario."
+  },
+  {
+    "movimiento": "Desgarrar",
+    "tipo": "Steel",
+    "tipoMovimiento": "Physical",
+    "potencia": 80,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Corte sangriento. 50% de crítico.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Cola Férrea",
+    "tipo": "Steel",
+    "tipoMovimiento": "Physical",
+    "potencia": 110,
+    "precision": 90,
+    "prioridad": 0,
+    "descripcion": "Cola de hierro. 50% de bajar Defensa en 1 nivel. Contacto."
+  },
+  {
+    "movimiento": "Triple Cañonazo",
+    "tipo": "Steel",
+    "tipoMovimiento": "Physical",
+    "potencia": 25,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Dispara 3 veces. Cada golpe es crítico y atraviesa protección.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Cuerpo Pesado",
+    "tipo": "Steel",
+    "tipoMovimiento": "Physical",
+    "potencia": "-",
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Cuanto más pesa el usuario que el rival, más daño hace. También los baja al suelo."
+  },
+  {
+    "movimiento": "Giro Bola",
+    "tipo": "Steel",
+    "tipoMovimiento": "Physical",
+    "potencia": "-",
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Más lento es el usuario, más potencia tiene. Baja Velocidad del usuario en 2 niveles."
+  },
+  {
+    "movimiento": "Represión Metal",
+    "tipo": "Steel",
+    "tipoMovimiento": "Physical",
+    "potencia": null,
+    "precision": 100,
+    "prioridad": -6,
+    "descripcion": "Contraataque metálico. 1.5x del daño recibido. Siempre va al final."
+  },
+  {
+    "movimiento": "Aligerar",
+    "tipo": "Steel",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Pierde peso. Sube Velocidad en 5 niveles y baja ambas Defensas en 1 nivel."
+  },
+  {
+    "movimiento": "Cambio de Marcha",
+    "tipo": "Steel",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Sube ambos Ataques en 1 nivel y la Velocidad en 2 niveles."
+  },
+  {
+    "movimiento": "Fortificar",
+    "tipo": "Steel",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "El usuario fortifica el metal de su cuerpo lo que le cura un 50% de su vida máxima.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Fuerza Ancestral",
+    "tipo": "Normal",
+    "tipoMovimiento": "Special",
+    "potencia": 100,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Emite incontables haces de luz. Varía según el tipo de tabla que lleve el usuario.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Lametón Profano",
+    "tipo": "Poison",
+    "tipoMovimiento": "Special",
+    "potencia": 20,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario lame al objetivo y le produce una maldición perdiendo un 25% de vida a cada turno.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Tiro Preciso",
+    "tipo": "Water",
+    "tipoMovimiento": "Special",
+    "potencia": 50,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Ataca disparando agua con gran potencia. Tiene prioridad y siempre es crítico.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Cañon Huevo",
+    "tipo": "Normal",
+    "tipoMovimiento": "Special",
+    "potencia": 25,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "Arroja una ráfaga de huevos explosivos al objetivo. Golpea 3 veces y siempre es crítico.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Impacto Solar",
+    "tipo": "Fire",
+    "tipoMovimiento": "Physical",
+    "potencia": 120,
+    "precision": 100,
+    "prioridad": 0,
+    "descripcion": "El usuario desciende del cielo envuelto en una columna de fuego. Siempre crítico, siempre quema y recibes daño de recoil.",
+    "esNuevo": true
+  },
+  {
+    "movimiento": "Telaraña",
+    "tipo": "Bug",
+    "tipoMovimiento": "Status",
+    "potencia": null,
+    "precision": null,
+    "prioridad": 0,
+    "descripcion": "Enreda al objetivo para evitar que abandone el combate. Tiene prioridad y baja la velocidad y evasión en 4 niveles."
+  }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

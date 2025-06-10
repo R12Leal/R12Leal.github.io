@@ -79,24 +79,32 @@ body {
     padding: 50px 0;
 }
 
-/* Estilos para el botón de borrar búsqueda (la "X") */
 .clear-search-button {
-    position: absolute; /* Vuelve a absolute para posicionarlo dentro del input */
-    right: 20px; /* Ajusta la posición a la derecha del input */
-    top: 43%;
+    position: absolute;
+    right: 15px; /* Ajustado ligeramente para un mejor espaciado */
+    top: 50%; /* Centrado verticalmente */
     transform: translateY(-50%);
-    font-size: 1.8rem;
-    color: var(--text-medium);
+    font-size: 2rem; /* Ligeramente más grande para visibilidad */
+    color: #CC0000; /* Rojo Pokémon para el icono principal */
     cursor: pointer;
     user-select: none;
-    display: none;
-    transition: color 0.2s ease;
+    display: none; /* Se mantiene oculto por defecto */
+    transition: color 0.2s ease, transform 0.1s ease; /* Añadida transición para el transform */
     line-height: 1;
-    margin-left: 0; /* Elimina este margen si lo tenías */
+    margin-left: 0;
+
+    /* Estilos adicionales para un toque Pokémon */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Sombra de texto sutil */
 }
 
 .clear-search-button:hover {
-    color: var(--primary-color);
+    color: #A60000; /* Rojo más oscuro al pasar el ratón */
+    transform: translateY(-50%) scale(1.1); /* Ligero aumento de tamaño al hacer hover */
+}
+
+.clear-search-button:active {
+    color: #FFCB05; /* Amarillo brillante al hacer clic (simulando brillo de Poké Ball) */
+    transform: translateY(-50%) scale(0.9); /* Ligero encogimiento al hacer clic */
 }
 
 /* Contenedor principal que contendrá todas las tarjetas de entrenadores */

@@ -65,7 +65,7 @@ p {
 /* --- Estilos para el Menú Lateral Fijo (Offcanvas) --- */
 
 .offcanvas.sidebar-fixed {
-    background-color: #343a40;
+    background-color: #333;
     color: #FFFFFF;
     position: fixed;
     top: 0;
@@ -103,7 +103,7 @@ p {
         transform: translateX(0%);
         visibility: visible !important; /* Siempre visible y fijo en desktop */
         border-right: 1px solid rgba(0, 0, 0, 0.2);
-        background-color: #222222 !important;
+        background-color: #333 !important;
     }
 
     /* En pantallas grandes, no necesitamos el botón de cerrar en el offcanvas */
@@ -160,15 +160,32 @@ p {
     margin-bottom: 8px;
 }
 
+/* Estilos para los enlaces del menú dentro del Offcanvas */
 .offcanvas-body .navbar-nav .nav-link {
     text-decoration: none;
     color: #FFFFFF;
     font-weight: 600;
     font-size: 1.1em;
-    padding: 10px 20px;
+    padding: 10px 20px; /* Ajusta el relleno según sea necesario para el texto */
     border-radius: 8px;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-    display: block;
+    display: flex; /* Usa flexbox para alinear contenido e icono */
+    align-items: center; /* Centra verticalmente el contenido */
+    /* justify-content: space-between; */ /* No necesario si quieres que el texto siga al icono */
+    position: relative; /* Necesario para el posicionamiento absoluto si fuera el caso */
+}
+
+.offcanvas-body .navbar-nav .nav-link::before { /* Cambiado a ::before */
+    content: ''; /* Obligatorio para los pseudo-elementos */
+    display: inline-block;
+    width: 20px; /* Ajusta el tamaño de la Poké Ball */
+    height: 20px; /* Ajusta el tamaño de la Poké Ball */
+    background-image: url('../img/pokeball_menu.png'); /* **Reemplaza con la ruta real de tu imagen de Pokeball** */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left; /* Posiciona el icono a la izquierda */
+    margin-right: 10px; /* Espacio entre el icono y el texto (cambiado a margin-right) */
+    opacity: 0.7; /* Hazla ligeramente transparente */
 }
 
 .offcanvas-body .navbar-nav .nav-link:hover {
@@ -368,7 +385,7 @@ h1, h2, h3 {
 
 /* Estilos para la barra de navegación superior (móvil) */
 .top-menu {
-    background-color: #343a40; /* Fondo oscuro de la barra superior */
+    background-color: #333; /* Fondo oscuro de la barra superior */
     padding: 0.5rem 1rem;
 }
 
@@ -381,7 +398,7 @@ h1, h2, h3 {
 
 /* ESTILOS PARA LA BARRA SUPERIOR MÓVIL (d-lg-none) */
 .top-menu {
-    background-color: #343a40; /* Fondo oscuro de la barra superior, como en tu captura */
+    background-color: #333; /* Fondo oscuro de la barra superior, como en tu captura */
     padding: 0.5rem 1rem;
     position: fixed; /* ¡Importante! Fija la barra en la parte superior */
     top: 0;
