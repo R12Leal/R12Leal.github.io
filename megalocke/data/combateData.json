@@ -196,7 +196,7 @@
         "name": "Solosis",
         "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/577.png",
         "types": ["psychic", "poison"],
-        "hab": "Pelo acuoso",
+        "hab": "Velo acuoso",
         "objeto": "Garra rápida",
         "movimientos": ["Drenar", "Hidropulso", "Lanzaroña", "Confusión"]
       },

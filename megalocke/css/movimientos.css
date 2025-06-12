@@ -259,3 +259,48 @@
     .moves-table td.text-center.move-description { text-align: left !important; } /* Sobrescribe para descripción */
 
 }
+
+.search-wrapper {
+    position: relative;
+}
+
+#moveSearchInput {
+    padding-right: 2.5rem; /* Espacio para la X */
+}
+
+.search-clear-btn {
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    /* Color de resaltado, si es un color específico, por ejemplo, '#ffc107' para amarillo */
+    color: #CC0000; /* Bootstrap 'warning' color */
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1;
+    display: none; /* Oculto por defecto */
+}
+
+.search-clear-btn.visible {
+    display: block; /* Visible cuando hay texto */
+}
+
+/* Hide tabs when search is active */
+.tabs-hidden #pokemonTabs,
+.tabs-hidden #pokemonTabContent {
+    display: none !important;
+}
+
+.search-results-table {
+    display: none; /* Hidden by default */
+}
+
+.search-results-table.visible {
+    display: block; /* Visible when there are search results */
+}
+
+#moveSearchInput:focus {
+    border-color: #CC0000; /* Color del borde al hacer foco */
+    box-shadow: 0 0 0 0.25rem rgba(204, 0, 0, 0.25); /* Color de la sombra de enfoque */
+}

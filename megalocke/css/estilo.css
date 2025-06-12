@@ -455,3 +455,40 @@ h1, h2, h3 {
     width: auto;
     /* margin-left: 10px; */ /* Si va a la derecha con ms-auto, este margen no es necesario */
 }
+
+.grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Columnas responsivas */
+            gap: 15px; /* Espacio entre los elementos del grid */
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .grid-item {
+            background-color: #e0f2f7; /* Color de fondo claro para los ítems */
+            border: 1px solid #b3e0f2;
+            border-radius: 6px;
+            padding: 15px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s ease-in-out;
+        }
+        .grid-item:hover {
+            transform: translateY(-5px); /* Pequeño efecto al pasar el ratón */
+        }
+        .grid-item strong {
+            display: block;
+            margin-bottom: 8px;
+            color: #333; /* Color para el título/etiqueta */
+            font-size: 1.1em;
+        }
+        .grid-item .numero-muertes {
+            font-size: 2.2em; /* Tamaño grande para el número */
+            font-weight: bold;
+            color: #dc3545; /* Color rojo para destacar las muertes */
+        }

@@ -514,7 +514,7 @@
     "tipoMovimiento": "Physical",
     "tipo": "Normal",
     "potencia": 80,
-    "precision": 100,
+    "precision": "-",
     "prioridad": 3,
     "descripcion": "Ataque muy veloz con prioridad +3 y que no falla."
   },
@@ -1800,7 +1800,8 @@
     "potencia": 25,
     "precision": 100,
     "prioridad": 0,
-    "descripcion": "Golpea entre 2 y 5 veces con puñetazos celestiales."
+    "descripcion": "Golpea entre 2 y 5 veces con puñetazos celestiales.",
+    "esNuevo": true
   },
   {
     "movimiento": "Artimaña",

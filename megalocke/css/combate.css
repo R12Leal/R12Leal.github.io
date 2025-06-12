@@ -67,8 +67,8 @@ body {
 }
 
 #searchInput:focus {
-    border-color: var(--primary-color);
-    box-shadow: 0 0 0 3px rgba(59, 76, 202, 0.2);
+    border-color: #CC0000; /* Color del borde al hacer foco */
+    box-shadow: 0 0 0 0.25rem rgba(204, 0, 0, 0.25); /* Color de la sombra de enfoque */
 }
 
 /* Mensaje de "No resultados" */
