@@ -492,3 +492,13 @@ h1, h2, h3 {
             font-weight: bold;
             color: #dc3545; /* Color rojo para destacar las muertes */
         }
+
+/* En tu archivo css/estilo.css (o donde tengas los estilos del logo) */
+
+.logo-menu-pokemon {
+    transition: transform 0.3s ease-in-out; /* Transición suave para el efecto */
+}
+
+.logo-menu-pokemon:hover {
+    transform: scale(1.05); /* Agranda el logo un 5% */
+}

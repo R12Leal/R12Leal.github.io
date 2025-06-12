@@ -926,6 +926,7 @@
     "trainer": {
       "nombre": "Mayla",
       "level": 33,
+      "esDoble": true,
       "sprite_url": "img/150px-VSOlivia_2_USUM.png"
     },
     "display_type": "single",
@@ -2189,6 +2190,7 @@
     "trainer": {
       "nombre": "Liam",
       "level": 66,
+      "esDoble": true,
       "sprite_url": "img/150px-VSIlima_USUM.png"
     },
     "display_type": "single",
@@ -2305,6 +2307,7 @@
     "trainer": {
       "nombre": "Kiawe",
       "level": 68,
+      "esDoble": true,
       "sprite_url": "img/150px-VSKiawe.png"
     },
     "display_type": "single",
@@ -2421,6 +2424,7 @@
     "trainer": {
       "nombre": "Hela",
       "level": 73,
+      "esDoble": true,
       "sprite_url": "img/150px-VSHapu.png"
     },
     "display_type": "single",
@@ -2769,6 +2773,7 @@
     "trainer": {
       "nombre": "Tilo - El Tocahuevos final (Última etapa evolutiva)",
       "level": 100,
+      "esDoble": true,
       "sprite_url": "img/150px-VSHau.png"
     },
     "display_type": "multi-team",

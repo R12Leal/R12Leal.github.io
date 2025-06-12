@@ -587,3 +587,34 @@ h3 { font-size: 1.8rem; }
   display: inline-block;   /* Asegura que padding y margin funcionen bien */
   margin-left: 8px;        /* Espacio a la izquierda del texto anterior */
 }
+
+.trainer-double-badge {
+    background-color: #cc0000; /* Rojo principal */
+    color: #fff; /* Texto blanco */
+    padding: 0.3em 0.6em;
+    border-radius: 1em; /* Bordes redondeados */
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-left: 8px;
+    vertical-align: middle;
+    white-space: nowrap;
+    border: 2px solid #a30000; /* Borde rojo más oscuro */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    position: relative;
+    overflow: hidden;
+    text-transform: lowercase;
+    font-weight: 700;
+}
+
+/* Pseudo-elemento para simular una pequeña cinta en la parte superior */
+.trainer-double-badge::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 5px;
+    width: 50%;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.3); /* Color más claro para la cinta */
+    border-radius: 5px 5px 0 0;
+    transform: rotate(-15deg);
+}
