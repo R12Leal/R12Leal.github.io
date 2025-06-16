@@ -232,3 +232,9 @@
     border-color: #CC0000; /* Color del borde al hacer foco */
     box-shadow: 0 0 0 0.25rem rgba(204, 0, 0, 0.25); /* Color de la sombra de enfoque */
 }
+
+@media (max-width: 992px) {
+  .search-input-wrapper {
+      margin-top: 20px;
+  }
+}

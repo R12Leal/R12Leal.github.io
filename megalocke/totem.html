@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pokemon Ultra Pamboli - Tótem</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/estilo_totem.css">
+</head>
+<body>
+    <div class="offcanvas offcanvas-start bg-dark text-white sidebar-fixed" tabindex="-1" id="offcanvasMenuPrincipal" aria-labelledby="offcanvasMenuPrincipalLabel">
+        <div class="offcanvas-header">
+            <a class="navbar-brand text-center d-block mx-auto py-3" href="#">
+                <img src="img/logo_pk.png" alt="Pokémon Ultra Pamboli" class="img-fluid logo-menu-pokemon">
+            </a>
+            <button type="button" class="btn-close text-reset btn-close-white d-lg-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body d-flex flex-column pt-0">
+            <ul class="navbar-nav flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Reglas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pokemon.html">Modificaciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="totem.html">Tótem</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="combates.html">Combates</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="evoluciones.html">Evoluciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="habilidades.html">Hab | Objetos</a>
+                </li>
+                <li class="nav-item">
+                  	<a class="nav-link" href="movimientos.html">Movimientos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pokeruleta.html">PokeRuleta</a>
+                </li>
+            </ul>
+            <div class="mt-auto p-2 text-center text-white-50 small">
+					<p class="mb-1">Pokémon Ultra Pamboli</p>
+					<p class="mb-0">&copy; Faraone´s Company</p>
+			</div>
+        </div>
+    </div>
+    <nav class="navbar top-menu d-lg-none bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenuPrincipal" aria-controls="offcanvasMenuPrincipal" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="#" class="pokeball-icon-link">
+                <img src="img/pokeball.png" alt="Poké Ball" class="img-fluid pokeball-menu-icon">
+            </a>
+            <span class="navbar-text" style="width: 40px;"></span>
+        </div>
+    </nav>
+    <main class="content-wrapper">
+            <div class="container py-5">
+            <div class="card mb-5 shadow-sm">
+            <div class="card-header" style="background-color: #1E90FF; color: white;">
+                PRUEBA DE AGUA
+                <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/water.svg" class="type-icon" alt="Tipo Agua">
+            </div>
+            <div class="card-body">
+                <div class="row">
+                <div class="col-12 col-lg-6 mb-4 mb-4">
+                    <h4 class="text-center">Boss</h4>
+                    <div class="card totem-boss">
+                    <div class="card-body text-center">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/752.png" class="pokemon-image" alt="Araquanid">
+                        <h3 class="card-title">ARAQUANID <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/water.svg" class="inline-type-icon" alt="Tipo Agua"> <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/bug.svg" class="inline-type-icon" alt="Tipo Bicho"></h3>
+                        <ul class="list-group list-group-flush text-start">
+                        <li class="list-group-item"><strong>Habilidad:</strong> Pompa </li>
+                        <li class="list-group-item"><strong>Objeto:</strong> Baya Kouba </li>
+                        <li class="list-group-item"><strong>Aumento de stats:</strong> +3 velocidad </li>
+                        <li class="list-group-item"><strong>IVS:</strong> Todo en 15 </li>
+                        <li class="list-group-item"><strong>EVS:</strong> 252 HP, 252 DEF </li>
+                        <li class="list-group-item">
+                            <strong>Movimientos:</strong>
+                            <div>
+                                <span class="badge bg-dark me-1 move-badge">Chupavidas</span>
+                                <span class="badge bg-dark me-1 move-badge">Chorro Veloz</span>
+                                <span class="badge bg-dark me-1 move-badge">Rayo Aurora</span>
+                                <span class="badge bg-dark me-1 move-badge">Protección</span>
+                            </div>
+                        </li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 mb-4">
+                    <h4 class="text-center">Compañeros</h4>
+                    <div class="card ally-card mb-3">
+                    <div class="card-body text-center">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/170.png" class="pokemon-image" alt="Chinchou">
+                        <h5 class="card-title">Chinchou <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/water.svg" class="inline-type-icon" alt="Tipo Agua"> <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/electric.svg" class="inline-type-icon" alt="Tipo Eléctrico"></h5>
+                        <ul class="list-group list-group-flush text-start">
+                        <li class="list-group-item"><strong>Habilidad:</strong> Iluminación </li>
+                        <li class="list-group-item"><strong>IVS:</strong> 31 en todo </li>
+                        <li class="list-group-item">
+                            <strong>Movimientos:</strong>
+                            <div>
+                                <span class="badge bg-dark me-1 move-badge">Chorro veloz</span>
+                                <span class="badge bg-dark me-1 move-badge">Onda voltio</span>
+                                <span class="badge bg-dark me-1 move-badge">Doble rayo</span>
+                                <span class="badge bg-dark me-1 move-badge">Viento hielo</span>
+                            </div>
+                        </li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="card ally-card">
+                    <div class="card-body text-center">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/271.png" class="pokemon-image" alt="Lombre">
+                        <h5 class="card-title">Lombre <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/water.svg" class="inline-type-icon" alt="Tipo Agua"> <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/grass.svg" class="inline-type-icon" alt="Tipo Planta"></h5>
+                        <ul class="list-group list-group-flush text-start">
+                        <li class="list-group-item"><strong>Habilidad:</strong> Nado rápido </li>
+                        <li class="list-group-item"><strong>IVS:</strong> 31 en todo </li>
+                        <li class="list-group-item">
+                            <strong>Movimientos:</strong>
+                            <div>
+                                <span class="badge bg-dark me-1 move-badge">Hidroariete</span>
+                                <span class="badge bg-dark me-1 move-badge">Bomba germen</span>
+                                <span class="badge bg-dark me-1 move-badge">Puño hielo</span>
+                                <span class="badge bg-dark me-1 move-badge">Pataleta</span>
+                            </div>
+                        </li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="card mb-5 shadow-sm">
+                <div class="card-header" style="background-color: #B22222; color: white;">
+                    PRUEBA DE FUEGO
+                    <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/fire.svg" class="type-icon" alt="Tipo Fuego">
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 mb-4 mb-4">
+                            <h4 class="text-center">Boss</h4>
+                            <div class="card totem-boss">
+                                <div class="card-body text-center">
+                                    <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/105_f2.png" class="pokemon-image" alt="Marowak Alola">
+                                    <h3 class="card-title">MAROWAK ALOLA <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/fire.svg" class="inline-type-icon" alt="Tipo Fuego"> <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/ghost.svg" class="inline-type-icon" alt="Tipo Fantasma"></h3>
+                                    <ul class="list-group list-group-flush text-start">
+                                        <li class="list-group-item"><strong>Habilidad:</strong> Pararrayos </li>
+                                        <li class="list-group-item"><strong>Objeto:</strong> Baya Dillo </li>
+                                        <li class="list-group-item"><strong>Aumento de stats:</strong> +1 en todo </li>
+                                        <li class="list-group-item"><strong>IVS:</strong> Todo en 15 </li>
+                                        <li class="list-group-item"><strong>EVS:</strong> 252 HP, 252 DEF SPE </li>
+                                        <li class="list-group-item">
+                                            <strong>Movimientos:</strong>
+                                            <div>
+                                                <span class="badge bg-dark me-1 move-badge">Infortunio</span>
+                                                <span class="badge bg-dark me-1 move-badge">Voto fuego</span>
+                                                <span class="badge bg-dark me-1 move-badge">Rayo carga</span>
+                                                <span class="badge bg-dark me-1 move-badge">Protección</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-4">
+                            <h4 class="text-center">Compañeros</h4>
+                            <div class="card ally-card">
+                                <div class="card-body text-center">
+                                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/218.png" class="pokemon-image" alt="Slugma">
+                                    <h5 class="card-title">Slugma <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/fire.svg" class="inline-type-icon" alt="Tipo Fuego"></h5>
+                                    <ul class="list-group list-group-flush text-start">
+                                        <li class="list-group-item"><strong>Habilidad:</strong> Cuerpo llama </li>
+                                        <li class="list-group-item"><strong>Objeto:</strong> Baya Acardo </li>
+                                        <li class="list-group-item"><strong>IVS:</strong> 31 en todo </li>
+                                        <li class="list-group-item">
+                                            <strong>Movimientos:</strong>
+                                            <div>
+                                                <span class="badge bg-dark me-1 move-badge">Poder pasado</span>
+                                                <span class="badge bg-dark me-1 move-badge">Ignición</span>
+                                                <span class="badge bg-dark me-1 move-badge">Arenas ardientes</span>
+                                                <span class="badge bg-dark me-1 move-badge">Poder oculto (planta)</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-5 shadow-sm">
+                <div class="card-header" style="background-color: #228B22; color: white;">
+                    PRUEBA PLANTA
+                    <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/grass.svg" class="type-icon" alt="Tipo Planta">
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 mb-4 mb-4">
+                            <h4 class="text-center">Boss</h4>
+                            <div class="card totem-boss">
+                                <div class="card-body text-center">
+                                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/754.png" class="pokemon-image" alt="Lurantis">
+                                    <h3 class="card-title">LURANTIS <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/grass.svg" class="inline-type-icon" alt="Tipo Planta"></h3>
+                                    <ul class="list-group list-group-flush text-start">
+                                        <li class="list-group-item"><strong>Habilidad:</strong> Defensa hoja </li>
+                                        <li class="list-group-item"><strong>Objeto:</strong> Baya Kouba </li>
+                                        <li class="list-group-item"><strong>Aumento de stats:</strong> +1 en todo </li>
+                                        <li class="list-group-item"><strong>IVS:</strong> Todo en 15 </li>
+                                        <li class="list-group-item"><strong>EVS:</strong> 252 DEF, 252 DEF SPE </li>
+                                        <li class="list-group-item">
+                                            <strong>Movimientos:</strong>
+                                            <div>
+                                                <span class="badge bg-dark me-1 move-badge">Gigadrenado</span>
+                                                <span class="badge bg-dark me-1 move-badge">Tierra viva</span>
+                                                <span class="badge bg-dark me-1 move-badge">Protección</span>
+                                                <span class="badge bg-dark me-1 move-badge">Paz mental</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-4">
+                            <h4 class="text-center">Compañeros</h4>
+                            <div class="card ally-card mb-3">
+                                <div class="card-body text-center">
+                                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/765.png" class="pokemon-image" alt="Oranguru">
+                                    <h5 class="card-title">Oranguru <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/normal.svg" class="inline-type-icon" alt="Tipo Normal"> <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/psychic.svg" class="inline-type-icon" alt="Tipo Psíquico"></h5>
+                                    <ul class="list-group list-group-flush text-start">
+                                        <li class="list-group-item"><strong>Habilidad:</strong> Telepatía </li>
+                                        <li class="list-group-item"><strong>Objeto:</strong> Semilla hierba </li>
+                                        <li class="list-group-item"><strong>IVS:</strong> 31 en todo </li>
+                                        <li class="list-group-item">
+                                            <strong>Movimientos:</strong>
+                                            <div>
+                                                <span class="badge bg-dark me-1 move-badge">Paranormal</span>
+                                                <span class="badge bg-dark me-1 move-badge">Rayo</span>
+                                                <span class="badge bg-dark me-1 move-badge">Kamehameha</span>
+                                                <span class="badge bg-dark me-1 move-badge">Fertilizante</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card ally-card">
+                                <div class="card-body text-center">
+                                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/185.png" class="pokemon-image" alt="Sudowoodo">
+                                    <h5 class="card-title">Sudowoodo <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/rock.svg" class="inline-type-icon" alt="Tipo Roca"></h5>
+                                    <ul class="list-group list-group-flush text-start">
+                                        <li class="list-group-item"><strong>Habilidad:</strong> Cabeza roca </li>
+                                        <li class="list-group-item"><strong>Objeto:</strong> Cinta experto </li>
+                                        <li class="list-group-item"><strong>IVS:</strong> 31 en todo </li>
+                                        <li class="list-group-item">
+                                            <strong>Movimientos:</strong>
+                                            <div>
+                                                <span class="badge bg-dark me-1 move-badge">Antiaéreo</span>
+                                                <span class="badge bg-dark me-1 move-badge">Puño sísmico</span>
+                                                <span class="badge bg-dark me-1 move-badge">Puño fuego</span>
+                                                <span class="badge bg-dark me-1 move-badge">Puño drenaje</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-5 shadow-sm">
+                <div class="card-header" style="background-color: #DAA520; color: white;">
+                    PRUEBA ELÉCTRICO
+                    <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/electric.svg" class="type-icon" alt="Tipo Eléctrico">
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 mb-4 mb-4">
+                            <h4 class="text-center">Boss</h4>
+                            <div class="card totem-boss">
+                                <div class="card-body text-center">
+                                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/777.png" class="pokemon-image" alt="Togedemaru">
+                                    <h3 class="card-title">TOGEDEMARU <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/electric.svg" class="inline-type-icon" alt="Tipo Eléctrico"> <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/steel.svg" class="inline-type-icon" alt="Tipo Acero"></h3>
+                                    <ul class="list-group list-group-flush text-start">
+                                        <li class="list-group-item"><strong>Habilidad:</strong> Punta de acero </li>
+                                        <li class="list-group-item"><strong>Objeto:</strong> Baya Acardo </li>
+                                        <li class="list-group-item"><strong>Aumento de stats:</strong> +1 en todo </li>
+                                        <li class="list-group-item"><strong>IVS:</strong> Todo en 15 </li>
+                                        <li class="list-group-item"><strong>EVS:</strong> 252 HP, 252 DEF </li>
+                                        <li class="list-group-item">
+                                            <strong>Movimientos:</strong>
+                                            <div>
+                                                <span class="badge bg-dark me-1 move-badge">Electropunzada</span>
+                                                <span class="badge bg-dark me-1 move-badge">Barrera espinosa</span>
+                                                <span class="badge bg-dark me-1 move-badge">Cuerno certero</span>
+                                                <span class="badge bg-dark me-1 move-badge">Pataleta</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-4">
+                            <h4 class="text-center">Compañeros</h4>
+                            <div class="card ally-card mb-3">
+                                <div class="card-body text-center">
+                                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/417.png" class="pokemon-image" alt="Pachirisu">
+                                    <h5 class="card-title">Pachirisu <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/electric.svg" class="inline-type-icon" alt="Tipo Eléctrico"></h5>
+                                    <ul class="list-group list-group-flush text-start">
+                                        <li class="list-group-item"><strong>Habilidad:</strong> Fuga </li>
+                                        <li class="list-group-item"><strong>Objeto:</strong> Banda focus </li>
+                                        <li class="list-group-item"><strong>IVS:</strong> 31 en todo </li>
+                                        <li class="list-group-item">
+                                            <strong>Movimientos:</strong>
+                                            <div>
+                                                <span class="badge bg-dark me-1 move-badge">Carga parábola</span>
+                                                <span class="badge bg-dark me-1 move-badge">Energibola</span>
+                                                <span class="badge bg-dark me-1 move-badge">Poder oculto (agua)</span>
+                                                <span class="badge bg-dark me-1 move-badge">Otra vez</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card ally-card">
+                                <div class="card-body text-center">
+                                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/312.png" class="pokemon-image" alt="Minun">
+                                    <h5 class="card-title">Minun <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/electric.svg" class="inline-type-icon" alt="Tipo Eléctrico"></h5>
+                                    <ul class="list-group list-group-flush text-start">
+                                        <li class="list-group-item"><strong>Habilidad:</strong> Absorbe electricidad </li>
+                                        <li class="list-group-item"><strong>Objeto:</strong> Globo helio </li>
+                                        <li class="list-group-item"><strong>IVS:</strong> 31 en todo </li>
+                                        <li class="list-group-item">
+                                            <strong>Movimientos:</strong>
+                                            <div>
+                                                <span class="badge bg-dark me-1 move-badge">Brillo mágico</span>
+                                                <span class="badge bg-dark me-1 move-badge">Kamehameha</span>
+                                                <span class="badge bg-dark me-1 move-badge">Energibola</span>
+                                                <span class="badge bg-dark me-1 move-badge">Refuerzo</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-5 shadow-sm">
+                <div class="card-header" style="background-color: #4B0082; color: white;">
+                    PRUEBA FANTASMA
+                    <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/ghost.svg" class="type-icon" alt="Tipo Fantasma">
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 mb-4 mb-4">
+                            <h4 class="text-center">Boss</h4>
+                            <div class="card totem-boss">
+                                <div class="card-body text-center">
+                                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/778.png" class="pokemon-image" alt="Mimikyu">
+                                    <h3 class="card-title">MIMIKYU <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/ghost.svg" class="inline-type-icon" alt="Tipo Fantasma"> <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/fairy.svg" class="inline-type-icon" alt="Tipo Hada"></h3>
+                                    <ul class="list-group list-group-flush text-start">
+                                        <li class="list-group-item"><strong>Habilidad:</strong> Disfraz </li>
+                                        <li class="list-group-item"><strong>Objeto:</strong> Baya Ziuela </li>
+                                        <li class="list-group-item"><strong>Aumento de stats:</strong> +1 en todo </li>
+                                        <li class="list-group-item"><strong>IVS:</strong> Todo en 15 </li>
+                                        <li class="list-group-item"><strong>EVS:</strong> 252 HP, 252 DEF </li>
+                                        <li class="list-group-item">
+                                            <strong>Movimientos:</strong>
+                                            <div>
+                                                <span class="badge bg-dark me-1 move-badge">Infortunio</span>
+                                                <span class="badge bg-dark me-1 move-badge">Fuerza lunar</span>
+                                                <span class="badge bg-dark me-1 move-badge">Puño drenaje</span>
+                                                <span class="badge bg-dark me-1 move-badge">Protección</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-4">
+                            <h4 class="text-center">Compañeros</h4>
+                            <div class="card ally-card mb-3">
+                                <div class="card-body text-center">
+                                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/609.png" class="pokemon-image" alt="Chandelure">
+                                    <h5 class="card-title">Chandelure <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/ghost.svg" class="inline-type-icon" alt="Tipo Fantasma"> <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/fire.svg" class="inline-type-icon" alt="Tipo Fuego"></h5>
+                                    <ul class="list-group list-group-flush text-start">
+                                        <li class="list-group-item"><strong>Habilidad:</strong> Absorbe fuego </li>
+                                        <li class="list-group-item"><strong>Objeto:</strong> Banda focus </li>
+                                        <li class="list-group-item"><strong>IVS:</strong> 31 en todo </li>
+                                        <li class="list-group-item">
+                                            <strong>Movimientos:</strong>
+                                            <div>
+                                                <span class="badge bg-dark me-1 move-badge">Infortunio</span>
+                                                <span class="badge bg-dark me-1 move-badge">Fuego fatuo</span>
+                                                <span class="badge bg-dark me-1 move-badge">Onda ígnea</span>
+                                                <span class="badge bg-dark me-1 move-badge">Psíquico</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card ally-card">
+                                <div class="card-body text-center">
+                                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png" class="pokemon-image" alt="Seaking">
+                                    <h5 class="card-title">Seaking <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/water.svg" class="inline-type-icon" alt="Tipo Agua"></h5>
+                                    <ul class="list-group list-group-flush text-start">
+                                        <li class="list-group-item"><strong>Habilidad:</strong> Velo agua </li>
+                                        <li class="list-group-item"><strong>Objeto:</strong> Baya dillo </li>
+                                        <li class="list-group-item"><strong>IVS:</strong> 31 en todo </li>
+                                        <li class="list-group-item">
+                                            <strong>Movimientos:</strong>
+                                            <div>
+                                                <span class="badge bg-dark me-1 move-badge">Sombra vil</span>
+                                                <span class="badge bg-dark me-1 move-badge">Acua jet</span>
+                                                <span class="badge bg-dark me-1 move-badge">Fuego fatuo</span>
+                                                <span class="badge bg-dark me-1 move-badge">Estocada letal</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-5 shadow-sm">
+                <div class="card-header" style="background-color: #6A5ACD; color: white;">
+                    PRUEBA DRAGÓN
+                    <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/dragon.svg" class="type-icon" alt="Tipo Dragón">
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 mb-4 mb-4">
+                            <h4 class="text-center">Boss</h4>
+                            <div class="card totem-boss">
+                                <div class="card-body text-center">
+                                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/784.png" class="pokemon-image" alt="Kommo-o">
+                                    <h3 class="card-title">KOMMO-O <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/dragon.svg" class="inline-type-icon" alt="Tipo Dragón"> <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/fighting.svg" class="inline-type-icon" alt="Tipo Lucha"></h3>
+                                    <ul class="list-group list-group-flush text-start">
+                                        <li class="list-group-item"><strong>Habilidad:</strong> Antibalas </li>
+                                        <li class="list-group-item"><strong>Objeto:</strong> Banda focus </li>
+                                        <li class="list-group-item"><strong>Aumento de stats:</strong> +1 en todo </li>
+                                        <li class="list-group-item"><strong>IVS:</strong> Todo en 15 </li>
+                                        <li class="list-group-item"><strong>EVS:</strong> 252 HP, 252 DEF SPE </li>
+                                        <li class="list-group-item">
+                                            <strong>Movimientos:</strong>
+                                            <div>
+                                                <span class="badge bg-dark me-1 move-badge">Llamarada</span>
+                                                <span class="badge bg-dark me-1 move-badge">Protección</span>
+                                                <span class="badge bg-dark me-1 move-badge">Oleada dracónica</span>
+                                                <span class="badge bg-dark me-1 move-badge">Cola férrea</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-4">
+                            <h4 class="text-center">Compañeros</h4>
+                            <div class="card ally-card mb-3">
+                                <div class="card-body text-center">
+                                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/373.png" class="pokemon-image" alt="Salamence">
+                                    <h5 class="card-title">Salamence <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/dragon.svg" class="inline-type-icon" alt="Tipo Dragón"> <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/flying.svg" class="inline-type-icon" alt="Tipo Volador"></h5>
+                                    <ul class="list-group list-group-flush text-start">
+                                        <li class="list-group-item"><strong>Habilidad:</strong> Autoestima </li>
+                                        <li class="list-group-item"><strong>Objeto:</strong> Baya rimoya </li>
+                                        <li class="list-group-item"><strong>IVS:</strong> 31 en todo </li>
+                                        <li class="list-group-item">
+                                            <strong>Movimientos:</strong>
+                                            <div>
+                                                <span class="badge bg-dark me-1 move-badge">Grito de guerra</span>
+                                                <span class="badge bg-dark me-1 move-badge">Aerochorro</span>
+                                                <span class="badge bg-dark me-1 move-badge">Respiro</span>
+                                                <span class="badge bg-dark me-1 move-badge">Onda ígnea</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card ally-card">
+                                <div class="card-body text-center">
+                                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/227.png" class="pokemon-image" alt="Skarmory">
+                                    <h5 class="card-title">Skarmory <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/steel.svg" class="inline-type-icon" alt="Tipo Acero"> <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/flying.svg" class="inline-type-icon" alt="Tipo Volador"></h5>
+                                    <ul class="list-group list-group-flush text-start">
+                                        <li class="list-group-item"><strong>Habilidad:</strong> Robustez </li>
+                                        <li class="list-group-item"><strong>Objeto:</strong> Baya caoca </li>
+                                        <li class="list-group-item"><strong>IVS:</strong> 31 en todo </li>
+                                        <li class="list-group-item">
+                                            <strong>Movimientos:</strong>
+                                            <div>
+                                                <span class="badge bg-dark me-1 move-badge">Pájaro osado</span>
+                                                <span class="badge bg-dark me-1 move-badge">Cabeza de hierro</span>
+                                                <span class="badge bg-dark me-1 move-badge">Respiro</span>
+                                                <span class="badge bg-dark me-1 move-badge">Grito de guerra</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-5 shadow-sm">
+                <div class="card-header" style="background-color: #ef70ef; color: white;">
+                    PRUEBA HADA
+                    <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/fairy.svg" class="type-icon" alt="Tipo Hada">
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 mb-4 mb-4">
+                            <h4 class="text-center">Boss</h4>
+                            <div class="card totem-boss">
+                                <div class="card-body text-center">
+                                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/743.png" class="pokemon-image" alt="Ribombee">
+                                    <h3 class="card-title">RIBOMBEE <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/bug.svg" class="inline-type-icon" alt="Tipo Bicho"> <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/fairy.svg" class="inline-type-icon" alt="Tipo Hada"></h3>
+                                    <ul class="list-group list-group-flush text-start">
+                                        <li class="list-group-item"><strong>Habilidad:</strong> Polvo escudo </li>
+                                        <li class="list-group-item"><strong>Objeto:</strong> Banda focus </li>
+                                        <li class="list-group-item"><strong>Aumento de stats:</strong> +2 en todo </li>
+                                        <li class="list-group-item"><strong>IVS:</strong> Todo en 15 </li>
+                                        <li class="list-group-item"><strong>EVS:</strong> 252 HP, 252 DEF </li>
+                                        <li class="list-group-item">
+                                            <strong>Movimientos:</strong>
+                                            <div>
+                                                <span class="badge bg-dark me-1 move-badge">Zumbido</span>
+                                                <span class="badge bg-dark me-1 move-badge">Danza despertar</span>
+                                                <span class="badge bg-dark me-1 move-badge">Big bang attack</span>
+                                                <span class="badge bg-dark me-1 move-badge">Protección</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-4">
+                            <h4 class="text-center">Compañeros</h4>
+                            <div class="card ally-card mb-3">
+                                <div class="card-body text-center">
+                                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/242.png" class="pokemon-image" alt="Blissey">
+                                    <h5 class="card-title">Blissey <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/normal.svg" class="inline-type-icon" alt="Tipo Normal"></h5>
+                                    <ul class="list-group list-group-flush text-start">
+                                        <li class="list-group-item"><strong>Habilidad:</strong> Cura natural </li>
+                                        <li class="list-group-item"><strong>Objeto:</strong> Baya baribá </li>
+                                        <li class="list-group-item"><strong>IVS:</strong> 31 en todo </li>
+                                        <li class="list-group-item">
+                                            <strong>Movimientos:</strong>
+                                            <div>
+                                                <span class="badge bg-dark me-1 move-badge">Señuelo</span>
+                                                <span class="badge bg-dark me-1 move-badge">Conjuro</span>
+                                                <span class="badge bg-dark me-1 move-badge">Pulso cura</span>
+                                                <span class="badge bg-dark me-1 move-badge">Refuerzo</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card ally-card">
+                                <div class="card-body text-center">
+                                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/576.png" class="pokemon-image" alt="Gothitelle">
+                                    <h5 class="card-title">Gothitelle <img src="https://raw.githubusercontent.com/partywhale/pokemon-type-icons/main/icons/psychic.svg" class="inline-type-icon" alt="Tipo Psíquico"></h5>
+                                    <ul class="list-group list-group-flush text-start">
+                                        <li class="list-group-item"><strong>Habilidad:</strong> Cacheo </li>
+                                        <li class="list-group-item"><strong>Objeto:</strong> Baya yecana </li>
+                                        <li class="list-group-item"><strong>IVS:</strong> 31 en todo </li>
+                                        <li class="list-group-item">
+                                            <strong>Movimientos:</strong>
+                                            <div>
+                                                <span class="badge bg-dark me-1 move-badge">Señuelo</span>
+                                                <span class="badge bg-dark me-1 move-badge">Onda mental</span>
+                                                <span class="badge bg-dark me-1 move-badge">Llama embrujada</span>
+                                                <span class="badge bg-dark me-1 move-badge">Pulso noche</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

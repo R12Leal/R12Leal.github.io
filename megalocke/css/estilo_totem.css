@@ -1,0 +1,135 @@
+.card-header {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.75rem 1rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-header .type-icon {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+}
+
+.totem-boss {
+  background-color: #e9ecef;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.ally-card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.pokemon-image {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 15px;
+  display: block;
+  object-fit: contain;
+}
+
+/* Responsive: reduce tamaño en pantallas pequeñas */
+@media (max-width: 576px) {
+  .pokemon-image {
+    width: 90px;
+    height: 90px;
+  }
+
+ .card-header {
+    font-size: 1.25rem;
+  }
+  .card-header .type-icon {
+    width: 24px;
+    height: 24px;
+    right: 0.75rem;
+  }
+
+  .move-badge {
+    font-size: 0.75em;
+  }
+
+  .type-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 3px;
+  }
+}
+
+.type-icon {
+  width: 32px;
+  height: 32px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.move-badge {
+  font-size: 0.8em;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 0.25em 0.5em;
+  border-radius: 0.25rem;
+  background-color: #dee2e6;
+  display: inline-block;
+  margin: 2px;
+}
+
+.list-group-item strong {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Opcional: Mejora visual para las cards en columnas */
+@media (min-width: 768px) {
+  .totem-boss,
+  .ally-card {
+    margin-bottom: 1rem;
+  }
+
+  .pokemon-image {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .card.totem-boss,
+  .card.ally-card {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Nuevo estilo para iconos de tipo en línea con el texto del nombre del Pokémon */
+.card-title .inline-type-icon {
+  position: static !important; /* Fuerza el posicionamiento estático */
+  transform: none !important; /* Elimina cualquier transformación */
+  width: 24px !important; /* Tamaño para los Boss (h3) */
+  height: 24px !important; /* Tamaño para los Boss (h3) */
+  vertical-align: middle !important; /* Alinea verticalmente con el texto */
+  display: inline-block !important; /* Asegura que se comporte como un bloque en línea */
+}
+
+/* Ajuste específico para iconos en compañeros (h5), si es necesario un tamaño aún menor */
+.ally-card .card-title .inline-type-icon {
+    width: 20px !important; /* Tamaño más pequeño para los compañeros (h5) */
+    height: 20px !important; /* Tamaño más pequeño para los compañeros (h5) */
+}
+
+/* Ajuste responsive para los nuevos iconos en títulos */
+@media (max-width: 576px) {
+    .card-title .inline-type-icon {
+        width: 20px !important; /* Reduce el tamaño en móviles para Boss */
+        height: 20px !important; /* Reduce el tamaño en móviles para Boss */
+    }
+    .ally-card .card-title .inline-type-icon {
+        width: 18px !important; /* Reduce el tamaño en móviles para compañeros */
+        height: 18px !important; /* Reduce el tamaño en móviles para compañeros */
+    }
+}
