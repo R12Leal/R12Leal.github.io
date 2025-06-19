@@ -875,7 +875,7 @@
       {
         "name": "Nidorina",
         "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
-        "types": ["poison"],
+        "types": ["poison","normal"],
         "hab": "compensación",
         "objeto": "Mineral Evolutivo",
         "movimientos": ["colmillo veneno", "mofa", "última palabra", "púas tóxicas"]

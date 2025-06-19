@@ -8,6 +8,7 @@ const artworkURL = (id, pokedexAltId) => {
 
 let allPokemonData = [];
 let currentActiveGen = '';
+let originalActiveGenTabText = ''; // NEW: To store the original text of the active tab
 
 const tabContent = document.getElementById('tabContent');
 const tabList = document.getElementById('genTabs');
@@ -29,24 +30,32 @@ if (!noResultsMessage) {
     noResultsMessage.id = 'noResultsMessage';
     noResultsMessage.className = 'alert alert-warning text-center mt-4';
     noResultsMessage.style.display = 'none';
-    noResultsMessage.textContent = 'No se encontraron Pokémon con ese nombre.';
+    // **MODIFICADO: Mensaje de "no encontrado" actualizado**
+    noResultsMessage.textContent = 'No se encontraron Pokémon con ese nombre o habilidad.';
     document.querySelector('.inner-content').insertBefore(noResultsMessage, tabContent);
+}
+
+function updateActiveTabName(name) {
+    const activeTabButton = tabList.querySelector('.nav-link.active');
+    if (activeTabButton) {
+        activeTabButton.textContent = name;
+    }
 }
 
 function filterPokemon(searchTerm) {
     const lowerCaseSearchTerm = searchTerm.toLowerCase();
     const allPokemonCards = document.querySelectorAll('.pokemon-card-container');
+    const activeTabButton = tabList.querySelector('.nav-link.active');
 
-    // **Limpiar el contenedor de resultados de búsqueda al inicio de cada búsqueda**
-    searchResultsContainer.innerHTML = ''; // Esto es crucial para evitar duplicados
+
+    searchResultsContainer.innerHTML = ''; 
 
     if (lowerCaseSearchTerm.length === 0) {
         noResultsMessage.style.display = 'none';
-        disableTabs(false); // Habilitar las pestañas
-        searchResultsContainer.style.display = 'none'; // Ocultar el contenedor de búsqueda
-        tabContent.style.display = 'block'; // Mostrar el contenido de las pestañas
+        disableTabs(false);
+        searchResultsContainer.style.display = 'none';
+        tabContent.style.display = 'block';
 
-        // Asegurarse de que solo la pestaña activa actual sea visible
         document.querySelectorAll('.tab-pane').forEach(pane => {
             pane.classList.remove('show', 'active');
             if (pane.id === currentActiveGen) {
@@ -54,28 +63,43 @@ function filterPokemon(searchTerm) {
             }
         });
 
-        // Asegurarse de que las tarjetas en la pestaña activa se muestren, las demás se oculten
         allPokemonCards.forEach(card => {
             const pokemonGen = card.getAttribute('data-pokemon-gen');
             if (pokemonGen === currentActiveGen) {
-                card.style.display = ''; // Mostrar la tarjeta si pertenece a la gen activa
+                card.style.display = '';
             } else {
-                card.style.display = 'none'; // Ocultar la tarjeta si no pertenece a la gen activa
+                card.style.display = 'none';
             }
         });
+        // NEW: Revert tab name to original
+        if (activeTabButton && originalActiveGenTabText) {
+            activeTabButton.textContent = originalActiveGenTabText;
+        }
 
     } else {
         let resultsFound = false;
+        // NEW: Store original tab text if not already stored
+        if (activeTabButton && !originalActiveGenTabText) {
+            originalActiveGenTabText = activeTabButton.textContent;
+        }
+        // NEW: Change tab name to "Resultados"
+        updateActiveTabName('¡Resultados de la búsqueda! ✓');
 
-        allPokemonData.forEach(pkmn => { // Iterar sobre los datos originales para evitar clonar duplicados
+        allPokemonData.forEach(pkmn => {
             const pokemonName = pkmn.name.toLowerCase();
-            if (pokemonName.includes(lowerCaseSearchTerm)) {
+            
+            // **NUEVO: Comprueba si alguna habilidad coincide con el término de búsqueda**
+            const hasMatchingAbility = pkmn.abilities.some(ability => 
+                ability.toLowerCase().includes(lowerCaseSearchTerm)
+            );
+
+            // **MODIFICADO: La condición ahora comprueba el nombre O la habilidad**
+            if (pokemonName.includes(lowerCaseSearchTerm) || hasMatchingAbility) {
                 resultsFound = true;
-                // Crear una nueva tarjeta en lugar de clonar una existente
                 const col = document.createElement('div');
                 col.className = 'col-lg-3 col-md-4 col-sm-6 pokemon-card-container';
                 col.setAttribute('data-pokemon-name', pkmn.name.toLowerCase());
-                col.setAttribute('data-pokemon-gen', `gen-${pkmn.gen.replace(/\s+/g, '-').toLowerCase()}`); // Asegurarse de que la gen se guarde correctamente
+                col.setAttribute('data-pokemon-gen', `gen-${pkmn.gen.replace(/\s+/g, '-').toLowerCase()}`);
 
                 col.innerHTML = `
                     <div class="pokemon-card">
@@ -99,10 +123,10 @@ function filterPokemon(searchTerm) {
         });
 
         noResultsMessage.style.display = resultsFound ? 'none' : 'block';
-        disableTabs(true); // Deshabilitar las pestañas durante la búsqueda
+        disableTabs(true);
 
-        tabContent.style.display = 'none'; // Ocultar el contenido de las pestañas
-        searchResultsContainer.style.display = resultsFound ? 'flex' : 'none'; // Mostrar/ocultar el contenedor de búsqueda
+        tabContent.style.display = 'none';
+        searchResultsContainer.style.display = resultsFound ? 'flex' : 'none';
     }
 }
 
@@ -121,42 +145,43 @@ function disableTabs(disable) {
     });
 }
 
-// Definimos la función onSearchInput una sola vez, fuera del fetch, para que no se dupliquen listeners.
 function onSearchInput(event) {
     const searchTerm = event.target.value;
     filterPokemon(searchTerm);
     if (searchTerm.length > 0) {
         clearSearchButton.style.display = 'block';
-        // disableTabs(true); // Ya se maneja dentro de filterPokemon
     } else {
         clearSearchButton.style.display = 'none';
-        // disableTabs(false); // Ya se maneja dentro de filterPokemon
-        filterPokemon(''); // Limpiar los resultados y volver a la vista normal
+        filterPokemon('');
     }
 }
 
 if (searchInput) {
-    searchInput.removeEventListener('input', onSearchInput); // Asegurarse de no añadir duplicados
+    searchInput.removeEventListener('input', onSearchInput);
     searchInput.addEventListener('input', onSearchInput);
 }
 
 if (clearSearchButton) {
     clearSearchButton.addEventListener('click', () => {
         searchInput.value = '';
-        filterPokemon(''); // Limpiar la búsqueda y volver a la vista normal
+        filterPokemon('');
         clearSearchButton.style.display = 'none';
-        // disableTabs(false); // Ya se maneja dentro de filterPokemon
+        // NEW: Reset original tab text when clearing search
+        const activeTabButton = tabList.querySelector('.nav-link.active');
+        if (activeTabButton && originalActiveGenTabText) {
+            activeTabButton.textContent = originalActiveGenTabText;
+            originalActiveGenTabText = ''; // Clear the stored original text
+        }
     });
 }
 
-// Fetch solo para cargar datos y crear pestañas y cards (sin crear searchResultsContainer ni listeners)
 fetch('data/pokemonData.json')
     .then(response => {
         if (!response.ok) throw new Error('Error cargando el JSON');
         return response.json();
     })
     .then(pokemonData => {
-        allPokemonData = pokemonData; // Almacenar todos los datos
+        allPokemonData = pokemonData;
         const grouped = {};
         pokemonData.forEach(p => {
             if (!grouped[p.gen]) grouped[p.gen] = [];
@@ -184,12 +209,13 @@ fetch('data/pokemonData.json')
 
             tabButton.addEventListener('shown.bs.tab', () => {
                 currentActiveGen = tabId;
-                // Al cambiar de pestaña, limpiar la búsqueda si había algo
+                // NEW: Reset originalActiveGenTabText when a new tab is selected
+                originalActiveGenTabText = tabButton.textContent; 
                 if (searchInput.value.length > 0) {
-                    searchInput.value = ''; // Limpiar el input de búsqueda
+                    searchInput.value = '';
                     clearSearchButton.style.display = 'none';
                 }
-                filterPokemon(''); // Llama a filterPokemon para mostrar la pestaña activa y ocultar los resultados de búsqueda
+                filterPokemon('');
             });
 
             const pane = document.createElement('div');
@@ -232,11 +258,12 @@ fetch('data/pokemonData.json')
 
             if (first) {
                 currentActiveGen = tabId;
+                originalActiveGenTabText = tabButton.textContent; // Initialize original text for the first active tab
             }
             first = false;
         }
 
-        filterPokemon(''); // Inicializar la vista de la primera pestaña
+        filterPokemon('');
     })
     .catch(err => {
         console.error('Error:', err);

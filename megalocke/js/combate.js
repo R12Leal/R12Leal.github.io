@@ -60,29 +60,42 @@ async function renderContent(searchTerm = '') {
         const lowerCaseSearchTerm = searchTerm.toLowerCase().trim();
 
         if (lowerCaseSearchTerm) {
-            filteredProfiles = allProfilesData.filter(profile => {
-                // 1. Buscar por nombre de entrenador
-                if (profile.trainer.nombre.toLowerCase().includes(lowerCaseSearchTerm)) {
-                    return true;
-                }
+            // Dividir el término de búsqueda en palabras individuales
+            const searchWords = lowerCaseSearchTerm.split(/\s+/).filter(word => word.length > 0);
 
-                // 2. Buscar por nombre de Pokémon
-                if (profile.display_type === "single" && profile.pokemon_team) {
-                    if (profile.pokemon_team.some(pokemon =>
-                        pokemon.name.toLowerCase().includes(lowerCaseSearchTerm)
-                    )) {
+            filteredProfiles = allProfilesData.filter(profile => {
+                // Un perfil coincide si TODAS las palabras del término de búsqueda se encuentran en
+                // el nombre del entrenador, el Level CAP o los nombres de los Pokémon.
+                return searchWords.every(word => {
+                    // 1. Buscar por nombre de entrenador
+                    if (profile.trainer.nombre.toLowerCase().includes(word)) {
                         return true;
                     }
-                } else if (profile.display_type === "multi-team" && profile.teams) {
-                    if (profile.teams.some(team =>
-                        team.pokemons.some(pokemon =>
-                            pokemon.name.toLowerCase().includes(lowerCaseSearchTerm)
-                        )
-                    )) {
+
+                    // 2. Buscar por nivel (Level CAP) del entrenador
+                    // Convertimos a string para usar includes
+                    if (profile.trainer.level.toString().includes(word)) {
                         return true;
                     }
-                }
-                return false; // Si no hay coincidencias en el nombre del entrenador o los Pokémon de este perfil
+
+                    // 3. Buscar por nombre de Pokémon en el equipo
+                    if (profile.display_type === "single" && profile.pokemon_team) {
+                        if (profile.pokemon_team.some(pokemon =>
+                            pokemon.name.toLowerCase().includes(word)
+                        )) {
+                            return true;
+                        }
+                    } else if (profile.display_type === "multi-team" && profile.teams) {
+                        if (profile.teams.some(team =>
+                            team.pokemons.some(pokemon =>
+                                pokemon.name.toLowerCase().includes(word)
+                            )
+                        )) {
+                            return true;
+                        }
+                    }
+                    return false; // Si esta palabra específica no se encontró en ninguna parte del perfil
+                });
             });
         }
 
