@@ -221,7 +221,6 @@ body {
   margin: 4rem auto; /* Centra horizontalmente y añade margen superior e inferior */
   display: block; /* Necesario para que 'margin: auto' funcione */
 
-  font-family: 'Handlee', cursive; /* Fuente que simula escritura a mano */
   color: #333; /* Color de texto oscuro */
   border: 1px solid rgba(0, 0, 0, 0.1); /* Borde sutil */
   text-align: center; /* Centra el texto */
