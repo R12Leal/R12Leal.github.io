@@ -1,0 +1,240 @@
+:root {
+      --accent-color: #e3350d;
+      --bg-light: #f2f2f2;
+      --bg-white: #fff;
+      --text-dark: #212529;
+      --text-soft: #495057;
+      --sidebar-width: 240px;
+    }
+
+    body {
+      background-color: var(--bg-light);
+      margin: 0;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .content-wrapper {
+      flex-grow: 1;
+      padding: 2rem;
+      margin-left: var(--sidebar-width);
+      transition: margin 0.3s ease;
+    }
+
+    @media (max-width: 991.98px) {
+      body {
+        flex-direction: column;
+      }
+      .sidebar-fixed {
+        position: relative;
+        width: 100%;
+        height: auto;
+      }
+      .content-wrapper {
+        margin-left: 0;
+        padding: 1rem;
+      }
+    }
+
+    .row.g-4 {
+      display: flex; /* Asegura que es un contenedor flexbox */
+      flex-wrap: wrap; /* Permite que las tarjetas se envuelvan a la siguiente línea */
+      align-items: stretch; /* ESTO ES CLAVE: Hace que los elementos hijos (las tarjetas) se estiren para tener la misma altura que el más alto de la fila. */
+    }
+
+    .pokemon-card {
+      background: var(--bg-white);
+      border: 1px solid #e0e0e0;
+      border-radius: 10px;
+      padding: 16px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: transform 0.2s, box-shadow 0.2s;
+      display: flex; /* Necesario para que el contenido interno de la tarjeta sea flexible */
+      flex-direction: column; /* Organiza el contenido verticalmente */
+      height: 100%; /* Esto es importante para que la tarjeta ocupe toda la altura disponible que le da align-items: stretch */
+      /* min-height ya no sería tan crítico aquí, pero puedes mantenerlo si quieres una altura mínima absoluta */
+    }
+
+    .pokemon-details {
+      font-size: 0.9em;
+      color: var(--text-soft);
+      text-align: left;
+      border-top: 1px dashed #e0e0e0;
+      padding-top: 10px;
+      flex-grow: 1; /* Permite que la sección de detalles ocupe el espacio restante */
+    }
+
+    .pokemon-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .pokemon-img-container {
+      aspect-ratio: 1/1;
+      background-color: var(--bg-light);
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 12px;
+    }
+    .pokemon-img {
+      max-width: 90%;
+      max-height: 90%;
+    }
+
+    .pokemon-card h5 {
+	  font-family: 'Oswald', sans-serif;
+	  font-size: clamp(1rem, 2.5vw, 1.4rem); /* se adapta a tamaño de pantalla */
+	  color: var(--text-dark);
+	  margin-bottom: 10px;
+	  word-break: break-word;     /* rompe palabras largas */
+	  white-space: normal;        /* permite saltos de línea */
+	  line-height: 1.2;           /* evita líneas demasiado altas */
+	  text-align: center;
+	}
+
+    .pokemon-types {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+    .type-icon {
+      width: 38px;
+      height: 38px;
+    }
+
+    .tab-content > .tab-pane {
+      display: none;
+    }
+    .tab-content > .tab-pane.active {
+      display: block;
+    }
+
+  @media (min-width: 992px) {
+  #mainContent {
+    margin-left: 250px; /* ajusta este valor según el ancho real de tu sidebar */
+  }
+}
+
+.nav-tabs {
+  border-bottom: none;
+  background-color: #333; /* gris oscuro más suave */
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.nav-tabs .nav-link {
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-tabs .nav-link:hover {
+  background-color: #CC0000; /* hover sutil */
+  color: #FFCB05; /* un toque cálido */
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #CC0000;
+  color: #FFCB05;
+  font-weight: 700;
+}
+
+/* Responsive mejora: scroll si muchas pestañas */
+@media (max-width: 768px) {
+  .search-input-wrapper {
+    position: relative; /* Esencial para posicionar el botón de la X dentro */
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+  }
+  .nav-tabs {
+    margin-top: 15px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+  }
+  .nav-tabs .nav-link {
+    white-space: nowrap;
+  }
+}
+
+.badge {
+    margin-right: 5px; /* Espacio entre las etiquetas */
+    padding: .3em .6em;
+    font-size: 0.75em;
+    font-weight: 600;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+.bg-secondary {
+    background-color: #CC0000 !important; /* Un color de fondo para las etiquetas */
+}
+
+/* Estilo para el contenedor del input y el botón de borrar */
+.search-input-wrapper {
+    position: relative; /* Esencial para posicionar el botón de la X dentro */
+}
+
+.btn-clear-search {
+    position: absolute;
+    right: 15px; /* Ajustado ligeramente para un mejor espaciado */
+    top: 45%; /* Centrado verticalmente */
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #CC0000; /* Rojo Pokémon para el icono principal */
+    font-size: 1.8em; /* Tamaño un poco más grande para visibilidad */
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+    opacity: 0.9; /* Opacidad ligeramente más alta para que se vea mejor */
+    transition: color 0.2s ease, opacity 0.2s ease, transform 0.1s ease; /* Añadida transición para color y transform */
+    z-index: 2; /* Asegura que esté por encima de otros elementos */
+
+    /* Estilos adicionales para un toque Pokémon */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Sombra de texto sutil */
+}
+
+.btn-clear-search:hover {
+    color: #A60000; /* Rojo más oscuro al pasar el ratón */
+    opacity: 1; /* Totalmente opaco al pasar el ratón */
+    transform: translateY(-50%) scale(1.1); /* Ligero aumento de tamaño al hacer hover */
+}
+
+.btn-clear-search:active {
+    color: #FFCB05; /* Amarillo brillante al hacer clic (simulando brillo de Poké Ball) */
+    opacity: 1;
+    transform: translateY(-50%) scale(0.9); /* Ligero encogimiento al hacer clic */
+}
+
+/* Ajuste para que el texto no se oculte detrás del botón */
+/* Aquí el padding-right se aplica directamente al .form-control */
+.form-control {
+    padding-right: 40px; /* Deja más espacio para el botón de borrar */
+}
+
+/* Estilo para el borde del input al hacer foco */
+.form-control:focus {
+    border-color: #CC0000; /* Color del borde al hacer foco */
+    box-shadow: 0 0 0 0.25rem rgba(204, 0, 0, 0.25); /* Color de la sombra de enfoque */
+}
+
+@media (max-width: 992px) {
+  .search-input-wrapper {
+      margin-top: 20px;
+  }
+}

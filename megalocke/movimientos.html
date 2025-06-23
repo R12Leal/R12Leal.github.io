@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pokemon Ultra Pamboli - Movimientos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/movimientos.css">
+</head>
+<body>
+	<!-- -->
+    <div class="offcanvas offcanvas-start bg-dark text-white sidebar-fixed" tabindex="-1" id="offcanvasMenuPrincipal" aria-labelledby="offcanvasMenuPrincipalLabel">
+        <div class="offcanvas-header">
+            <a class="navbar-brand text-center d-block mx-auto py-3" href="#">
+                <img src="img/logo_pk.png" alt="Pokémon Ultra Pamboli" class="img-fluid logo-menu-pokemon">
+            </a>
+            <button type="button" class="btn-close text-reset btn-close-white d-lg-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body d-flex flex-column pt-0">
+            <ul class="navbar-nav flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Reglas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pokemon.html">Pokédex</a>
+                </li>
+                <li class="nav-item">
+                    	<a class="nav-link" href="totem.html">Tótem</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="combates.html">Combates</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="evoluciones.html">Evoluciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="habilidades.html">Hab | Objetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="movimientos.html">Movimientos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pokeruleta.html">PokeRuleta</a>
+                </li>
+            </ul>
+            <div class="mt-auto p-2 text-center text-white-50 small">
+					<p class="mb-1">Pokémon Ultra Pamboli</p>
+					<p class="mb-0">&copy; Faraone´s Company</p>
+			</div>
+        </div>
+    </div>
+	<!-- -->
+    <nav class="navbar top-menu d-lg-none bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenuPrincipal" aria-controls="offcanvasMenuPrincipal" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="#" class="pokeball-icon-link">
+                <img src="img/pokeball.png" alt="Poké Ball" class="img-fluid pokeball-menu-icon">
+            </a>
+            <span class="navbar-text" style="width: 40px;"></span>
+        </div>
+    </nav>
+	<!-- -->
+    <main class="content-wrapper">
+        <div class="container my-4">
+            <ul class="nav nav-tabs justify-content-center mb-3" id="pokemonTabs" role="tablist"></ul>
+            <div class="tab-content" id="pokemonTabContent"></div>
+        </div>
+    </main>
+    <script src="js/movimientos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

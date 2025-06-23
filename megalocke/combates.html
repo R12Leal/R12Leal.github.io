@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pokemon Ultra Pamboli - Combates</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/combate.css">
+</head>
+<body>
+    <div class="offcanvas offcanvas-start bg-dark text-white sidebar-fixed" tabindex="-1" id="offcanvasMenuPrincipal" aria-labelledby="offcanvasMenuPrincipalLabel">
+        <div class="offcanvas-header">
+            <a class="navbar-brand text-center d-block mx-auto py-3" href="#">
+                <img src="img/logo_pk.png" alt="Pokémon Ultra Pamboli" class="img-fluid logo-menu-pokemon">
+            </a>
+            <button type="button" class="btn-close text-reset btn-close-white d-lg-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body d-flex flex-column pt-0">
+            <ul class="navbar-nav flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Reglas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pokemon.html">Pokédex</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="totem.html">Tótem</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="combates.html">Combates</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="evoluciones.html">Evoluciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="habilidades.html">Hab | Objetos</a>
+                </li>
+                <li class="nav-item">
+                  	<a class="nav-link" href="movimientos.html">Movimientos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pokeruleta.html">PokeRuleta</a>
+                </li>
+            </ul>
+            <div class="mt-auto p-2 text-center text-white-50 small">
+					<p class="mb-1">Pokémon Ultra Pamboli</p>
+					<p class="mb-0">&copy; Faraone´s Company</p>
+			</div>
+        </div>
+    </div>
+    <nav class="navbar top-menu d-lg-none bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenuPrincipal" aria-controls="offcanvasMenuPrincipal" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="#" class="pokeball-icon-link">
+                <img src="img/pokeball.png" alt="Poké Ball" class="img-fluid pokeball-menu-icon">
+            </a>
+            <span class="navbar-text" style="width: 40px;"></span>
+        </div>
+    </nav>
+    <main class="content-wrapper">
+        <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3">
+            <div class="search-bar-container flex-grow-1">
+                <input type="text" id="searchInput" placeholder="🔍 Buscar Entrenador | Pokémon | LvL CAP">
+                <span id="clearSearchBtn" class="clear-search-button">&times;</span>
+            </div>
+            <div class="note-style text-center flex-shrink-0">
+                <p><strong>¡OJO!</strong> No te saltes estos combates.</p>
+                <p class="mb-0">¡Obtendrás MT's e ítems competitivos!</p>
+            </div>
+        </div>
+        <div id="allTrainersContainer" class="container-fluid py-4">
+            </div>
+    </main>
+    <script src="js/combate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

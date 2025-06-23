@@ -1,0 +1,279 @@
+/* General card styling */
+.card {
+  border-radius: 12px; /* Más redondeado */
+  overflow: hidden; /* Asegura que las imágenes redondeadas no se salgan */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+  transition: transform 0.2s ease-in-out; /* Transición suave al pasar el ratón */
+}
+
+.card:hover {
+  /* transform: translateY(-5px); /* Efecto de elevación al pasar el ratón */
+}
+
+.card-header {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.75rem 1rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Color de texto blanco para todos los headers */
+  border-bottom: none; /* Eliminar el borde inferior del header */
+}
+
+.card-header .type-icon {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.5)); /* Sombra para el icono del tipo */
+}
+
+/* Asegúrate de que las clases de tipo como .card-header-water tengan !important en su background-color */
+/* Ejemplo (ajusta los colores según tus definiciones): */
+.card-header-water { background-color: #a0cff0 !important; }
+.card-header-fire { background-color: #ff9d54 !important; }
+.card-header-grass { background-color: #78c850 !important; }
+.card-header-electric { background-color: #f8d030 !important; }
+.card-header-ghost { background-color: 	#b7a0b7	!important; }
+.card-header-dragon { background-color: #C0A1FF !important; }
+.card-header-fairy { background-color: #ee99ee !important; }
+
+
+.totem-boss {
+  background-color: #e9ecef; /* Fondo ligeramente gris para el boss */
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); /* Sombra más suave para el boss */
+}
+
+.ally-card {
+  background-color: #f8f9fa; /* Fondo más claro para los compañeros */
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* Sombra aún más suave para los compañeros */
+}
+
+.pokemon-image {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 15px;
+  display: block;
+  object-fit: contain;
+  border-radius: 8px; /* Bordes redondeados para las imágenes */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);  Sombra para las imágenes */
+}
+
+/* Responsive: reduce tamaño en pantallas pequeñas */
+@media (max-width: 576px) {
+  .pokemon-image {
+    width: 90px;
+    height: 90px;
+  }
+
+ .card-header {
+    font-size: 1.25rem;
+  }
+  .card-header .type-icon {
+    width: 24px;
+    height: 24px;
+    right: 0.75rem;
+  }
+
+  .move-badge {
+    font-size: 0.75em;
+  }
+
+  .type-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 3px;
+  }
+}
+
+.type-icon {
+  width: 32px;
+  height: 32px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.move-badge {
+  font-size: 0.85em; /* Ligeramente más grande */
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 0.3em 0.6em; /* Más padding */
+  border-radius: 0.45rem; /* Más redondeado */
+  background-color: #6c757d; /* Color de fondo más oscuro */
+  color: white; /* Texto blanco */
+  border: 1px solid #495057; /* Borde sutil */
+  display: inline-block;
+  margin: 3px; /* Más margen */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra para los badges */
+  text-transform: uppercase;
+}
+
+.list-group-item {
+    border-color: rgba(0,0,0,.05); /* Bordes más suaves para los items de la lista */
+    padding: 0.75rem 1rem;
+}
+
+.list-group-item strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #343a40; /* Color más oscuro para los títulos de las propiedades */
+}
+
+/* Opcional: Mejora visual para las cards en columnas */
+@media (min-width: 768px) {
+  .totem-boss,
+  .ally-card {
+    margin-bottom: 1rem;
+  }
+
+  .pokemon-image {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .card.totem-boss,
+  .card.ally-card {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Nuevo estilo para iconos de tipo en línea con el texto del nombre del Pokémon */
+.card-title .inline-type-icon {
+  position: static !important; /* Fuerza el posicionamiento estático */
+  transform: none !important; /* Elimina cualquier transformación */
+  width: 24px !important; /* Tamaño para los Boss (h3) */
+  height: 24px !important; /* Tamaño para los Boss (h3) */
+  vertical-align: middle !important; /* Alinea verticalmente con el texto */
+  display: inline-block !important; /* Asegura que se comporte como un bloque en línea */
+  margin-left: 5px; /* Espacio a la izquierda del icono */
+  filter: drop-shadow(0.5px 0.5px 1px rgba(0,0,0,0.3)); /* Sombra ligera para los iconos en línea */
+}
+
+/* Ajuste específico para iconos en compañeros (h5), si es necesario un tamaño aún menor */
+.ally-card .card-title .inline-type-icon {
+    width: 20px !important; /* Tamaño más pequeño para los compañeros (h5) */
+    height: 20px !important; /* Tamaño más pequeño para los compañeros (h5) */
+}
+
+/* Ajuste responsive para los nuevos iconos en títulos */
+@media (max-width: 576px) {
+    .card-title .inline-type-icon {
+        width: 20px !important; /* Reduce el tamaño en móviles para Boss */
+        height: 20px !important; /* Reduce el tamaño en móviles para Boss */
+    }
+    .ally-card .card-title .inline-type-icon {
+        width: 18px !important; /* Reduce el tamaño en móviles para compañeros */
+        height: 18px !important; /* Reduce el tamaño en móviles para compañeros */
+    }
+}
+
+/* Estilo para el fondo de la página (opcional, puedes personalizarlo) */
+body {
+    background-color: #f0f2f5; /* Un gris claro para el fondo */
+    /* O puedes usar una imagen de fondo sutil: */
+    /* background-image: url('img/pokemon-pattern.png'); */
+    /* background-repeat: repeat; */
+    /* background-size: 100px; */
+}
+/* Reglas para anular los estilos de Bootstrap y mantener el color original */
+.accordion {text-transform: uppercase;}
+.accordion-button {font-weight: 700;}
+.accordion-button:not(.collapsed),
+.accordion-button:focus,
+.accordion-button:hover { /* Incluimos :hover para consistencia */
+  background-image: none !important; /* Elimina cualquier gradiente de fondo de Bootstrap */
+  box-shadow: none !important; /* Elimina cualquier sombra */
+  /*color: white !important; /* Asegura que el color del texto no cambie */
+  /* NO pongas background-color aquí, ya que tus clases de tipo lo manejarán */
+}
+
+/* Opcional: Para asegurar la visibilidad de la flecha del acordeón si cambiara de color */
+.accordion-button:not(.collapsed)::after {
+    filter: none !important; /* Restablece cualquier filtro que pueda volverla blanca */
+}
+
+/* Puedes mantener tus transiciones para un efecto suave */
+.accordion-button {
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+/* Estilo para la nota tipo Post-it alargada con pin, centrada y debajo */
+.post-it-note {
+  background-color: #ffc; /* Color amarillo claro típico de post-it */
+  padding: 1.5rem; /* Espacio interno */
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidad */
+  transform: rotate(2deg); /* Ligera rotación para un efecto más natural */
+  max-width: 300px; /* Ancho máximo para que sea alargada pero no demasiado */
+  width: 100%; /* Ocupa el 100% del ancho disponible hasta max-width */
+  
+  /* Posicionamiento y centrado */
+  margin: 4rem auto; /* Centra horizontalmente y añade margen superior e inferior */
+  display: block; /* Necesario para que 'margin: auto' funcione */
+
+  font-family: 'Handlee', cursive; /* Fuente que simula escritura a mano */
+  color: #333; /* Color de texto oscuro */
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Borde sutil */
+  text-align: center; /* Centra el texto */
+}
+
+/* El pin (chincheta) */
+.post-it-note::before {
+  content: '';
+  position: absolute; /* Sigue siendo absoluto con respecto a la nota */
+  top: -10px; /* Ajusta la posición vertical del pin */
+  left: 50%;
+  transform: translateX(-50%); /* Centra el pin */
+  width: 20px; /* Tamaño del pin */
+  height: 20px; /* Tamaño del pin */
+  background-color: #c00; /* Color del pin (rojo) */
+  border-radius: 50%; /* Forma circular */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); /* Sombra para el pin */
+  z-index: 2; /* Asegura que el pin esté sobre la nota */
+}
+
+
+/* Para la cabecera dentro del post-it */
+.post-it-note .alert-heading {
+  font-size: 1.1rem; /* Tamaño de título */
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+/* Para el párrafo dentro del post-it */
+.post-it-note p {
+  font-size: 0.9rem; /* Tamaño de texto */
+  line-height: 1.4;
+}
+
+/* Si habías añadido 'position: relative;' a .container, puedes quitarlo ahora */
+/* ya que la nota ya no usa posicionamiento absoluto con respecto a él. */
+/* Por ejemplo: */
+/* .container {
+    position: static;
+} */
+
+
+/* Ajustes para pantallas más pequeñas: centrar y quitar rotación */
+@media (max-width: 767.98px) { /* Para móviles y tablets pequeñas */
+  .post-it-note {
+    transform: rotate(0deg); /* Quita la rotación en móviles para mejor lectura */
+    max-width: 90%; /* Ocupa hasta el 90% del ancho de la pantalla */
+    margin: 1.5rem auto; /* Centra y ajusta margen */
+  }
+
+  /* El pin se oculta en móviles si la nota ya no está rotada o "colgada" */
+  .post-it-note::before {
+    display: none; /* Oculta el pin */
+  }
+}

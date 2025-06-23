@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pokemon Ultra Pamboli - Hab | Objetos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+	<!-- -->
+    <div class="offcanvas offcanvas-start bg-dark text-white sidebar-fixed" tabindex="-1" id="offcanvasMenuPrincipal" aria-labelledby="offcanvasMenuPrincipalLabel">
+        <div class="offcanvas-header">
+		<a class="navbar-brand text-center d-block mx-auto py-3" href="#">
+                <img src="img/logo_pk.png" alt="Pokémon Ultra Pamboli" class="img-fluid logo-menu-pokemon">
+            </a>
+            <button type="button" class="btn-close text-reset btn-close-white d-lg-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body d-flex flex-column pt-0">
+            <ul class="navbar-nav flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Reglas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pokemon.html">Pokédex</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="totem.html">Tótem</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="combates.html">Combates</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="evoluciones.html">Evoluciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="habilidades.html">Hab | Objetos</a>
+                </li>
+                <li class="nav-item">
+                  	<a class="nav-link" href="movimientos.html">Movimientos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pokeruleta.html">PokeRuleta</a>
+                </li>
+            </ul>
+            <div class="mt-auto p-2 text-center text-white-50 small">
+					<p class="mb-1">Pokémon Ultra Pamboli</p>
+					<p class="mb-0">&copy; Faraone´s Company</p>
+			</div>
+        </div>
+    </div>
+	<!-- -->
+    <nav class="navbar top-menu d-lg-none bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenuPrincipal" aria-controls="offcanvasMenuPrincipal" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="#" class="pokeball-icon-link">
+                <img src="img/pokeball.png" alt="Poké Ball" class="img-fluid pokeball-menu-icon">
+            </a>
+            <span class="navbar-text" style="width: 40px;"></span>
+        </div>
+    </nav>
+	<!-- -->
+     <main class="content-wrapper">
+        <div class="container-fluid py-4">
+            <!-- <div id="pokemon-moves-list" class="moves-list-container"></div> -->
+             <div class="card">
+                <div class="card-header">
+                    Habilidades Nuevas
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><strong>Amplificador:</strong> Boostea el poder de los movimientos basados en sonido. </li>
+                    <li class="list-group-item"><strong>Fuego rápido:</strong> Da prioridad a los movimientos que pueden golpear 3 o más veces y a los movimientos de inmolación. </li>
+                    <li class="list-group-item"><strong>Aura maldita:</strong> Eres inmune a los ataques de tipo Hada salvo con piel feérica. </li>
+                </ul>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    Habilidades con Nombre Cambiado
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><strong>Despiadado:</strong> Boostea el daño crítico en 2.25 en vez de 1.5. Con <strong>periscopio</strong> los movimientos con un 50 por ciento de crítico siempre hacen crítico.</li>
+                    <li class="list-group-item"><strong>Instinto:</strong> Boostea ataque o ataque especial dependiendo de lo bajas que sean las defensas del objetivo. </li>
+                    <li class="list-group-item"><strong>Maestría:</strong> Boostea la estadística más alta al derrotar a un Pokémon. </li>
+                    <li class="list-group-item"><strong>Superioridad:</strong> Boostea el ataque especial después de que un Pokémon muera en el campo. </li>
+                    <li class="list-group-item"><strong>Talento Innato:</strong> Golpe siempre dos veces, siendo el segundo golpe de 1/4 del daño del primer golpe. </li>
+                    <li class="list-group-item"><strong>Versatilidad:</strong> Lo mismo que mutatipo. </li>
+                    <li class="list-group-item"><strong>Manto frondoso:</strong> Boostea la defensa del objetivo en campo de hierba y sus beneficios propios del campo. </li>
+                    <li class="list-group-item"><strong>Voltaje Salvaje:</strong> Duplica la velocidad en campo eléctrico. </li>
+                    <li class="list-group-item"><strong>Impulso Solar:</strong> Duplica velocidad en sol. </li>
+                    <li class="list-group-item"><strong>Sol abrasador:</strong> Invoca una luz solar intensa que te hace inmune a movimientos de tipo agua. </li>
+                    <li class="list-group-item"><strong>Tempestad:</strong> Invoca una gran tormenta que te hace inmune a movimientos tipo fuego. </li>
+                    <li class="list-group-item"><strong>Brisa protectora:</strong> Invocas unos fuertes vientos que reduce a la mitad las debilidades del tipo volador. </li>
+                    <li class="list-group-item"><strong>Sexto sentido:</strong> Boostea la precisión del usuario un 30%. </li>
+                    <li class="list-group-item"><strong>Cabezón:</strong> Inmune al daño de recoil. </li>
+                    <li class="list-group-item"><strong>Metabolismo:</strong> Después de consumir una baya, el Pokémon también se cura un 1/3 de su vida máxima. </li>
+                    <li class="list-group-item"><strong>Velo acuoso:</strong> Duplica el poder de todos los movimientos tipo agua y reduce a la mitad los recibidos de tipo fuego, así como evita quemaduras. </li>
+                    <li class="list-group-item"><strong>Escudo energía:</strong> Lo mismo que compensación. </li>
+                    <li class="list-group-item"><strong>Indestructible:</strong> Reduce el daño de los ataques super efectivos en un 1/4. </li>
+                    <li class="list-group-item"><strong>Visión elevada:</strong> Previene bajada de estadísticas causada por otros Pokémon o habilidades. </li>
+                    <li class="list-group-item"><strong>Ácido vil:</strong> Lo mismo que momia. </li>
+                    <li class="list-group-item"><strong>Base de datos:</strong> Invoca objetos tecnológicos después de cada batalla. 
+                        <ul>
+                            <li class="list-group-item ms-3"><strong>Nivel 1-10:</strong> Disco Dragón, Hada, Siniestro, Fantasma, Psíquico y Lucha. </li>
+                            <li class="list-group-item ms-3"><strong>Nivel 11-20:</strong> Disco Tierra, Roca, Acero, Bicho, Volador y Veneno. </li>
+                            <li class="list-group-item ms-3"><strong>Nivel 21-30:</strong> Disco Fuego, Hielo, Eléctrico, Agua y Planta. </li>
+                            <li class="list-group-item ms-3"><strong>Nivel 31-40:</strong> Disco Extraño o Mejora. </li>
+                            <li class="list-group-item ms-3"><strong>Nivel 41-100:</strong> ROM de Fuego, Hielo, Eléctrico y Agua para Technoblast. </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="row">
+                <div class="col-6 col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            Bola de Nieve
+                        </div>
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
+                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/snowball.png" alt="Bola de Nieve Pokemon item" style="width:70px;height:70px; margin-bottom: 10px;">
+                            <p class="card-text">Uso infinito; ya no desaparecen cuando se activan.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            Pila
+                        </div>
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
+                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cell-battery.png" alt="Pila Pokemon item" style="width:70px;height:70px; margin-bottom: 10px;">
+                            <p class="card-text">Uso infinito; ya no desaparecen cuando se activan.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            Musgo Brillante
+                        </div>
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
+                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/luminous-moss.png" alt="Musgo Brillante Pokemon item" style="width:70px;height:70px; margin-bottom: 10px;">
+                            <p class="card-text">Uso infinito; ya no desaparecen cuando se activan.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            Tubérculo
+                        </div>
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
+                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/absorb-bulb.png" alt="Tubérculo Pokemon item" style="width:70px;height:70px; margin-bottom: 10px;">
+                            <p class="card-text">Uso infinito; ya no desaparecen cuando se activan.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            Botón Escape
+                        </div>
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
+                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/eject-button.png" alt="Botón Escape Pokemon item" style="width:70px;height:70px; margin-bottom: 10px;">
+                            <p class="card-text">Uso infinito; ya no desaparecen cuando se activan.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            Garra Rápida
+                        </div>
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
+                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-claw.png" alt="Garra Rápida Pokemon item" style="width:70px;height:70px; margin-bottom: 10px;">
+                            <p class="card-text">Se activa siempre, pero desaparece tras su uso (funciona como un objeto consumible).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            Cascabel Concha
+                        </div>
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
+                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shell-bell.png" alt="Cascabel Concha Pokemon item" style="width:70px;height:70px; margin-bottom: 10px;">
+                            <p class="card-text">Ahora recupera un 20% del daño infligido (antes 12%).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            Raíz Grande
+                        </div>
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
+                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-root.png" alt="Raíz Grande Pokemon item" style="width:70px;height:70px; margin-bottom: 10px;">
+                            <p class="card-text">Duplica la cantidad de PS recuperados mediante movimientos de drenaje (ahora +100% en vez de +30%).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            Lodo Negro
+                        </div>
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
+                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-sludge.png" alt="Lodo Negro Pokemon item" style="width:70px;height:70px; margin-bottom: 10px;">
+                            <p class="card-text">Cura al final de cada turno un 12% de los PS máximos (antes 6%).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            Lupa
+                        </div>
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
+                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/scope-lens.png" alt="Lupa Pokemon item" style="width:70px;height:70px; margin-bottom: 10px;">
+                            <p class="card-text">Ahora aumenta la precisión un 25% (antes 10%).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            Telescopio
+                        </div>
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
+                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wide-lens.png" alt="Telescopio Pokemon item" style="width:70px;height:70px; margin-bottom: 10px;">
+                            <p class="card-text">Mejora la precisión un 100% (antes 20%).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            Cinta Experto
+                        </div>
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
+                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/expert-belt.png" alt="Cinta Experto Pokemon item" style="width:70px;height:70px; margin-bottom: 10px;">
+                            <p class="card-text">Aumenta el daño de movimientos supereficaces un 25% (antes 20%).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            Colmillo Dragón
+                        </div>
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
+                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-fang.png" alt="Colmillo Dragón Pokemon item" style="width:70px;height:70px; margin-bottom: 10px;">
+                            <p class="card-text">Incrementa el daño de los movimientos de tipo Dragón un 30% (antes 20%).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            Toxiestrella
+                        </div>
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
+                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poison-barb.png" alt="Toxiestrella Pokemon item" style="width:70px;height:70px; margin-bottom: 10px;">
+                            <p class="card-text">Potencia sus efectos, aumentando el daño de sus movimientos un 25% (antes 12%).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            Roca Lluvia
+                        </div>
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
+                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/damp-rock.png" alt="Roca Lluvia Pokemon item" style="width:70px;height:70px; margin-bottom: 10px;">
+                            <p class="card-text">Ahora prolongan su duración de 3 a 6 turnos.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            Roca Sol
+                        </div>
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
+                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/heat-rock.png" alt="Roca Sol Pokemon item" style="width:70px;height:70px; margin-bottom: 10px;">
+                            <p class="card-text">Ahora prolongan su duración de 3 a 6 turnos.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            Roca Granizo
+                        </div>
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
+                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/icy-rock.png" alt="Roca Granizo Pokemon item" style="width:70px;height:70px; margin-bottom: 10px;">
+                            <p class="card-text">Ahora prolongan su duración de 3 a 6 turnos.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            Roca Tormenta de Arena
+                        </div>
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
+                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/smooth-rock.png" alt="Roca Tormenta de Arena Pokemon item" style="width:70px;height:70px; margin-bottom: 10px;">
+                            <p class="card-text">Ahora prolongan su duración de 3 a 6 turnos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <script src="js/movimientos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

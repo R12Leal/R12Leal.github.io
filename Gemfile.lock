@@ -3,9 +3,9 @@ GEM
   specs:
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
-    autoprefixer-rails (10.4.15.0)
+    autoprefixer-rails (10.4.16.0)
       execjs (~> 2)
-    bootstrap (5.3.2)
+    bootstrap (5.3.3)
       autoprefixer-rails (>= 9.1.0)
       popper_js (>= 2.11.8, < 3)
     colorator (1.1.0)
@@ -73,7 +73,7 @@ GEM
       ffi (~> 1.0)
     rexml (3.2.8)
       strscan (>= 3.0.9)
-    rouge (4.2.0)
+    rouge (4.3.0)
     safe_yaml (1.0.5)
     sass-embedded (1.59.2)
       google-protobuf (~> 3.21)
@@ -91,7 +91,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  bootstrap (~> 5.3.2)
+  bootstrap (~> 5.3.3)
   jekyll-archives
   jekyll-feed
   jekyll-figure

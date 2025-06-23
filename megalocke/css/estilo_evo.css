@@ -1,0 +1,353 @@
+        /* Estilos generales del cuerpo y contenedor principal */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px; /* Aumentamos el ancho máximo para acomodar tres columnas */
+            margin: 0 auto;
+        }
+
+        /* Estilos de las secciones de evolución */
+        .evolution-section {
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px; /* Espacio entre secciones */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+        }
+        .evolution-section h3 {
+            color: #CC0000;
+            margin-bottom: 25px;
+            font-size: 2rem;
+            font-weight: 700;
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
+        }
+
+        /* Estilos para la lista de evoluciones (contenedor flex) */
+        .evolution-list {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 0;
+            display: flex;
+            flex-direction: column; /* Por defecto, una columna para móviles */
+            gap: 20px; /* Espacio entre las tarjetas */
+        }
+        .evolution-list li {
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            height: auto;
+            justify-content: space-between; /* Alinea el contenido y los detalles */
+            text-align: center;
+            transition: transform 0.2s ease-in-out;
+        }
+        .evolution-list li:hover {
+            transform: translateY(-5px);
+        }
+
+        .evolution-header {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 10px;
+            min-height: 80px; /* Para mantener la altura consistente en tarjetas simples */
+        }
+
+        .pokemon-display {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-weight: bold;
+            color: #CC0000;
+            font-size: 1.15rem; /* Ajustado para tres columnas */
+            white-space: nowrap;
+            margin: 0 8px;
+        }
+
+        .evolution-arrow {
+            font-size: 2rem;
+            color: #CC0000;
+            margin: 0 12px;
+            flex-shrink: 0;
+        }
+
+        /* Estilos para los detalles de la evolución (la descripción) */
+        .evolution-details {
+            font-size: 0.95rem; /* Ajustado para tres columnas */
+            color: #000000; /* Color de texto a negro */
+            line-height: 1.4;
+            width: 100%;
+            background-color: #e9ecef; /* Fondo ligeramente gris */
+            border-top: 1px solid #dee2e6;
+            padding: 12px 15px;
+            border-radius: 0 0 8px 8px;
+            margin-top: 10px;
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.03);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1; /* Para que la descripción ocupe el espacio restante */
+			font-weight: 700;
+        }
+        .item-img {
+            max-width: 50px; /* Ajustado para tres columnas */
+            height: auto;
+            margin-bottom: 5px;
+            image-rendering: pixelated;
+        }
+
+        /* Estilos específicos para evoluciones complejas como Eevee y Tyrogue */
+        .evolution-details ul {
+            list-style: none;
+            padding-left: 0;
+            margin-top: 8px;
+        }
+        .evolution-details ul li {
+            background: none;
+            border: none;
+            box-shadow: none;
+            padding: 4px 0;
+            margin-bottom: 6px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+            color: #343a40;
+            text-align: center;
+            justify-content: center;
+            width: 100%; /* Asegura que ocupe todo el ancho disponible */
+        }
+        .evolution-details ul li:last-child {
+            margin-bottom: 0;
+        }
+        .evolution-details .sub-pokemon-display {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-weight: normal;
+            color: #0056b3;
+            font-size: 1rem; /* Ajustado */
+            margin-bottom: 4px;
+        }
+        .evolution-details .sub-item-img {
+            max-width: 40px; /* Ajustado */
+            height: auto;
+            margin-bottom: 4px;
+        }
+        .evolution-details .sub-condition {
+            font-size: 0.9rem; /* Ajustado */
+            color: #6c757d;
+        }
+
+        /* Styles for the Shelmet/Karrablast dual evolution */
+        .evolution-details .dual-evolution-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            width: 100%;
+        }
+        .evolution-details .dual-evolution-line {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .evolution-details .dual-evolution-line .sub-pokemon-display {
+            margin: 0 6px;
+        }
+        .evolution-details .dual-evolution-line .evolution-arrow {
+            font-size: 1.6rem;
+            margin: 0 8px;
+        }
+        .evolution-details .dual-evolution-group .sub-condition {
+            margin-top: 8px;
+        }
+
+        /* Estilos de las tarjetas de piedras evolutivas */
+        .stone-list-card {
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+            height: auto;
+            display: flex;
+            flex-direction: column; /* Cambiado a columna por defecto para mejor control */
+            justify-content: flex-start;
+            align-items: flex-start; /* Alinea el contenido a la izquierda */
+            text-align: left; /* Alinea el texto a la izquierda */
+            transition: transform 0.2s ease-in-out;
+        }
+        .stone-list-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .stone-title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px; /* Espacio debajo del título de la piedra */
+            color: #0056b3;
+            font-weight: bold;
+            font-size: 1.5rem;
+            flex-wrap: nowrap; /* Evita que el título se rompa en varias líneas */
+            width: 100%; /* Ocupa todo el ancho disponible */
+            justify-content: flex-start; /* Alinea a la izquierda */
+        }
+        .stone-icon {
+            max-width: 55px;
+            height: auto;
+            margin-right: 15px; /* Espacio a la derecha del ícono */
+            image-rendering: pixelated;
+            flex-shrink: 0; /* Evita que el ícono se encoja */
+        }
+
+        .pokemon-evolve-list {
+            list-style: none;
+            padding-left: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap; /* Permite que los Pokémon se envuelvan a la siguiente línea */
+            gap: 15px; /* Espacio entre los Pokémon */
+            width: 100%; /* Ocupa todo el ancho disponible */
+            justify-content: flex-start; /* Alinea a la izquierda */
+        }
+        .pokemon-evolve-list li {
+            background-color: #f2f4f6;
+            border: 1px solid #e0e6eb;
+            border-radius: 6px;
+            padding: 8px 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 0.95rem;
+            color: #333;
+            width: auto; /* Ancho automático para que se ajuste al contenido */
+            box-shadow: none;
+            margin-bottom: 0; /* Eliminar margen de li general */
+        }
+        .pokemon-evolve-list li img {
+            max-width: 48px; /* Ajustado para tres columnas y mejor visibilidad */
+            height: auto;
+            margin-bottom: 6px;
+        }
+
+        /* Media queries para el comportamiento responsive del menú (recuperadas) */
+        @media (min-width: 992px) {
+            .content-wrapper {
+                margin-left: 250px;
+            }
+            .d-lg-none {
+                display: none !important;
+            }
+        }
+
+        /* Media query para mostrar tres tarjetas por fila en pantallas más grandes */
+        @media (min-width: 992px) { /* A partir de 992px (lg en Bootstrap) */
+            .evolution-list {
+                flex-direction: row; /* Cambiamos a fila */
+                flex-wrap: wrap; /* Permitimos que se envuelvan a la siguiente fila */
+                justify-content: space-between; /* Espacio entre las tarjetas */
+            }
+            .evolution-list li, .stone-list-card {
+                width: calc(33.333% - 14px); /* Tres tarjetas por fila, considerando un gap de 20px, (20px * 2 / 3) = 13.33px por tarjeta. 20px / 3 = 6.66px; 20 - (20/3) = 13.33px */
+                /* margin-bottom es manejado por gap */
+            }
+        }
+
+        /* Media query para dos columnas en pantallas medianas */
+        @media (min-width: 768px) and (max-width: 991px) {
+            .evolution-list {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            .evolution-list li, .stone-list-card {
+                width: calc(50% - 10px); /* Dos tarjetas por fila */
+                /* margin-bottom es manejado por gap */
+            }
+        }
+
+        .stones-grid-container {
+    display: grid;
+    /* This creates 3 columns of equal width. Adjust as needed. */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px; /* Space between grid items */
+    padding: 20px;
+    justify-content: center; /* Center the grid items if there's extra space */
+}
+
+.grid-stone-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex; /* Use flexbox for internal alignment */
+    flex-direction: column;
+    align-items: center;
+}
+
+.stone-icon-wrapper {
+    margin-bottom: 10px;
+}
+
+.stone-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.stone-name {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.pokemon-evolve-grid {
+    display: flex;
+    flex-direction: column; /* Stack Pokémon entries vertically */
+    gap: 10px; /* Space between individual Pokémon entries */
+    width: 100%; /* Ensure it takes full width of its parent */
+}
+
+.pokemon-entry {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content within the entry */
+    gap: 10px;
+    padding: 5px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+.pokemon-entry img {
+    width: 40px;
+    height: 40px;
+}
+
+.pokemon-entry span {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Specific styling for the Eevee stone item if needed */
+.eevee-stone-item {
+    background-color: #ffe;
+    border-color: #ffd700;
+}

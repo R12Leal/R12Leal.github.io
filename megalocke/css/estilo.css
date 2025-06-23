@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
+
+/* --- Estilos Generales --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F8F8F8;
+    margin: 0;
+    color: #222222;
+    padding-left: 0;
+    transition: padding-left 0.3s ease;
+}
+
+/* CSS para hacer que las imágenes sean responsivas por defecto, excepto las del logo */
+img:not(.logo-menu-pokemon) {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+h2, .pokemon-card h5 {
+    font-family: 'Anton', sans-serif;
+    color: #CC0000;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+p {
+    margin: 6px 0;
+    font-size: 0.9rem;
+}
+
+/* --- Estilos para la Navbar Superior (VISIBLE SOLO EN MÓVILES/TABLETS) --- */
+.top-menu {
+    background-color: #CC0000;
+    padding: 12px 0;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+    border-bottom: 3px solid #A60000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
+.top-menu .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-menu .navbar-brand img {
+    max-width: 100px;
+    height: auto;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* --- Estilos para el Menú Lateral Fijo (Offcanvas) --- */
+
+.offcanvas.sidebar-fixed {
+    background-color: #333;
+    color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    z-index: 1040;
+    transition: transform 0.3s ease-in-out;
+    /* Por defecto, invisible (para evitar parpadeos o el overlay en carga) */
+    visibility: hidden;
+}
+
+/* Comportamiento del Offcanvas en pantallas PEQUEÑAS (móviles y tablets, hasta 991.98px) */
+@media (max-width: 991.98px) {
+    .offcanvas.sidebar-fixed {
+        transform: translateX(-100%);
+        /* Asegurarse de que esté fuera de la vista */
+        visibility: hidden; /* Oculto por defecto */
+    }
+    /* Mostrar cuando se activa por Bootstrap */
+    .offcanvas.sidebar-fixed.show {
+        transform: translateX(0%);
+        visibility: visible;
+    }
+    /* En pantallas pequeñas, el botón de cerrar es necesario */
+    .offcanvas.sidebar-fixed .btn-close {
+        display: block;
+    }
+}
+
+/* Comportamiento del Offcanvas en pantallas GRANDES (desktop, a partir de 992px) */
+@media (min-width: 992px) {
+    .offcanvas.sidebar-fixed {
+        transform: translateX(0%);
+        visibility: visible !important; /* Siempre visible y fijo en desktop */
+        border-right: 1px solid rgba(0, 0, 0, 0.2);
+        background-color: #333 !important;
+    }
+
+    /* En pantallas grandes, no necesitamos el botón de cerrar en el offcanvas */
+    .offcanvas.sidebar-fixed .btn-close {
+        display: none;
+    }
+}
+
+/* --- CONTROL DEL OVERLAY (offcanvas-backdrop) --- */
+/* Por defecto, lo ocultamos. Bootstrap lo mostrará cuando sea necesario. */
+.offcanvas-backdrop {
+    display: none !important; /* Oculta por defecto el backdrop */
+}
+
+/* Mostrar el backdrop SÓLO en pantallas pequeñas cuando el offcanvas está abierto */
+@media (max-width: 991.98px) {
+    .offcanvas.sidebar-fixed.show + .offcanvas-backdrop {
+        display: block !important; /* Muestra el backdrop solo si el offcanvas está abierto en móvil */
+        opacity: 0.5; /* Opacidad estándar de Bootstrap para el overlay */
+        background-color: #000; /* Fondo negro para el overlay */
+        transition: opacity 0.3s ease-in-out;
+    }
+    /* Aseguramos que la transición de opacidad se aplique al backdrop */
+    .offcanvas-backdrop.show {
+        opacity: 0.5;
+    }
+}
+
+
+/* Estilos para el logo dentro del Offcanvas */
+.sidebar-fixed .navbar-brand .logo-menu-pokemon {
+    max-width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+.offcanvas-header .btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+/* Estilos para los enlaces del menú dentro del Offcanvas */
+.offcanvas-body .navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.offcanvas-body .navbar-nav .nav-item {
+    margin-bottom: 8px;
+}
+
+/* Estilos para los enlaces del menú dentro del Offcanvas */
+.offcanvas-body .navbar-nav .nav-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.1em;
+    padding: 10px 20px; /* Ajusta el relleno según sea necesario para el texto */
+    border-radius: 8px;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    display: flex; /* Usa flexbox para alinear contenido e icono */
+    align-items: center; /* Centra verticalmente el contenido */
+    /* justify-content: space-between; */ /* No necesario si quieres que el texto siga al icono */
+    position: relative; /* Necesario para el posicionamiento absoluto si fuera el caso */
+}
+
+.offcanvas-body .navbar-nav .nav-link::before { /* Cambiado a ::before */
+    content: ''; /* Obligatorio para los pseudo-elementos */
+    display: inline-block;
+    width: 20px; /* Ajusta el tamaño de la Poké Ball */
+    height: 20px; /* Ajusta el tamaño de la Poké Ball */
+    background-image: url('../img/pokeball_menu.png'); /* **Reemplaza con la ruta real de tu imagen de Pokeball** */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left; /* Posiciona el icono a la izquierda */
+    margin-right: 10px; /* Espacio entre el icono y el texto (cambiado a margin-right) */
+    opacity: 0.7; /* Hazla ligeramente transparente */
+}
+
+.offcanvas-body .navbar-nav .nav-link:hover {
+    background-color: #A60000;
+    color: #FFCB05;
+}
+
+.offcanvas-body .navbar-nav .nav-link.active {
+    background-color: #CC0000;
+    color: #FFCB05;
+}
+
+
+/* --- Estilos para el contenido principal (content-wrapper) --- */
+.content-wrapper {
+    min-height: 100vh;
+    padding-top: 0;
+    transition: margin-left 0.3s ease, padding-top 0.3s ease;
+}
+
+/* Ajuste del content-wrapper en pantallas pequeñas (móviles y tablets) */
+@media (max-width: 991.98px) {
+    .content-wrapper {
+        margin-left: 0;
+        padding-top: 70px;
+    }
+}
+
+/* Ajuste del content-wrapper en pantallas GRANDES (desktop) */
+@media (min-width: 992px) {
+    .content-wrapper {
+        margin-left: 250px;
+        padding-top: 0;
+    }
+}
+
+/* --- Estilos de Pestañas (tab-pane y nav-pills) --- */
+.tab-content .tab-pane {
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border: 1px solid #dee2e6;
+}
+
+@media (max-width: 768px) {
+    .nav-tabs .nav-link {
+        padding: 10px 15px;
+        font-size: 1rem;
+        margin-right: 2px;
+    }
+    .nav-tabs {
+        justify-content: space-around !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-tabs .nav-link {
+        font-size: 0.9rem;
+        padding: 8px 10px;
+    }
+    .nav-tabs {
+        flex-wrap: wrap;
+    }
+    .nav-tabs .nav-item {
+        margin-bottom: 5px;
+    }
+}
+
+/* Estilos para las pestañas laterales (nav-pills) */
+.nav-pills .nav-link {
+    background-color: transparent;
+    color: #495057;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    text-align: left;
+    border: 1px solid transparent;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: rgba(204, 0, 0, 0.1);
+    color: #CC0000;
+    border-color: #CC0000;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #CC0000;
+    color: #FFCB05;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    border-color: #CC0000;
+}
+
+.tab-content .tab-pane {
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border: 1px solid #dee2e6;
+}
+
+@media (max-width: 767.98px) {
+    .nav-pills {
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;
+        border-bottom: 2px solid #CC0000;
+        padding-bottom: 5px;
+    }
+    .nav-pills .nav-link {
+        margin-right: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        border-bottom-color: transparent;
+    }
+    .nav-pills .nav-link.active {
+        border-bottom-color: #CC0000;
+    }
+    .container-fluid .row > .col-md-3,
+    .container-fluid .row > .col-md-9 {
+        width: 100%;
+    }
+}
+
+/* --- Estilo personalizado para acordeón tipo leyenda --- */
+.accordion .accordion-item {
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-button {
+    background-color: #fff3cd;
+    color: #3a2f0b;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #3a2f0b;
+    background-color: #ffe8a1;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgba(212, 175, 55, 0.5);
+}
+
+.accordion-body {
+    background-color: #fffdf4;
+    padding: 1rem 1.25rem;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.content {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+h1, h2, h3 {
+    color: #dc3545; /* Rojo de Pokémon */
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+.card-header {
+    background-color: #CC0000; /* Rojo de Pokémon */
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border-bottom: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 15px 20px;
+}
+.list-group-item {
+    background-color: #fff;
+    border-color: #eee;
+    padding: 12px 20px;
+}
+.list-group-item:last-child {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+/* Estilos para la barra de navegación superior (móvil) */
+.top-menu {
+    background-color: #333; /* Fondo oscuro de la barra superior */
+    padding: 0.5rem 1rem;
+}
+
+/* Para alinear el logo y el botón en la barra superior móvil */
+.top-menu .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ESTILOS PARA LA BARRA SUPERIOR MÓVIL (d-lg-none) */
+.top-menu {
+    background-color: #333; /* Fondo oscuro de la barra superior, como en tu captura */
+    padding: 0.5rem 1rem;
+    position: fixed; /* ¡Importante! Fija la barra en la parte superior */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ocupa todo el ancho disponible */
+    z-index: 1030; /* Asegura que la barra esté por encima del contenido */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra sutil para un mejor efecto visual */
+}
+
+/* Para alinear el botón y el logo. Los dos primeros elementos (botón y logo) irán a la izquierda. */
+.top-menu .container-fluid {
+    display: flex;
+    justify-content: flex-start; /* Alinea los elementos al inicio (izquierda) */
+    align-items: center; /* Centra verticalmente todos los elementos */
+    gap: 10px; /* Añade un pequeño espacio entre el botón y el logo */
+}
+
+/* ESTILO ESPECÍFICO PARA EL LOGO DENTRO DE LA BARRA SUPERIOR MÓVIL (AHORA AL LADO DEL BOTÓN) */
+.top-menu .navbar-brand {
+    padding-top: 0; /* Elimina padding superior/inferior si lo tuviera por defecto */
+    padding-bottom: 0; /* Elimina padding superior/inferior si lo tuviera por defecto */
+    margin-right: auto; /* Esto empujará cualquier cosa a la derecha del logo hacia la derecha */
+    margin-left: 0; /* Aseguramos que no haya margen izquierdo que lo separe mucho del botón */
+}
+
+.top-menu .navbar-brand img {
+    height: 40px; /* Ajusta esta altura. Puedes probar con 35px o incluso 30px si sigue siendo grande. */
+    width: auto; /* Mantiene la proporción de la imagen */
+    max-width: 150px; /* Ancho máximo para evitar que sea demasiado grande y se salga de la barra */
+}
+
+/* Estilo del botón de hamburguesa (fondo rojo, icono blanco) */
+.navbar-toggler {
+    background-color: #dc3545 !important; /* Rojo Pokémon para el fondo del botón */
+    border: 1px solid #dc3545 !important; /* Borde rojo */
+    border-radius: 5px; /* Bordes ligeramente redondeados */
+    padding: 0.25rem 0.75rem; /* Relleno interno del botón */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+    filter: none !important;
+}
+
+.navbar-toggler:hover {
+    background-color: #c82333 !important;
+    border-color: #c82333 !important;
+}
+
+/* Estilo del icono de Poké Ball en el menú móvil (si decides mantenerlo en otra posición) */
+/* Si lo pones a la derecha del todo, podrías añadirle un "ms-auto" en el HTML */
+.pokeball-menu-icon {
+    height: 35px; /* Ajusta este tamaño según lo que quieras */
+    width: auto;
+    /* margin-left: 10px; */ /* Si va a la derecha con ms-auto, este margen no es necesario */
+}
+
+.grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Columnas responsivas */
+            gap: 15px; /* Espacio entre los elementos del grid */
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .grid-item {
+            background-color: #e0f2f7; /* Color de fondo claro para los ítems */
+            border: 1px solid #b3e0f2;
+            border-radius: 6px;
+            padding: 15px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s ease-in-out;
+        }
+        .grid-item:hover {
+            transform: translateY(-5px); /* Pequeño efecto al pasar el ratón */
+        }
+        .grid-item strong {
+            display: block;
+            margin-bottom: 8px;
+            color: #333; /* Color para el título/etiqueta */
+            font-size: 1.1em;
+        }
+        .grid-item .numero-muertes {
+            font-size: 2.2em; /* Tamaño grande para el número */
+            font-weight: bold;
+            color: #dc3545; /* Color rojo para destacar las muertes */
+        }
+
+/* En tu archivo css/estilo.css (o donde tengas los estilos del logo) */
+
+.logo-menu-pokemon {
+    transition: transform 0.3s ease-in-out; /* Transición suave para el efecto */
+}
+
+.logo-menu-pokemon:hover {
+    transform: scale(1.05); /* Agranda el logo un 5% */
+}

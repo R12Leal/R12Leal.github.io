@@ -1,0 +1,2942 @@
+[
+  {
+    "trainer": {
+      "nombre": "Liam",
+      "level": 13,
+      "sprite_url": "img/150px-VSIlima_USUM.png"
+    },
+    "display_type": "multi-team",
+    "teams": [
+      {
+        "name": "Planta",
+        "pokemons": [
+          {
+            "name": "Iggybuff",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png",
+            "types": ["normal", "fairy"],
+            "hab": "Peluche",
+            "objeto": "Baya Aranja",
+            "movimientos": ["Bruma Feérica", "Otra vez", "Rapidez", "Anulación"]
+          },
+          {
+            "name": "Swablu",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/333.png",
+            "types": ["normal", "flying"],
+            "hab": "Peluche",
+            "objeto": "Baya Biglia",
+            "movimientos": ["Aire afilado", "Armonía", "Avivar", "Rizo Algodón"]
+          },
+          {
+            "name": "Minchino",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/572.png",
+            "types": ["normal", "fairy"],
+            "hab": "Experto",
+            "objeto": "Baya Yapati",
+            "movimientos": ["Beso drenaje", "Rapidez", "Golpe Feérico", "Aguante"]
+          },
+          {
+            "name": "Glameuw",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/431.png",
+            "types": ["normal", "dark"],
+            "hab": "Autoestima",
+            "objeto": "Baya Lichi",
+            "movimientos": ["Ataque rápido", "Sorpresa", "Avivar", "Ladrón"]
+          },
+          {
+            "name": "Yungoos",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/734.png",
+            "types": ["normal"],
+            "hab": "Vigilante",
+            "objeto": "Pañuelo Seda",
+            "movimientos": ["Golpe cabeza", "Persecución", "Gruñido", "Ataque rápido"]
+          },
+          {
+            "name": "Smeargle",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/235.png",
+            "types": ["normal"],
+            "hab": "Versatilidad",
+            "objeto": "Baya Aranja",
+            "movimientos": ["Antojo", "Golpe Kárate", "Lanzabarro", "Rueda Fuego"]
+          }
+        ]
+      },
+      {
+        "name": "Fuego",
+        "pokemons": [
+          {
+            "name": "Iggybuff",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png",
+            "types": ["normal", "fairy"],
+            "hab": "Peluche",
+            "objeto": "Baya Aranja",
+            "movimientos": ["Bruma Feérica", "Otra vez", "Rapidez", "Anulación"]
+          },
+          {
+            "name": "Swablu",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/333.png",
+            "types": ["normal", "flying"],
+            "hab": "Peluche",
+            "objeto": "Baya Biglia",
+            "movimientos": ["Aire afilado", "Armonía", "Avivar", "Rizo Algodón"]
+          },
+          {
+            "name": "Minchino",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/572.png",
+            "types": ["normal", "fairy"],
+            "hab": "Experto",
+            "objeto": "Baya Yapati",
+            "movimientos": ["Beso drenaje", "Rapidez", "Golpe Feérico", "Aguante"]
+          },
+          {
+            "name": "Glameuw",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/431.png",
+            "types": ["normal", "dark"],
+            "hab": "Autoestima",
+            "objeto": "Baya Lichi",
+            "movimientos": ["Ataque rápido", "Sorpresa", "Avivar", "Ladrón"]
+          },
+          {
+            "name": "Yungoos",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/734.png",
+            "types": ["normal"],
+            "hab": "Vigilante",
+            "objeto": "Pañuelo Seda",
+            "movimientos": ["Golpe cabeza", "Persecución", "Gruñido", "Ataque rápido"]
+          },
+          {
+            "name": "Smeargle",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/235.png",
+            "types": ["normal"],
+            "hab": "Versatilidad",
+            "objeto": "Baya Aranja",
+            "movimientos": ["Antojo", "Golpe Kárate", "Lanzabarro", "Hidropulso"]
+          }
+        ]
+      },
+      {
+        "name": "Agua",
+        "pokemons": [
+          {
+            "name": "Iggybuff",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png",
+            "types": ["normal", "fairy"],
+            "hab": "Peluche",
+            "objeto": "Baya Aranja",
+            "movimientos": ["Bruma Feérica", "Otra vez", "Rapidez", "Anulación"]
+          },
+          {
+            "name": "Swablu",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/333.png",
+            "types": ["normal", "flying"],
+            "hab": "Peluche",
+            "objeto": "Baya Biglia",
+            "movimientos": ["Aire afilado", "Armonía", "Avivar", "Rizo Algodón"]
+          },
+          {
+            "name": "Minchino",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/572.png",
+            "types": ["normal", "fairy"],
+            "hab": "Experto",
+            "objeto": "Baya Yapati",
+            "movimientos": ["Beso drenaje", "Rapidez", "Golpe Feérico", "Aguante"]
+          },
+          {
+            "name": "Glameuw",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/431.png",
+            "types": ["normal", "dark"],
+            "hab": "Autoestima",
+            "objeto": "Baya Lichi",
+            "movimientos": ["Ataque rápido", "Sorpresa", "Avivar", "Ladrón"]
+          },
+          {
+            "name": "Yungoos",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/734.png",
+            "types": ["normal"],
+            "hab": "Vigilante",
+            "objeto": "Pañuelo Seda",
+            "movimientos": ["Golpe cabeza", "Persecución", "Gruñido", "Ataque rápido"]
+          },
+          {
+            "name": "Smeargle",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/235.png",
+            "types": ["normal"],
+            "hab": "Versatilidad",
+            "objeto": "Baya Aranja",
+            "movimientos": ["Antojo", "Golpe Kárate", "Lanzabarro", "Hoja afilada"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Darius",
+      "level": 17,
+      "sprite_url": "img/150px-VSDulse.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Gothita",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/574.png",
+        "types": ["dark", "fairy"],
+        "hab": "Psicogénesis",
+        "objeto": "Semilla Psique",
+        "movimientos": ["Anulación", "Beso drenaje", "Grito fúnebre", "Paranormal"]
+      },
+      {
+        "name": "Staryu",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
+        "types": ["psychic", "water"],
+        "hab": "Escudo energía",
+        "objeto": "Baya Yapati",
+        "movimientos": ["Danza Lluvia", "Confusión", "Salmuera", "Aguante"]
+      },
+      {
+        "name": "Solosis",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/577.png",
+        "types": ["psychic", "poison"],
+        "hab": "Velo acuoso",
+        "objeto": "Garra rápida",
+        "movimientos": ["Drenar", "Hidropulso", "Lanzaroña", "Confusión"]
+      },
+      {
+        "name": "Elgyem",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/605.png",
+        "types": ["psychic"],
+        "hab": "Cálculo final",
+        "objeto": "Cinta Experto",
+        "movimientos": ["Campo psíquico", "Disparo espejo", "Carga parábola", "Confusión"]
+      },
+      {
+        "name": "Munna",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/517.png",
+        "types": ["psychic", "fairy"],
+        "hab": "Levitación",
+        "objeto": "Baya Zidra",
+        "movimientos": ["Confusión", "Beso drenaje", "Anulación", "Rizo defensa"]
+      },
+      {
+        "name": "Clefairy",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+        "types": ["fairy"],
+        "hab": "Muro mágico",
+        "objeto": "Normalstal Z",
+        "movimientos": ["Puño celestial", "Aporrear", "Barrido de mente", "Salpicadura"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Tilo - El Pesao",
+      "level": 18,
+      "sprite_url": "img/150px-VSHau.png"
+    },
+    "display_type": "multi-team",
+    "teams": [
+      {
+        "name": "Planta",
+        "pokemons": [
+          {
+            "name": "Pikachu",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+            "types": ["electric"],
+            "hab": "Piel eléctrica",
+            "objeto": "Garra Rápida",
+            "movimientos": ["Avivar", "Voz cautivadora", "Moflete estático", "Armonía"]
+          },
+          {
+            "name": "Noibat",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/714.png",
+            "types": ["flying", "dragon"],
+            "hab": "Amplificador",
+            "objeto": "Cinta Experto",
+            "movimientos": ["Dragoaliento", "Grito fúnebre", "Megaagotar", "Aire afilado"]
+          },
+          {
+            "name": "Meditite",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/307.png",
+            "types": ["fighting", "psychic"],
+            "hab": "Energía pura",
+            "objeto": "Baya Zidra",
+            "movimientos": ["Puño bala", "Avivar", "Golpe Kárate", "Piensa rápido"]
+          },
+          {
+            "name": "Aipom",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/190.png",
+            "types": ["normal"],
+            "hab": "Experto",
+            "objeto": "Pañuelo Seda",
+            "movimientos": ["Cosquillas", "Ataque rápido", "Ladrón", "Sorpresa"]
+          },
+          {
+            "name": "Pansear",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/513.png",
+            "types": ["fire"],
+            "hab": "Mar llamas",
+            "objeto": "Baya Lichi",
+            "movimientos": ["Avivar", "Aguante", "Rueda fuego", "Artimaña"]
+          },
+          {
+            "name": "Brione",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/729.png",
+            "types": ["water"],
+            "hab": "Tenacidad",
+            "objeto": "Baya Zidra",
+            "movimientos": ["Hidropulso", "Deseo", "Voz cautivadora", "Avivar"]
+          }
+        ]
+      },
+      {
+        "name": "Fuego",
+        "pokemons": [
+          {
+            "name": "Pikachu",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+            "types": ["electric"],
+            "hab": "Piel eléctrica",
+            "objeto": "Garra Rápida",
+            "movimientos": ["Avivar", "Voz cautivadora", "Moflete estático", "Armonía"]
+          },
+          {
+            "name": "Noibat",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/714.png",
+            "types": ["flying", "dragon"],
+            "hab": "Amplificador",
+            "objeto": "Cinta Experto",
+            "movimientos": ["Dragoaliento", "Grito fúnebre", "Megaagotar", "Aire afilado"]
+          },
+          {
+            "name": "Meditite",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/307.png",
+            "types": ["fighting", "psychic"],
+            "hab": "Energía pura",
+            "objeto": "Baya Zidra",
+            "movimientos": ["Puño bala", "Avivar", "Golpe Kárate", "Piensa rápido"]
+          },
+          {
+            "name": "Aipom",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/190.png",
+            "types": ["normal"],
+            "hab": "Experto",
+            "objeto": "Pañuelo Seda",
+            "movimientos": ["Cosquillas", "Ataque rápido", "Ladrón", "Sorpresa"]
+          },
+          {
+            "name": "Panpour",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/515.png",
+            "types": ["water"],
+            "hab": "Torrente",
+            "objeto": "Baya Yapati",
+            "movimientos": ["Hidropulso", "Aguante", "Avivar", "Voz cautivadora"]
+          },
+          {
+            "name": "Dartrix",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/723.png",
+            "types": ["grass", "flying"],
+            "hab": "Experto",
+            "objeto": "Baya Zidra",
+            "movimientos": ["Tornado", "Avivar", "Hoja mágica", "Aire afilado"]
+          }
+        ]
+      },
+      {
+        "name": "Agua",
+        "pokemons": [
+          {
+            "name": "Pikachu",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+            "types": ["electric"],
+            "hab": "Piel eléctrica",
+            "objeto": "Garra Rápida",
+            "movimientos": ["Avivar", "Voz cautivadora", "Moflete estático", "Armonía"]
+          },
+          {
+            "name": "Noibat",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/714.png",
+            "types": ["flying", "dragon"],
+            "hab": "Amplificador",
+            "objeto": "Cinta Experto",
+            "movimientos": ["Dragoaliento", "Grito fúnebre", "Megaagotar", "Aire afilado"]
+          },
+          {
+            "name": "Meditite",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/307.png",
+            "types": ["fighting", "psychic"],
+            "hab": "Energía pura",
+            "objeto": "Baya Zidra",
+            "movimientos": ["Puño bala", "Avivar", "Golpe Kárate", "Piensa rápido"]
+          },
+          {
+            "name": "Aipom",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/190.png",
+            "types": ["normal"],
+            "hab": "Experto",
+            "objeto": "Pañuelo Seda",
+            "movimientos": ["Cosquillas", "Ataque rápido", "Ladrón", "Sorpresa"]
+          },
+          {
+            "name": "Pansage",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/511.png",
+            "types": ["grass"],
+            "hab": "Espesura",
+            "objeto": "Baya Lichi",
+            "movimientos": ["Avivar", "Aguante", "Hoja afilada", "Artimaña"]
+          },
+          {
+            "name": "Torracat",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/726.png",
+            "types": ["fire"],
+            "hab": "Mar llamas",
+            "objeto": "Baya Zidra",
+            "movimientos": ["Rueda fuego", "Persecución", "Avivar", "Doble patada"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Guay Gaspar",
+      "level": 19,
+      "sprite_url": "img/150px-VSAce_Trainer_M_SM.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Luxio",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/404.png",
+        "types": ["electric", "dark"],
+        "hab": "Voltaje salvaje",
+        "objeto": "Baya Zidra",
+        "movimientos": ["Avivar", "Campo eléctrico", "Carga Parábola", "Grito fúnebre"]
+      },
+      {
+        "name": "Voltorb",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+        "types": ["electric"],
+        "hab": "Cólera",
+        "objeto": "Baya Yapati",
+        "movimientos": ["Aguante", "Carga párabalo", "Disparo espejo", "Campo eléctrico"]
+      },
+      {
+        "name": "Joltik",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/595.png",
+        "types": ["bug", "electric"],
+        "hab": "Cromolente",
+        "objeto": "Cinta Experto",
+        "movimientos": ["Acoso", "Megaagotar", "Campo eléctrico", "Carga parábola"]
+      },
+      {
+        "name": "Blitzle",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/522.png",
+        "types": ["electric", "normal"],
+        "hab": "Impulso",
+        "objeto": "Normalstal Z",
+        "movimientos": ["Carga parábola", "Doble Patada", "Pisotón", "Rueda fuego"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Kaudan",
+      "level": 20,
+      "sprite_url": "img/150px-VSHala.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Scraggy",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/559.png",
+        "types": ["fighting", "dark"],
+        "hab": "Intimidación",
+        "objeto": "Baya Hibis",
+        "movimientos": ["Puño drenaje", "Persecución", "Tormento", "última palabra"]
+      },
+      {
+        "name": "Gurdurr",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/533.png",
+        "types": ["fighting", "steel"],
+        "hab": "experto",
+        "objeto": "Baya Zidra",
+        "movimientos": ["puño sombra", "antiáereo", "puño bala", "ultrapuño"]
+      },
+      {
+        "name": "Meditite",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/307.png",
+        "types": ["fighting", "psychic"],
+        "hab": "experto",
+        "objeto": "Baya Couba",
+        "movimientos": ["onda vacío", "confusión", "viento hielo", "onda voltio"]
+      },
+      {
+        "name": "Mankey (Alola)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+        "types": ["fighting", "electric"],
+        "hab": "entusiasmo",
+        "objeto": "Baya Payapa",
+        "movimientos": ["puño trueno", "puño hielo", "pataleta", "demolición"]
+      },
+      {
+        "name": "Makuhita",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/296.png",
+        "types": ["fighting"],
+        "hab": "indestructible",
+        "objeto": "Garra Rápida",
+        "movimientos": ["puño sombra", "puño drenaje", "puño hielo", "puño trueno"]
+      },
+      {
+        "name": "Crabrawler",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/739.png",
+        "types": ["fighting", "water"],
+        "hab": "entusiasmo",
+        "objeto": "Lizastal Z",
+        "movimientos": ["aqua jet", "puño bala", "demolición", "irrupción"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Tilo - El Pesao",
+      "level": 21,
+      "sprite_url": "img/150px-VSHau.png"
+    },
+    "display_type": "multi-team",
+    "teams": [
+      {
+        "name": "Planta",
+        "pokemons": [
+          {
+            "name": "Pikachu",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+            "types": ["electric"],
+            "hab": "Piel eléctrica",
+            "objeto": "Globo helio",
+            "movimientos": ["Golpe cabeza", "Puño fuego", "Puño hielo", "hierba lazo"]
+          },
+          {
+            "name": "Noibat",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/714.png",
+            "types": ["flying", "dragon"],
+            "hab": "Amplificador",
+            "objeto": "Aerostal Z",
+            "movimientos": ["Dragoaliento", "Grito fúnebre", "Gigadrenado", "Aire afilado"]
+          },
+          {
+            "name": "Meditite",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/307.png",
+            "types": ["fighting", "psychic"],
+            "hab": "Energía pura",
+            "objeto": "Cinta experto",
+            "movimientos": ["Puño drenaje", "Puño hielo", "Avivar", "Piensa rápido"]
+          },
+          {
+            "name": "Aipom",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/190.png",
+            "types": ["normal"],
+            "hab": "Experto",
+            "objeto": "Pañuelo Seda",
+            "movimientos": ["Avivar", "Ataqué rápido", "Ladrón", "Sorpresa"]
+          },
+          {
+            "name": "Pansear",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/513.png",
+            "types": ["fire"],
+            "hab": "Mar llamas",
+            "objeto": "Baya Lichi",
+            "movimientos": ["Puño fuego", "Puño trueno", "Hierba lazo", "Aguante"]
+          },
+          {
+            "name": "Brione",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/729.png",
+            "types": ["water"],
+            "hab": "Tenacidad",
+            "objeto": "Baya Zidra",
+            "movimientos": ["Voto agua", "avivar", "viento hielo", "doble rayo"]
+          }
+        ]
+      },
+      {
+        "name": "Fuego",
+        "pokemons": [
+          {
+            "name": "Pikachu",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+            "types": ["electric"],
+            "hab": "Piel eléctrica",
+            "objeto": "Globo helio",
+            "movimientos": ["Golpe cabeza", "Puño fuego", "Puño hielo", "hierba lazo"]
+          },
+          {
+            "name": "Noibat",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/714.png",
+            "types": ["flying", "dragon"],
+            "hab": "Amplificador",
+            "objeto": "Aerostal Z",
+            "movimientos": ["Dragoaliento", "Grito fúnebre", "Gigadrenado", "Aire afilado"]
+          },
+          {
+            "name": "Meditite",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/307.png",
+            "types": ["fighting", "psychic"],
+            "hab": "Energía pura",
+            "objeto": "Cinta experto",
+            "movimientos": ["Puño drenaje", "Puño hielo", "Avivar", "Piensa rápido"]
+          },
+          {
+            "name": "Aipom",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/190.png",
+            "types": ["normal"],
+            "hab": "Experto",
+            "objeto": "Pañuelo Seda",
+            "movimientos": ["Avivar", "Ataqué rápido", "Ladrón", "Sorpresa"]
+          },
+          {
+            "name": "Panpour",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/515.png",
+            "types": ["water"],
+            "hab": "Torrente",
+            "objeto": "Baya Lichi",
+            "movimientos": ["hidroariete", "puño hielo", "hierba lazo", "aguante"]
+          },
+          {
+            "name": "Dartrix",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/723.png",
+            "types": ["grass", "flying"],
+            "hab": "Experto",
+            "objeto": "Baya Zidra",
+            "movimientos": ["avivar", "viento aciago", "hoja mágica", "aire afilado"]
+          }
+        ]
+      },
+      {
+        "name": "Agua",
+        "pokemons": [
+          {
+            "name": "Pikachu",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+            "types": ["electric"],
+            "hab": "Piel eléctrica",
+            "objeto": "Globo helio",
+            "movimientos": ["Golpe cabeza", "Puño fuego", "Puño hielo", "hierba lazo"]
+          },
+          {
+            "name": "Noibat",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/714.png",
+            "types": ["flying", "dragon"],
+            "hab": "Amplificador",
+            "objeto": "Aerostal Z",
+            "movimientos": ["Dragoaliento", "Grito fúnebre", "Gigadrenado", "Aire afilado"]
+          },
+          {
+            "name": "Meditite",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/307.png",
+            "types": ["fighting", "psychic"],
+            "hab": "Energía pura",
+            "objeto": "Cinta experto",
+            "movimientos": ["Puño drenaje", "Puño hielo", "Avivar", "Piensa rápido"]
+          },
+          {
+            "name": "Aipom",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/190.png",
+            "types": ["normal"],
+            "hab": "Experto",
+            "objeto": "Pañuelo Seda",
+            "movimientos": ["Avivar", "Ataqué rápido", "Ladrón", "Sorpresa"]
+          },
+          {
+            "name": "Pansage",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/511.png",
+            "types": ["grass"],
+            "hab": "Espesura",
+            "objeto": "Baya Lichi",
+            "movimientos": ["bomba germen", "puño trueno", "pataleta", "aguante"]
+          },
+          {
+            "name": "Torracat",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/726.png",
+            "types": ["fire"],
+            "hab": "Intimidación",
+            "objeto": "Baya Zidra",
+            "movimientos": ["colmillo ígneo", "colmillo rayo", "pataleta", "avivar"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Gladio",
+      "level": 22,
+      "sprite_url": "img/150px-VSGladion.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Type: null",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/772.png",
+        "types": ["normal", "steel"],
+        "hab": "armadura batalla",
+        "objeto": "Garra Rápida",
+        "movimientos": ["cuerno certero", "furia", "pataleta", "rifirafe"]
+      },
+      {
+        "name": "Zorua",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/570.png",
+        "types": ["dark"],
+        "hab": "bromista",
+        "objeto": "Cinta Experto",
+        "movimientos": ["grito fúnebre", "paranormal", "voz cautivadora", "última palabra"]
+      },
+      {
+        "name": "Golbat",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+        "types": ["poison", "flying"],
+        "hab": "Vigilante",
+        "objeto": "Aerostal Z",
+        "movimientos": ["Vuelo", "Colmillo venenoso", "colmillo ígneo", "gigadrenado"]
+      },
+      {
+        "name": "Porygon",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
+        "types": ["electric", "psychic"],
+        "hab": "levitación",
+        "objeto": "Tarjeta Roja",
+        "movimientos": ["carga parábola", "confusión", "viento hielo", "doble rayo"]
+      },
+      {
+        "name": "Rockruff",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/744.png",
+        "types": ["normal", "rock"],
+        "hab": "entusiasmo",
+        "objeto": "Pañuelo Seda",
+        "movimientos": ["ataque rápido", "roca veloz", "colmillo ígneo", "persecución"]
+      },
+      {
+        "name": "Riolu",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/447.png",
+        "types": ["fighting"],
+        "hab": "competitivo",
+        "objeto": "Baya Lichi",
+        "movimientos": ["puño drenaje", "pataleta", "puño hielo", "aguante"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Ayudante Jorge",
+      "level": 23,
+      "sprite_url": "img/150px-VSTrial_Guide_M.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Mine jr",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png",
+        "types": ["psychic", "fairy"],
+        "hab": "bromista",
+        "objeto": "Tarjeta Roja",
+        "movimientos": ["mofa", "brillo mágico", "pantalla de luz", "reflejo"]
+      },
+      {
+        "name": "Lampent",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/608.png",
+        "types": ["ghost", "fire"],
+        "hab": "levitación",
+        "objeto": "Cinta Experto",
+        "movimientos": ["voto fuego", "viento aciago", "brillo mágico", "gigadrenado"]
+      },
+      {
+        "name": "Dunsparce",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/206.png",
+        "types": ["ground", "fairy"],
+        "hab": "dicha",
+        "objeto": "Baya Zidra",
+        "movimientos": ["brillo mágico", "disparo de lodo", "poder pasado", "respiro"]
+      },
+      {
+        "name": "Noctowl",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/164.png",
+        "types": ["psychic", "flying"],
+        "hab": "cromolente",
+        "objeto": "Psicostal Z",
+        "movimientos": ["respiro", "bola pluma", "paranormal", "brillo mágico"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Darius",
+      "level": 24,
+      "sprite_url": "img/150px-VSDulse.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Gothorita",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/575.png",
+        "types": ["dark", "fairy"],
+        "hab": "Psicogénesis",
+        "objeto": "Semilla Psique",
+        "movimientos": ["Grito fúnebre", "Brillo mágico", "paranormal", "última palabra"]
+      },
+      {
+        "name": "Staryu",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
+        "types": ["psychic", "water"],
+        "hab": "Escudo energía",
+        "objeto": "Hisdrostal Z",
+        "movimientos": ["paranormal", "voto agua", "carga parábola", "gigadrenado"]
+      },
+      {
+        "name": "Poypole",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/803.png",
+        "types": ["psychic", "poison"],
+        "hab": "bromista",
+        "objeto": "Cinta Experto",
+        "movimientos": ["carga tóxica", "gigadrenado", "Poder oculto - lucha", "paranormal"]
+      },
+      {
+        "name": "Elgyem",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/605.png",
+        "types": ["psychic"],
+        "hab": "Cromolente",
+        "objeto": "Garra Rápida",
+        "movimientos": ["paranormal", "carga parábola", "doble rayo", "brillo mágico"]
+      },
+      {
+        "name": "Munna",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/517.png",
+        "types": ["psychic", "fairy"],
+        "hab": "Levitación",
+        "objeto": "Tarjeta Roja",
+        "movimientos": ["viento aciago", "brillo mágico", "voltiocambio", "paranormal"]
+      },
+      {
+        "name": "Clefairy",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+        "types": ["fairy"],
+        "hab": "Muro mágico",
+        "objeto": "Toxiestrella",
+        "movimientos": ["artimaña", "puño fuego", "puño drenaje", "truco"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Guay Espe",
+      "level": 27,
+      "sprite_url": "img/150px-VSAce_Trainer_F_2_SM.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Fletchinder",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/662.png",
+        "types": ["fire", "flying"],
+        "hab": "intimidación",
+        "objeto": "Baya Alcho",
+        "movimientos": ["mofa", "furia desatada", "ala de acero", "respiro"]
+      },
+      {
+        "name": "Swanna",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/581.png",
+        "types": ["water", "flying"],
+        "hab": "firmeza",
+        "objeto": "Baya Gualot",
+        "movimientos": ["avivar", "hidroariete", "respiro", "ala de acero"]
+      },
+      {
+        "name": "Delibird",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/225.png",
+        "types": ["ice", "fairy"],
+        "hab": "experto",
+        "objeto": "Baya Baribá",
+        "movimientos": ["ala de acero", "antojo", "puño incremento", "esquirla helada"]
+      },
+      {
+        "name": "Scyther",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+        "types": ["bug", "flying"],
+        "hab": "experto",
+        "objeto": "Banda Focus",
+        "movimientos": ["golpe áereo", "picadura", "ala de acero", "golpe kárate"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Francine",
+      "level": 32,
+      "sprite_url": "img/150px-VSPlumeria.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Nidorina",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
+        "types": ["poison","normal"],
+        "hab": "compensación",
+        "objeto": "Mineral Evolutivo",
+        "movimientos": ["colmillo veneno", "mofa", "última palabra", "púas tóxicas"]
+      },
+      {
+        "name": "Muk (Alola)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10113.png",
+        "types": ["poison", "dark"],
+        "hab": "ensañamiento",
+        "objeto": "Lodo negro",
+        "movimientos": ["carga tóxica", "pulso umbrío", "gigadrenado", "última palabra"]
+      },
+      {
+        "name": "Tentacruel",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
+        "types": ["water", "poison"],
+        "hab": "adaptable",
+        "objeto": "Baya acardo",
+        "movimientos": ["carga tóxica", "salmuera", "púas tóxicas", "última palabra"]
+      },
+      {
+        "name": "Salazze",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/758.png",
+        "types": ["fire", "poison"],
+        "hab": "ensañamiento",
+        "objeto": "Banda Focus",
+        "movimientos": ["carga tóxica", "malicia ígnea", "púas tóxicas", "última palabra"]
+      },
+      {
+        "name": "Haunter",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+        "types": ["ghost", "poison"],
+        "hab": "despiadado",
+        "objeto": "Garra Afilada",
+        "movimientos": ["garra umbría", "psicocorte", "tajo cruzado", "veneno x"]
+      },
+      {
+        "name": "Beedrill",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+        "types": ["bug", "poison"],
+        "hab": "despiadado",
+        "objeto": "Periscopio",
+        "movimientos": ["taladradora", "psicocorte", "tajo cruzado", "ida y vuelta"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Mayla",
+      "level": 33,
+      "esDoble": true,
+      "sprite_url": "img/150px-VSOlivia_2_USUM.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Crustle",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/558.png",
+        "types": ["bug", "rock"],
+        "hab": "chorro arena",
+        "objeto": "Chaleco Asalto",
+        "movimientos": ["pataleta", "ida y vuelta", "avalancha", "demolición"]
+      },
+      {
+        "name": "Onix",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+        "types": ["rock", "ground"],
+        "hab": "ímpetu arena",
+        "objeto": "Mineral Evolutivo",
+        "movimientos": ["pataleta", "antiaéreo", "tierra curativa", "última palabra"]
+      },
+      {
+        "name": "Armaldo",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/348.png",
+        "types": ["rock", "bug"],
+        "hab": "despiadado",
+        "objeto": "Periscopio",
+        "movimientos": ["escaramuza", "filo dentado", "concha filo", "última palabra"]
+      },
+      {
+        "name": "Cradily",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/346.png",
+        "types": ["rock", "poison"],
+        "hab": "chorro arena",
+        "objeto": "Globo Helio",
+        "movimientos": ["última palabra", "energibola", "escaldar", "bomba lodo"]
+      },
+      {
+        "name": "Lycanroc (Nocturno)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10126.png",
+        "types": ["rock", "dark"],
+        "hab": "intimidación",
+        "objeto": "Garra Rápida",
+        "movimientos": ["roca veloz", "persecución", "acróbata", "última palabra"]
+      },
+      {
+        "name": "Lycanroc (Diurno)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/745.png",
+        "types": ["rock", "normal"],
+        "hab": "entusiamo",
+        "objeto": "Litostal Z",
+        "movimientos": ["avalancha", "represalia", "colmillo ígneo", "pataleta"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Tilo - El Acosador (también evoluciona)",
+      "level": 34,
+      "sprite_url": "img/150px-VSHau.png"
+    },
+    "display_type": "multi-team",
+    "teams": [
+      {
+        "name": "Planta",
+        "pokemons": [
+          {
+            "name": "Raichu (Alola)",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10100.png",
+            "types": ["electric", "psychic"],
+            "hab": "Psicogénesis",
+            "objeto": "Banda Focus",
+            "movimientos": ["Psíquico", "Kamehameha", "Mofa", "Voltiocambio"]
+          },
+          {
+            "name": "Medicham (Mega)",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10054.png",
+            "types": ["psychic", "fighting"],
+            "hab": "Energía pura",
+            "objeto": "Medichamita",
+            "movimientos": ["Psicocorte", "Tajo Cruzado", "Puño Sombra", "Avalancha"]
+          },
+          {
+            "name": "Ambipom",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png",
+            "types": ["normal"],
+            "hab": "Talento innato",
+            "objeto": "Vidasfera",
+            "movimientos": ["Represalia", "Demolición", "Puño Sombra", "Ida y Vuelta"]
+          },
+          {
+            "name": "Noivern",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/715.png",
+            "types": ["flying", "dragon"],
+            "hab": "Piel celeste",
+            "objeto": "Cinta Experto",
+            "movimientos": ["Conmoción", "Energibola", "Lanzallamas", "Dragoaliento"]
+          },
+          {
+            "name": "Simisear",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/514.png",
+            "types": ["fire"],
+            "hab": "Instinto",
+            "objeto": "Pirostal Z",
+            "movimientos": ["Lanzallamas", "Puño Trueno", "Hierba Lazo", "Ida y Vuelta"]
+          },
+          {
+            "name": "Brionne",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/729.png",
+            "types": ["water"],
+            "hab": "Tenacidad",
+            "objeto": "Mineral Evol",
+            "movimientos": ["Rayo Aurora", "Voto Agua", "Rehidratarse", "Avivar"]
+          }
+        ]
+      },
+      {
+        "name": "Fuego",
+        "pokemons": [
+          {
+            "name": "Raichu (Alola)",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10100.png",
+            "types": ["electric", "psychic"],
+            "hab": "Psicogénesis",
+            "objeto": "Banda Focus",
+            "movimientos": ["Psíquico", "Kamehameha", "Mofa", "Voltiocambio"]
+          },
+          {
+            "name": "Medicham (Mega)",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10054.png",
+            "types": ["psychic", "fighting"],
+            "hab": "Energía pura",
+            "objeto": "Medichamita",
+            "movimientos": ["Psicocorte", "Tajo Cruzado", "Puño Sombra", "Avalancha"]
+          },
+          {
+            "name": "Ambipom",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png",
+            "types": ["normal"],
+            "hab": "Talento innato",
+            "objeto": "Vidasfera",
+            "movimientos": ["Represalia", "Demolición", "Puño Sombra", "Ida y Vuelta"]
+          },
+          {
+            "name": "Noivern",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/715.png",
+            "types": ["flying", "dragon"],
+            "hab": "Piel celeste",
+            "objeto": "Cinta Experto",
+            "movimientos": ["Conmoción", "Energibola", "Lanzallamas", "Dragoaliento"]
+          },
+          {
+            "name": "Simipour",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/516.png",
+            "types": ["water"],
+            "hab": "Instinto",
+            "objeto": "Hidrostal Z",
+            "movimientos": ["Puño Hielo", "Hierba Lazo", "Ida y Vuelta", "Surf"]
+          },
+          {
+            "name": "Dartrix",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/723.png",
+            "types": ["grass", "flying"],
+            "hab": "Experto",
+            "objeto": "Mineral Evol",
+            "movimientos": ["Aire Afilado", "Avivar", "Respiro", "Hoja mágica"]
+          }
+        ]
+      },
+      {
+        "name": "Agua",
+        "pokemons": [
+          {
+            "name": "Raichu (Alola)",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10100.png",
+            "types": ["electric", "psychic"],
+            "hab": "Psicogénesis",
+            "objeto": "Banda Focus",
+            "movimientos": ["Psíquico", "Kamehameha", "Mofa", "Voltiocambio"]
+          },
+          {
+            "name": "Medicham (Mega)",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10054.png",
+            "types": ["psychic", "fighting"],
+            "hab": "Energía pura",
+            "objeto": "Medichamita",
+            "movimientos": ["Psicocorte", "Tajo Cruzado", "Puño Sombra", "Avalancha"]
+          },
+          {
+            "name": "Ambipom",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png",
+            "types": ["normal"],
+            "hab": "Talento innato",
+            "objeto": "Vidasfera",
+            "movimientos": ["Represalia", "Demolición", "Puño Sombra", "Ida y Vuelta"]
+          },
+          {
+            "name": "Noivern",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/715.png",
+            "types": ["flying", "dragon"],
+            "hab": "Piel celeste",
+            "objeto": "Cinta Experto",
+            "movimientos": ["Conmoción", "Energibola", "Lanzallamas", "Dragoaliento"]
+          },
+          {
+            "name": "Simisage",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/512.png",
+            "types": ["grass"],
+            "hab": "Fitostal Z",
+            "objeto": "Instinto",
+            "movimientos": ["Energibola", "Demolición", "Avalancha", "Ida y Vuelta"]
+          },
+          {
+            "name": "Torracat",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/726.png",
+            "types": ["fire"],
+            "hab": "Mineral Evol",
+            "objeto": "Intimidación",
+            "movimientos": ["Rueda Fuego", "Colmillo Rayo", "Avivar", "Sol Matinal"]
+          }
+        ]
+      }
+    ]
+  },
+    {
+    "trainer": {
+      "nombre": "Camilo",
+      "level": 36,
+      "sprite_url": "img/150px-VSVeteran_M_2_USUM.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Skarmory",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/227.png",
+        "types": ["steel", "flying"],
+        "hab": "Despiadado",
+        "objeto": "Periscopio",
+        "movimientos": ["Escaramuza", "Pico Taladro", "Desgarrar", "Última Palabra"]
+      },
+      {
+        "name": "Raticate (Alola)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png",
+        "types": ["normal", "dark"],
+        "hab": "Entusiasmo",
+        "objeto": "Nictostal Z",
+        "movimientos": ["Escaramuza", "Última Palabra", "Represalia", "Triturar"]
+      },
+      {
+        "name": "Gallade (Mega)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10068.png",
+        "types": ["psychic", "fighting"],
+        "hab": "Afortunado",
+        "objeto": "Galladita",
+        "movimientos": ["Escaramuza", "Tajo Cruzado", "Psicocorte", "Última Palabra"]
+      },
+      {
+        "name": "Seviper",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/336.png",
+        "types": ["poison", "dark"],
+        "hab": "Despiadado",
+        "objeto": "Periscopio",
+        "movimientos": ["Escaramuza", "Tajo Umbrío", "Veneno X", "Última Palabra"]
+      },
+      {
+        "name": "Zangoose",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/335.png",
+        "types": ["normal", "fighting"],
+        "hab": "Despiadado",
+        "objeto": "Garra Afilada",
+        "movimientos": ["Escaramuza", "Tajo Cruzado", "Cuchillada", "Última Palabra"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Guzmán",
+      "level": 38,
+      "sprite_url": "img/150px-VSGuzma.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Kricketune",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/402.png",
+        "types": ["bug", "normal"],
+        "hab": "Experto",
+        "objeto": "Banda Focus",
+        "movimientos": ["Escaramuza", "Red Viscosa", "Última Palabra", "Canto"]
+      },
+      {
+        "name": "Ariados",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png",
+        "types": ["bug", "dark"],
+        "hab": "Despiadado",
+        "objeto": "Vidasfera",
+        "movimientos": ["Escaramuza", "Red Viscosa", "Última Palabra", "Persecución"]
+      },
+      {
+        "name": "Heracross (Mega)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10047.png",
+        "types": ["bug", "fighting"],
+        "hab": "Entusiasmo",
+        "objeto": "Heracrossita",
+        "movimientos": ["Escaramuza", "Tajo Umbrío", "Última Palabra", "Tajo Cruzado"]
+      },
+      {
+        "name": "Pinsir",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+        "types": ["bug", "ground"],
+        "hab": "Entusiasmo",
+        "objeto": "Baya Kouba",
+        "movimientos": ["Pataleta", "Antiaéreo", "Última Palabra", "Escaramuza"]
+      },
+      {
+        "name": "Durant",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/632.png",
+        "types": ["bug", "steel"],
+        "hab": "Entusiasmo",
+        "objeto": "Insectostal Z",
+        "movimientos": ["Cuerno Certero", "Avalancha", "Ida y Vuelta", "Colmillo Rayo"]
+      },
+      {
+        "name": "Golisopod",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/768.png",
+        "types": ["bug", "water"],
+        "hab": "Despiadado",
+        "objeto": "Garra Afilada",
+        "movimientos": ["Escaramuza", "Filo Dentado", "Última Palabra", "Concha Filo"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Saúl",
+      "level": 39,
+      "sprite_url": "img/150px-VSAether_Foundation_Employee_M.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Wormadam (Shiny)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10005.png",
+        "types": ["bug", "steel"],
+        "hab": "Adaptable",
+        "objeto": "Garra Rápida",
+        "movimientos": ["Foco Resplandor", "Mofa", "Red Viscosa", "Última Palabra"]
+      },
+      {
+        "name": "Wormadam (Shiny)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10004.png",
+        "types": ["bug", "ground"],
+        "hab": "Adaptable",
+        "objeto": "Baya Caoca",
+        "movimientos": ["Avalancha", "Terratemblor", "Escaramuza", "Ida y Vuelta"]
+      },
+      {
+        "name": "Wormadam (Shiny)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/413.png",
+        "types": ["bug", "grass"],
+        "hab": "Adaptable",
+        "objeto": "Banda Focus",
+        "movimientos": ["Energibola", "Doble Rayo", "Tierra Viva", "Silbato"]
+      },
+      {
+        "name": "Shuckle (Shiny)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/213.png",
+        "types": ["bug", "rock"],
+        "hab": "Simple",
+        "objeto": "Hierba Blanca",
+        "movimientos": ["Plancha", "Tierra Viva", "Avalancha", "Rompecoraza"]
+      },
+      {
+        "name": "Drapion (Shiny)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/452.png",
+        "types": ["bug", "poison"],
+        "hab": "Potencia Bruta",
+        "objeto": "Vidasfera",
+        "movimientos": ["Plancha", "Lanza Mugre", "Acua Cola", "Colmillo Hielo"]
+      },
+      {
+        "name": "Mothim (Shiny)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/414.png",
+        "types": ["bug", "flying"],
+        "hab": "Adaptable",
+        "objeto": "Insectostal Z",
+        "movimientos": ["Zumbido", "Aerochorro", "Energibola", "Poder Oculto (Fuego)"]
+      }
+    ]
+  },
+    {
+    "trainer": {
+      "nombre": "Donald",
+      "level": 41,
+      "sprite_url": "img/150px-VSJanitor_SM.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Sableye",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/302.png",
+        "types": ["ghost", "dark"],
+        "hab": "Cromolente",
+        "objeto": "Gafas Elegidas",
+        "movimientos": ["Onda Vil", "Última Palabra", "Bola Sombra", "Pulso Noche"]
+      },
+      {
+        "name": "Luxray",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/405.png",
+        "types": ["electric", "dark"],
+        "hab": "Cromolente",
+        "objeto": "Gafas Elegidas",
+        "movimientos": ["Voltiocambio", "Onda Voltio", "Bola Voltio", "Pulso Noche"]
+      },
+      {
+        "name": "Watchog",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/505.png",
+        "types": ["normal", "psychic"],
+        "hab": "Cromolente",
+        "objeto": "Gafas Elegidas",
+        "movimientos": ["Psicocarga", "Última Palabra", "Vozarrón", "Rapidez"]
+      },
+      {
+        "name": "Ledian",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/166.png",
+        "types": ["bug", "psychic"],
+        "hab": "Cromolente",
+        "objeto": "Gafas Elegidas",
+        "movimientos": ["Psicocarga", "Zumbido", "Última Palabra", "Ráfaga Plateada"]
+      },
+      {
+        "name": "Ninjask",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/291.png",
+        "types": ["bug", "flying"],
+        "hab": "Cromolente",
+        "objeto": "Gafas Elegidas",
+        "movimientos": ["Aerochorro", "Zumbido", "Última Palabra", "Viento Afín"]
+      },
+      {
+        "name": "Illumise",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/314.png",
+        "types": ["bug", "fairy"],
+        "hab": "Cromolente",
+        "objeto": "Gafas Elegidas",
+        "movimientos": ["Sable Radiante", "Zumbido", "Ráfaga Plateada", "Última Palabra"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Francine",
+      "level": 42,
+      "sprite_url": "img/150px-VSPlumeria.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Tentacruel",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
+        "types": ["water", "poison"],
+        "hab": "Adaptable",
+        "objeto": "Garra Rápida",
+        "movimientos": ["Púas Tóxicas", "Mofa", "Última Palabra", "Pulso Torrencial"]
+      },
+      {
+        "name": "Salazzle",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/758.png",
+        "types": ["fire", "poison"],
+        "hab": "Ensañamiento",
+        "objeto": "Globo Helio",
+        "movimientos": ["Malicia Ígnea", "Carga Tóxica", "Púas Tóxicas", "Última Palabra"]
+      },
+      {
+        "name": "Gengar",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+        "types": ["ghost", "poison"],
+        "hab": "Ensañamiento",
+        "objeto": "Banda Focus",
+        "movimientos": ["Infortunio", "Carga Tóxica", "Kamehameha", "Maquinación"]
+      },
+      {
+        "name": "Muk (Alola)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10113.png",
+        "types": ["poison", "dark"],
+        "hab": "Ensañamiento",
+        "objeto": "Chaleco Asalto",
+        "movimientos": ["Psicocolmillo", "Puño Drenaje", "Lanza Mugre", "Carga Maldita"]
+      },
+      {
+        "name": "Nidoqueen",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
+        "types": ["poison", "ground"],
+        "hab": "Compensación",
+        "objeto": "Seguro Debilidad",
+        "movimientos": ["Lanza Mugre", "Puño Sísmico", "Puño Hielo", "Pulimento"]
+      },
+      {
+        "name": "Beedrill (Mega)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10090.png",
+        "types": ["bug", "poison"],
+        "hab": "Adaptable",
+        "objeto": "Beedrillita",
+        "movimientos": ["Lanza Mugre", "Taladradora", "Tijera X", "Derribo"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Ángel",
+      "level": 44,
+      "sprite_url": "img/150px-VSSightseer_M_SM.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Weezing",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
+        "types": ["poison"],
+        "hab": "Ímpetu ardiente",
+        "objeto": "Llamasfera",
+        "movimientos": ["Búnker", "Bomba Lodo", "Lanzallamas", "Última Palabra"]
+      },
+      {
+        "name": "Swellow",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/277.png",
+        "types": ["normal", "flying"],
+        "hab": "Agallas",
+        "objeto": "Llamasfera",
+        "movimientos": ["Imagen", "Pájaro Osado", "Derribo", "Última Palabra"]
+      },
+      {
+        "name": "Floatzel",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/419.png",
+        "types": ["water", "normal"],
+        "hab": "Agallas",
+        "objeto": "Llamasfera",
+        "movimientos": ["Imagen", "Acua Cola", "Sorpresa", "Última Palabra"]
+      },
+      {
+        "name": "Heracross",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/214.png",
+        "types": ["bug", "fighting"],
+        "hab": "Agallas",
+        "objeto": "Llamasfera",
+        "movimientos": ["Escaramuza", "Golpe Sigiloso", "Ultrapuño", "Última Palabra"]
+      },
+      {
+        "name": "Drifblim",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/426.png",
+        "types": ["ghost", "flying"],
+        "hab": "ímpetu ardiente",
+        "objeto": "Llamasfera",
+        "movimientos": ["Aerochorro", "Bola Sombra", "Respiro", "Kamehameha"]
+      },
+      {
+        "name": "Milotic",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png",
+        "types": ["water", "fairy"],
+        "hab": "Escama especial",
+        "objeto": "Llamasfera",
+        "movimientos": ["Surf", "Brillo Mágico", "Paz Mental", "Recuperación"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Guzmán",
+      "level": 47,
+      "sprite_url": "img/150px-VSGuzma.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Masquerain",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/284.png",
+        "types": ["bug", "water"],
+        "hab": "Llovizna",
+        "objeto": "Banda Focus",
+        "movimientos": ["Red Viscosa", "Vendaval", "Zumbido", "Última Palabra"]
+      },
+      {
+        "name": "Galvantula",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/596.png",
+        "types": ["bug", "electric"],
+        "hab": "Cromolente",
+        "objeto": "Insectostal Z",
+        "movimientos": ["Trueno", "Protección", "Zumbido", "Última Palabra"]
+      },
+      {
+        "name": "Golisopod",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/768.png",
+        "types": ["bug", "water"],
+        "hab": "Nado rápido",
+        "objeto": "Chaleco Asalto",
+        "movimientos": ["Envite Acuático", "Ida y Vuelta", "Avalancha", "Cabezazo Zen"]
+      },
+      {
+        "name": "Yanmega",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/469.png",
+        "types": ["bug", "dragon"],
+        "hab": "Levitación",
+        "objeto": "Vidasfera",
+        "movimientos": ["Pulso Dragón", "Protección", "Zumbido", "Última Palabra"]
+      },
+      {
+        "name": "Scolipede",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/545.png",
+        "types": ["bug", "poison"],
+        "hab": "Impulso",
+        "objeto": "Baya Kouba",
+        "movimientos": ["Lanza Mugre", "Tijera X", "Acua Cola", "Danza Espada"]
+      },
+      {
+        "name": "Scizor (Mega)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10046.png",
+        "types": ["bug", "steel"],
+        "hab": "Garra dura",
+        "objeto": "Scizorita",
+        "movimientos": ["Escaramuza", "Martillazo", "Cabeza de Hierro", "Puño Trueno"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Gladio",
+      "level": 48,
+      "sprite_url": "img/150px-VSGladion.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Crobat",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png",
+        "types": ["poison", "flying"],
+        "hab": "Vigilante",
+        "objeto": "Banda Focus",
+        "movimientos": ["Aerochorro", "Onda Tóxica", "Mofa", "Última Palabra"]
+      },
+      {
+        "name": "Código Cero",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/772.png",
+        "types": ["normal", "steel"],
+        "hab": "Filtro",
+        "objeto": "Mineral Evol",
+        "movimientos": ["Furia", "Cabeza de Hierro", "Derribo", "Última Palabra"]
+      },
+      {
+        "name": "Lycanroc (Crespuscular)",
+        "sprite_url": "https://img.pokemondb.net/sprites/sword-shield/normal/lycanroc-dusk.png",
+        "types": ["rock", "fighting"],
+        "hab": "Audaz",
+        "objeto": "Vidasfera",
+        "movimientos": ["Treparrocas", "Derribo", "Carantoña", "Última Palabra"]
+      },
+      {
+        "name": "Zoroark",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/571.png",
+        "types": ["dark"],
+        "hab": "Aura oscura",
+        "objeto": "Nictostal Z",
+        "movimientos": ["Golpe Oscuro", "Carantoña", "Lanza Mugre", "Última Palabra"]
+      },
+      {
+        "name": "Lucario (Mega)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10059.png",
+        "types": ["fighting", "steel"],
+        "hab": "Versatilidad",
+        "objeto": "Lucarita",
+        "movimientos": ["Cola Férrea", "Gancho Alto", "Treparrocas", "Danza Espada"]
+      },
+      {
+        "name": "Porygon2",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png",
+        "types": ["electric", "psychic"],
+        "hab": "Escudo energía",
+        "objeto": "Seguro debilidad",
+        "movimientos": ["Energibola", "Voltiocambio", "Rayo hielo", "Psíquico"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Denio",
+      "level": 49,
+      "sprite_url": "img/150px-VSNanu.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Houndoom",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/229.png",
+        "types": ["fire", "dark"],
+        "hab": "Despiadado",
+        "objeto": "Banda Focus",
+        "movimientos": ["Onda Ígnea", "Golpe Oscuro", "Mofa", "Última Palabra"]
+      },
+      {
+        "name": "Mightyena",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/262.png",
+        "types": ["dark", "rock"],
+        "hab": "Mandíbula Fuerte",
+        "objeto": "Vidasfera",
+        "movimientos": ["Triturar", "Colmillo Pétreo", "Colmillo Ígneo", "Psicocolmillo"]
+      },
+      {
+        "name": "Spiritomb",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/442.png",
+        "types": ["ghost", "dark"],
+        "hab": "Aura maldita",
+        "objeto": "Garra Rápida",
+        "movimientos": ["Deseo Oculto", "Luz Eterna", "Hipnosis", "Última Palabra"]
+      },
+      {
+        "name": "Honchkrow",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/430.png",
+        "types": ["dark", "flying"],
+        "hab": "Afortunado",
+        "objeto": "Baya Hibis",
+        "movimientos": ["Tajo Umbrío", "Pico Taladro", "Desgarrar", "Última Palabra"]
+      },
+      {
+        "name": "Pangoro",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/675.png",
+        "types": ["fighting", "dark"],
+        "hab": "Entusiasmo",
+        "objeto": "Nictostal Z",
+        "movimientos": ["Rugido", "Ultrapuño", "Puño Bala", "Espabila"]
+      },
+      {
+        "name": "Absol (Mega)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10057.png",
+        "types": ["dark", "fairy"],
+        "hab": "Cuerpo vívido",
+        "objeto": "Absolita",
+        "movimientos": ["Carantoña", "Carga Maldita", "Derribo", "Terremoto"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Fabio",
+      "level": 51,
+      "sprite_url": "img/150px-VSFaba.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Bruxish",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/779.png",
+        "types": ["water", "psychic"],
+        "hab": "Psicogénesis",
+        "objeto": "Garra Rápida",
+        "movimientos": ["Psicocolmillo", "Acua Cola", "Mofa", "Última Palabra"]
+      },
+      {
+        "name": "Alakazam",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
+        "types": ["psychic"],
+        "hab": "Muro mágico",
+        "objeto": "Banda Focus",
+        "movimientos": ["Psicocarga", "Bing Bang Attack", "Brillo Mágico", "Maquinación"]
+      },
+      {
+        "name": "Grumpig",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/326.png",
+        "types": ["psychic", "dark"],
+        "hab": "Psicogénesis",
+        "objeto": "Chaleco Asalto",
+        "movimientos": ["Psicocarga", "Danza Despertar", "Kamehameha", "Brillo Mágico"]
+      },
+      {
+        "name": "Mr. Mine",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
+        "types": ["psychic", "fairy"],
+        "hab": "Escudo energía",
+        "objeto": "Baya Yecana",
+        "movimientos": ["Fuerza Lunar", "Psicocarga", "Llama Embrujada", "Maquinación"]
+      },
+      {
+        "name": "Claydol",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/344.png",
+        "types": ["psychic", "ground"],
+        "hab": "Escudo energía",
+        "objeto": "Seguro Debilidad",
+        "movimientos": ["Bomba Fango", "Psicocarga", "Rayo Hielo", "Pulimento"]
+      },
+      {
+        "name": "Metagross (Mega)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10076.png",
+        "types": ["steel", "psychic"],
+        "hab": "Garra dura",
+        "objeto": "Metagrossita",
+        "movimientos": ["Cabezazo Zen", "Cabeza de Hierro", "Puño Trueno", "Puño Drenaje"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Fabio",
+      "level": 53,
+      "sprite_url": "img/150px-VSFaba.png"
+    },
+    "display_type": "multi-team",
+    "teams": [
+      {
+        "name": "Fabio",
+        "pokemons": [
+          {
+            "name": "Minior",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/774.png",
+            "types": ["rock", "psychic"],
+            "hab": "Interestelar",
+            "objeto": "Banda Focus",
+            "movimientos": ["Psíquico", "Joya de Luz", "Kamehameha", "Tierra Viva"]
+          },
+          {
+            "name": "Clefable",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
+            "types": ["fairy"],
+            "hab": "Interestelar",
+            "objeto": "Baya Baribá",
+            "movimientos": ["Fuerza Lunar", "Lanzallamas", "Kamehameha", "Rayo Hielo"]
+          },
+          {
+            "name": "Starmie",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
+            "types": ["water", "psychic"],
+            "hab": "Interestelar",
+            "objeto": "Vidasfera",
+            "movimientos": ["Psicocarga", "Pulso Torrencial", "Kamehameha", "Sable Radiante"]
+          },
+          {
+            "name": "Beheeyem",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/606.png",
+            "types": ["psychic"],
+            "hab": "Interestelar",
+            "objeto": "Baya Dillo",
+            "movimientos": ["Psicocarga", "Brillo Mágico", "Kamehameha", "Llama Embrujada"]
+          },
+          {
+            "name": "Solrock",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/338.png",
+            "types": ["rock", "psychic"],
+            "hab": "Interestelar",
+            "objeto": "Baya Tamar",
+            "movimientos": ["Psicocarga", "Joya de Luz", "Lanzallamas", "Tierra Viva"]
+          },
+          {
+            "name": "Lunatone",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/337.png",
+            "types": ["rock", "dark"],
+            "hab": "Interestelar",
+            "objeto": "Baya Pomaro",
+            "movimientos": ["Pulso Noche", "Joya de Luz", "Fuerza Lunar", "Kamehameha"]
+          }
+        ]
+      },
+      {
+        "name": "Ayudante",
+        "pokemons": [
+          {
+            "name": "Minior",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10136.png",
+            "types": ["rock", "fire"],
+            "hab": "Interestelar",
+            "objeto": "Banda Focus",
+            "movimientos": ["Joya de Luz", "Lanzallamas", "Energibola", "Tierra viva"]
+          },
+          {
+            "name": "Minior",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10138.png",
+            "types": ["rock", "electric"],
+            "hab": "Interestelar",
+            "objeto": "Globo helio",
+            "movimientos": ["Joya de luz", "Rayo", "Energibola", "Tierra viva"]
+          },
+          {
+            "name": "Minior",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10139.png",
+            "types": ["rock", "grass"],
+            "hab": "Interestelar",
+            "objeto": "Cinta experto",
+            "movimientos": ["Joya de Luz", "Kamehameha", "Fogonazo", "Tierra viva"]
+          },
+          {
+            "name": "Minior",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10140.png",
+            "types": ["rock", "ice"],
+            "hab": "Interestelar",
+            "objeto": "Vidaesfera",
+            "movimientos": ["Liofilización", "Joya de luz", "Tierra viva", "Kamehameha"]
+          },
+          {
+            "name": "Minior",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10141.png",
+            "types": ["rock", "water"],
+            "hab": "Interestelar",
+            "objeto": "Gafas especiales",
+            "movimientos": ["Pulso torrencial", "Joya de Luz", "Fuerza Lunar", "Energibola"]
+          },
+          {
+            "name": "Minior",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10142.png",
+            "types": ["rock", "dragon"],
+            "hab": "Interestelar",
+            "objeto": "Hierba blanca",
+            "movimientos": ["Cometa draco", "Tierra viva", "Kamehameha", "Lluvia Mineral"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Guzmán",
+      "level": 55,
+      "sprite_url": "img/150px-VSGuzma.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Golisopod (Shiny)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/768.png",
+        "types": ["water", "bug"],
+        "hab": "Despiadado",
+        "objeto": "Garra Rápida",
+        "movimientos": ["Martillazo", "Escaramuza", "Roca Afilada", "Última Palabra"]
+      },
+      {
+        "name": "Vikavolt",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/738.png",
+        "types": ["bug", "electric"],
+        "hab": "Indefenso",
+        "objeto": "Insectostal Z",
+        "movimientos": ["Colmillo Hielo", "Ida y Vuelta", "Derribo", "Juez Eléctrico"]
+      },
+      {
+        "name": "Volcarona",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/637.png",
+        "types": ["bug", "fire"],
+        "hab": "Levitación",
+        "objeto": "Baya Alcho",
+        "movimientos": ["Danza Aleteo", "Tierra Viva", "Danza Llama", "Danza Despertar"]
+      },
+      {
+        "name": "Accelgor",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/617.png",
+        "types": ["bug", "dark"],
+        "hab": "Adaptable",
+        "objeto": "Banda Focus",
+        "movimientos": ["Persecución", "Escaramuza", "Bostezo", "Última Palabra"]
+      },
+      {
+        "name": "Escavalier",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/589.png",
+        "types": ["bug", "steel"],
+        "hab": "Liviano",
+        "objeto": "Baya Zidra",
+        "movimientos": ["Desgarrar", "Golpe Sigiloso", "Taladradora", "Danza Espada"]
+      },
+      {
+        "name": "Pinsir (Mega)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10040.png",
+        "types": ["bug", "flying"],
+        "hab": "Piel celeste",
+        "objeto": "Pinsirita",
+        "movimientos": ["Represalia", "Escaramuza", "Llave Corsé", "Roca Afilada"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Darius",
+      "level": 56,
+      "sprite_url": "img/150px-VSDulse.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Deoxys",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/386.png",
+        "types": ["psychic"],
+        "hab": "Versatilidad",
+        "objeto": "Banda Focus",
+        "movimientos": ["Veloc. Extrema", "Puño Sombra", "Puño Drenaje", "Última Palabra"]
+      },
+      {
+        "name": "Naganadel",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/804.png",
+        "types": ["poison", "psychic"],
+        "hab": "Despiadado",
+        "objeto": "Periscopio",
+        "movimientos": ["Veneno X", "Psicocorte", "Taladradora", "Onda Ígnea"]
+      },
+      {
+        "name": "Celesteela",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/797.png",
+        "types": ["steel", "flying"],
+        "hab": "Impulso",
+        "objeto": "Chaleco Asalto",
+        "movimientos": ["Vendaval", "Llamarada", "Foco Resplandor", "Tierra Viva"]
+      },
+      {
+        "name": "Guzzlord",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/799.png",
+        "types": ["dark", "dragon"],
+        "hab": "Aura maldita",
+        "objeto": "Garra Rápida",
+        "movimientos": ["Furia del Dragón", "Pulso Noche", "Foco Resplandor", "Llamarada"]
+      },
+      {
+        "name": "Xurkitree",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/796.png",
+        "types": ["electric", "grass"],
+        "hab": "Cuerpo vívido",
+        "objeto": "Fitostal Z",
+        "movimientos": ["Arraigo", "Carga Parábola", "Gigadrenado", "Hipnosis"]
+      },
+      {
+        "name": "Stakataka",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/805.png",
+        "types": ["rock", "psychic"],
+        "hab": "Filtro",
+        "objeto": "Seguro Debilidad",
+        "movimientos": ["Avalancha", "Cabezazo Zen", "Terremoto", "Derribo"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Samina",
+      "level": 57,
+      "sprite_url": "img/150px-VSLusamine.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Aromatisse",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/683.png",
+        "types": ["fairy", "poison"],
+        "hab": "Bromista",
+        "objeto": "Garra Rápida",
+        "movimientos": ["Última Palabra", "Beso Seductor", "Danza Despertar", "Bomba Lodo"]
+      },
+      {
+        "name": "Mismagius",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/429.png",
+        "types": ["ghost", "psychic"],
+        "hab": "Muro Mágico",
+        "objeto": "Vidasfera",
+        "movimientos": ["Marcha Infernal", "Onda Mental", "Big Bang Attack", "Hipnosis"]
+      },
+      {
+        "name": "Pheromosa",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/795.png",
+        "types": ["bug", "ice"],
+        "hab": "Regia Presencia",
+        "objeto": "Criostal Z",
+        "movimientos": ["Ventisca", "Big Bang Attack", "Carga Maldita", "Ida y Vuelta"]
+      },
+      {
+        "name": "Nihilego",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/793.png",
+        "types": ["poison", "ice"],
+        "hab": "Levitación",
+        "objeto": "Cinta Experto",
+        "movimientos": ["Tierra Viva", "Liofilización", "Hidrobomba", "Onda Tóxica"]
+      },
+      {
+        "name": "Lilligant",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/549.png",
+        "types": ["fairy", "grass"],
+        "hab": "Dicha",
+        "objeto": "Banda Focus",
+        "movimientos": ["Danza Aleteo", "Fogonazo", "Danza Despertar", "Tierra Viva"]
+      },
+      {
+        "name": "Lopunny (Mega)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10088.png",
+        "types": ["normal", "fighting"],
+        "hab": "Intrépido",
+        "objeto": "Lopunnita",
+        "movimientos": ["Treparrocas", "Giro Cruel", "Derribo", "Doble Filo"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Naomi",
+      "level": 59,
+      "sprite_url": "img/150px-VSOffice_Worker_F_SM.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Swanna",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/581.png",
+        "types": ["water", "flying"],
+        "hab": "Dicha",
+        "objeto": "Banda Focus",
+        "movimientos": ["Tajo Aéreo", "Danza Despertar", "Mofa", "Ventisca"]
+      },
+      {
+        "name": "Roserade",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png",
+        "types": ["grass", "poison"],
+        "hab": "Dicha",
+        "objeto": "Banda Focus",
+        "movimientos": ["Fogonazo", "Danza Despertar", "Tierra Viva", "Baile Primaveral"]
+      },
+      {
+        "name": "Jynx",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
+        "types": ["ice", "psychic"],
+        "hab": "Dicha",
+        "objeto": "Banda Focus",
+        "movimientos": ["Paranormal", "Danza Despertar", "Big Bang Attack", "Danza Lunar"]
+      },
+      {
+        "name": "Beautifly",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/267.png",
+        "types": ["bug", "flying"],
+        "hab": "Dicha",
+        "objeto": "Banda Focus",
+        "movimientos": ["Baile Primaveral", "Danza Despertar", "Tajo Aéreo", "Big Bang Attack"]
+      },
+      {
+        "name": "Florges",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/671.png",
+        "types": ["fairy"],
+        "hab": "Dicha",
+        "objeto": "Banda Focus",
+        "movimientos": ["Baile Primaveral", "Danza Despertar", "Tierra Viva", "Big Bang Attack"]
+      },
+      {
+        "name": "Oricorio (Refinado)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10125.png",
+        "types": ["ghost", "flying"],
+        "hab": "Dicha",
+        "objeto": "Banda Focus",
+        "movimientos": ["Tajo Aéreo", "Danza Despertar", "Danza Lunar", "Big Bang Attack"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Darius",
+      "level": 60,
+      "sprite_url": "img/150px-VSDulse.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Naganadel",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/804.png",
+        "types": ["poison", "psychic"],
+        "hab": "Despiadado",
+        "objeto": "Garra Rápida",
+        "movimientos": ["Falla Astral", "Red Viscosa", "Última Palabra", "Onda Ígnea"]
+      },
+      {
+        "name": "Blacephalon",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/806.png",
+        "types": ["ghost", "fire"],
+        "hab": "Cuerpo vívido",
+        "objeto": "Banda Focus",
+        "movimientos": ["Infierno", "Marcha Infernal", "Big Bang Attack", "Energibola"]
+      },
+      {
+        "name": "Lunala",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/792.png",
+        "types": ["psychic", "ghost"],
+        "hab": "Escudo energía",
+        "objeto": "Baya Dillo",
+        "movimientos": ["Bola Sombra", "Kamehameha", "Maquinación", "Falla Astral"]
+      },
+      {
+        "name": "Kartana",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/798.png",
+        "types": ["grass", "steel"],
+        "hab": "Maestría",
+        "objeto": "Periscopio",
+        "movimientos": ["Hoja Aguda", "Desgarrar", "Espada Santa", "Danza Espada"]
+      },
+      {
+        "name": "Buzzwole",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/794.png",
+        "types": ["bug", "fighting"],
+        "hab": "Autoestima",
+        "objeto": "Aerostal Z",
+        "movimientos": ["Puño Anestesia", "Plancha", "Roca Afilada", "Remolino"]
+      },
+      {
+        "name": "Deoxys (Ataque)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10001.png",
+        "types": ["psychic"],
+        "hab": "Maestría",
+        "objeto": "Vidasfera",
+        "movimientos": ["Onda Mental", "Big Bang Attack", "Luz Eterna", "Ventisca"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Rika",
+      "level": 65,
+      "sprite_url": "img/150px-VSMina_2_USUM.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Shiinotic",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/756.png",
+        "types": ["poison", "fairy"],
+        "hab": "Regeneración",
+        "objeto": "Garra Rápida",
+        "movimientos": ["Bomba Lodo", "Láser Arcoiris", "Espora", "Última Palabra"]
+      },
+      {
+        "name": "Granbull",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/210.png",
+        "types": ["fairy", "fighting"],
+        "hab": "Pies rápidos",
+        "objeto": "Toxisfera",
+        "movimientos": ["Carantoña", "Puño Anestesia", "Cabezazo Zen", "Última Palabra"]
+      },
+      {
+        "name": "Togekiss",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/468.png",
+        "types": ["fairy", "flying"],
+        "hab": "Dicha",
+        "objeto": "Baya Baribá",
+        "movimientos": ["Tajo Aéreo", "Brillo Mágico", "Llamarada", "Beso Etéreo"]
+      },
+      {
+        "name": "Azumarill",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/184.png",
+        "types": ["fire", "fairy"],
+        "hab": "Potencia",
+        "objeto": "Baya Zidra",
+        "movimientos": ["Sprint Flamígero", "Golpe Feérico", "Pataleta", "Tambor"]
+      },
+      {
+        "name": "Magearna",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/801.png",
+        "types": ["steel", "fairy"],
+        "hab": "Aura Feérica",
+        "objeto": "Feeristal Z",
+        "movimientos": ["Foco Resplandor", "Luz Eterna", "Big Bang Attack", "Aligerar"]
+      },
+      {
+        "name": "Gardevoir (Mega)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10051.png",
+        "types": ["psychic", "fairy"],
+        "hab": "Aura Feérica",
+        "objeto": "Gardevoirita",
+        "movimientos": ["Onda Mental", "Luz Eterna", "Big Bang Attack", "Hipnosis"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Liam",
+      "level": 66,
+      "esDoble": true,
+      "sprite_url": "img/150px-VSIlima_USUM.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Smeargle",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/235.png",
+        "types": ["normal"],
+        "hab": "Bromista",
+        "objeto": "Banda Focus",
+        "movimientos": ["Pulso Oscilante", "Dracoestallido", "Mofa", "Última Palabra"]
+      },
+      {
+        "name": "Cinccino",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/573.png",
+        "types": ["normal", "fairy"],
+        "hab": "Experto",
+        "objeto": "Vidasfera",
+        "movimientos": ["Plumerazo", "Puño Celestial", "Aporrear", "Golpes Furia"]
+      },
+      {
+        "name": "Diggersby",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/660.png",
+        "types": ["normal", "ground"],
+        "hab": "Potencia",
+        "objeto": "Garra Rápida",
+        "movimientos": ["Represalia", "Patada Megatón", "Patada Ígnea", "Última Palabra"]
+      },
+      {
+        "name": "Wigglytuff",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+        "types": ["normal", "fairy"],
+        "hab": "Peluche",
+        "objeto": "Chaleco Asalto",
+        "movimientos": ["Estruendo", "Fuerza Lunar", "Llamarada", "Big Bang Attack"]
+      },
+      {
+        "name": "Purugly",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/432.png",
+        "types": ["normal", "dark"],
+        "hab": "Autoestima",
+        "objeto": "Normastal Z",
+        "movimientos": ["Golpe Oscuro", "Doble Filo", "Danza Espada", "Terremoto"]
+      },
+      {
+        "name": "Kangaskhan (Mega)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10039.png",
+        "types": ["normal"],
+        "hab": "Talento innato",
+        "objeto": "Kangaskhanita",
+        "movimientos": ["Sacudida", "Giro Cruel", "Derribo", "Danza Dragón"]
+      }
+    ]
+  },
+    {
+    "trainer": {
+      "nombre": "Lulú",
+      "level": 67,
+      "sprite_url": "img/150px-VSMallow.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Gogoat",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/673.png",
+        "types": ["grass", "rock"],
+        "hab": "Herbogénesis",
+        "objeto": "Garra Rápida",
+        "movimientos": ["Mazazo", "Embestida", "Roca Afilada", "Última Palabra"]
+      },
+      {
+        "name": "Leavanny",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/542.png",
+        "types": ["bug", "grass"],
+        "hab": "Herbogénesis",
+        "objeto": "Fitostal Z",
+        "movimientos": ["Fogonazo", "Zumbido", "Tierra Viva", "Baile Primaveral"]
+      },
+      {
+        "name": "Sunflora",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/192.png",
+        "types": ["grass", "fire"],
+        "hab": "Sol abrasador",
+        "objeto": "Baya Kouba",
+        "movimientos": ["Danza Llama", "Danza Despertar", "Baile Primaveral", "Tierra Viva"]
+      },
+      {
+        "name": "Tsareena",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/763.png",
+        "types": ["grass", "fighting"],
+        "hab": "Regia presencia",
+        "objeto": "Banda Focus",
+        "movimientos": ["Latigazo", "A Bocajarro", "Carga Maldita", "Baile Primaveral"]
+      },
+      {
+        "name": "Celebi",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/251.png",
+        "types": ["grass", "psychic"],
+        "hab": "Herbogénesis",
+        "objeto": "Vidasfera",
+        "movimientos": ["Fogonazo", "Onda Mental", "Trueno", "Big Bang Attack"]
+      },
+      {
+        "name": "Venusaur (Mega)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10033.png",
+        "types": ["grass", "poison"],
+        "hab": "Manto frondoso",
+        "objeto": "Venusaurita",
+        "movimientos": ["Gigadrenado", "Bomba Lodo", "Tierra Viva", "Arraigo"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Kiawe",
+      "level": 68,
+      "esDoble": true,
+      "sprite_url": "img/150px-VSKiawe.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Camerupt",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/323.png",
+        "types": ["fire", "ground"],
+        "hab": "Sequía",
+        "objeto": "Garra Rápida",
+        "movimientos": ["Fuerza Telúrica", "Onda Ígnea", "Detonación", "Última Palabra"]
+      },
+      {
+        "name": "Emboar",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/500.png",
+        "types": ["fire", "fighting"],
+        "hab": "Impulso Solar",
+        "objeto": "Vidasfera",
+        "movimientos": ["Ira Volcánica", "Sumisión", "Voltio Cruel", "Cuchilla Solar"]
+      },
+      {
+        "name": "Darmanitan",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/555.png",
+        "types": ["fire", "ground"],
+        "hab": "Entusiasmo",
+        "objeto": "Pirostal Z",
+        "movimientos": ["Ira Volcánica", "Embestida", "Testarazo", "Voltio Cruel"]
+      },
+      {
+        "name": "Turtonator",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/776.png",
+        "types": ["fire", "dragon"],
+        "hab": "Fuego rápido",
+        "objeto": "Chaleco Asalto",
+        "movimientos": ["Pirotecnia", "Dracoestallido", "Detonación", "Explosión"]
+      },
+      {
+        "name": "Magmortar",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png",
+        "types": ["fire", "steel"],
+        "hab": "Fuego rápido",
+        "objeto": "Banda Focus",
+        "movimientos": ["Ráfaga Ardiente", "Triple Cañonazo", "Pedrada", "Danza Espada"]
+      },
+      {
+        "name": "Manectric (Mega)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10055.png",
+        "types": ["electric", "fire"],
+        "hab": "Instinto",
+        "objeto": "Manectrizita",
+        "movimientos": ["Vórtice de Fuego", "Fulgor Supremo", "Energibola", "Carantoña"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Chris",
+      "level": 69,
+      "sprite_url": "img/150px-VSSophocles.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Raichu",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+        "types": ["electric"],
+        "hab": "Electrogénesis",
+        "objeto": "Banda Focus",
+        "movimientos": ["Mofa", "Surf", "Energibola", "Voltiocambio"]
+      },
+      {
+        "name": "Electivire",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/466.png",
+        "types": ["electric", "fighting"],
+        "hab": "Voltaje Salvaje",
+        "objeto": "Electrostal Z",
+        "movimientos": ["Juez Eléctrico", "Sumisión", "Latigazo", "Puño Hielo"]
+      },
+      {
+        "name": "Electrode",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
+        "types": ["electric"],
+        "hab": "Piel eléctrica",
+        "objeto": "Vidasfera",
+        "movimientos": ["Hiperrayo", "Explosión", "Energibola", "Última Palabra"]
+      },
+      {
+        "name": "Golem (Alola)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10111.png",
+        "types": ["electric", "rock"],
+        "hab": "Robustez",
+        "objeto": "Seguro Debilidad",
+        "movimientos": ["Carga Parábola", "Joya de Luz", "Energibola", "Rompecoraza"]
+      },
+      {
+        "name": "Stunfisk",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/618.png",
+        "types": ["electric", "ground"],
+        "hab": "Electrogénesis",
+        "objeto": "Baya Acardo",
+        "movimientos": ["Tierra Viva", "Fulgor Supremo", "Hidrobomba", "Última Palabra"]
+      },
+      {
+        "name": "Ampharos (Mega)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10045.png",
+        "types": ["electric", "dragon"],
+        "hab": "Peluche",
+        "objeto": "Ampharosita",
+        "movimientos": ["Pulso Dragón", "Trueno", "Lanzallamas", "Big Bang Attack"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Hela",
+      "level": 73,
+      "esDoble": true,
+      "sprite_url": "img/150px-VSHapu.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Mudsdale",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/750.png",
+        "types": ["ground"],
+        "hab": "Hervíboro",
+        "objeto": "Garra Rápida",
+        "movimientos": ["Patada Megatón", "Roca Afilada", "Mofa", "Última Palabra"]
+      },
+      {
+        "name": "Heliolisk",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/695.png",
+        "types": ["ground", "electric"],
+        "hab": "Sol abrasador",
+        "objeto": "Banda Focus",
+        "movimientos": ["Fulgor Supremo", "Bomba Fango", "Rayo Solar", "Meteorobola"]
+      },
+      {
+        "name": "Marowak",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
+        "types": ["ground", "fighting"],
+        "hab": "Experto",
+        "objeto": "Hueso Grueso",
+        "movimientos": ["Ataque Óseo", "Ultrapuño", "Roca Veloz", "Danza Espada"]
+      },
+      {
+        "name": "Landorus",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/645.png",
+        "types": ["ground", "flying"],
+        "hab": "Piel celeste",
+        "objeto": "Geostal Z",
+        "movimientos": ["Fuerza Telúrica", "Explosión", "Remolino", "Última Palabra"]
+      },
+      {
+        "name": "Steelix",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png",
+        "types": ["steel", "ground"],
+        "hab": "Chorro arena",
+        "objeto": "Baya Pasio",
+        "movimientos": ["Filo del Abismo", "Roca Afilada", "Cola Férrea", "Última Palabra"]
+      },
+      {
+        "name": "Garchomp (Mega)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10058.png",
+        "types": ["dragon", "ground"],
+        "hab": "Garra dura",
+        "objeto": "Garchompita",
+        "movimientos": ["Filo del Abismo", "Martillo Dragón", "Roca Afilada", "Danza Espada"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Gladio",
+      "level": 75,
+      "sprite_url": "img/150px-VSGladion.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Crobat",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png",
+        "types": ["poison", "flying"],
+        "hab": "Vigilante",
+        "objeto": "Banda Focus",
+        "movimientos": ["Vendaval", "Mirada Hipnótica", "Mofa", "Última Palabra"]
+      },
+      {
+        "name": "Zoroark",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/571.png",
+        "types": ["dark"],
+        "hab": "Aura oscura",
+        "objeto": "Nictostal Z",
+        "movimientos": ["Pulso Noche", "Big Bang Attack", "Bomba Lodo", "Última Palabra"]
+      },
+      {
+        "name": "Porygon-Z",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/474.png",
+        "types": ["electric", "psychic"],
+        "hab": "Piel eléctrica",
+        "objeto": "Garra Rápida",
+        "movimientos": ["Explosión", "Onda Mental", "Ventisca", "Energibola"]
+      },
+      {
+        "name": "Silvally",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773.png",
+        "types": ["normal"],
+        "hab": "Adaptable",
+        "objeto": "Pañuelo Seda",
+        "movimientos": ["Veloc. Extrema", "Carga Maldita", "Terremoto", "Danza Espada"]
+      },
+      {
+        "name": "Lycanroc (Crepuscular)",
+        "sprite_url": "https://img.pokemondb.net/sprites/sword-shield/normal/lycanroc-dusk.png",
+        "types": ["rock", "fighting"],
+        "hab": "Audaz",
+        "objeto": "Vidasfera",
+        "movimientos": ["Sumisión", "Testarazo", "Embestida", "Voltio Cruel"]
+      },
+      {
+        "name": "Lucario (Mega)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10059.png",
+        "types": ["fighting", "steel"],
+        "hab": "Versatilidad",
+        "objeto": "Lucarita",
+        "movimientos": ["Sumisión", "Cola Férrea", "Treparrocas", "Danza Espada"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Lario",
+      "level": 100,
+      "sprite_url": "img/150px-VSMolayne_USUM.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Dugtrio (Alola)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10106.png",
+        "types": ["ground", "steel"],
+        "hab": "Entusiasmo",
+        "objeto": "Banda Focus",
+        "movimientos": ["Roca Afilada", "Terremoto", "Mofa", "Última Palabra"]
+      },
+      {
+        "name": "Bronzong",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/437.png",
+        "types": ["steel", "psychic"],
+        "hab": "Llovizna",
+        "objeto": "Chaleco Asalto",
+        "movimientos": ["Onda Mental", "Foco Resplandor", "Big Bang Attack", "Tierra Viva"]
+      },
+      {
+        "name": "Magnezone",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png",
+        "types": ["electric", "steel"],
+        "hab": "Levitación",
+        "objeto": "Garra Rápida",
+        "movimientos": ["Trueno", "Foco Resplandor", "Meteorobola", "Brillo Mágico"]
+      },
+      {
+        "name": "Genesect",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/649.png",
+        "types": ["bug", "steel"],
+        "hab": "Cromolente",
+        "objeto": "Metalostal Z",
+        "movimientos": ["Escaramuza", "Triple Cañonazo", "Estocada Letal", "Danza Espada"]
+      },
+      {
+        "name": "Klinklang",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/601.png",
+        "types": ["steel"],
+        "hab": "Experto",
+        "objeto": "Baya Pomaro",
+        "movimientos": ["Rueda Doble", "Taladradora", "Roca Afilada", "Cambio de Marcha"]
+      },
+      {
+        "name": "Blastoise (Mega)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10036.png",
+        "types": ["water", "steel"],
+        "hab": "Fuego rápido",
+        "objeto": "Blastoisita",
+        "movimientos": ["Azote Torrencial", "Pedrada", "Triple Cañonazo", "Danza Espada"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Mayla",
+      "level": 100,
+      "sprite_url": "img/150px-VSOlivia_2_USUM.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Lycanroc (Nocturno)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10126.png",
+        "types": ["rock", "dark"],
+        "hab": "Despiadado",
+        "objeto": "Banda Focus",
+        "movimientos": ["Roca Afilada", "Persecución", "Mofa", "Última Palabra"]
+      },
+      {
+        "name": "Cradily",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/346.png",
+        "types": ["rock", "poison"],
+        "hab": "Chorro arena",
+        "objeto": "Globo Helio",
+        "movimientos": ["Última Palabra", "Lluvia Mineral", "Onda Tóxica", "Energibola"]
+      },
+      {
+        "name": "Onix",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+        "types": ["rock", "ground"],
+        "hab": "Ímpetu arena",
+        "objeto": "Mineral Evol",
+        "movimientos": ["Filo del Abismo", "Roca Afilada", "Tierra Curativa", "Última Palabra"]
+      },
+      {
+        "name": "Armaldo",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/348.png",
+        "types": ["rock", "bug"],
+        "hab": "Despiadado",
+        "objeto": "Baya Pasio",
+        "movimientos": ["Escaramuza", "Roca Afilada", "Martillazo", "Última Palabra"]
+      },
+      {
+        "name": "Lycanroc (Diurno)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/745.png",
+        "types": ["rock", "normal"],
+        "hab": "Entusiasmo",
+        "objeto": "Lycanrostal Z",
+        "movimientos": ["Roca Afilada", "Represalia", "Última Palabra", "Derribo"]
+      },
+      {
+        "name": "Diancie (Mega)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10075.png",
+        "types": ["rock", "fairy"],
+        "hab": "Dicha",
+        "objeto": "Diancita",
+        "movimientos": ["Luz Eterna", "Joya de Luz", "Big Bang Attack", "Tierra Viva"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Zarala",
+      "level": 100,
+      "sprite_url": "img/150px-VSAcerola.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Banette",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/354.png",
+        "types": ["ghost", "normal"],
+        "hab": "Bromista",
+        "objeto": "Banda Focus",
+        "movimientos": ["Robasombra", "Fuego Fatuo", "Mofa", "Última Palabra"]
+      },
+      {
+        "name": "Marshadow",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/802.png",
+        "types": ["ghost", "fighting"],
+        "hab": "Instinto",
+        "objeto": "Marshastal Z",
+        "movimientos": ["Marcha Infernal", "Big Bang Attack", "Robasombra", "Última Palabra"]
+      },
+      {
+        "name": "Drifblim",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/426.png",
+        "types": ["ghost", "flying"],
+        "hab": "Liviano",
+        "objeto": "Garra Rápida",
+        "movimientos": ["Maquinación", "Marcha Infernal", "Vendaval", "Big Bang Attack"]
+      },
+      {
+        "name": "Golurk",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/623.png",
+        "types": ["ghost", "ground"],
+        "hab": "Escudo energía",
+        "objeto": "Seguro Debilidad",
+        "movimientos": ["Filo del Abismo", "Robasombra", "Roca Afilada", "Pulimento"]
+      },
+      {
+        "name": "Dhelmise",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/781.png",
+        "types": ["ghost", "grass"],
+        "hab": "Tempestad",
+        "objeto": "Chaleco Asalto",
+        "movimientos": ["Sombra Vil", "Envite Acuático", "Latigazo", "Anclaje"]
+      },
+      {
+        "name": "Gengar (Mega)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10038.png",
+        "types": ["ghost", "poison"],
+        "hab": "Sombra trampa",
+        "objeto": "Gengarita",
+        "movimientos": ["Marcha Infernal", "Big Bang Attack", "Onda Tóxica", "Hipnosis"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Kahili",
+      "level": 100,
+      "sprite_url": "img/150px-VSKahili_USUM.png"
+    },
+    "display_type": "single",
+    "pokemon_team": [
+      {
+        "name": "Oricorio (Rojo)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/741.png",
+        "types": ["flying", "fire"],
+        "hab": "Liviano",
+        "objeto": "Garra Rápida",
+        "movimientos": ["Danza Llama", "Aerochorro", "Maquinación", "Canto"]
+      },
+      {
+        "name": "Articuno",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
+        "types": ["flying", "ice"],
+        "hab": "Brisa protectora",
+        "objeto": "Aerostal Z",
+        "movimientos": ["Ventisca", "Remolino", "Vendaval", "Canto"]
+      },
+      {
+        "name": "Braviary",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/628.png",
+        "types": ["flying", "fighting"],
+        "hab": "Potencia bruta",
+        "objeto": "Vidasfera",
+        "movimientos": ["Derribo", "Pájaro Osado", "Avalancha", "Última Palabra"]
+      },
+      {
+        "name": "Fearow (Alola)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+        "types": ["flying", "electric"],
+        "hab": "Audaz",
+        "objeto": "Baya Alcho",
+        "movimientos": ["Juez Eléctrico", "Pájaro Osado", "Sumisión", "Última Palabra"]
+      },
+      {
+        "name": "Toucannon",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/733.png",
+        "types": ["flying", "normal"],
+        "hab": "Fuego rápido",
+        "objeto": "Banda Focus",
+        "movimientos": ["Cañon Huevo", "Picoteo Furioso", "Aporrear", "Danza Espada"]
+      },
+      {
+        "name": "Pidgeot (Mega)",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10073.png",
+        "types": ["flying", "normal"],
+        "hab": "Brisa protectora",
+        "objeto": "Pidgeotita",
+        "movimientos": ["Vozarrón", "Vendaval", "Canto", "Big Bang Attack"]
+      }
+    ]
+  },
+  {
+    "trainer": {
+      "nombre": "Tilo - El Tocahuevos final (Última etapa evolutiva)",
+      "level": 100,
+      "esDoble": true,
+      "sprite_url": "img/150px-VSHau.png"
+    },
+    "display_type": "multi-team",
+    "teams": [
+      {
+        "name": "Planta",
+        "pokemons": [
+          {
+            "name": "Raichu (Alola)",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10100.png",
+            "types": ["electric", "psychic"],
+            "hab": "Psicogénesis",
+            "objeto": "alo-raistal Z",
+            "movimientos": ["Fulgor supremo", "Onda mental", "Bing bang attack", "Hipnosis"]
+          },
+          {
+            "name": "Medicham (Mega)",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10054.png",
+            "types": ["psychic", "fighting"],
+            "hab": "Energía pura",
+            "objeto": "Medichamita",
+            "movimientos": ["Grieta psíquica", "A bocajarro", "Roca afilada", "Carga maldita"]
+          },
+          {
+            "name": "Ambipom",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png",
+            "types": ["normal"],
+            "hab": "Experto",
+            "objeto": "Cinta experto",
+            "movimientos": ["Plumerazo", "Aporrear", "Golpes furia", "Barrido de mente"]
+          },
+          {
+            "name": "Noivern",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/715.png",
+            "types": ["flying", "dragon"],
+            "hab": "Piel celeste",
+            "objeto": "Vidaesfera",
+            "movimientos": ["Estruendo", "Oleada dracónica", "Protección", "Grito de guerra"]
+          },
+          {
+            "name": "Simisear",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/514.png",
+            "types": ["fire"],
+            "hab": "Instinto",
+            "objeto": "Banda focus",
+            "movimientos": ["Estallido", "Bing Bang Attack", "Protección", "Puño Trueno"]
+          },
+          {
+            "name": "Primarina",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/730.png",
+            "types": ["water", "fairy"],
+            "hab": "Piel feérica",
+            "objeto": "Garra rápida",
+            "movimientos": ["Ventisca", "Estruendo", "Torbellino", "Canto"]
+          }
+        ]
+      },
+      {
+        "name": "Fuego",
+        "pokemons": [
+          {
+            "name": "Raichu (Alola)",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10100.png",
+            "types": ["electric", "psychic"],
+            "hab": "Psicogénesis",
+            "objeto": "alo-raistal Z",
+            "movimientos": ["Fulgor supremo", "Onda mental", "Bing bang attack", "Hipnosis"]
+          },
+          {
+            "name": "Medicham (Mega)",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10054.png",
+            "types": ["psychic", "fighting"],
+            "hab": "Energía pura",
+            "objeto": "Medichamita",
+            "movimientos": ["Grieta psíquica", "A bocajarro", "Roca afilada", "Carga maldita"]
+          },
+          {
+            "name": "Ambipom",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png",
+            "types": ["normal"],
+            "hab": "Experto",
+            "objeto": "Cinta experto",
+            "movimientos": ["Plumerazo", "Aporrear", "Golpes furia", "Barrido de mente"]
+          },
+          {
+            "name": "Noivern",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/715.png",
+            "types": ["flying", "dragon"],
+            "hab": "Piel celeste",
+            "objeto": "Vidaesfera",
+            "movimientos": ["Estruendo", "Oleada dracónica", "Protección", "Grito de guerra"]
+          },
+          {
+            "name": "Simipour",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/516.png",
+            "types": ["water"],
+            "hab": "Instinto",
+            "objeto": "Banda focus",
+            "movimientos": ["Salpicar", "Bing Bang Attack", "Puño Hielo", "Protección"]
+          },
+          {
+            "name": "Decidueye",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/724.png",
+            "types": ["grass", "ghost"],
+            "hab": "Cromolente",
+            "objeto": "Garra rápida",
+            "movimientos": ["Fogonazo", "Bola Sombra", "Mismo destino", "Silbato"]
+          }
+        ]
+      },
+      {
+        "name": "Agua",
+        "pokemons": [
+          {
+            "name": "Raichu (Alola)",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10100.png",
+            "types": ["electric", "psychic"],
+            "hab": "Psicogénesis",
+            "objeto": "alo-raistal Z",
+            "movimientos": ["Fulgor supremo", "Onda mental", "Bing bang attack", "Hipnosis"]
+          },
+          {
+            "name": "Medicham (Mega)",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10054.png",
+            "types": ["psychic", "fighting"],
+            "hab": "Energía pura",
+            "objeto": "Medichamita",
+            "movimientos": ["Grieta psíquica", "A bocajarro", "Roca afilada", "Carga maldita"]
+          },
+          {
+            "name": "Ambipom",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png",
+            "types": ["normal"],
+            "hab": "Experto",
+            "objeto": "Cinta experto",
+            "movimientos": ["Plumerazo", "Aporrear", "Golpes furia", "Barrido de mente"]
+          },
+          {
+            "name": "Noivern",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/715.png",
+            "types": ["flying", "dragon"],
+            "hab": "Piel celeste",
+            "objeto": "Vidaesfera",
+            "movimientos": ["Estruendo", "Oleada dracónica", "Protección", "Grito de guerra"]
+          },
+          {
+            "name": "Simisage",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/512.png",
+            "types": ["grass"],
+            "hab": "Instinto",
+            "objeto": "Banda focus",
+            "movimientos": ["Fogonazo", "A bocajarro", "Protección", "Silbato"]
+          },
+          {
+            "name": "Incineroar",
+            "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/727.png",
+            "types": ["fire"],
+            "hab": "Intimidación",
+            "objeto": "Garra rápida",
+            "movimientos": ["Ira volcánica", "Giro cruel", "última palabra", "Patada megatón"]
+          }
+        ]
+      }
+    ]
+  }
+]

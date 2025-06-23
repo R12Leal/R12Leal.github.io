@@ -1,0 +1,620 @@
+/* Variables CSS para una gestión de colores y sombras más sencilla */
+:root {
+    --primary-color: #CC0000; /* Rojo principal de Pokémon */
+    --secondary-color: #222222; /* Amarillo clásico de Pokémon (puedes cambiarlo si no es correcto) */
+    --text-dark: #2c3e50; /* Un gris oscuro para texto principal */
+    --text-medium: #7f8c8d; /* Un gris medio para texto secundario */
+    --bg-light: #f8f8f8; /* Fondo general claro */
+    --card-bg: #ffffff; /* Fondo de las tarjetas y contenedores principales */
+    --border-light: #e0e0e0; /* Color de bordes sutiles */
+    --shadow-subtle: rgba(0, 0, 0, 0.08); /* Sombra general sutil */
+    --shadow-card: rgba(0, 0, 0, 0.05); /* Sombra más ligera para tarjetas */
+    --tab-bg: #f0f0f0; /* Fondo de las pestañas inactivas */
+    --tab-active-bg: var(--primary-color); /* Fondo de la pestaña activa */
+    --tab-active-text: #ffffff; /* Texto de la pestaña activa */
+    /* Nuevas variables para la nota roja */
+    --note-bg-color: #fff0f0; /* Un rojo muy claro, casi blanco-rosado */
+    --note-border-color: #dc3545; /* Rojo de Bootstrap danger */
+    --note-text-color: #6c0000; /* Rojo oscuro para el texto */
+    --note-strong-color: #dc3545; /* Rojo brillante para la exclamación */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-color: var(--bg-light);
+    margin: 0;
+    padding: 30px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.content-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* Espacio entre el nuevo contenedor y los entrenadores */
+}
+
+/* Contenedor del buscador (AJUSTES) */
+.search-bar-container {
+    width: 100%; /* Ocupará el ancho disponible dentro del flexbox */
+    /* ELIMINA padding y justify-content si ya lo gestiona el padre */
+    padding: 0; /* Bootstrap ya maneja el padding del input */
+    border-radius: 16px;
+    box-sizing: border-box;
+    position: relative;
+    /* max-width: 600px;  Ahora lo gestionará Bootstrap flex-grow-1 */
+    margin: 0; /* Elimina márgenes automáticos aquí, el padre gestiona el espaciado */
+}
+
+#searchInput {
+    width: 100%; /* Ocupa el 100% de su contenedor */
+    padding: 12px 20px;
+    border: 2px solid var(--border-light);
+    border-radius: 10px;
+    font-size: 1.1rem;
+    color: var(--text-dark);
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#searchInput::placeholder {
+    color: var(--text-medium);
+}
+
+#searchInput:focus {
+    border-color: #CC0000; /* Color del borde al hacer foco */
+    box-shadow: 0 0 0 0.25rem rgba(204, 0, 0, 0.25); /* Color de la sombra de enfoque */
+}
+
+/* Mensaje de "No resultados" */
+.no-results {
+    text-align: center;
+    color: var(--text-medium);
+    font-size: 1.2rem;
+    padding: 50px 0;
+}
+
+.clear-search-button {
+    position: absolute;
+    right: 15px; /* Ajustado ligeramente para un mejor espaciado */
+    top: 50%; /* Centrado verticalmente */
+    transform: translateY(-50%);
+    font-size: 2rem; /* Ligeramente más grande para visibilidad */
+    color: #CC0000; /* Rojo Pokémon para el icono principal */
+    cursor: pointer;
+    user-select: none;
+    display: none; /* Se mantiene oculto por defecto */
+    transition: color 0.2s ease, transform 0.1s ease; /* Añadida transición para el transform */
+    line-height: 1;
+    margin-left: 0;
+
+    /* Estilos adicionales para un toque Pokémon */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Sombra de texto sutil */
+}
+
+.clear-search-button:hover {
+    color: #A60000; /* Rojo más oscuro al pasar el ratón */
+    transform: translateY(-50%) scale(1.1); /* Ligero aumento de tamaño al hacer hover */
+}
+
+.clear-search-button:active {
+    color: #FFCB05; /* Amarillo brillante al hacer clic (simulando brillo de Poké Ball) */
+    transform: translateY(-50%) scale(0.9); /* Ligero encogimiento al hacer clic */
+}
+
+/* Contenedor principal que contendrá todas las tarjetas de entrenadores */
+#allTrainersContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.main-page-container {
+    width: 100%;
+    background-color: var(--card-bg);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+h2, h3 {
+    color: var(--primary-color);
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+h2 { font-size: 2.2rem; }
+h3 { font-size: 1.8rem; }
+
+/* Bloque de Información del Entrenador */
+.trainer-info-block {
+    flex-shrink: 0;
+    width: 100%;
+    background-color: var(--bg-light);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    border: 1px solid var(--border-light);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.trainer-sprite {
+    display: block;
+    background-color: var(--bg-light);
+}
+
+.trainer-info-block .trainer-details {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.trainer-info-block .trainer-details p {
+    margin: 4px 0;
+    color: var(--text-dark);
+    font-size: 1.05rem;
+    line-height: 1.3;
+}
+
+.trainer-info-block .trainer-details strong {
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+/* Sección del Equipo Pokémon */
+.pokemon-team-section {
+    flex-grow: 1;
+    min-width: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos de la cuadrícula de Pokémon */
+.pokemon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 25px;
+    margin-top: 0px;
+    justify-content: center;
+    flex-grow: 1;
+    align-items: stretch;
+}
+
+/* Estilos para la interfaz de pestañas */
+.tabs-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--border-light);
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: var(--card-bg);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.tabs-nav {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border-bottom: 1px solid var(--border-light);
+    background-color: var(--tab-bg);
+    padding: 10px 15px 0 15px;
+    gap: 5px;
+}
+
+.tabs-nav button {
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid transparent;
+    padding: 10px 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-medium);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    white-space: nowrap;
+}
+
+.tabs-nav button:hover {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.tabs-nav button.active {
+    color: var(--tab-active-text);
+    background-color: var(--primary-color);
+    border-radius: 8px 8px 0 0;
+    border-color: var(--primary-color);
+    padding: 10px 20px;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 1;
+}
+
+.tabs-content {
+    padding: 25px;
+    flex-grow: 1;
+}
+
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+/* Estilos de las tarjetas de Pokémon individuales */
+.pokemon-card {
+    background-color: var(--bg-light);
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    border: 1px solid var(--border-light);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.pokemon-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.pokemon-card .main-info {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.pokemon-card .main-info img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 15px auto;
+    display: block;
+    image-rendering: pixelated;
+}
+
+.pokemon-card .main-info .pokemon-name {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin: 0;
+    line-height: 1.2;
+}
+
+.pokemon-types {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.pokemon-types img {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.pokemon-card .divider {
+    width: 100%;
+    height: 1px;
+    background-color: var(--border-light);
+    margin: 15px 0;
+}
+
+.pokemon-card .info-group {
+    flex-grow: 1;
+    width: 100%;
+    text-align: left;
+}
+
+.pokemon-card .info-group p {
+    margin: 4px 0;
+    font-size: 1rem;
+    color: var(--text-dark);
+}
+
+.pokemon-card .info-group strong {
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-right: 5px;
+}
+
+.pokemon-moves {
+    width: 100%;
+    text-align: left;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: var(--text-medium);
+}
+
+.pokemon-moves strong {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+.pokemon-moves ul {
+    list-style: disc;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.pokemon-moves li {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    font-size: 0.9rem;
+    color: var(--text-dark);
+    white-space: normal;
+    word-break: break-word;
+    line-height: 1.3;
+}
+
+/* --- Responsive Design --- */
+
+@media (min-width: 993px) {
+    .pokemon-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        padding: 20px;
+    }
+    .main-page-container {
+        padding: 30px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .trainer-info-block {
+        flex-basis: auto;
+        width: 100%;
+    }
+    h2 { font-size: 2rem; }
+    h3 { font-size: 1.7rem; }
+    .pokemon-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .pokemon-card {
+        padding: 22px;
+    }
+    .pokemon-card .main-info img {
+        width: 110px;
+        height: 110px;
+        margin: 0 auto 12px auto;
+    }
+    .pokemon-card .main-info .pokemon-name {
+        font-size: 1.2rem;
+    }
+    .pokemon-types img {
+        width: 28px;
+        height: 28px;
+    }
+    .trainer-sprite {
+        width: 120px;
+    }
+    .pokemon-card .info-group p {
+        font-size: 0.95rem;
+    }
+    .pokemon-moves li {
+        font-size: 0.88rem;
+    }
+    .search-bar-container { /* Ajustes para el buscador en tablets */
+        /* padding-left: 15px; */ /* Eliminado, ya no es necesario aquí */
+        /* padding-right: 15px; */ /* Eliminado */
+    }
+    #searchInput {
+        padding: 10px 15px;
+    }
+    .clear-search-button {
+        right: 20px;
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+    #allTrainersContainer {
+        gap: 30px;
+    }
+    .main-page-container {
+        padding: 20px;
+        border-radius: 12px;
+        gap: 20px;
+    }
+    .trainer-info-block {
+        padding: 20px;
+    }
+    .pokemon-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-top: 15px;
+    }
+    .pokemon-card {
+        padding: 20px;
+    }
+    .pokemon-card .main-info img {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto 10px auto;
+    }
+    .pokemon-card .main-info .pokemon-name {
+        font-size: 1.1rem;
+    }
+    .pokemon-types img {
+        width: 26px;
+        height: 26px;
+    }
+    .pokemon-card .divider {
+        margin: 12px 0;
+    }
+    .pokemon-card .info-group p {
+        font-size: 0.9rem;
+    }
+    .pokemon-moves {
+        font-size: 0.85rem;
+    }
+    .pokemon-moves ul {
+        padding-left: 15px;
+    }
+    .pokemon-moves li {
+        font-size: 0.8rem;
+    }
+    .trainer-sprite {
+        width: 90px;
+    }
+    .search-bar-container {
+        padding-left: 10px; 
+        padding-right: 10px;
+        
+    }
+    #searchInput {
+        padding: 8px 12px;
+        font-size: 1rem;
+    }
+    .clear-search-button {
+        right: 20px;
+        font-size: 1.4rem;
+    }
+}
+
+/* ESTILOS DE LA NOTA - MODIFICADOS PARA COMPATIBILIDAD FLEX */
+.note-style {
+    background-color: var(--note-bg-color);
+    border: 1px solid var(--note-border-color);
+    border-left: 5px solid var(--note-border-color);
+    padding: 1rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transform: rotate(1deg);
+    /* Eliminar márgenes automáticos, el padre flex los gestiona */
+    margin: 0; /* Eliminar margin: 20px auto; */
+    max-width: 300px; /* Mantener un ancho máximo para la nota */
+    width: 100%; /* Asegura que ocupe todo el ancho disponible hasta el max-width */
+    color: var(--note-text-color);
+    font-size: 0.95rem;
+    line-height: 1.4;
+    box-sizing: border-box; /* Asegurar que el padding se incluya en el width */
+}
+
+.note-style strong {
+    color: var(--note-strong-color);
+    font-weight: 700;
+}
+
+.note-style p.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.lista-con-iconos {
+    list-style-type: none; /* Esto elimina la viñeta predeterminada */
+    padding: 0;          /* Elimina el padding por defecto del navegador */
+    margin: 20px 0;      /* Añade un poco de margen para la lista */
+}
+
+.lista-con-iconos li {
+    position: relative; /* Importante para posicionar el icono */
+    padding-left: 30px; /* Deja espacio para el icono a la izquierda del texto */
+    margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+}
+
+.lista-con-iconos li::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900; 
+    content: "\f101"; /* Rayo */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--primary-color); /* Un color amarillo/dorado para el rayo */
+    font-size: 1.2em;
+}
+
+.lvl-cap-tag {
+  background: var(--primary-color);
+  color: #f0f0f0;             /* Color de texto oscuro */
+  padding: 3px 8px;        /* Relleno alrededor del texto */
+  border-radius: 4px;      /* Bordes ligeramente redondeados */
+  font-size: 0.85em;       /* Un poco más pequeño que el texto circundante */
+  font-weight: bold;       /* Texto en negrita */
+  text-transform: uppercase; /* Opcional: texto en mayúsculas */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Sutil sombra para que resalte */
+  display: inline-block;   /* Asegura que padding y margin funcionen bien */
+  margin-left: 8px;        /* Espacio a la izquierda del texto anterior */
+}
+
+.trainer-double-badge {
+    background-color: #cc0000; /* Rojo principal */
+    color: #fff; /* Texto blanco */
+    padding: 0.3em 0.6em;
+    border-radius: 1em; /* Bordes redondeados */
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-left: 8px;
+    vertical-align: middle;
+    white-space: nowrap;
+    border: 2px solid #a30000; /* Borde rojo más oscuro */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    position: relative;
+    overflow: hidden;
+    text-transform: lowercase;
+    font-weight: 700;
+}
+
+/* Pseudo-elemento para simular una pequeña cinta en la parte superior */
+.trainer-double-badge::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 5px;
+    width: 50%;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.3); /* Color más claro para la cinta */
+    border-radius: 5px 5px 0 0;
+    transform: rotate(-15deg);
+}

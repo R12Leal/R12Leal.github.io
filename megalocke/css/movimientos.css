@@ -1,0 +1,306 @@
+/* movimientos.css - Estilos MEJORADOS con diseño de tabla más tradicional */
+
+:root {
+    /* Colores generales y variables de diseño */
+    --primary-color: #CC0000;
+    --secondary-color: #FFCB05;
+    --background-light: #f4f7f9;
+    --text-color-dark: #212121;
+    --text-color-light: #ffffff;
+    --table-container-bg: #ffffff; /* Este color ahora se usará para el fondo de la tabla */
+    --row-bg: #ffffff;
+    --row-hover-bg: #f5f5f5; /* Un gris muy claro para el hover */
+
+    /* Variables para las filas de la tabla */
+    --row-border-radius: 4px; /* Reducimos el radio para un look más clásico */
+    --row-base-shadow: none; /* Quitamos la sombra base */
+    --row-hover-shadow: none; /* Quitamos la sombra en hover */
+
+    /* Paleta de colores por tipo de Pokémon (para cabeceras de tabla) */
+    --normal-bg: #A8A77A;
+    --fire-bg: #EE8130;
+    --water-bg: #6390F0;
+    --electric-bg: #F7D02C;
+    --grass-bg: #7AC74C;
+    --ice-bg: #96D9D6;
+    --fighting-bg: #C22E28;
+    --poison-bg: #A33EA1;
+    --ground-bg: #E2BF65;
+    --flying-bg: #A98FF3;
+    --psychic-bg: #F95587;
+    --bug-bg: #A6B91A;
+    --rock-bg: #B6A136;
+    --ghost-bg: #735797;
+    --dragon-bg: #6F35FC;
+    --dark-bg: #705746;
+    --steel-bg: #B7B7CE;
+    --fairy-bg: #D685AD;
+
+    /* Variables para las pestañas (sin cambios) */
+    --tab-bg: #333;
+    --tab-text-color: #f8f9fa;
+    --tab-active-bg: var(--primary-color);
+    --tab-active-text-color: #ffffff;
+    --tab-hover-bg: #555;
+    --tab-border-radius: 8px;
+    --tab-link-border-radius: 6px;
+    --tab-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* --- ESTILOS GENERALES Y LAYOUT --- */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* --- ESTILOS DE LA BARRA DE PESTAÑAS (AJUSTE DE MARGEN) --- */
+.nav-tabs {
+    border-bottom: none; background-color: var(--tab-bg); border-radius: var(--tab-border-radius);
+    padding: 8px; box-shadow: var(--tab-box-shadow); display: flex; flex-wrap: wrap;
+    justify-content: center; margin-bottom: 20px; /* Reducido a 20px */ gap: 5px;
+}
+.nav-tabs .nav-link {
+    color: var(--tab-text-color); border: none; border-radius: var(--tab-link-border-radius);
+    padding: 12px 18px; transition: all 0.3s ease;
+    display: flex; justify-content: center; align-items: center;
+    height: 60px; min-width: 65px; 
+}
+.nav-tabs .nav-link:hover:not(.active) {
+    background-color: var(--tab-hover-bg);
+}
+.nav-tabs .nav-link.active {
+    background-color: var(--tab-active-bg); color: var(--tab-active-text-color);
+    font-weight: 700; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    border-bottom: 3px solid var(--secondary-color);
+    border-radius: var(--tab-link-border-radius) var(--tab-link-border-radius) 0 0;
+}
+.tab-type-icon {
+    width: 38px; height: 38px; object-fit: contain;
+    filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.4));
+}
+
+/* --- ESTILOS MEJORADOS PARA LA TABLA DE MOVIMIENTOS --- */
+
+.table-container {
+    background-color: var(--table-container-bg);
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    margin-top: 0 !important;
+}
+
+.moves-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.moves-table thead th {
+    color: var(--primary-color);
+    font-weight: bold;
+    border: none;
+    font-size: 0.9em;
+    padding: 12px 20px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* Coloreado dinámico de cabeceras por tipo */
+.table-header-type.type-normal { background-color: var(--normal-bg); }
+.table-header-type.type-fire { background-color: var(--fire-bg); }
+.table-header-type.type-water { background-color: var(--water-bg); }
+.table-header-type.type-electric { background-color: var(--electric-bg); }
+.table-header-type.type-grass { background-color: var(--grass-bg); }
+.table-header-type.type-ice { background-color: var(--ice-bg); }
+.table-header-type.type-fighting { background-color: var(--fighting-bg); }
+.table-header-type.type-poison { background-color: var(--poison-bg); }
+.table-header-type.type-ground { background-color: var(--ground-bg); }
+.table-header-type.type-flying { background-color: var(--flying-bg); }
+.table-header-type.type-psychic { background-color: var(--psychic-bg); }
+.table-header-type.type-bug { background-color: var(--bug-bg); }
+.table-header-type.type-rock { background-color: var(--rock-bg); }
+.table-header-type.type-ghost { background-color: var(--ghost-bg); }
+.table-header-type.type-dragon { background-color: var(--dragon-bg); }
+.table-header-type.type-dark { background-color: var(--dark-bg); }
+.table-header-type.type-steel { background-color: var(--steel-bg); }
+.table-header-type.type-fairy { background-color: var(--fairy-bg); }
+
+/* --- Diseño de Fila de Tabla Clásico --- */
+.moves-table tbody tr {
+    background-color: var(--row-bg);
+    box-shadow: none;
+    border-radius: 0;
+    transition: background-color 0.2s ease;
+    border-bottom: 1px solid #eee;
+}
+
+.moves-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.moves-table tbody tr:hover {
+    transform: none;
+    box-shadow: none;
+    background-color: var(--row-hover-bg);
+}
+
+.moves-table tbody td {
+    padding: 15px 20px;
+    border: none;
+    color: var(--text-color-dark);
+    vertical-align: middle;
+    text-align: left;
+}
+
+/* Quitamos border-radius de la primera y última celda en PC */
+.moves-table tbody td:first-child,
+.moves-table tbody td:last-child,
+.moves-table thead th:first-child,
+.moves-table thead th:last-child {
+    border-radius: 0; 
+}
+
+.move-name {
+    font-weight: 600;
+    font-size: 1em;
+    text-transform: capitalize;
+}
+
+.move-description {
+    font-size: 0.85em;
+    line-height: 1.5;
+    color: #666;
+}
+
+.category-icon-table {
+    width: 45px;
+    height: 24px;
+    object-fit: contain;
+}
+
+/* Alineación de texto y elementos específicos */
+.moves-table th.text-center,
+.moves-table td.text-center {
+    text-align: center;
+}
+
+/* --- Media Queries para Responsividad (adaptado al nuevo diseño) --- */
+@media (max-width: 992px) {
+    .moves-table thead {
+        display: none; /* Oculta la cabecera en pantallas pequeñas */
+    }
+    .moves-table tbody, .moves-table tr, .moves-table td {
+        display: block;
+        width: 100%;
+        border-radius: 0;
+    }
+    .moves-table tbody tr {
+        margin-bottom: 15px; /* Espacio entre tarjetas en móvil */
+        border-radius: var(--row-border-radius); /* Mantenemos el radio para el look de tarjeta en móvil */
+        overflow: hidden;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra sutil para las tarjetas en móvil */
+        border-bottom: none; /* Eliminamos el borde inferior en móvil ya que cada TR es una tarjeta */
+    }
+    .moves-table tbody td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+        border-bottom: 1px solid #eee; /* Mantenemos el borde entre celdas en móvil */
+        min-height: 40px; /* Asegura un mínimo de altura para las celdas */
+        display: flex; /* Usamos flexbox para alinear etiqueta y contenido */
+        align-items: center; /* Centrar verticalmente */
+        justify-content: flex-end; /* Alinear el contenido a la derecha por defecto */
+    }
+    .moves-table tbody tr td:last-child {
+        border-bottom: none;
+    }
+    .moves-table tbody td:before {
+        content: attr(data-label);
+        position: absolute;
+        left: 20px;
+        width: calc(50% - 30px);
+        text-align: left; /* Alineamos la etiqueta a la izquierda */
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        color: var(--primary-color);
+        white-space: nowrap; /* Evita que la etiqueta se rompa */
+        overflow: hidden;
+        text-overflow: ellipsis; /* Añade puntos suspensivos si la etiqueta es muy larga */
+    }
+    
+    /* Ajustes específicos para la descripción del movimiento en móvil */
+    .moves-table td[data-label="Descripción"] {
+        text-align: left !important; /* Alinea el texto de la descripción a la izquierda */
+        justify-content: flex-start; /* Alinea el contenido a la izquierda */
+        padding-right: 20px; /* Asegura padding adecuado a la derecha */
+        padding-left: 20px; /* Ya no necesita padding-left: 50% */
+    }
+    .moves-table td[data-label="Descripción"]:before {
+        display: none; /* Oculta la etiqueta "Descripción" para que el texto ocupe todo el ancho */
+    }
+
+    /* Ajustes específicos para la categoría en móvil */
+    .moves-table td[data-label="Categoría"] {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end; /* Alinear el icono a la derecha */
+    }
+    .moves-table .category-icon-table {
+      float: none; /* Eliminar el float si se usa flexbox */
+      margin-left: auto; /* Empujar el icono a la derecha */
+    }
+
+    .moves-table td.text-center { text-align: right !important; }
+    .moves-table td.text-center.move-description { text-align: left !important; } /* Sobrescribe para descripción */
+
+}
+
+.search-wrapper {
+    position: relative;
+}
+
+#moveSearchInput {
+    padding-right: 2.5rem; /* Espacio para la X */
+}
+
+.search-clear-btn {
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    /* Color de resaltado, si es un color específico, por ejemplo, '#ffc107' para amarillo */
+    color: #CC0000; /* Bootstrap 'warning' color */
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1;
+    display: none; /* Oculto por defecto */
+}
+
+.search-clear-btn.visible {
+    display: block; /* Visible cuando hay texto */
+}
+
+/* Hide tabs when search is active */
+.tabs-hidden #pokemonTabs,
+.tabs-hidden #pokemonTabContent {
+    display: none !important;
+}
+
+.search-results-table {
+    display: none; /* Hidden by default */
+}
+
+.search-results-table.visible {
+    display: block; /* Visible when there are search results */
+}
+
+#moveSearchInput:focus {
+    border-color: #CC0000; /* Color del borde al hacer foco */
+    box-shadow: 0 0 0 0.25rem rgba(204, 0, 0, 0.25); /* Color de la sombra de enfoque */
+}
