@@ -1652,7 +1652,7 @@
         "types": ["fighting", "dark"],
         "hab": "Entusiasmo",
         "objeto": "Nictostal Z",
-        "movimientos": ["Rugido", "Ultrapuño", "Puño Bala", "Espabila"]
+        "movimientos": ["Rugido", "Ultrapuño", "Puño Bala", "Golpe Oscuro"]
       },
       {
         "name": "Absol (Mega)",
