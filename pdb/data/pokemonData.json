@@ -10,11 +10,11 @@
       {"name": "Defensa", "value": 50},
       {"name": "At. Esp.", "value": 65},
       {"name": "Def. Esp.", "value": 65},
-      {"name": "Velocidad", "value": 45}
+      {"name": "Speed", "value": 45}
     ],
     "generation": 1,
     "nuevaForma": false,
-    "evolution": "Evoluciona a Ivysaur al nivel 16"
+    "evolution": "Evolución: nivel 16"
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
       {"name": "Defensa", "value": 75},
       {"name": "At. Esp.", "value": 85},
       {"name": "Def. Esp.", "value": 85},
-      {"name": "Velocidad", "value": 60}
+      {"name": "Speed", "value": 60}
     ],
     "generation": 1,
     "nuevaForma": false
@@ -43,7 +43,7 @@
       {"name": "Defensa", "value": 85},
       {"name": "At. Esp.", "value": 100},
       {"name": "Def. Esp.", "value": 100},
-      {"name": "Velocidad", "value": 65}
+      {"name": "Speed", "value": 65}
     ],
     "generation": 1,
     "nuevaForma": false
@@ -59,7 +59,7 @@
       {"name": "Defensa", "value": 123},
       {"name": "At. Esp.", "value": 124},
       {"name": "Def. Esp.", "value": 123},
-      {"name": "Velocidad", "value": 60}
+      {"name": "Speed", "value": 60}
     ],
     "generation": 1,
     "nuevaForma": false
@@ -75,7 +75,7 @@
       {"name": "Defensa", "value": 45},
       {"name": "At. Esp.", "value": 65},
       {"name": "Def. Esp.", "value": 45},
-      {"name": "Velocidad", "value": 62}
+      {"name": "Speed", "value": 62}
     ],
     "generation": 1,
     "nuevaForma": false
@@ -91,7 +91,7 @@
       {"name": "Defensa", "value": 52},
       {"name": "At. Esp.", "value": 93},
       {"name": "Def. Esp.", "value": 52},
-      {"name": "Velocidad", "value": 87}
+      {"name": "Speed", "value": 87}
     ],
     "generation": 1,
     "nuevaForma": false
@@ -107,7 +107,7 @@
       {"name": "Defensa", "value": 70},
       {"name": "At. Esp.", "value": 121},
       {"name": "Def. Esp.", "value": 70},
-      {"name": "Velocidad", "value": 100}
+      {"name": "Speed", "value": 100}
     ],
     "generation": 1,
     "nuevaForma": false
@@ -123,7 +123,7 @@
       {"name": "Defensa", "value": 90},
       {"name": "At. Esp.", "value": 115},
       {"name": "Def. Esp.", "value": 90},
-      {"name": "Velocidad", "value": 112}
+      {"name": "Speed", "value": 112}
     ],
     "generation": 1,
     "nuevaForma": false
@@ -139,7 +139,7 @@
       {"name": "Defensa", "value": 90},
       {"name": "At. Esp.", "value": 165},
       {"name": "Def. Esp.", "value": 90},
-      {"name": "Velocidad", "value": 112}
+      {"name": "Speed", "value": 112}
     ],
     "generation": 1,
     "nuevaForma": false
@@ -155,7 +155,7 @@
       {"name": "Defensa", "value": 70},
       {"name": "At. Esp.", "value": 50},
       {"name": "Def. Esp.", "value": 65},
-      {"name": "Velocidad", "value": 43}
+      {"name": "Speed", "value": 43}
     ],
     "generation": 1,
     "nuevaForma": false
@@ -171,7 +171,7 @@
       {"name": "Defensa", "value": 95},
       {"name": "At. Esp.", "value": 80},
       {"name": "Def. Esp.", "value": 80},
-      {"name": "Velocidad", "value": 58}
+      {"name": "Speed", "value": 58}
     ],
     "generation": 1,
     "nuevaForma": false
@@ -187,7 +187,7 @@
       {"name": "Defensa", "value": 125},
       {"name": "At. Esp.", "value": 120},
       {"name": "Def. Esp.", "value": 105},
-      {"name": "Velocidad", "value": 43}
+      {"name": "Speed", "value": 43}
     ],
     "generation": 1,
     "nuevaForma": false
@@ -203,7 +203,7 @@
       {"name": "Defensa", "value": 155},
       {"name": "At. Esp.", "value": 160},
       {"name": "Def. Esp.", "value": 115},
-      {"name": "Velocidad", "value": 33}
+      {"name": "Speed", "value": 33}
     ],
     "generation": 1,
     "nuevaForma": false
@@ -217,7 +217,7 @@
       {"name": "Defensa", "value": 35},
       {"name": "At. Esp.", "value": 55},
       {"name": "Def. Esp.", "value": 50},
-      {"name": "Velocidad", "value": 45}
+      {"name": "Speed", "value": 45}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -233,7 +233,7 @@
       {"name": "Defensa", "value": 85},
       {"name": "At. Esp.", "value": 55},
       {"name": "Def. Esp.", "value": 70},
-      {"name": "Velocidad", "value": 30}
+      {"name": "Speed", "value": 30}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -249,7 +249,7 @@
       {"name": "Defensa", "value": 60},
       {"name": "At. Esp.", "value": 110},
       {"name": "Def. Esp.", "value": 100},
-      {"name": "Velocidad", "value": 95}
+      {"name": "Speed", "value": 95}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -265,7 +265,7 @@
       {"name": "Defensa", "value": 40},
       {"name": "At. Esp.", "value": 30},
       {"name": "Def. Esp.", "value": 35},
-      {"name": "Velocidad", "value": 50}
+      {"name": "Speed", "value": 50}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -281,7 +281,7 @@
       {"name": "Defensa", "value": 85},
       {"name": "At. Esp.", "value": 40},
       {"name": "Def. Esp.", "value": 60},
-      {"name": "Velocidad", "value": 35}
+      {"name": "Speed", "value": 35}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -297,7 +297,7 @@
       {"name": "Defensa", "value": 65},
       {"name": "At. Esp.", "value": 45},
       {"name": "Def. Esp.", "value": 65},
-      {"name": "Velocidad", "value": 121}
+      {"name": "Speed", "value": 121}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -313,7 +313,7 @@
       {"name": "Defensa", "value": 40},
       {"name": "At. Esp.", "value": 15},
       {"name": "Def. Esp.", "value": 80},
-      {"name": "Velocidad", "value": 145}
+      {"name": "Speed", "value": 145}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -329,7 +329,7 @@
       {"name": "Defensa", "value": 45},
       {"name": "At. Esp.", "value": 60},
       {"name": "Def. Esp.", "value": 45},
-      {"name": "Velocidad", "value": 85}
+      {"name": "Speed", "value": 85}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -344,7 +344,7 @@
       {"name": "Defensa", "value": 60},
       {"name": "At. Esp.", "value": 80},
       {"name": "Def. Esp.", "value": 60},
-      {"name": "Velocidad", "value": 105}
+      {"name": "Speed", "value": 105}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -359,7 +359,7 @@
       {"name": "Defensa", "value": 85},
       {"name": "At. Esp.", "value": 100},
       {"name": "Def. Esp.", "value": 85},
-      {"name": "Velocidad", "value": 125}
+      {"name": "Speed", "value": 125}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -374,7 +374,7 @@
       {"name": "Defensa", "value": 85},
       {"name": "At. Esp.", "value": 165},
       {"name": "Def. Esp.", "value": 90},
-      {"name": "Velocidad", "value": 145}
+      {"name": "Speed", "value": 145}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -389,7 +389,7 @@
       {"name": "Defensa", "value": 42},
       {"name": "At. Esp.", "value": 40},
       {"name": "Def. Esp.", "value": 42},
-      {"name": "Velocidad", "value": 90}
+      {"name": "Speed", "value": 90}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -404,7 +404,7 @@
       {"name": "Defensa", "value": 72},
       {"name": "At. Esp.", "value": 50},
       {"name": "Def. Esp.", "value": 72},
-      {"name": "Velocidad", "value": 107}
+      {"name": "Speed", "value": 107}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -419,7 +419,7 @@
       {"name": "Defensa", "value": 45},
       {"name": "At. Esp.", "value": 31},
       {"name": "Def. Esp.", "value": 51},
-      {"name": "Velocidad", "value": 103}
+      {"name": "Speed", "value": 103}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -434,7 +434,7 @@
       {"name": "Defensa", "value": 75},
       {"name": "At. Esp.", "value": 41},
       {"name": "Def. Esp.", "value": 81},
-      {"name": "Velocidad", "value": 133}
+      {"name": "Speed", "value": 133}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -449,7 +449,7 @@
       {"name": "Defensa", "value": 55},
       {"name": "At. Esp.", "value": 60},
       {"name": "Def. Esp.", "value": 55},
-      {"name": "Velocidad", "value": 70}
+      {"name": "Speed", "value": 70}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -464,7 +464,7 @@
       {"name": "Defensa", "value": 80},
       {"name": "At. Esp.", "value": 85},
       {"name": "Def. Esp.", "value": 80},
-      {"name": "Velocidad", "value": 80}
+      {"name": "Speed", "value": 80}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -479,7 +479,7 @@
       {"name": "Defensa", "value": 45},
       {"name": "At. Esp.", "value": 90},
       {"name": "Def. Esp.", "value": 50},
-      {"name": "Velocidad", "value": 115}
+      {"name": "Speed", "value": 115}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -495,7 +495,7 @@
       {"name": "Defensa", "value": 70},
       {"name": "At. Esp.", "value": 70},
       {"name": "Def. Esp.", "value": 70},
-      {"name": "Velocidad", "value": 125}
+      {"name": "Speed", "value": 125}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -511,7 +511,7 @@
       {"name": "Defensa", "value": 85},
       {"name": "At. Esp.", "value": 110},
       {"name": "Def. Esp.", "value": 110},
-      {"name": "Velocidad", "value": 75}
+      {"name": "Speed", "value": 75}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -527,7 +527,7 @@
       {"name": "Defensa", "value": 85},
       {"name": "At. Esp.", "value": 110},
       {"name": "Def. Esp.", "value": 110},
-      {"name": "Velocidad", "value": 75}
+      {"name": "Speed", "value": 75}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -543,7 +543,7 @@
       {"name": "Defensa", "value": 100},
       {"name": "At. Esp.", "value": 110},
       {"name": "Def. Esp.", "value": 70},
-      {"name": "Velocidad", "value": 105}
+      {"name": "Speed", "value": 105}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -559,7 +559,7 @@
       {"name": "Defensa", "value": 70},
       {"name": "At. Esp.", "value": 70},
       {"name": "Def. Esp.", "value": 70},
-      {"name": "Velocidad", "value": 125}
+      {"name": "Speed", "value": 125}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -574,7 +574,7 @@
       {"name": "Defensa", "value": 65},
       {"name": "At. Esp.", "value": 110},
       {"name": "Def. Esp.", "value": 85},
-      {"name": "Velocidad", "value": 125}
+      {"name": "Speed", "value": 125}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -589,7 +589,7 @@
       {"name": "Defensa", "value": 95},
       {"name": "At. Esp.", "value": 20},
       {"name": "Def. Esp.", "value": 60},
-      {"name": "Velocidad", "value": 50}
+      {"name": "Speed", "value": 50}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -605,7 +605,7 @@
       {"name": "Defensa", "value": 115},
       {"name": "At. Esp.", "value": 45},
       {"name": "Def. Esp.", "value": 70},
-      {"name": "Velocidad", "value": 110}
+      {"name": "Speed", "value": 110}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -621,7 +621,7 @@
       {"name": "Defensa", "value": 65},
       {"name": "At. Esp.", "value": 65},
       {"name": "Def. Esp.", "value": 55},
-      {"name": "Velocidad", "value": 65}
+      {"name": "Speed", "value": 65}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -636,7 +636,7 @@
       {"name": "Defensa", "value": 92},
       {"name": "At. Esp.", "value": 83},
       {"name": "Def. Esp.", "value": 75},
-      {"name": "Velocidad", "value": 86}
+      {"name": "Speed", "value": 86}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -651,7 +651,7 @@
       {"name": "Defensa", "value": 123},
       {"name": "At. Esp.", "value": 131},
       {"name": "Def. Esp.", "value": 90},
-      {"name": "Velocidad", "value": 81}
+      {"name": "Speed", "value": 81}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -666,7 +666,7 @@
       {"name": "Defensa", "value": 58},
       {"name": "At. Esp.", "value": 40},
       {"name": "Def. Esp.", "value": 50},
-      {"name": "Velocidad", "value": 70}
+      {"name": "Speed", "value": 70}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -681,7 +681,7 @@
       {"name": "Defensa", "value": 83},
       {"name": "At. Esp.", "value": 50},
       {"name": "Def. Esp.", "value": 65},
-      {"name": "Velocidad", "value": 96}
+      {"name": "Speed", "value": 96}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -696,7 +696,7 @@
       {"name": "Defensa", "value": 118},
       {"name": "At. Esp.", "value": 55},
       {"name": "Def. Esp.", "value": 80},
-      {"name": "Velocidad", "value": 91}
+      {"name": "Speed", "value": 91}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -711,7 +711,7 @@
       {"name": "Defensa", "value": 70},
       {"name": "At. Esp.", "value": 90},
       {"name": "Def. Esp.", "value": 95},
-      {"name": "Velocidad", "value": 45}
+      {"name": "Speed", "value": 45}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -727,7 +727,7 @@
       {"name": "Defensa", "value": 85},
       {"name": "At. Esp.", "value": 115},
       {"name": "Def. Esp.", "value": 125},
-      {"name": "Velocidad", "value": 60}
+      {"name": "Speed", "value": 60}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -743,7 +743,7 @@
       {"name": "Defensa", "value": 45},
       {"name": "At. Esp.", "value": 88},
       {"name": "Def. Esp.", "value": 70},
-      {"name": "Velocidad", "value": 77}
+      {"name": "Speed", "value": 77}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -758,7 +758,7 @@
       {"name": "Defensa", "value": 75},
       {"name": "At. Esp.", "value": 112},
       {"name": "Def. Esp.", "value": 109},
-      {"name": "Velocidad", "value": 109}
+      {"name": "Speed", "value": 109}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -773,7 +773,7 @@
       {"name": "Defensa", "value": 50},
       {"name": "At. Esp.", "value": 85},
       {"name": "Def. Esp.", "value": 85},
-      {"name": "Velocidad", "value": 45}
+      {"name": "Speed", "value": 45}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -788,7 +788,7 @@
       {"name": "Defensa", "value": 75},
       {"name": "At. Esp.", "value": 100},
       {"name": "Def. Esp.", "value": 100},
-      {"name": "Velocidad", "value": 55}
+      {"name": "Speed", "value": 55}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -803,7 +803,7 @@
       {"name": "Defensa", "value": 40},
       {"name": "At. Esp.", "value": 50},
       {"name": "Def. Esp.", "value": 40},
-      {"name": "Velocidad", "value": 105}
+      {"name": "Speed", "value": 105}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -819,7 +819,7 @@
       {"name": "Defensa", "value": 80},
       {"name": "At. Esp.", "value": 80},
       {"name": "Def. Esp.", "value": 80},
-      {"name": "Velocidad", "value": 105}
+      {"name": "Speed", "value": 105}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -835,7 +835,7 @@
       {"name": "Defensa", "value": 65},
       {"name": "At. Esp.", "value": 75},
       {"name": "Def. Esp.", "value": 70},
-      {"name": "Velocidad", "value": 30}
+      {"name": "Speed", "value": 30}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -850,7 +850,7 @@
       {"name": "Defensa", "value": 80},
       {"name": "At. Esp.", "value": 90},
       {"name": "Def. Esp.", "value": 85},
-      {"name": "Velocidad", "value": 40}
+      {"name": "Speed", "value": 40}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -865,7 +865,7 @@
       {"name": "Defensa", "value": 95},
       {"name": "At. Esp.", "value": 115},
       {"name": "Def. Esp.", "value": 110},
-      {"name": "Velocidad", "value": 50}
+      {"name": "Speed", "value": 50}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -880,7 +880,7 @@
       {"name": "Defensa", "value": 80},
       {"name": "At. Esp.", "value": 60},
       {"name": "Def. Esp.", "value": 80},
-      {"name": "Velocidad", "value": 30}
+      {"name": "Speed", "value": 30}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -895,7 +895,7 @@
       {"name": "Defensa", "value": 110},
       {"name": "At. Esp.", "value": 90},
       {"name": "Def. Esp.", "value": 110},
-      {"name": "Velocidad", "value": 30}
+      {"name": "Speed", "value": 30}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -910,7 +910,7 @@
       {"name": "Defensa", "value": 50},
       {"name": "At. Esp.", "value": 82},
       {"name": "Def. Esp.", "value": 72},
-      {"name": "Velocidad", "value": 66}
+      {"name": "Speed", "value": 66}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -925,7 +925,7 @@
       {"name": "Defensa", "value": 65},
       {"name": "At. Esp.", "value": 117},
       {"name": "Def. Esp.", "value": 87},
-      {"name": "Velocidad", "value": 111}
+      {"name": "Speed", "value": 111}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -940,7 +940,7 @@
       {"name": "Defensa", "value": 50},
       {"name": "At. Esp.", "value": 25},
       {"name": "Def. Esp.", "value": 50},
-      {"name": "Velocidad", "value": 115}
+      {"name": "Speed", "value": 115}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -955,7 +955,7 @@
       {"name": "Defensa", "value": 70},
       {"name": "At. Esp.", "value": 30},
       {"name": "Def. Esp.", "value": 70},
-      {"name": "Velocidad", "value": 130}
+      {"name": "Speed", "value": 130}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -970,7 +970,7 @@
       {"name": "Defensa", "value": 35},
       {"name": "At. Esp.", "value": 55},
       {"name": "Def. Esp.", "value": 40},
-      {"name": "Velocidad", "value": 95}
+      {"name": "Speed", "value": 95}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -985,7 +985,7 @@
       {"name": "Defensa", "value": 65},
       {"name": "At. Esp.", "value": 90},
       {"name": "Def. Esp.", "value": 70},
-      {"name": "Velocidad", "value": 118}
+      {"name": "Speed", "value": 118}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1000,7 +1000,7 @@
       {"name": "Defensa", "value": 50},
       {"name": "At. Esp.", "value": 80},
       {"name": "Def. Esp.", "value": 60},
-      {"name": "Velocidad", "value": 55}
+      {"name": "Speed", "value": 55}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1015,7 +1015,7 @@
       {"name": "Defensa", "value": 78},
       {"name": "At. Esp.", "value": 114},
       {"name": "Def. Esp.", "value": 80},
-      {"name": "Velocidad", "value": 101}
+      {"name": "Speed", "value": 101}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1030,7 +1030,7 @@
       {"name": "Defensa", "value": 45},
       {"name": "At. Esp.", "value": 30},
       {"name": "Def. Esp.", "value": 45},
-      {"name": "Velocidad", "value": 115}
+      {"name": "Speed", "value": 115}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1045,7 +1045,7 @@
       {"name": "Defensa", "value": 80},
       {"name": "At. Esp.", "value": 60},
       {"name": "Def. Esp.", "value": 80},
-      {"name": "Velocidad", "value": 115}
+      {"name": "Speed", "value": 115}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1060,7 +1060,7 @@
       {"name": "Defensa", "value": 55},
       {"name": "At. Esp.", "value": 75},
       {"name": "Def. Esp.", "value": 55},
-      {"name": "Velocidad", "value": 85}
+      {"name": "Speed", "value": 85}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1076,7 +1076,7 @@
       {"name": "Defensa", "value": 80},
       {"name": "At. Esp.", "value": 100},
       {"name": "Def. Esp.", "value": 80},
-      {"name": "Velocidad", "value": 115}
+      {"name": "Speed", "value": 115}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1092,7 +1092,7 @@
       {"name": "Defensa", "value": 40},
       {"name": "At. Esp.", "value": 60},
       {"name": "Def. Esp.", "value": 55},
-      {"name": "Velocidad", "value": 75}
+      {"name": "Speed", "value": 75}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1107,7 +1107,7 @@
       {"name": "Defensa", "value": 80},
       {"name": "At. Esp.", "value": 80},
       {"name": "Def. Esp.", "value": 80},
-      {"name": "Velocidad", "value": 65}
+      {"name": "Speed", "value": 65}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1122,7 +1122,7 @@
       {"name": "Defensa", "value": 95},
       {"name": "At. Esp.", "value": 70},
       {"name": "Def. Esp.", "value": 90},
-      {"name": "Velocidad", "value": 60}
+      {"name": "Speed", "value": 60}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1137,7 +1137,7 @@
       {"name": "Defensa", "value": 25},
       {"name": "At. Esp.", "value": 95},
       {"name": "Def. Esp.", "value": 60},
-      {"name": "Velocidad", "value": 90}
+      {"name": "Speed", "value": 90}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1152,7 +1152,7 @@
       {"name": "Defensa", "value": 40},
       {"name": "At. Esp.", "value": 115},
       {"name": "Def. Esp.", "value": 75},
-      {"name": "Velocidad", "value": 105}
+      {"name": "Speed", "value": 105}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1167,7 +1167,7 @@
       {"name": "Defensa", "value": 50},
       {"name": "At. Esp.", "value": 135},
       {"name": "Def. Esp.", "value": 100},
-      {"name": "Velocidad", "value": 120}
+      {"name": "Speed", "value": 120}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1182,7 +1182,7 @@
       {"name": "Defensa", "value": 65},
       {"name": "At. Esp.", "value": 180},
       {"name": "Def. Esp.", "value": 125},
-      {"name": "Velocidad", "value": 135}
+      {"name": "Speed", "value": 135}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1197,7 +1197,7 @@
       {"name": "Defensa", "value": 70},
       {"name": "At. Esp.", "value": 30},
       {"name": "Def. Esp.", "value": 50},
-      {"name": "Velocidad", "value": 40}
+      {"name": "Speed", "value": 40}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1213,7 +1213,7 @@
       {"name": "Defensa", "value": 85},
       {"name": "At. Esp.", "value": 40},
       {"name": "Def. Esp.", "value": 60},
-      {"name": "Velocidad", "value": 55}
+      {"name": "Speed", "value": 55}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1229,7 +1229,7 @@
       {"name": "Defensa", "value": 100},
       {"name": "At. Esp.", "value": 50},
       {"name": "Def. Esp.", "value": 85},
-      {"name": "Velocidad", "value": 70}
+      {"name": "Speed", "value": 70}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1245,7 +1245,7 @@
       {"name": "Defensa", "value": 35},
       {"name": "At. Esp.", "value": 75},
       {"name": "Def. Esp.", "value": 35},
-      {"name": "Velocidad", "value": 65}
+      {"name": "Speed", "value": 65}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1261,7 +1261,7 @@
       {"name": "Defensa", "value": 80},
       {"name": "At. Esp.", "value": 90},
       {"name": "Def. Esp.", "value": 80},
-      {"name": "Velocidad", "value": 55}
+      {"name": "Speed", "value": 55}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1277,7 +1277,7 @@
       {"name": "Defensa", "value": 80},
       {"name": "At. Esp.", "value": 115},
       {"name": "Def. Esp.", "value": 80},
-      {"name": "Velocidad", "value": 70}
+      {"name": "Speed", "value": 70}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1293,7 +1293,7 @@
       {"name": "Defensa", "value": 40},
       {"name": "At. Esp.", "value": 70},
       {"name": "Def. Esp.", "value": 100},
-      {"name": "Velocidad", "value": 70}
+      {"name": "Speed", "value": 70}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1308,7 +1308,7 @@
       {"name": "Defensa", "value": 70},
       {"name": "At. Esp.", "value": 110},
       {"name": "Def. Esp.", "value": 120},
-      {"name": "Velocidad", "value": 100}
+      {"name": "Speed", "value": 100}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1323,7 +1323,7 @@
       {"name": "Defensa", "value": 100},
       {"name": "At. Esp.", "value": 30},
       {"name": "Def. Esp.", "value": 50},
-      {"name": "Velocidad", "value": 20}
+      {"name": "Speed", "value": 20}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1339,7 +1339,7 @@
       {"name": "Defensa", "value": 115},
       {"name": "At. Esp.", "value": 35},
       {"name": "Def. Esp.", "value": 55},
-      {"name": "Velocidad", "value": 65}
+      {"name": "Speed", "value": 65}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1355,7 +1355,7 @@
       {"name": "Defensa", "value": 130},
       {"name": "At. Esp.", "value": 55},
       {"name": "Def. Esp.", "value": 70},
-      {"name": "Velocidad", "value": 95}
+      {"name": "Speed", "value": 95}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1371,7 +1371,7 @@
       {"name": "Defensa", "value": 55},
       {"name": "At. Esp.", "value": 55},
       {"name": "Def. Esp.", "value": 55},
-      {"name": "Velocidad", "value": 110}
+      {"name": "Speed", "value": 110}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1386,7 +1386,7 @@
       {"name": "Defensa", "value": 80},
       {"name": "At. Esp.", "value": 60},
       {"name": "Def. Esp.", "value": 80},
-      {"name": "Velocidad", "value": 125}
+      {"name": "Speed", "value": 125}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1401,7 +1401,7 @@
       {"name": "Defensa", "value": 65},
       {"name": "At. Esp.", "value": 65},
       {"name": "Def. Esp.", "value": 80},
-      {"name": "Velocidad", "value": 10}
+      {"name": "Speed", "value": 10}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1417,7 +1417,7 @@
       {"name": "Defensa", "value": 115},
       {"name": "At. Esp.", "value": 100},
       {"name": "Def. Esp.", "value": 95},
-      {"name": "Velocidad", "value": 25}
+      {"name": "Speed", "value": 25}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1433,7 +1433,7 @@
       {"name": "Defensa", "value": 180},
       {"name": "At. Esp.", "value": 100},
       {"name": "Def. Esp.", "value": 120},
-      {"name": "Velocidad", "value": 25}
+      {"name": "Speed", "value": 25}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1449,7 +1449,7 @@
       {"name": "Defensa", "value": 90},
       {"name": "At. Esp.", "value": 95},
       {"name": "Def. Esp.", "value": 70},
-      {"name": "Velocidad", "value": 45}
+      {"name": "Speed", "value": 45}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1465,7 +1465,7 @@
       {"name": "Defensa", "value": 95},
       {"name": "At. Esp.", "value": 120},
       {"name": "Def. Esp.", "value": 80},
-      {"name": "Velocidad", "value": 80}
+      {"name": "Speed", "value": 80}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1481,7 +1481,7 @@
       {"name": "Defensa", "value": 75},
       {"name": "At. Esp.", "value": 55},
       {"name": "Def. Esp.", "value": 85},
-      {"name": "Velocidad", "value": 115}
+      {"name": "Speed", "value": 115}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1496,7 +1496,7 @@
       {"name": "Defensa", "value": 45},
       {"name": "At. Esp.", "value": 35},
       {"name": "Def. Esp.", "value": 45},
-      {"name": "Velocidad", "value": 110}
+      {"name": "Speed", "value": 110}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1512,7 +1512,7 @@
       {"name": "Defensa", "value": 70},
       {"name": "At. Esp.", "value": 60},
       {"name": "Def. Esp.", "value": 70},
-      {"name": "Velocidad", "value": 125}
+      {"name": "Speed", "value": 125}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1528,7 +1528,7 @@
       {"name": "Defensa", "value": 55},
       {"name": "At. Esp.", "value": 65},
       {"name": "Def. Esp.", "value": 75},
-      {"name": "Velocidad", "value": 45}
+      {"name": "Speed", "value": 45}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1544,7 +1544,7 @@
       {"name": "Defensa", "value": 80},
       {"name": "At. Esp.", "value": 90},
       {"name": "Def. Esp.", "value": 105},
-      {"name": "Velocidad", "value": 70}
+      {"name": "Speed", "value": 70}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1560,7 +1560,7 @@
       {"name": "Defensa", "value": 60},
       {"name": "At. Esp.", "value": 70},
       {"name": "Def. Esp.", "value": 85},
-      {"name": "Velocidad", "value": 15}
+      {"name": "Speed", "value": 15}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1575,7 +1575,7 @@
       {"name": "Defensa", "value": 80},
       {"name": "At. Esp.", "value": 90},
       {"name": "Def. Esp.", "value": 120},
-      {"name": "Velocidad", "value": 40}
+      {"name": "Speed", "value": 40}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1590,7 +1590,7 @@
       {"name": "Defensa", "value": 110},
       {"name": "At. Esp.", "value": 30},
       {"name": "Def. Esp.", "value": 50},
-      {"name": "Velocidad", "value": 50}
+      {"name": "Speed", "value": 50}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1606,7 +1606,7 @@
       {"name": "Defensa", "value": 180},
       {"name": "At. Esp.", "value": 40},
       {"name": "Def. Esp.", "value": 70},
-      {"name": "Velocidad", "value": 70}
+      {"name": "Speed", "value": 70}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1622,7 +1622,7 @@
       {"name": "Defensa", "value": 30},
       {"name": "At. Esp.", "value": 95},
       {"name": "Def. Esp.", "value": 65},
-      {"name": "Velocidad", "value": 100}
+      {"name": "Speed", "value": 100}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1638,7 +1638,7 @@
       {"name": "Defensa", "value": 65},
       {"name": "At. Esp.", "value": 115},
       {"name": "Def. Esp.", "value": 70},
-      {"name": "Velocidad", "value": 115}
+      {"name": "Speed", "value": 115}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1654,7 +1654,7 @@
       {"name": "Defensa", "value": 60},
       {"name": "At. Esp.", "value": 130},
       {"name": "Def. Esp.", "value": 85},
-      {"name": "Velocidad", "value": 125}
+      {"name": "Speed", "value": 125}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1670,7 +1670,7 @@
       {"name": "Defensa", "value": 70},
       {"name": "At. Esp.", "value": 175},
       {"name": "Def. Esp.", "value": 100},
-      {"name": "Velocidad", "value": 145}
+      {"name": "Speed", "value": 145}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1686,7 +1686,7 @@
       {"name": "Defensa", "value": 140},
       {"name": "At. Esp.", "value": 30},
       {"name": "Def. Esp.", "value": 45},
-      {"name": "Velocidad", "value": 70}
+      {"name": "Speed", "value": 70}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1702,7 +1702,7 @@
       {"name": "Defensa", "value": 160},
       {"name": "At. Esp.", "value": 20},
       {"name": "Def. Esp.", "value": 70},
-      {"name": "Velocidad", "value": 60}
+      {"name": "Speed", "value": 60}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1717,7 +1717,7 @@
       {"name": "Defensa", "value": 80},
       {"name": "At. Esp.", "value": 90},
       {"name": "Def. Esp.", "value": 100},
-      {"name": "Velocidad", "value": 42}
+      {"name": "Speed", "value": 42}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1733,7 +1733,7 @@
       {"name": "Defensa", "value": 80},
       {"name": "At. Esp.", "value": 115},
       {"name": "Def. Esp.", "value": 115},
-      {"name": "Velocidad", "value": 67}
+      {"name": "Speed", "value": 67}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1748,7 +1748,7 @@
       {"name": "Defensa", "value": 90},
       {"name": "At. Esp.", "value": 25},
       {"name": "Def. Esp.", "value": 40},
-      {"name": "Velocidad", "value": 70}
+      {"name": "Speed", "value": 70}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1763,7 +1763,7 @@
       {"name": "Defensa", "value": 115},
       {"name": "At. Esp.", "value": 50},
       {"name": "Def. Esp.", "value": 80},
-      {"name": "Velocidad", "value": 75}
+      {"name": "Speed", "value": 75}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1778,7 +1778,7 @@
       {"name": "Defensa", "value": 40},
       {"name": "At. Esp.", "value": 100},
       {"name": "Def. Esp.", "value": 50},
-      {"name": "Velocidad", "value": 120}
+      {"name": "Speed", "value": 120}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1793,7 +1793,7 @@
       {"name": "Defensa", "value": 70},
       {"name": "At. Esp.", "value": 135},
       {"name": "Def. Esp.", "value": 80},
-      {"name": "Velocidad", "value": 155}
+      {"name": "Speed", "value": 155}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1808,7 +1808,7 @@
       {"name": "Defensa", "value": 80},
       {"name": "At. Esp.", "value": 165},
       {"name": "Def. Esp.", "value": 90},
-      {"name": "Velocidad", "value": 165}
+      {"name": "Speed", "value": 165}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1823,7 +1823,7 @@
       {"name": "Defensa", "value": 85},
       {"name": "At. Esp.", "value": 90},
       {"name": "Def. Esp.", "value": 85},
-      {"name": "Velocidad", "value": 30}
+      {"name": "Speed", "value": 30}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1839,7 +1839,7 @@
       {"name": "Defensa", "value": 90},
       {"name": "At. Esp.", "value": 125},
       {"name": "Def. Esp.", "value": 115},
-      {"name": "Velocidad", "value": 50}
+      {"name": "Speed", "value": 50}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1855,7 +1855,7 @@
       {"name": "Defensa", "value": 90},
       {"name": "At. Esp.", "value": 35},
       {"name": "Def. Esp.", "value": 60},
-      {"name": "Velocidad", "value": 65}
+      {"name": "Speed", "value": 65}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1870,7 +1870,7 @@
       {"name": "Defensa", "value": 115},
       {"name": "At. Esp.", "value": 50},
       {"name": "Def. Esp.", "value": 80},
-      {"name": "Velocidad", "value": 90}
+      {"name": "Speed", "value": 90}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -1885,7 +1885,7 @@
       {"name": "Defensa", "value": 75},
       {"name": "At. Esp.", "value": 35},
       {"name": "Def. Esp.", "value": 110},
-      {"name": "Velocidad", "value": 105}
+      {"name": "Speed", "value": 105}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1901,7 +1901,7 @@
       {"name": "Defensa", "value": 85},
       {"name": "At. Esp.", "value": 30},
       {"name": "Def. Esp.", "value": 110},
-      {"name": "Velocidad", "value": 110}
+      {"name": "Speed", "value": 110}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1917,7 +1917,7 @@
       {"name": "Defensa", "value": 95},
       {"name": "At. Esp.", "value": 85},
       {"name": "Def. Esp.", "value": 95},
-      {"name": "Velocidad", "value": 30}
+      {"name": "Speed", "value": 30}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1933,7 +1933,7 @@
       {"name": "Defensa", "value": 95},
       {"name": "At. Esp.", "value": 80},
       {"name": "Def. Esp.", "value": 75},
-      {"name": "Velocidad", "value": 40}
+      {"name": "Speed", "value": 40}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1949,7 +1949,7 @@
       {"name": "Defensa", "value": 130},
       {"name": "At. Esp.", "value": 110},
       {"name": "Def. Esp.", "value": 95},
-      {"name": "Velocidad", "value": 60}
+      {"name": "Speed", "value": 60}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1965,7 +1965,7 @@
       {"name": "Defensa", "value": 115},
       {"name": "At. Esp.", "value": 30},
       {"name": "Def. Esp.", "value": 45},
-      {"name": "Velocidad", "value": 92}
+      {"name": "Speed", "value": 92}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1981,7 +1981,7 @@
       {"name": "Defensa", "value": 120},
       {"name": "At. Esp.", "value": 35},
       {"name": "Def. Esp.", "value": 70},
-      {"name": "Velocidad", "value": 62}
+      {"name": "Speed", "value": 62}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -1997,7 +1997,7 @@
       {"name": "Defensa", "value": 40},
       {"name": "At. Esp.", "value": 80},
       {"name": "Def. Esp.", "value": 120},
-      {"name": "Velocidad", "value": 40}
+      {"name": "Speed", "value": 40}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2013,7 +2013,7 @@
       {"name": "Defensa", "value": 115},
       {"name": "At. Esp.", "value": 100},
       {"name": "Def. Esp.", "value": 75},
-      {"name": "Velocidad", "value": 65}
+      {"name": "Speed", "value": 65}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -2028,7 +2028,7 @@
       {"name": "Defensa", "value": 90},
       {"name": "At. Esp.", "value": 40},
       {"name": "Def. Esp.", "value": 80},
-      {"name": "Velocidad", "value": 90}
+      {"name": "Speed", "value": 90}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2044,7 +2044,7 @@
       {"name": "Defensa", "value": 110},
       {"name": "At. Esp.", "value": 90},
       {"name": "Def. Esp.", "value": 90},
-      {"name": "Velocidad", "value": 100}
+      {"name": "Speed", "value": 100}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2060,7 +2060,7 @@
       {"name": "Defensa", "value": 70},
       {"name": "At. Esp.", "value": 85},
       {"name": "Def. Esp.", "value": 50},
-      {"name": "Velocidad", "value": 75}
+      {"name": "Speed", "value": 75}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2076,7 +2076,7 @@
       {"name": "Defensa", "value": 95},
       {"name": "At. Esp.", "value": 105},
       {"name": "Def. Esp.", "value": 65},
-      {"name": "Velocidad", "value": 90}
+      {"name": "Speed", "value": 90}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2092,7 +2092,7 @@
       {"name": "Defensa", "value": 60},
       {"name": "At. Esp.", "value": 75},
       {"name": "Def. Esp.", "value": 70},
-      {"name": "Velocidad", "value": 83}
+      {"name": "Speed", "value": 83}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -2107,7 +2107,7 @@
       {"name": "Defensa", "value": 65},
       {"name": "At. Esp.", "value": 90},
       {"name": "Def. Esp.", "value": 90},
-      {"name": "Velocidad", "value": 98}
+      {"name": "Speed", "value": 98}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -2122,7 +2122,7 @@
       {"name": "Defensa", "value": 55},
       {"name": "At. Esp.", "value": 103},
       {"name": "Def. Esp.", "value": 80},
-      {"name": "Velocidad", "value": 97}
+      {"name": "Speed", "value": 97}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -2137,7 +2137,7 @@
       {"name": "Defensa", "value": 85},
       {"name": "At. Esp.", "value": 123},
       {"name": "Def. Esp.", "value": 95},
-      {"name": "Velocidad", "value": 117}
+      {"name": "Speed", "value": 117}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -2152,7 +2152,7 @@
       {"name": "Defensa", "value": 65},
       {"name": "At. Esp.", "value": 115},
       {"name": "Def. Esp.", "value": 150},
-      {"name": "Velocidad", "value": 90}
+      {"name": "Speed", "value": 90}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2168,7 +2168,7 @@
       {"name": "Defensa", "value": 80},
       {"name": "At. Esp.", "value": 40},
       {"name": "Def. Esp.", "value": 80},
-      {"name": "Velocidad", "value": 135}
+      {"name": "Speed", "value": 135}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -2183,7 +2183,7 @@
       {"name": "Defensa", "value": 60},
       {"name": "At. Esp.", "value": 125},
       {"name": "Def. Esp.", "value": 125},
-      {"name": "Velocidad", "value": 95}
+      {"name": "Speed", "value": 95}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2199,7 +2199,7 @@
       {"name": "Defensa", "value": 65},
       {"name": "At. Esp.", "value": 95},
       {"name": "Def. Esp.", "value": 75},
-      {"name": "Velocidad", "value": 112}
+      {"name": "Speed", "value": 112}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2215,7 +2215,7 @@
       {"name": "Defensa", "value": 70},
       {"name": "At. Esp.", "value": 112},
       {"name": "Def. Esp.", "value": 85},
-      {"name": "Velocidad", "value": 93}
+      {"name": "Speed", "value": 93}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2231,7 +2231,7 @@
       {"name": "Defensa", "value": 113},
       {"name": "At. Esp.", "value": 40},
       {"name": "Def. Esp.", "value": 80},
-      {"name": "Velocidad", "value": 87}
+      {"name": "Speed", "value": 87}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2247,7 +2247,7 @@
       {"name": "Defensa", "value": 123},
       {"name": "At. Esp.", "value": 60},
       {"name": "Def. Esp.", "value": 90},
-      {"name": "Velocidad", "value": 117}
+      {"name": "Speed", "value": 117}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2263,7 +2263,7 @@
       {"name": "Defensa", "value": 95},
       {"name": "At. Esp.", "value": 40},
       {"name": "Def. Esp.", "value": 70},
-      {"name": "Velocidad", "value": 116}
+      {"name": "Speed", "value": 116}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2279,7 +2279,7 @@
       {"name": "Defensa", "value": 55},
       {"name": "At. Esp.", "value": 10},
       {"name": "Def. Esp.", "value": 55},
-      {"name": "Velocidad", "value": 40}
+      {"name": "Speed", "value": 40}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2295,7 +2295,7 @@
       {"name": "Defensa", "value": 80},
       {"name": "At. Esp.", "value": 120},
       {"name": "Def. Esp.", "value": 80},
-      {"name": "Velocidad", "value": 105}
+      {"name": "Speed", "value": 105}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2311,7 +2311,7 @@
       {"name": "Defensa", "value": 90},
       {"name": "At. Esp.", "value": 160},
       {"name": "Def. Esp.", "value": 90},
-      {"name": "Velocidad", "value": 125}
+      {"name": "Speed", "value": 125}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2327,7 +2327,7 @@
       {"name": "Defensa", "value": 100},
       {"name": "At. Esp.", "value": 95},
       {"name": "Def. Esp.", "value": 115},
-      {"name": "Velocidad", "value": 50}
+      {"name": "Speed", "value": 50}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2343,7 +2343,7 @@
       {"name": "Defensa", "value": 70},
       {"name": "At. Esp.", "value": 75},
       {"name": "Def. Esp.", "value": 100},
-      {"name": "Velocidad", "value": 95}
+      {"name": "Speed", "value": 95}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2359,7 +2359,7 @@
       {"name": "Defensa", "value": 55},
       {"name": "At. Esp.", "value": 60},
       {"name": "Def. Esp.", "value": 65},
-      {"name": "Velocidad", "value": 75}
+      {"name": "Speed", "value": 75}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2375,7 +2375,7 @@
       {"name": "Defensa", "value": 80},
       {"name": "At. Esp.", "value": 110},
       {"name": "Def. Esp.", "value": 110},
-      {"name": "Velocidad", "value": 105}
+      {"name": "Speed", "value": 105}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -2390,7 +2390,7 @@
       {"name": "Defensa", "value": 80},
       {"name": "At. Esp.", "value": 110},
       {"name": "Def. Esp.", "value": 130},
-      {"name": "Velocidad", "value": 80}
+      {"name": "Speed", "value": 80}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2406,7 +2406,7 @@
       {"name": "Defensa", "value": 70},
       {"name": "At. Esp.", "value": 125},
       {"name": "Def. Esp.", "value": 125},
-      {"name": "Velocidad", "value": 85}
+      {"name": "Speed", "value": 85}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -2421,7 +2421,7 @@
       {"name": "Defensa", "value": 60},
       {"name": "At. Esp.", "value": 110},
       {"name": "Def. Esp.", "value": 95},
-      {"name": "Velocidad", "value": 130}
+      {"name": "Speed", "value": 130}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2437,7 +2437,7 @@
       {"name": "Defensa", "value": 65},
       {"name": "At. Esp.", "value": 80},
       {"name": "Def. Esp.", "value": 110},
-      {"name": "Velocidad", "value": 90}
+      {"name": "Speed", "value": 90}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2453,7 +2453,7 @@
       {"name": "Defensa", "value": 90},
       {"name": "At. Esp.", "value": 95},
       {"name": "Def. Esp.", "value": 100},
-      {"name": "Velocidad", "value": 40}
+      {"name": "Speed", "value": 40}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -2468,7 +2468,7 @@
       {"name": "Defensa", "value": 100},
       {"name": "At. Esp.", "value": 90},
       {"name": "Def. Esp.", "value": 80},
-      {"name": "Velocidad", "value": 45}
+      {"name": "Speed", "value": 45}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -2483,7 +2483,7 @@
       {"name": "Defensa", "value": 85},
       {"name": "At. Esp.", "value": 135},
       {"name": "Def. Esp.", "value": 75},
-      {"name": "Velocidad", "value": 120}
+      {"name": "Speed", "value": 120}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -2498,7 +2498,7 @@
       {"name": "Defensa", "value": 140},
       {"name": "At. Esp.", "value": 115},
       {"name": "Def. Esp.", "value": 110},
-      {"name": "Velocidad", "value": 55}
+      {"name": "Speed", "value": 55}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -2513,7 +2513,7 @@
       {"name": "Defensa", "value": 110},
       {"name": "At. Esp.", "value": 40},
       {"name": "Def. Esp.", "value": 75},
-      {"name": "Velocidad", "value": 53}
+      {"name": "Speed", "value": 53}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2529,7 +2529,7 @@
       {"name": "Defensa", "value": 115},
       {"name": "At. Esp.", "value": 45},
       {"name": "Def. Esp.", "value": 80},
-      {"name": "Velocidad", "value": 108}
+      {"name": "Speed", "value": 108}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2545,7 +2545,7 @@
       {"name": "Defensa", "value": 80},
       {"name": "At. Esp.", "value": 50},
       {"name": "Def. Esp.", "value": 75},
-      {"name": "Velocidad", "value": 130}
+      {"name": "Speed", "value": 130}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -2560,7 +2560,7 @@
       {"name": "Defensa", "value": 110},
       {"name": "At. Esp.", "value": 60},
       {"name": "Def. Esp.", "value": 95},
-      {"name": "Velocidad", "value": 150}
+      {"name": "Speed", "value": 150}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -2575,7 +2575,7 @@
       {"name": "Defensa", "value": 85},
       {"name": "At. Esp.", "value": 65},
       {"name": "Def. Esp.", "value": 110},
-      {"name": "Velocidad", "value": 10}
+      {"name": "Speed", "value": 10}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2591,7 +2591,7 @@
       {"name": "Defensa", "value": 95},
       {"name": "At. Esp.", "value": 125},
       {"name": "Def. Esp.", "value": 125},
-      {"name": "Velocidad", "value": 105}
+      {"name": "Speed", "value": 105}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2607,7 +2607,7 @@
       {"name": "Defensa", "value": 85},
       {"name": "At. Esp.", "value": 125},
       {"name": "Def. Esp.", "value": 95},
-      {"name": "Velocidad", "value": 115}
+      {"name": "Speed", "value": 115}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2623,7 +2623,7 @@
       {"name": "Defensa", "value": 90},
       {"name": "At. Esp.", "value": 125},
       {"name": "Def. Esp.", "value": 100},
-      {"name": "Velocidad", "value": 105}
+      {"name": "Speed", "value": 105}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2639,7 +2639,7 @@
       {"name": "Defensa", "value": 55},
       {"name": "At. Esp.", "value": 80},
       {"name": "Def. Esp.", "value": 70},
-      {"name": "Velocidad", "value": 55}
+      {"name": "Speed", "value": 55}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -2654,7 +2654,7 @@
       {"name": "Defensa", "value": 80},
       {"name": "At. Esp.", "value": 90},
       {"name": "Def. Esp.", "value": 90},
-      {"name": "Velocidad", "value": 70}
+      {"name": "Speed", "value": 70}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -2669,7 +2669,7 @@
       {"name": "Defensa", "value": 90},
       {"name": "At. Esp.", "value": 110},
       {"name": "Def. Esp.", "value": 90},
-      {"name": "Velocidad", "value": 100}
+      {"name": "Speed", "value": 100}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -2684,7 +2684,7 @@
       {"name": "Defensa", "value": 90},
       {"name": "At. Esp.", "value": 164},
       {"name": "Def. Esp.", "value": 90},
-      {"name": "Velocidad", "value": 130}
+      {"name": "Speed", "value": 130}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2700,7 +2700,7 @@
       {"name": "Defensa", "value": 80},
       {"name": "At. Esp.", "value": 150},
       {"name": "Def. Esp.", "value": 115},
-      {"name": "Velocidad", "value": 120}
+      {"name": "Speed", "value": 120}
     ],
     "generation": 1,
     "nuevaForma": true,
@@ -2715,7 +2715,7 @@
       {"name": "Defensa", "value": 100},
       {"name": "At. Esp.", "value": 154},
       {"name": "Def. Esp.", "value": 100},
-      {"name": "Velocidad", "value": 130}
+      {"name": "Speed", "value": 130}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2731,7 +2731,7 @@
       {"name": "Defensa", "value": 70},
       {"name": "At. Esp.", "value": 194},
       {"name": "Def. Esp.", "value": 120},
-      {"name": "Velocidad", "value": 140}
+      {"name": "Speed", "value": 140}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2747,7 +2747,7 @@
       {"name": "Defensa", "value": 100},
       {"name": "At. Esp.", "value": 100},
       {"name": "Def. Esp.", "value": 100},
-      {"name": "Velocidad", "value": 100}
+      {"name": "Speed", "value": 100}
     ],
     "generation": 1,
     "nuevaForma": false,
@@ -2763,7 +2763,7 @@
       {"name": "Defensa", "value": 110},
       {"name": "At. Esp.", "value": 110},
       {"name": "Def. Esp.", "value": 110},
-      {"name": "Velocidad", "value": 110}
+      {"name": "Speed", "value": 110}
     ],
     "generation": 1,
     "nuevaForma": true,

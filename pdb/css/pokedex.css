@@ -95,6 +95,7 @@ h1 {
   outline: none;
   transition: all 0.3s ease;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  box-sizing: border-box; /* Aseguramos que el padding se incluya en el width total */
 }
 
 #pokemon-search:focus {
@@ -105,7 +106,7 @@ h1 {
 #clear-search {
   position: absolute;
   top: 50%;
-  right: -50px;
+  right: 15px;
   transform: translateY(-50%);
   background: none;
   border: none;
@@ -139,6 +140,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 250px; /* para que no se vea muy pequeño al reducir imagen */
+  flex-direction: column;
 }
 
 .card-inner {
@@ -202,7 +205,8 @@ h1 {
   transition: transform 0.3s ease;
 }
 
-.pokemon-card:hover .pokemon-image {
+.pokemon-card:hover .pokemon-image,
+.pokemon-card.is-active .pokemon-image { /* Added .is-active */
   transform: scale(1.08);
 }
 
@@ -334,32 +338,6 @@ h1 {
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 1.2rem;
   }
-}
-
-@media (max-width: 480px) {
-  h1 {
-    font-size: 2rem;
-  }
-  .pokemon-card {
-    height: 300px;
-  }
-  #pokedex-container {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* --- AJUSTES GLOBALES PARA MÓVILES --- */
-@media (max-width: 768px) {
-  body, .pokedex-app {
-    padding: 1rem;
-  }
-  h1 {
-    font-size: 2.5rem;
-  }
-  #pokedex-container {
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-    gap: 1.2rem;
-  }
 
   /* Reduce padding en tarjetas para mejor uso del espacio */
   .pokemon-card .card-face {
@@ -370,6 +348,27 @@ h1 {
   .pokemon-image {
     width: 100px;
     height: 100px;
+  }
+
+  /* Ajustes para la cara trasera en pantallas medianas */
+  .card-back .content-section-title {
+    font-size: 1rem; /* un poco más pequeña */
+    margin-bottom: 0.5rem;
+  }
+  .card-back .stat-item {
+    font-size: 0.8rem; /* Reducir el tamaño de la fuente de las estadísticas */
+    margin-bottom: 4px; /* Menos espacio entre ítems de estadísticas */
+  }
+  .card-back .stat-name {
+    width: 60px; /* Ajustar el ancho del nombre de la estadística */
+  }
+  .card-back .stat-bar {
+    font-size: 0.65rem; /* Fuente más pequeña para el valor dentro de la barra */
+    padding-right: 3px;
+  }
+  .evolution-info {
+    font-size: 0.8rem; /* Reducir el tamaño de la fuente de la información de evolución */
+    line-height: 1.3;
   }
 }
 
@@ -383,6 +382,7 @@ h1 {
   .pokemon-card {
     aspect-ratio: auto;
     height: auto;
+    min-height: 280px; /* Aumentar ligeramente el min-height para dar más espacio */
   }
 
   /* Grid de 1 columna para aprovechar todo el ancho */
@@ -411,16 +411,56 @@ h1 {
   .search-container {
     max-width: 100%;
     margin: 1rem auto 0;
+    padding: 0 10px; /* Añade un pequeño padding lateral al contenedor para que el input no toque los bordes de la pantalla */
   }
 
   #pokemon-search {
     font-size: 0.9rem;
-    padding: 10px 16px 10px 40px;
+    padding: 10px 45px 10px 40px; /* Ajuste el padding-right para dar espacio al icono de limpiar si existe, y el padding-left para el icono de búsqueda */
   }
 
   #clear-search {
     font-size: 1.2rem;
     right: 10px;
+  }
+
+  /* Ajustes específicos para la cara trasera en pantallas pequeñas */
+  .card-back {
+    padding: 0.6rem; /* Reducir aún más el padding de la cara trasera */
+  }
+  .card-back .content-section-title {
+    font-size: 0.9rem; /* Fuente aún más pequeña */
+    margin-bottom: 0.4rem;
+    padding-bottom: 0.3rem;
+  }
+  .card-back .stat-item {
+    font-size: 0.75rem; /* Tamaño de fuente más pequeño para estadísticas */
+    margin-bottom: 3px;
+    flex-wrap: wrap; /* Permitir que los items se envuelvan si es necesario */
+    justify-content: space-between; /* Distribuir espacio */
+  }
+  .card-back .stat-name {
+    width: auto; /* Dejar que el nombre de la estadística ocupe lo que necesite */
+    min-width: 40px; /* Un mínimo para asegurar legibilidad */
+    margin-right: 5px; /* Espacio entre el nombre y la barra */
+    text-align: left;
+  }
+  .card-back .stat-bar-background {
+    flex-grow: 1;
+    min-width: 80px; /* Asegurar que la barra tenga un ancho mínimo */
+  }
+  .card-back .stat-bar {
+    font-size: 0.6rem; /* La fuente más pequeña para el valor de la barra */
+    padding-right: 2px;
+  }
+  .stat-value { /* Asegúrate de que el valor numérico también se ajuste */
+    font-size: 0.8em;
+    margin-left: 5px;
+  }
+  .evolution-info {
+    font-size: 0.75rem; /* Fuente más pequeña para la información de evolución */
+    line-height: 1.2;
+    margin-top: 0.5rem;
   }
 }
 
@@ -429,18 +469,13 @@ h1 {
   touch-action: manipulation; /* mejora la respuesta al toque en móviles */
 }
 
-/* --- AUMENTAR la zona clicable en tarjetas --- */
-.pokemon-card {
-  min-height: 250px; /* para que no se vea muy pequeño al reducir imagen */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 /* --- Ajustar sombra y efectos para dispositivos móviles --- */
 @media (hover: none) and (pointer: coarse) {
   .pokemon-card:hover .pokemon-image {
     transform: none; /* desactivar escalado al pasar el dedo */
+  }
+  .pokemon-card.is-active .pokemon-image { /* Ensure scale is applied on active state */
+    transform: scale(1.08);
   }
 }
 
