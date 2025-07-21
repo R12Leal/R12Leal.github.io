@@ -1,0 +1,2772 @@
+[
+  {
+    "id": 1,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png",
+    "name": "Bulbasaur",
+    "types": ["Planta", "Veneno"],
+    "stats": [
+      {"name": "HP", "value": 45},
+      {"name": "Ataque", "value": 50},
+      {"name": "Defensa", "value": 50},
+      {"name": "At. Esp.", "value": 65},
+      {"name": "Def. Esp.", "value": 65},
+      {"name": "Velocidad", "value": 45}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "evolution": "Evoluciona a Ivysaur al nivel 16"
+  },
+  {
+    "id": 2,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/002.png",
+    "name": "Ivysaur",
+    "types": ["Planta", "Veneno"],
+    "stats": [
+      {"name": "HP", "value": 60},
+      {"name": "Ataque", "value": 70},
+      {"name": "Defensa", "value": 75},
+      {"name": "At. Esp.", "value": 85},
+      {"name": "Def. Esp.", "value": 85},
+      {"name": "Velocidad", "value": 60}
+    ],
+    "generation": 1,
+    "nuevaForma": false
+  },
+  {
+    "id": 3,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/003.png",
+    "name": "Venusaur",
+    "types": ["Planta", "Veneno"],
+    "stats": [
+      {"name": "HP", "value": 100},
+      {"name": "Ataque", "value": 100},
+      {"name": "Defensa", "value": 85},
+      {"name": "At. Esp.", "value": 100},
+      {"name": "Def. Esp.", "value": 100},
+      {"name": "Velocidad", "value": 65}
+    ],
+    "generation": 1,
+    "nuevaForma": false
+  },
+  {
+    "id": "MEGA",
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/003_f2.png",
+    "name": "Mega-Venusaur",
+    "types": ["Planta", "Veneno"],
+    "stats": [
+      {"name": "HP", "value": 100},
+      {"name": "Ataque", "value": 120},
+      {"name": "Defensa", "value": 123},
+      {"name": "At. Esp.", "value": 124},
+      {"name": "Def. Esp.", "value": 123},
+      {"name": "Velocidad", "value": 60}
+    ],
+    "generation": 1,
+    "nuevaForma": false
+  },
+  {
+    "id": 4,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/004.png",
+    "name": "Charmander",
+    "types": ["Fuego"],
+    "stats": [
+      {"name": "HP", "value": 45},
+      {"name": "Ataque", "value": 58},
+      {"name": "Defensa", "value": 45},
+      {"name": "At. Esp.", "value": 65},
+      {"name": "Def. Esp.", "value": 45},
+      {"name": "Velocidad", "value": 62}
+    ],
+    "generation": 1,
+    "nuevaForma": false
+  },
+  {
+    "id": 5,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/005.png",
+    "name": "Charmeleon",
+    "types": ["Fuego"],
+    "stats": [
+      {"name": "HP", "value": 58},
+      {"name": "Ataque", "value": 93},
+      {"name": "Defensa", "value": 52},
+      {"name": "At. Esp.", "value": 93},
+      {"name": "Def. Esp.", "value": 52},
+      {"name": "Velocidad", "value": 87}
+    ],
+    "generation": 1,
+    "nuevaForma": false
+  },
+  {
+    "id": 6,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/006.png",
+    "name": "Charizard",
+    "types": ["Fuego", "Volador"],
+    "stats": [
+      {"name": "HP", "value": 78},
+      {"name": "Ataque", "value": 111},
+      {"name": "Defensa", "value": 70},
+      {"name": "At. Esp.", "value": 121},
+      {"name": "Def. Esp.", "value": 70},
+      {"name": "Velocidad", "value": 100}
+    ],
+    "generation": 1,
+    "nuevaForma": false
+  },
+  {
+    "id": "MEGA",
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/006_f2.png",
+    "name": "Mega-Charizard X",
+    "types": ["Fuego", "Dragón"],
+    "stats": [
+      {"name": "HP", "value": 78},
+      {"name": "Ataque", "value": 165},
+      {"name": "Defensa", "value": 90},
+      {"name": "At. Esp.", "value": 115},
+      {"name": "Def. Esp.", "value": 90},
+      {"name": "Velocidad", "value": 112}
+    ],
+    "generation": 1,
+    "nuevaForma": false
+  },
+  {
+    "id": "MEGA",
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/006_f3.png",
+    "name": "Mega-Charizard Y",
+    "types": ["Fuego", "Dragón"],
+    "stats": [
+      {"name": "HP", "value": 78},
+      {"name": "Ataque", "value": 115},
+      {"name": "Defensa", "value": 90},
+      {"name": "At. Esp.", "value": 165},
+      {"name": "Def. Esp.", "value": 90},
+      {"name": "Velocidad", "value": 112}
+    ],
+    "generation": 1,
+    "nuevaForma": false
+  },
+  {
+    "id": 7,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/007.png",
+    "name": "Squirtle",
+    "types": ["Agua"],
+    "stats": [
+      {"name": "HP", "value": 44},
+      {"name": "Ataque", "value": 48},
+      {"name": "Defensa", "value": 70},
+      {"name": "At. Esp.", "value": 50},
+      {"name": "Def. Esp.", "value": 65},
+      {"name": "Velocidad", "value": 43}
+    ],
+    "generation": 1,
+    "nuevaForma": false
+  },
+  {
+    "id": 8,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/008.png",
+    "name": "Wartortle",
+    "types": ["Agua"],
+    "stats": [
+      {"name": "HP", "value": 59},
+      {"name": "Ataque", "value": 63},
+      {"name": "Defensa", "value": 95},
+      {"name": "At. Esp.", "value": 80},
+      {"name": "Def. Esp.", "value": 80},
+      {"name": "Velocidad", "value": 58}
+    ],
+    "generation": 1,
+    "nuevaForma": false
+  },
+  {
+    "id": 9,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/009.png",
+    "name": "Blastoise",
+    "types": ["Agua", "Acero"],
+    "stats": [
+      {"name": "HP", "value": 84},
+      {"name": "Ataque", "value": 73},
+      {"name": "Defensa", "value": 125},
+      {"name": "At. Esp.", "value": 120},
+      {"name": "Def. Esp.", "value": 105},
+      {"name": "Velocidad", "value": 43}
+    ],
+    "generation": 1,
+    "nuevaForma": false
+  },
+  {
+    "id": "MEGA",
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/009_f2.png",
+    "name": "Mega-Blastoise",
+    "types": ["Agua", "Acero"],
+    "stats": [
+      {"name": "HP", "value": 84},
+      {"name": "Ataque", "value": 103},
+      {"name": "Defensa", "value": 155},
+      {"name": "At. Esp.", "value": 160},
+      {"name": "Def. Esp.", "value": 115},
+      {"name": "Velocidad", "value": 33}
+    ],
+    "generation": 1,
+    "nuevaForma": false
+  },
+  {
+    "name": "Caterpie",
+    "types": ["Bicho"],
+    "stats": [
+      {"name": "HP", "value": 35},
+      {"name": "Ataque", "value": 30},
+      {"name": "Defensa", "value": 35},
+      {"name": "At. Esp.", "value": 55},
+      {"name": "Def. Esp.", "value": 50},
+      {"name": "Velocidad", "value": 45}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 10,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/010.png"
+  },
+  {
+    "name": "Metapod",
+    "types": ["Bicho"],
+    "stats": [
+      {"name": "HP", "value": 50},
+      {"name": "Ataque", "value": 40},
+      {"name": "Defensa", "value": 85},
+      {"name": "At. Esp.", "value": 55},
+      {"name": "Def. Esp.", "value": 70},
+      {"name": "Velocidad", "value": 30}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 11,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/011.png"
+  },
+  {
+    "name": "Butterfree",
+    "types": ["Bicho", "Volador"],
+    "stats": [
+      {"name": "HP", "value": 70},
+      {"name": "Ataque", "value": 45},
+      {"name": "Defensa", "value": 60},
+      {"name": "At. Esp.", "value": 110},
+      {"name": "Def. Esp.", "value": 100},
+      {"name": "Velocidad", "value": 95}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 12,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/012.png"
+  },
+  {
+    "name": "Weedle",
+    "types": ["Bicho", "Veneno"],
+    "stats": [
+      {"name": "HP", "value": 35},
+      {"name": "Ataque", "value": 60},
+      {"name": "Defensa", "value": 40},
+      {"name": "At. Esp.", "value": 30},
+      {"name": "Def. Esp.", "value": 35},
+      {"name": "Velocidad", "value": 50}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 13,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/013.png"
+  },
+  {
+    "name": "Kakuna",
+    "types": ["Bicho", "Veneno"],
+    "stats": [
+      {"name": "HP", "value": 50},
+      {"name": "Ataque", "value": 60},
+      {"name": "Defensa", "value": 85},
+      {"name": "At. Esp.", "value": 40},
+      {"name": "Def. Esp.", "value": 60},
+      {"name": "Velocidad", "value": 35}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 14,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/014.png"
+  },
+  {
+    "name": "Beedrill",
+    "types": ["Bicho", "Veneno"],
+    "stats": [
+      {"name": "HP", "value": 65},
+      {"name": "Ataque", "value": 119},
+      {"name": "Defensa", "value": 65},
+      {"name": "At. Esp.", "value": 45},
+      {"name": "Def. Esp.", "value": 65},
+      {"name": "Velocidad", "value": 121}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 15,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/015.png"
+  },
+  {
+    "name": "Mega-Beedrill",
+    "types": ["Bicho", "Veneno"],
+    "stats": [
+      {"name": "HP", "value": 65},
+      {"name": "Ataque", "value": 150},
+      {"name": "Defensa", "value": 40},
+      {"name": "At. Esp.", "value": 15},
+      {"name": "Def. Esp.", "value": 80},
+      {"name": "Velocidad", "value": 145}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 15,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/015_f2.png"
+  },
+  {
+    "name": "Pidgey ",
+    "types": ["Volador"],
+    "stats": [
+      {"name": "HP", "value": 40},
+      {"name": "Ataque", "value": 35},
+      {"name": "Defensa", "value": 45},
+      {"name": "At. Esp.", "value": 60},
+      {"name": "Def. Esp.", "value": 45},
+      {"name": "Velocidad", "value": 85}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 16
+  },
+  {
+    "name": "Pidgeotto ",
+    "types": ["Siniestro", "Volador"],
+    "stats": [
+      {"name": "HP", "value": 65},
+      {"name": "Ataque", "value": 50},
+      {"name": "Defensa", "value": 60},
+      {"name": "At. Esp.", "value": 80},
+      {"name": "Def. Esp.", "value": 60},
+      {"name": "Velocidad", "value": 105}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 17
+  },
+  {
+    "name": "Pidgeot ",
+    "types": ["Siniestro", "Volador"],
+    "stats": [
+      {"name": "HP", "value": 85},
+      {"name": "Ataque", "value": 70},
+      {"name": "Defensa", "value": 85},
+      {"name": "At. Esp.", "value": 100},
+      {"name": "Def. Esp.", "value": 85},
+      {"name": "Velocidad", "value": 125}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 18
+  },
+  {
+    "name": "Mega-Pidgeot ",
+    "types": ["Siniestro", "Volador"],
+    "stats": [
+      {"name": "HP", "value": 85},
+      {"name": "Ataque", "value": 80},
+      {"name": "Defensa", "value": 85},
+      {"name": "At. Esp.", "value": 165},
+      {"name": "Def. Esp.", "value": 90},
+      {"name": "Velocidad", "value": 145}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 18
+  },
+  {
+    "name": "Rattata ",
+    "types": ["Normal"],
+    "stats": [
+      {"name": "HP", "value": 47},
+      {"name": "Ataque", "value": 69},
+      {"name": "Defensa", "value": 42},
+      {"name": "At. Esp.", "value": 40},
+      {"name": "Def. Esp.", "value": 42},
+      {"name": "Velocidad", "value": 90}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 19
+  },
+  {
+    "name": "Raticate ",
+    "types": ["Normal", "Planta"],
+    "stats": [
+      {"name": "HP", "value": 70},
+      {"name": "Ataque", "value": 109},
+      {"name": "Defensa", "value": 72},
+      {"name": "At. Esp.", "value": 50},
+      {"name": "Def. Esp.", "value": 72},
+      {"name": "Velocidad", "value": 107}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 20
+  },
+  {
+    "name": "Spearow ",
+    "types": ["Eléctrico", "Volador"],
+    "stats": [
+      {"name": "HP", "value": 45},
+      {"name": "Ataque", "value": 75},
+      {"name": "Defensa", "value": 45},
+      {"name": "At. Esp.", "value": 31},
+      {"name": "Def. Esp.", "value": 51},
+      {"name": "Velocidad", "value": 103}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 21
+  },
+  {
+    "name": "Fearow ",
+    "types": ["Eléctrico", "Volador"],
+    "stats": [
+      {"name": "HP", "value": 75},
+      {"name": "Ataque", "value": 120},
+      {"name": "Defensa", "value": 75},
+      {"name": "At. Esp.", "value": 41},
+      {"name": "Def. Esp.", "value": 81},
+      {"name": "Velocidad", "value": 133}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 22
+  },
+  {
+    "name": "Ekans ",
+    "types": ["Hielo", "Veneno"],
+    "stats": [
+      {"name": "HP", "value": 65},
+      {"name": "Ataque", "value": 65},
+      {"name": "Defensa", "value": 55},
+      {"name": "At. Esp.", "value": 60},
+      {"name": "Def. Esp.", "value": 55},
+      {"name": "Velocidad", "value": 70}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 23
+  },
+  {
+    "name": "Arbok ",
+    "types": ["Hielo", "Veneno"],
+    "stats": [
+      {"name": "HP", "value": 105},
+      {"name": "Ataque", "value": 105},
+      {"name": "Defensa", "value": 80},
+      {"name": "At. Esp.", "value": 85},
+      {"name": "Def. Esp.", "value": 80},
+      {"name": "Velocidad", "value": 80}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 24
+  },
+  {
+    "name": "Pikachu",
+    "types": ["Eléctrico"],
+    "stats": [
+      {"name": "HP", "value": 50},
+      {"name": "Ataque", "value": 70},
+      {"name": "Defensa", "value": 45},
+      {"name": "At. Esp.", "value": 90},
+      {"name": "Def. Esp.", "value": 50},
+      {"name": "Velocidad", "value": 115}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 25,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/025.png"
+  },
+  {
+    "name": "Pikachu Rockero",
+    "types": ["Eléctrico", "Siniestro"],
+    "stats": [
+      {"name": "HP", "value": 65},
+      {"name": "Ataque", "value": 110},
+      {"name": "Defensa", "value": 70},
+      {"name": "At. Esp.", "value": 70},
+      {"name": "Def. Esp.", "value": 70},
+      {"name": "Velocidad", "value": 125}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 25,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/025_f2.png"
+  },
+  {
+    "name": "Pikachu Aristocrata",
+    "types": ["Eléctrico", "Hielo"],
+    "stats": [
+      {"name": "HP", "value": 65},
+      {"name": "Ataque", "value": 65},
+      {"name": "Defensa", "value": 85},
+      {"name": "At. Esp.", "value": 110},
+      {"name": "Def. Esp.", "value": 110},
+      {"name": "Velocidad", "value": 75}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 25,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/025_f3.png"
+  },
+  {
+    "name": "Pikachu Superstar",
+    "types": ["Eléctrico", "Hada"],
+    "stats": [
+      {"name": "HP", "value": 65},
+      {"name": "Ataque", "value": 65},
+      {"name": "Defensa", "value": 85},
+      {"name": "At. Esp.", "value": 110},
+      {"name": "Def. Esp.", "value": 110},
+      {"name": "Velocidad", "value": 75}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 25,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/025_f4.png"
+  },
+  {
+    "name": "Pikachu Erudito",
+    "types": ["Eléctrico", "Bicho"],
+    "stats": [
+      {"name": "HP", "value": 65},
+      {"name": "Ataque", "value": 60},
+      {"name": "Defensa", "value": 100},
+      {"name": "At. Esp.", "value": 110},
+      {"name": "Def. Esp.", "value": 70},
+      {"name": "Velocidad", "value": 105}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 25,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/025_f5.png"
+  },
+  {
+    "name": "Pikachu Marvel ",
+    "types": ["Eléctrico", "Lucha"],
+    "stats": [
+      {"name": "HP", "value": 65},
+      {"name": "Ataque", "value": 110},
+      {"name": "Defensa", "value": 70},
+      {"name": "At. Esp.", "value": 70},
+      {"name": "Def. Esp.", "value": 70},
+      {"name": "Velocidad", "value": 125}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 25
+  },
+  {
+    "name": "Raichu ",
+    "types": ["Eléctrico", "Fuego"],
+    "stats": [
+      {"name": "HP", "value": 70},
+      {"name": "Ataque", "value": 95},
+      {"name": "Defensa", "value": 65},
+      {"name": "At. Esp.", "value": 110},
+      {"name": "Def. Esp.", "value": 85},
+      {"name": "Velocidad", "value": 125}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 26
+  },
+  {
+    "name": "Sandshrew",
+    "types": ["Tierra"],
+    "stats": [
+      {"name": "HP", "value": 50},
+      {"name": "Ataque", "value": 75},
+      {"name": "Defensa", "value": 95},
+      {"name": "At. Esp.", "value": 20},
+      {"name": "Def. Esp.", "value": 60},
+      {"name": "Velocidad", "value": 50}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 27,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/027.png"
+  },
+  {
+    "name": "Sandslash",
+    "types": ["Tierra"],
+    "stats": [
+      {"name": "HP", "value": 75},
+      {"name": "Ataque", "value": 110},
+      {"name": "Defensa", "value": 115},
+      {"name": "At. Esp.", "value": 45},
+      {"name": "Def. Esp.", "value": 70},
+      {"name": "Velocidad", "value": 110}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 28,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/028.png"
+  },
+  {
+    "name": "Nidoran ",
+    "types": ["Acero"],
+    "stats": [
+      {"name": "HP", "value": 45},
+      {"name": "Ataque", "value": 40},
+      {"name": "Defensa", "value": 65},
+      {"name": "At. Esp.", "value": 65},
+      {"name": "Def. Esp.", "value": 55},
+      {"name": "Velocidad", "value": 65}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 29
+  },
+  {
+    "name": "Nidorina ",
+    "types": ["Acero"],
+    "stats": [
+      {"name": "HP", "value": 69},
+      {"name": "Ataque", "value": 50},
+      {"name": "Defensa", "value": 92},
+      {"name": "At. Esp.", "value": 83},
+      {"name": "Def. Esp.", "value": 75},
+      {"name": "Velocidad", "value": 86}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 30
+  },
+  {
+    "name": "Nidoqueen ",
+    "types": ["Acero", "Lucha"],
+    "stats": [
+      {"name": "HP", "value": 90},
+      {"name": "Ataque", "value": 60},
+      {"name": "Defensa", "value": 123},
+      {"name": "At. Esp.", "value": 131},
+      {"name": "Def. Esp.", "value": 90},
+      {"name": "Velocidad", "value": 81}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 31
+  },
+  {
+    "name": "Nidoran ",
+    "types": ["Acero"],
+    "stats": [
+      {"name": "HP", "value": 45},
+      {"name": "Ataque", "value": 72},
+      {"name": "Defensa", "value": 58},
+      {"name": "At. Esp.", "value": 40},
+      {"name": "Def. Esp.", "value": 50},
+      {"name": "Velocidad", "value": 70}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 32
+  },
+  {
+    "name": "Nidorino ",
+    "types": ["Acero"],
+    "stats": [
+      {"name": "HP", "value": 60},
+      {"name": "Ataque", "value": 101},
+      {"name": "Defensa", "value": 83},
+      {"name": "At. Esp.", "value": 50},
+      {"name": "Def. Esp.", "value": 65},
+      {"name": "Velocidad", "value": 96}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 33
+  },
+  {
+    "name": "Nidoking ",
+    "types": ["Acero", "Lucha"],
+    "stats": [
+      {"name": "HP", "value": 90},
+      {"name": "Ataque", "value": 141},
+      {"name": "Defensa", "value": 118},
+      {"name": "At. Esp.", "value": 55},
+      {"name": "Def. Esp.", "value": 80},
+      {"name": "Velocidad", "value": 91}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 34
+  },
+  {
+    "name": "Clefairy",
+    "types": ["Hada"],
+    "stats": [
+      {"name": "HP", "value": 70},
+      {"name": "Ataque", "value": 70},
+      {"name": "Defensa", "value": 70},
+      {"name": "At. Esp.", "value": 90},
+      {"name": "Def. Esp.", "value": 95},
+      {"name": "Velocidad", "value": 45}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 35,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/035.png"
+  },
+  {
+    "name": "Clefable",
+    "types": ["Hada"],
+    "stats": [
+      {"name": "HP", "value": 85},
+      {"name": "Ataque", "value": 80},
+      {"name": "Defensa", "value": 85},
+      {"name": "At. Esp.", "value": 115},
+      {"name": "Def. Esp.", "value": 125},
+      {"name": "Velocidad", "value": 60}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 36,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/036.png"
+  },
+  {
+    "name": "Vulpix ",
+    "types": ["Hada", "Fuego"],
+    "stats": [
+      {"name": "HP", "value": 45},
+      {"name": "Ataque", "value": 45},
+      {"name": "Defensa", "value": 45},
+      {"name": "At. Esp.", "value": 88},
+      {"name": "Def. Esp.", "value": 70},
+      {"name": "Velocidad", "value": 77}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 37
+  },
+  {
+    "name": "Ninetales ",
+    "types": ["Hada", "Fuego"],
+    "stats": [
+      {"name": "HP", "value": 73},
+      {"name": "Ataque", "value": 57},
+      {"name": "Defensa", "value": 75},
+      {"name": "At. Esp.", "value": 112},
+      {"name": "Def. Esp.", "value": 109},
+      {"name": "Velocidad", "value": 109}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 38
+  },
+  {
+    "name": "Jigglypuff ",
+    "types": ["Agua", "Fantasma"],
+    "stats": [
+      {"name": "HP", "value": 50},
+      {"name": "Ataque", "value": 35},
+      {"name": "Defensa", "value": 50},
+      {"name": "At. Esp.", "value": 85},
+      {"name": "Def. Esp.", "value": 85},
+      {"name": "Velocidad", "value": 45}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 39
+  },
+  {
+    "name": "Wigglytuff ",
+    "types": ["Agua", "Fantasma"],
+    "stats": [
+      {"name": "HP", "value": 100},
+      {"name": "Ataque", "value": 50},
+      {"name": "Defensa", "value": 75},
+      {"name": "At. Esp.", "value": 100},
+      {"name": "Def. Esp.", "value": 100},
+      {"name": "Velocidad", "value": 55}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 40
+  },
+  {
+    "name": "Zubat",
+    "types": ["Veneno", "Volador"],
+    "stats": [
+      {"name": "HP", "value": 40},
+      {"name": "Ataque", "value": 55},
+      {"name": "Defensa", "value": 40},
+      {"name": "At. Esp.", "value": 50},
+      {"name": "Def. Esp.", "value": 40},
+      {"name": "Velocidad", "value": 105}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 41,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/041.png"
+  },
+  {
+    "name": "Golbat",
+    "types": ["Veneno", "Volador"],
+    "stats": [
+      {"name": "HP", "value": 85},
+      {"name": "Ataque", "value": 85},
+      {"name": "Defensa", "value": 80},
+      {"name": "At. Esp.", "value": 80},
+      {"name": "Def. Esp.", "value": 80},
+      {"name": "Velocidad", "value": 105}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 42,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/042.png"
+  },
+  {
+    "name": "Oddish ",
+    "types": ["Planta", "Fuego"],
+    "stats": [
+      {"name": "HP", "value": 45},
+      {"name": "Ataque", "value": 35},
+      {"name": "Defensa", "value": 65},
+      {"name": "At. Esp.", "value": 75},
+      {"name": "Def. Esp.", "value": 70},
+      {"name": "Velocidad", "value": 30}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 43
+  },
+  {
+    "name": "Gloom ",
+    "types": ["Planta", "Fuego"],
+    "stats": [
+      {"name": "HP", "value": 60},
+      {"name": "Ataque", "value": 65},
+      {"name": "Defensa", "value": 80},
+      {"name": "At. Esp.", "value": 90},
+      {"name": "Def. Esp.", "value": 85},
+      {"name": "Velocidad", "value": 40}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 44
+  },
+  {
+    "name": "Vileplume ",
+    "types": ["Planta", "Fuego"],
+    "stats": [
+      {"name": "HP", "value": 85},
+      {"name": "Ataque", "value": 80},
+      {"name": "Defensa", "value": 95},
+      {"name": "At. Esp.", "value": 115},
+      {"name": "Def. Esp.", "value": 110},
+      {"name": "Velocidad", "value": 50}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 45
+  },
+  {
+    "name": "Paras ",
+    "types": ["Veneno", "Fantasma"],
+    "stats": [
+      {"name": "HP", "value": 50},
+      {"name": "Ataque", "value": 70},
+      {"name": "Defensa", "value": 80},
+      {"name": "At. Esp.", "value": 60},
+      {"name": "Def. Esp.", "value": 80},
+      {"name": "Velocidad", "value": 30}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 46
+  },
+  {
+    "name": "Parasect ",
+    "types": ["Veneno", "Fantasma"],
+    "stats": [
+      {"name": "HP", "value": 85},
+      {"name": "Ataque", "value": 100},
+      {"name": "Defensa", "value": 110},
+      {"name": "At. Esp.", "value": 90},
+      {"name": "Def. Esp.", "value": 110},
+      {"name": "Velocidad", "value": 30}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 47
+  },
+  {
+    "name": "Venonat ",
+    "types": ["Bicho", "Fuego"],
+    "stats": [
+      {"name": "HP", "value": 60},
+      {"name": "Ataque", "value": 40},
+      {"name": "Defensa", "value": 50},
+      {"name": "At. Esp.", "value": 82},
+      {"name": "Def. Esp.", "value": 72},
+      {"name": "Velocidad", "value": 66}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 48
+  },
+  {
+    "name": "Venomoth ",
+    "types": ["Bicho", "Fuego"],
+    "stats": [
+      {"name": "HP", "value": 70},
+      {"name": "Ataque", "value": 65},
+      {"name": "Defensa", "value": 65},
+      {"name": "At. Esp.", "value": 117},
+      {"name": "Def. Esp.", "value": 87},
+      {"name": "Velocidad", "value": 111}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 49
+  },
+  {
+    "name": "Diglett ",
+    "types": ["Acero", "Tierra"],
+    "stats": [
+      {"name": "HP", "value": 25},
+      {"name": "Ataque", "value": 65},
+      {"name": "Defensa", "value": 50},
+      {"name": "At. Esp.", "value": 25},
+      {"name": "Def. Esp.", "value": 50},
+      {"name": "Velocidad", "value": 115}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 50
+  },
+  {
+    "name": "Dugtrio ",
+    "types": ["Acero", "Tierra"],
+    "stats": [
+      {"name": "HP", "value": 75},
+      {"name": "Ataque", "value": 105},
+      {"name": "Defensa", "value": 70},
+      {"name": "At. Esp.", "value": 30},
+      {"name": "Def. Esp.", "value": 70},
+      {"name": "Velocidad", "value": 130}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 51
+  },
+  {
+    "name": "Meowth ",
+    "types": ["Normal"],
+    "stats": [
+      {"name": "HP", "value": 40},
+      {"name": "Ataque", "value": 65},
+      {"name": "Defensa", "value": 35},
+      {"name": "At. Esp.", "value": 55},
+      {"name": "Def. Esp.", "value": 40},
+      {"name": "Velocidad", "value": 95}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 52
+  },
+  {
+    "name": "Persian ",
+    "types": ["Siniestro"],
+    "stats": [
+      {"name": "HP", "value": 70},
+      {"name": "Ataque", "value": 102},
+      {"name": "Defensa", "value": 65},
+      {"name": "At. Esp.", "value": 90},
+      {"name": "Def. Esp.", "value": 70},
+      {"name": "Velocidad", "value": 118}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 53
+  },
+  {
+    "name": "Psyduck ",
+    "types": ["Normal"],
+    "stats": [
+      {"name": "HP", "value": 50},
+      {"name": "Ataque", "value": 55},
+      {"name": "Defensa", "value": 50},
+      {"name": "At. Esp.", "value": 80},
+      {"name": "Def. Esp.", "value": 60},
+      {"name": "Velocidad", "value": 55}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 54
+  },
+  {
+    "name": "Golduck ",
+    "types": ["Normal", "Psiquico"],
+    "stats": [
+      {"name": "HP", "value": 80},
+      {"name": "Ataque", "value": 82},
+      {"name": "Defensa", "value": 78},
+      {"name": "At. Esp.", "value": 114},
+      {"name": "Def. Esp.", "value": 80},
+      {"name": "Velocidad", "value": 101}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 55
+  },
+  {
+    "name": "Mankey ",
+    "types": ["Eléctrico", "Lucha"],
+    "stats": [
+      {"name": "HP", "value": 50},
+      {"name": "Ataque", "value": 85},
+      {"name": "Defensa", "value": 45},
+      {"name": "At. Esp.", "value": 30},
+      {"name": "Def. Esp.", "value": 45},
+      {"name": "Velocidad", "value": 115}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 56
+  },
+  {
+    "name": "Primeape ",
+    "types": ["Eléctrico", "Lucha"],
+    "stats": [
+      {"name": "HP", "value": 70},
+      {"name": "Ataque", "value": 130},
+      {"name": "Defensa", "value": 80},
+      {"name": "At. Esp.", "value": 60},
+      {"name": "Def. Esp.", "value": 80},
+      {"name": "Velocidad", "value": 115}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 57
+  },
+  {
+    "name": "Growlithe",
+    "types": ["Fuego"],
+    "stats": [
+      {"name": "HP", "value": 55},
+      {"name": "Ataque", "value": 75},
+      {"name": "Defensa", "value": 55},
+      {"name": "At. Esp.", "value": 75},
+      {"name": "Def. Esp.", "value": 55},
+      {"name": "Velocidad", "value": 85}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 58,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/058.png"
+  },
+  {
+    "name": "Arcanine",
+    "types": ["Fuego"],
+    "stats": [
+      {"name": "HP", "value": 90},
+      {"name": "Ataque", "value": 110},
+      {"name": "Defensa", "value": 80},
+      {"name": "At. Esp.", "value": 100},
+      {"name": "Def. Esp.", "value": 80},
+      {"name": "Velocidad", "value": 115}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 59,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/059.png"
+  },
+  {
+    "name": "Poliwag ",
+    "types": ["Tierra"],
+    "stats": [
+      {"name": "HP", "value": 40},
+      {"name": "Ataque", "value": 50},
+      {"name": "Defensa", "value": 40},
+      {"name": "At. Esp.", "value": 60},
+      {"name": "Def. Esp.", "value": 55},
+      {"name": "Velocidad", "value": 75}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 60
+  },
+  {
+    "name": "Poliwhirl ",
+    "types": ["Tierra"],
+    "stats": [
+      {"name": "HP", "value": 65},
+      {"name": "Ataque", "value": 80},
+      {"name": "Defensa", "value": 80},
+      {"name": "At. Esp.", "value": 80},
+      {"name": "Def. Esp.", "value": 80},
+      {"name": "Velocidad", "value": 65}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 61
+  },
+  {
+    "name": "Poliwrath ",
+    "types": ["Tierra", "Lucha"],
+    "stats": [
+      {"name": "HP", "value": 95},
+      {"name": "Ataque", "value": 145},
+      {"name": "Defensa", "value": 95},
+      {"name": "At. Esp.", "value": 70},
+      {"name": "Def. Esp.", "value": 90},
+      {"name": "Velocidad", "value": 60}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 62
+  },
+  {
+    "name": "Abra ",
+    "types": ["Hielo", "Hada"],
+    "stats": [
+      {"name": "HP", "value": 35},
+      {"name": "Ataque", "value": 20},
+      {"name": "Defensa", "value": 25},
+      {"name": "At. Esp.", "value": 95},
+      {"name": "Def. Esp.", "value": 60},
+      {"name": "Velocidad", "value": 90}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 63
+  },
+  {
+    "name": "Kadabra ",
+    "types": ["Hielo", "Hada"],
+    "stats": [
+      {"name": "HP", "value": 55},
+      {"name": "Ataque", "value": 35},
+      {"name": "Defensa", "value": 40},
+      {"name": "At. Esp.", "value": 115},
+      {"name": "Def. Esp.", "value": 75},
+      {"name": "Velocidad", "value": 105}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 64
+  },
+  {
+    "name": "Alakazam ",
+    "types": ["Hielo", "Hada"],
+    "stats": [
+      {"name": "HP", "value": 70},
+      {"name": "Ataque", "value": 50},
+      {"name": "Defensa", "value": 50},
+      {"name": "At. Esp.", "value": 135},
+      {"name": "Def. Esp.", "value": 100},
+      {"name": "Velocidad", "value": 120}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 65
+  },
+  {
+    "name": "Mega-Alakazam ",
+    "types": ["Hielo", "Hada"],
+    "stats": [
+      {"name": "HP", "value": 70},
+      {"name": "Ataque", "value": 50},
+      {"name": "Defensa", "value": 65},
+      {"name": "At. Esp.", "value": 180},
+      {"name": "Def. Esp.", "value": 125},
+      {"name": "Velocidad", "value": 135}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 65
+  },
+  {
+    "name": "Machop",
+    "types": ["Lucha"],
+    "stats": [
+      {"name": "HP", "value": 50},
+      {"name": "Ataque", "value": 90},
+      {"name": "Defensa", "value": 70},
+      {"name": "At. Esp.", "value": 30},
+      {"name": "Def. Esp.", "value": 50},
+      {"name": "Velocidad", "value": 40}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 66,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/066.png"
+  },
+  {
+    "name": "Machoke",
+    "types": ["Lucha"],
+    "stats": [
+      {"name": "HP", "value": 80},
+      {"name": "Ataque", "value": 120},
+      {"name": "Defensa", "value": 85},
+      {"name": "At. Esp.", "value": 40},
+      {"name": "Def. Esp.", "value": 60},
+      {"name": "Velocidad", "value": 55}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 67,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/067.png"
+  },
+  {
+    "name": "Machamp",
+    "types": ["Lucha"],
+    "stats": [
+      {"name": "HP", "value": 95},
+      {"name": "Ataque", "value": 150},
+      {"name": "Defensa", "value": 100},
+      {"name": "At. Esp.", "value": 50},
+      {"name": "Def. Esp.", "value": 85},
+      {"name": "Velocidad", "value": 70}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 68,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/068.png"
+  },
+  {
+    "name": "Bellsprout",
+    "types": ["Planta", "Veneno"],
+    "stats": [
+      {"name": "HP", "value": 50},
+      {"name": "Ataque", "value": 65},
+      {"name": "Defensa", "value": 35},
+      {"name": "At. Esp.", "value": 75},
+      {"name": "Def. Esp.", "value": 35},
+      {"name": "Velocidad", "value": 65}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 69,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/069.png"
+  },
+  {
+    "name": "Weepinbell",
+    "types": ["Planta", "Veneno"],
+    "stats": [
+      {"name": "HP", "value": 65},
+      {"name": "Ataque", "value": 80},
+      {"name": "Defensa", "value": 80},
+      {"name": "At. Esp.", "value": 90},
+      {"name": "Def. Esp.", "value": 80},
+      {"name": "Velocidad", "value": 55}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 70,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/070.png"
+  },
+  {
+    "name": "Victreebel",
+    "types": ["Planta", "Veneno"],
+    "stats": [
+      {"name": "HP", "value": 100},
+      {"name": "Ataque", "value": 105},
+      {"name": "Defensa", "value": 80},
+      {"name": "At. Esp.", "value": 115},
+      {"name": "Def. Esp.", "value": 80},
+      {"name": "Velocidad", "value": 70}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 71,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/071.png"
+  },
+  {
+    "name": "Tentacool ",
+    "types": ["Agua", "Eléctrico"],
+    "stats": [
+      {"name": "HP", "value": 50},
+      {"name": "Ataque", "value": 40},
+      {"name": "Defensa", "value": 40},
+      {"name": "At. Esp.", "value": 70},
+      {"name": "Def. Esp.", "value": 100},
+      {"name": "Velocidad", "value": 70}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 72
+  },
+  {
+    "name": "Tentacruel ",
+    "types": ["Agua", "Eléctrico"],
+    "stats": [
+      {"name": "HP", "value": 80},
+      {"name": "Ataque", "value": 70},
+      {"name": "Defensa", "value": 70},
+      {"name": "At. Esp.", "value": 110},
+      {"name": "Def. Esp.", "value": 120},
+      {"name": "Velocidad", "value": 100}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 73
+  },
+  {
+    "name": "Geodude",
+    "types": ["Roca", "Tierra"],
+    "stats": [
+      {"name": "HP", "value": 45},
+      {"name": "Ataque", "value": 80},
+      {"name": "Defensa", "value": 100},
+      {"name": "At. Esp.", "value": 30},
+      {"name": "Def. Esp.", "value": 50},
+      {"name": "Velocidad", "value": 20}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 74,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/074.png"
+  },
+  {
+    "name": "Graveler",
+    "types": ["Roca", "Tierra"],
+    "stats": [
+      {"name": "HP", "value": 70},
+      {"name": "Ataque", "value": 110},
+      {"name": "Defensa", "value": 115},
+      {"name": "At. Esp.", "value": 35},
+      {"name": "Def. Esp.", "value": 55},
+      {"name": "Velocidad", "value": 65}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 75,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/075.png"
+  },
+  {
+    "name": "Golem",
+    "types": ["Roca", "Tierra"],
+    "stats": [
+      {"name": "HP", "value": 80},
+      {"name": "Ataque", "value": 120},
+      {"name": "Defensa", "value": 130},
+      {"name": "At. Esp.", "value": 55},
+      {"name": "Def. Esp.", "value": 70},
+      {"name": "Velocidad", "value": 95}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 76,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/076.png"
+  },
+  {
+    "name": "Ponyta ",
+    "types": ["Fuego", "Fantasma"],
+    "stats": [
+      {"name": "HP", "value": 55},
+      {"name": "Ataque", "value": 100},
+      {"name": "Defensa", "value": 55},
+      {"name": "At. Esp.", "value": 55},
+      {"name": "Def. Esp.", "value": 55},
+      {"name": "Velocidad", "value": 110}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 77
+  },
+  {
+    "name": "Rapidash ",
+    "types": ["Fuego", "Fantasma"],
+    "stats": [
+      {"name": "HP", "value": 85},
+      {"name": "Ataque", "value": 140},
+      {"name": "Defensa", "value": 80},
+      {"name": "At. Esp.", "value": 60},
+      {"name": "Def. Esp.", "value": 80},
+      {"name": "Velocidad", "value": 125}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 78
+  },
+  {
+    "name": "Slowpoke",
+    "types": ["Agua", "Psíquico"],
+    "stats": [
+      {"name": "HP", "value": 65},
+      {"name": "Ataque", "value": 65},
+      {"name": "Defensa", "value": 65},
+      {"name": "At. Esp.", "value": 65},
+      {"name": "Def. Esp.", "value": 80},
+      {"name": "Velocidad", "value": 10}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 79,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/079.png"
+  },
+  {
+    "name": "Slowbro",
+    "types": ["Agua", "Psíquico"],
+    "stats": [
+      {"name": "HP", "value": 95},
+      {"name": "Ataque", "value": 85},
+      {"name": "Defensa", "value": 115},
+      {"name": "At. Esp.", "value": 100},
+      {"name": "Def. Esp.", "value": 95},
+      {"name": "Velocidad", "value": 25}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 80,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/080.png"
+  },
+  {
+    "name": "Mega-Slowbro",
+    "types": ["Agua", "Psíquico"],
+    "stats": [
+      {"name": "HP", "value": 95},
+      {"name": "Ataque", "value": 95},
+      {"name": "Defensa", "value": 180},
+      {"name": "At. Esp.", "value": 100},
+      {"name": "Def. Esp.", "value": 120},
+      {"name": "Velocidad", "value": 25}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 80,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/080_f2.png"
+  },
+  {
+    "name": "Magnemite",
+    "types": ["Eléctrico", "Acero"],
+    "stats": [
+      {"name": "HP", "value": 25},
+      {"name": "Ataque", "value": 35},
+      {"name": "Defensa", "value": 90},
+      {"name": "At. Esp.", "value": 95},
+      {"name": "Def. Esp.", "value": 70},
+      {"name": "Velocidad", "value": 45}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 81,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/081.png"
+  },
+  {
+    "name": "Magneton",
+    "types": ["Eléctrico", "Acero"],
+    "stats": [
+      {"name": "HP", "value": 60},
+      {"name": "Ataque", "value": 45},
+      {"name": "Defensa", "value": 95},
+      {"name": "At. Esp.", "value": 120},
+      {"name": "Def. Esp.", "value": 80},
+      {"name": "Velocidad", "value": 80}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 82,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/082.png"
+  },
+  {
+    "name": "Farfetchd ",
+    "types": ["Fuego", "Planta"],
+    "stats": [
+      {"name": "HP", "value": 70},
+      {"name": "Ataque", "value": 135},
+      {"name": "Defensa", "value": 75},
+      {"name": "At. Esp.", "value": 55},
+      {"name": "Def. Esp.", "value": 85},
+      {"name": "Velocidad", "value": 115}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 83
+  },
+  {
+    "name": "Doduo",
+    "types": ["Tierra", "Volador"],
+    "stats": [
+      {"name": "HP", "value": 50},
+      {"name": "Ataque", "value": 85},
+      {"name": "Defensa", "value": 45},
+      {"name": "At. Esp.", "value": 35},
+      {"name": "Def. Esp.", "value": 45},
+      {"name": "Velocidad", "value": 110}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 84,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/084.png"
+  },
+  {
+    "name": "Dodrio",
+    "types": ["Tierra", "Volador"],
+    "stats": [
+      {"name": "HP", "value": 75},
+      {"name": "Ataque", "value": 115},
+      {"name": "Defensa", "value": 70},
+      {"name": "At. Esp.", "value": 60},
+      {"name": "Def. Esp.", "value": 70},
+      {"name": "Velocidad", "value": 125}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 85,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/085.png"
+  },
+  {
+    "name": "Seel",
+    "types": ["Agua", "Hielo"],
+    "stats": [
+      {"name": "HP", "value": 65},
+      {"name": "Ataque", "value": 65},
+      {"name": "Defensa", "value": 55},
+      {"name": "At. Esp.", "value": 65},
+      {"name": "Def. Esp.", "value": 75},
+      {"name": "Velocidad", "value": 45}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 86,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/086.png"
+  },
+  {
+    "name": "Dewgong",
+    "types": ["Agua", "Hielo"],
+    "stats": [
+      {"name": "HP", "value": 100},
+      {"name": "Ataque", "value": 90},
+      {"name": "Defensa", "value": 80},
+      {"name": "At. Esp.", "value": 90},
+      {"name": "Def. Esp.", "value": 105},
+      {"name": "Velocidad", "value": 70}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 87,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/087.png"
+  },
+  {
+    "name": "Grimer ",
+    "types": ["Tierra"],
+    "stats": [
+      {"name": "HP", "value": 60},
+      {"name": "Ataque", "value": 80},
+      {"name": "Defensa", "value": 60},
+      {"name": "At. Esp.", "value": 70},
+      {"name": "Def. Esp.", "value": 85},
+      {"name": "Velocidad", "value": 15}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 88
+  },
+  {
+    "name": "Muk ",
+    "types": ["Tierra", "Hielo"],
+    "stats": [
+      {"name": "HP", "value": 110},
+      {"name": "Ataque", "value": 110},
+      {"name": "Defensa", "value": 80},
+      {"name": "At. Esp.", "value": 90},
+      {"name": "Def. Esp.", "value": 120},
+      {"name": "Velocidad", "value": 40}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 89
+  },
+  {
+    "name": "Shellder",
+    "types": ["Agua"],
+    "stats": [
+      {"name": "HP", "value": 50},
+      {"name": "Ataque", "value": 60},
+      {"name": "Defensa", "value": 110},
+      {"name": "At. Esp.", "value": 30},
+      {"name": "Def. Esp.", "value": 50},
+      {"name": "Velocidad", "value": 50}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 90,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/090.png"
+  },
+  {
+    "name": "Cloyster",
+    "types": ["Agua", "Acero"],
+    "stats": [
+      {"name": "HP", "value": 70},
+      {"name": "Ataque", "value": 95},
+      {"name": "Defensa", "value": 180},
+      {"name": "At. Esp.", "value": 40},
+      {"name": "Def. Esp.", "value": 70},
+      {"name": "Velocidad", "value": 70}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 91,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/091.png"
+  },
+  {
+    "name": "Gastly",
+    "types": ["Fantasma"],
+    "stats": [
+      {"name": "HP", "value": 30},
+      {"name": "Ataque", "value": 10},
+      {"name": "Defensa", "value": 30},
+      {"name": "At. Esp.", "value": 95},
+      {"name": "Def. Esp.", "value": 65},
+      {"name": "Velocidad", "value": 100}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 92,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/092.png"
+  },
+  {
+    "name": "Haunter",
+    "types": ["Fantasma", "Siniestro"],
+    "stats": [
+      {"name": "HP", "value": 45},
+      {"name": "Ataque", "value": 75},
+      {"name": "Defensa", "value": 65},
+      {"name": "At. Esp.", "value": 115},
+      {"name": "Def. Esp.", "value": 70},
+      {"name": "Velocidad", "value": 115}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 93,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/093.png"
+  },
+  {
+    "name": "Gengar",
+    "types": ["Fantasma", "Siniestro"],
+    "stats": [
+      {"name": "HP", "value": 65},
+      {"name": "Ataque", "value": 70},
+      {"name": "Defensa", "value": 60},
+      {"name": "At. Esp.", "value": 130},
+      {"name": "Def. Esp.", "value": 85},
+      {"name": "Velocidad", "value": 125}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 94,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/094.png"
+  },
+  {
+    "name": "Mega-Gengar",
+    "types": ["Fantasma", "Siniestro"],
+    "stats": [
+      {"name": "HP", "value": 70},
+      {"name": "Ataque", "value": 65},
+      {"name": "Defensa", "value": 70},
+      {"name": "At. Esp.", "value": 175},
+      {"name": "Def. Esp.", "value": 100},
+      {"name": "Velocidad", "value": 145}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 94,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/094_f2.png"
+  },
+  {
+    "name": "Onix",
+    "types": ["Roca", "Tierra"],
+    "stats": [
+      {"name": "HP", "value": 120},
+      {"name": "Ataque", "value": 120},
+      {"name": "Defensa", "value": 140},
+      {"name": "At. Esp.", "value": 30},
+      {"name": "Def. Esp.", "value": 45},
+      {"name": "Velocidad", "value": 70}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 95,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/095.png"
+  },
+  {
+    "name": "Onix Cristal ",
+    "types": ["Acero", "Tierra"],
+    "stats": [
+      {"name": "HP", "value": 120},
+      {"name": "Ataque", "value": 130},
+      {"name": "Defensa", "value": 160},
+      {"name": "At. Esp.", "value": 20},
+      {"name": "Def. Esp.", "value": 70},
+      {"name": "Velocidad", "value": 60}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 95
+  },
+  {
+    "name": "Drowzee",
+    "types": ["Psíquico", "Siniestro"],
+    "stats": [
+      {"name": "HP", "value": 75},
+      {"name": "Ataque", "value": 48},
+      {"name": "Defensa", "value": 80},
+      {"name": "At. Esp.", "value": 90},
+      {"name": "Def. Esp.", "value": 100},
+      {"name": "Velocidad", "value": 42}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 96,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/096.png"
+  },
+  {
+    "name": "Hypno ",
+    "types": ["Psiquico", "Siniestro"],
+    "stats": [
+      {"name": "HP", "value": 85},
+      {"name": "Ataque", "value": 73},
+      {"name": "Defensa", "value": 80},
+      {"name": "At. Esp.", "value": 115},
+      {"name": "Def. Esp.", "value": 115},
+      {"name": "Velocidad", "value": 67}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 97
+  },
+  {
+    "name": "Krabby ",
+    "types": ["Roca"],
+    "stats": [
+      {"name": "HP", "value": 40},
+      {"name": "Ataque", "value": 105},
+      {"name": "Defensa", "value": 90},
+      {"name": "At. Esp.", "value": 25},
+      {"name": "Def. Esp.", "value": 40},
+      {"name": "Velocidad", "value": 70}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 98
+  },
+  {
+    "name": "Kingler ",
+    "types": ["Roca", "Lucha"],
+    "stats": [
+      {"name": "HP", "value": 75},
+      {"name": "Ataque", "value": 130},
+      {"name": "Defensa", "value": 115},
+      {"name": "At. Esp.", "value": 50},
+      {"name": "Def. Esp.", "value": 80},
+      {"name": "Velocidad", "value": 75}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 99
+  },
+  {
+    "name": "Voltorb ",
+    "types": ["Eléctrico"],
+    "stats": [
+      {"name": "HP", "value": 40},
+      {"name": "Ataque", "value": 20},
+      {"name": "Defensa", "value": 40},
+      {"name": "At. Esp.", "value": 100},
+      {"name": "Def. Esp.", "value": 50},
+      {"name": "Velocidad", "value": 120}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 100
+  },
+  {
+    "name": "Electrode ",
+    "types": ["Eléctrico"],
+    "stats": [
+      {"name": "HP", "value": 60},
+      {"name": "Ataque", "value": 35},
+      {"name": "Defensa", "value": 70},
+      {"name": "At. Esp.", "value": 135},
+      {"name": "Def. Esp.", "value": 80},
+      {"name": "Velocidad", "value": 155}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 101
+  },
+  {
+    "name": "Mega-Electrode ",
+    "types": ["Eléctrico"],
+    "stats": [
+      {"name": "HP", "value": 70},
+      {"name": "Ataque", "value": 65},
+      {"name": "Defensa", "value": 80},
+      {"name": "At. Esp.", "value": 165},
+      {"name": "Def. Esp.", "value": 90},
+      {"name": "Velocidad", "value": 165}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 101
+  },
+  {
+    "name": "Exeggcute",
+    "types": ["Planta", "Psíquico"],
+    "stats": [
+      {"name": "HP", "value": 65},
+      {"name": "Ataque", "value": 45},
+      {"name": "Defensa", "value": 85},
+      {"name": "At. Esp.", "value": 90},
+      {"name": "Def. Esp.", "value": 85},
+      {"name": "Velocidad", "value": 30}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 102,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/102.png"
+  },
+  {
+    "name": "Exeggutor",
+    "types": ["Planta", "Psíquico"],
+    "stats": [
+      {"name": "HP", "value": 95},
+      {"name": "Ataque", "value": 100},
+      {"name": "Defensa", "value": 90},
+      {"name": "At. Esp.", "value": 125},
+      {"name": "Def. Esp.", "value": 115},
+      {"name": "Velocidad", "value": 50}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 103,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/103.png"
+  },
+  {
+    "name": "Cubone ",
+    "types": ["Agua"],
+    "stats": [
+      {"name": "HP", "value": 50},
+      {"name": "Ataque", "value": 50},
+      {"name": "Defensa", "value": 90},
+      {"name": "At. Esp.", "value": 35},
+      {"name": "Def. Esp.", "value": 60},
+      {"name": "Velocidad", "value": 65}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 104
+  },
+  {
+    "name": "Marowak ",
+    "types": ["Agua", "Lucha"],
+    "stats": [
+      {"name": "HP", "value": 65},
+      {"name": "Ataque", "value": 80},
+      {"name": "Defensa", "value": 115},
+      {"name": "At. Esp.", "value": 50},
+      {"name": "Def. Esp.", "value": 80},
+      {"name": "Velocidad", "value": 90}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 105
+  },
+  {
+    "name": "Hitmonlee",
+    "types": ["Lucha"],
+    "stats": [
+      {"name": "HP", "value": 70},
+      {"name": "Ataque", "value": 130},
+      {"name": "Defensa", "value": 75},
+      {"name": "At. Esp.", "value": 35},
+      {"name": "Def. Esp.", "value": 110},
+      {"name": "Velocidad", "value": 105}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 106,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/106.png"
+  },
+  {
+    "name": "Hitmonchan",
+    "types": ["Lucha"],
+    "stats": [
+      {"name": "HP", "value": 70},
+      {"name": "Ataque", "value": 120},
+      {"name": "Defensa", "value": 85},
+      {"name": "At. Esp.", "value": 30},
+      {"name": "Def. Esp.", "value": 110},
+      {"name": "Velocidad", "value": 110}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 107,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/107.png"
+  },
+  {
+    "name": "Lickitung",
+    "types": ["Normal", "Veneno"],
+    "stats": [
+      {"name": "HP", "value": 90},
+      {"name": "Ataque", "value": 85},
+      {"name": "Defensa", "value": 95},
+      {"name": "At. Esp.", "value": 85},
+      {"name": "Def. Esp.", "value": 95},
+      {"name": "Velocidad", "value": 30}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 108,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/108.png"
+  },
+  {
+    "name": "Koffing",
+    "types": ["Veneno"],
+    "stats": [
+      {"name": "HP", "value": 50},
+      {"name": "Ataque", "value": 35},
+      {"name": "Defensa", "value": 95},
+      {"name": "At. Esp.", "value": 80},
+      {"name": "Def. Esp.", "value": 75},
+      {"name": "Velocidad", "value": 40}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 109,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/109.png"
+  },
+  {
+    "name": "Weezing",
+    "types": ["Veneno"],
+    "stats": [
+      {"name": "HP", "value": 80},
+      {"name": "Ataque", "value": 60},
+      {"name": "Defensa", "value": 130},
+      {"name": "At. Esp.", "value": 110},
+      {"name": "Def. Esp.", "value": 95},
+      {"name": "Velocidad", "value": 60}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 110,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/110.png"
+  },
+  {
+    "name": "Rhyhorn",
+    "types": ["Tierra", "Roca"],
+    "stats": [
+      {"name": "HP", "value": 80},
+      {"name": "Ataque", "value": 118},
+      {"name": "Defensa", "value": 115},
+      {"name": "At. Esp.", "value": 30},
+      {"name": "Def. Esp.", "value": 45},
+      {"name": "Velocidad", "value": 92}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 111,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/111.png"
+  },
+  {
+    "name": "Rhydon",
+    "types": ["Tierra", "Roca"],
+    "stats": [
+      {"name": "HP", "value": 105},
+      {"name": "Ataque", "value": 133},
+      {"name": "Defensa", "value": 120},
+      {"name": "At. Esp.", "value": 35},
+      {"name": "Def. Esp.", "value": 70},
+      {"name": "Velocidad", "value": 62}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 112,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/112.png"
+  },
+  {
+    "name": "Chansey",
+    "types": ["Normal", "Hada"],
+    "stats": [
+      {"name": "HP", "value": 150},
+      {"name": "Ataque", "value": 20},
+      {"name": "Defensa", "value": 40},
+      {"name": "At. Esp.", "value": 80},
+      {"name": "Def. Esp.", "value": 120},
+      {"name": "Velocidad", "value": 40}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 113,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/113.png"
+  },
+  {
+    "name": "Tangela ",
+    "types": ["Hada", "Bicho"],
+    "stats": [
+      {"name": "HP", "value": 65},
+      {"name": "Ataque", "value": 60},
+      {"name": "Defensa", "value": 115},
+      {"name": "At. Esp.", "value": 100},
+      {"name": "Def. Esp.", "value": 75},
+      {"name": "Velocidad", "value": 65}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 114
+  },
+  {
+    "name": "Kangaskhan",
+    "types": ["Normal"],
+    "stats": [
+      {"name": "HP", "value": 105},
+      {"name": "Ataque", "value": 120},
+      {"name": "Defensa", "value": 90},
+      {"name": "At. Esp.", "value": 40},
+      {"name": "Def. Esp.", "value": 80},
+      {"name": "Velocidad", "value": 90}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 115,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/115.png"
+  },
+  {
+    "name": "Mega-Kangaskhan",
+    "types": ["Normal"],
+    "stats": [
+      {"name": "HP", "value": 105},
+      {"name": "Ataque", "value": 130},
+      {"name": "Defensa", "value": 110},
+      {"name": "At. Esp.", "value": 90},
+      {"name": "Def. Esp.", "value": 90},
+      {"name": "Velocidad", "value": 100}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 115,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/115_f2.png"
+  },
+  {
+    "name": "Horsea",
+    "types": ["Agua"],
+    "stats": [
+      {"name": "HP", "value": 40},
+      {"name": "Ataque", "value": 40},
+      {"name": "Defensa", "value": 70},
+      {"name": "At. Esp.", "value": 85},
+      {"name": "Def. Esp.", "value": 50},
+      {"name": "Velocidad", "value": 75}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 116,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/116.png"
+  },
+  {
+    "name": "Seadra",
+    "types": ["Agua", "Dragón"],
+    "stats": [
+      {"name": "HP", "value": 55},
+      {"name": "Ataque", "value": 70},
+      {"name": "Defensa", "value": 95},
+      {"name": "At. Esp.", "value": 105},
+      {"name": "Def. Esp.", "value": 65},
+      {"name": "Velocidad", "value": 90}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 117,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/117.png"
+  },
+  {
+    "name": "Goldeen ",
+    "types": ["Agua", "Hada"],
+    "stats": [
+      {"name": "HP", "value": 50},
+      {"name": "Ataque", "value": 72},
+      {"name": "Defensa", "value": 60},
+      {"name": "At. Esp.", "value": 75},
+      {"name": "Def. Esp.", "value": 70},
+      {"name": "Velocidad", "value": 83}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 118
+  },
+  {
+    "name": "Seaking ",
+    "types": ["Agua", "Hada"],
+    "stats": [
+      {"name": "HP", "value": 80},
+      {"name": "Ataque", "value": 120},
+      {"name": "Defensa", "value": 65},
+      {"name": "At. Esp.", "value": 90},
+      {"name": "Def. Esp.", "value": 90},
+      {"name": "Velocidad", "value": 98}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 119
+  },
+  {
+    "name": "Staryu ",
+    "types": ["Acero", "Psíquico"],
+    "stats": [
+      {"name": "HP", "value": 35},
+      {"name": "Ataque", "value": 30},
+      {"name": "Defensa", "value": 55},
+      {"name": "At. Esp.", "value": 103},
+      {"name": "Def. Esp.", "value": 80},
+      {"name": "Velocidad", "value": 97}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 120
+  },
+  {
+    "name": "Starmie ",
+    "types": ["Acero", "Psíquico"],
+    "stats": [
+      {"name": "HP", "value": 70},
+      {"name": "Ataque", "value": 45},
+      {"name": "Defensa", "value": 85},
+      {"name": "At. Esp.", "value": 123},
+      {"name": "Def. Esp.", "value": 95},
+      {"name": "Velocidad", "value": 117}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 121
+  },
+  {
+    "name": "Mr. Mime",
+    "types": ["Psíquico", "Hada"],
+    "stats": [
+      {"name": "HP", "value": 70},
+      {"name": "Ataque", "value": 45},
+      {"name": "Defensa", "value": 65},
+      {"name": "At. Esp.", "value": 115},
+      {"name": "Def. Esp.", "value": 150},
+      {"name": "Velocidad", "value": 90}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 122,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/122.png"
+  },
+  {
+    "name": "Scyther ",
+    "types": ["Fuego", "Volador"],
+    "stats": [
+      {"name": "HP", "value": 70},
+      {"name": "Ataque", "value": 130},
+      {"name": "Defensa", "value": 80},
+      {"name": "At. Esp.", "value": 40},
+      {"name": "Def. Esp.", "value": 80},
+      {"name": "Velocidad", "value": 135}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 123
+  },
+  {
+    "name": "Jynx",
+    "types": ["Hielo", "Psíquico"],
+    "stats": [
+      {"name": "HP", "value": 70},
+      {"name": "Ataque", "value": 50},
+      {"name": "Defensa", "value": 60},
+      {"name": "At. Esp.", "value": 125},
+      {"name": "Def. Esp.", "value": 125},
+      {"name": "Velocidad", "value": 95}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 124,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/124.png"
+  },
+  {
+    "name": "Electabuzz",
+    "types": ["Eléctrico"],
+    "stats": [
+      {"name": "HP", "value": 70},
+      {"name": "Ataque", "value": 108},
+      {"name": "Defensa", "value": 65},
+      {"name": "At. Esp.", "value": 95},
+      {"name": "Def. Esp.", "value": 75},
+      {"name": "Velocidad", "value": 112}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 125,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/125.png"
+  },
+  {
+    "name": "Magmar",
+    "types": ["Fuego"],
+    "stats": [
+      {"name": "HP", "value": 70},
+      {"name": "Ataque", "value": 95},
+      {"name": "Defensa", "value": 70},
+      {"name": "At. Esp.", "value": 112},
+      {"name": "Def. Esp.", "value": 85},
+      {"name": "Velocidad", "value": 93}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 126,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/126.png"
+  },
+  {
+    "name": "Pinsir",
+    "types": ["Bicho", "Tierra"],
+    "stats": [
+      {"name": "HP", "value": 80},
+      {"name": "Ataque", "value": 135},
+      {"name": "Defensa", "value": 113},
+      {"name": "At. Esp.", "value": 40},
+      {"name": "Def. Esp.", "value": 80},
+      {"name": "Velocidad", "value": 87}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 127,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/127.png"
+  },
+  {
+    "name": "Mga-Pinsir",
+    "types": ["Bicho", "Volador"],
+    "stats": [
+      {"name": "HP", "value": 80},
+      {"name": "Ataque", "value": 165},
+      {"name": "Defensa", "value": 123},
+      {"name": "At. Esp.", "value": 60},
+      {"name": "Def. Esp.", "value": 90},
+      {"name": "Velocidad", "value": 117}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 127,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/127_f2.png"
+  },
+  {
+    "name": "Tauros",
+    "types": ["Normal"],
+    "stats": [
+      {"name": "HP", "value": 90},
+      {"name": "Ataque", "value": 124},
+      {"name": "Defensa", "value": 95},
+      {"name": "At. Esp.", "value": 40},
+      {"name": "Def. Esp.", "value": 70},
+      {"name": "Velocidad", "value": 116}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 128,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/128.png"
+  },
+  {
+    "name": "Magikarp",
+    "types": ["Agua"],
+    "stats": [
+      {"name": "HP", "value": 30},
+      {"name": "Ataque", "value": 10},
+      {"name": "Defensa", "value": 55},
+      {"name": "At. Esp.", "value": 10},
+      {"name": "Def. Esp.", "value": 55},
+      {"name": "Velocidad", "value": 40}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 129,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/129.png"
+  },
+  {
+    "name": "Gyarados",
+    "types": ["Agua", "Volador"],
+    "stats": [
+      {"name": "HP", "value": 90},
+      {"name": "Ataque", "value": 125},
+      {"name": "Defensa", "value": 80},
+      {"name": "At. Esp.", "value": 120},
+      {"name": "Def. Esp.", "value": 80},
+      {"name": "Velocidad", "value": 105}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 130,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/130.png"
+  },
+  {
+    "name": "Mega-Gyarados",
+    "types": ["Agua", "Siniestro"],
+    "stats": [
+      {"name": "HP", "value": 95},
+      {"name": "Ataque", "value": 160},
+      {"name": "Defensa", "value": 90},
+      {"name": "At. Esp.", "value": 160},
+      {"name": "Def. Esp.", "value": 90},
+      {"name": "Velocidad", "value": 125}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 130,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/130_f2.png"
+  },
+  {
+    "name": "Lapras",
+    "types": ["Agua", "Hielo"],
+    "stats": [
+      {"name": "HP", "value": 130},
+      {"name": "Ataque", "value": 85},
+      {"name": "Defensa", "value": 100},
+      {"name": "At. Esp.", "value": 95},
+      {"name": "Def. Esp.", "value": 115},
+      {"name": "Velocidad", "value": 50}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 131,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/131.png"
+  },
+  {
+    "name": "Ditto",
+    "types": ["Normal", "Psíquico"],
+    "stats": [
+      {"name": "HP", "value": 65},
+      {"name": "Ataque", "value": 75},
+      {"name": "Defensa", "value": 70},
+      {"name": "At. Esp.", "value": 75},
+      {"name": "Def. Esp.", "value": 100},
+      {"name": "Velocidad", "value": 95}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 132,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/132.png"
+  },
+  {
+    "name": "Eevee",
+    "types": ["Normal"],
+    "stats": [
+      {"name": "HP", "value": 55},
+      {"name": "Ataque", "value": 60},
+      {"name": "Defensa", "value": 55},
+      {"name": "At. Esp.", "value": 60},
+      {"name": "Def. Esp.", "value": 65},
+      {"name": "Velocidad", "value": 75}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 133,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/133.png"
+  },
+  {
+    "name": "Eevee HxH ",
+    "types": ["Fantasma"],
+    "stats": [
+      {"name": "HP", "value": 65},
+      {"name": "Ataque", "value": 55},
+      {"name": "Defensa", "value": 80},
+      {"name": "At. Esp.", "value": 110},
+      {"name": "Def. Esp.", "value": 110},
+      {"name": "Velocidad", "value": 105}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 133
+  },
+  {
+    "name": "Vaporeon",
+    "types": ["Agua"],
+    "stats": [
+      {"name": "HP", "value": 65},
+      {"name": "Ataque", "value": 60},
+      {"name": "Defensa", "value": 80},
+      {"name": "At. Esp.", "value": 110},
+      {"name": "Def. Esp.", "value": 130},
+      {"name": "Velocidad", "value": 80}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 134,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/134.png"
+  },
+  {
+    "name": "Vaporeon Dragón ",
+    "types": ["Dragón"],
+    "stats": [
+      {"name": "HP", "value": 65},
+      {"name": "Ataque", "value": 55},
+      {"name": "Defensa", "value": 70},
+      {"name": "At. Esp.", "value": 125},
+      {"name": "Def. Esp.", "value": 125},
+      {"name": "Velocidad", "value": 85}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 134
+  },
+  {
+    "name": "Jolteon",
+    "types": ["Eléctrico"],
+    "stats": [
+      {"name": "HP", "value": 65},
+      {"name": "Ataque", "value": 65},
+      {"name": "Defensa", "value": 60},
+      {"name": "At. Esp.", "value": 110},
+      {"name": "Def. Esp.", "value": 95},
+      {"name": "Velocidad", "value": 130}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 135,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/135.png"
+  },
+  {
+    "name": "Flareon",
+    "types": ["Fuego"],
+    "stats": [
+      {"name": "HP", "value": 65},
+      {"name": "Ataque", "value": 115},
+      {"name": "Defensa", "value": 65},
+      {"name": "At. Esp.", "value": 80},
+      {"name": "Def. Esp.", "value": 110},
+      {"name": "Velocidad", "value": 90}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 136,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/136.png"
+  },
+  {
+    "name": "Porygon ",
+    "types": ["Psíquico", "Eléctrico"],
+    "stats": [
+      {"name": "HP", "value": 75},
+      {"name": "Ataque", "value": 40},
+      {"name": "Defensa", "value": 90},
+      {"name": "At. Esp.", "value": 95},
+      {"name": "Def. Esp.", "value": 100},
+      {"name": "Velocidad", "value": 40}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 137
+  },
+  {
+    "name": "Omanyte ",
+    "types": ["Roca", "Planta"],
+    "stats": [
+      {"name": "HP", "value": 45},
+      {"name": "Ataque", "value": 40},
+      {"name": "Defensa", "value": 100},
+      {"name": "At. Esp.", "value": 90},
+      {"name": "Def. Esp.", "value": 80},
+      {"name": "Velocidad", "value": 45}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 138
+  },
+  {
+    "name": "Omanyte Especial ",
+    "types": ["Fuego"],
+    "stats": [
+      {"name": "HP", "value": 70},
+      {"name": "Ataque", "value": 65},
+      {"name": "Defensa", "value": 85},
+      {"name": "At. Esp.", "value": 135},
+      {"name": "Def. Esp.", "value": 75},
+      {"name": "Velocidad", "value": 120}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 138
+  },
+  {
+    "name": "Omastar ",
+    "types": ["Roca", "Planta"],
+    "stats": [
+      {"name": "HP", "value": 70},
+      {"name": "Ataque", "value": 60},
+      {"name": "Defensa", "value": 140},
+      {"name": "At. Esp.", "value": 115},
+      {"name": "Def. Esp.", "value": 110},
+      {"name": "Velocidad", "value": 55}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 139
+  },
+  {
+    "name": "Kabuto",
+    "types": ["Roca", "Agua"],
+    "stats": [
+      {"name": "HP", "value": 45},
+      {"name": "Ataque", "value": 77},
+      {"name": "Defensa", "value": 110},
+      {"name": "At. Esp.", "value": 40},
+      {"name": "Def. Esp.", "value": 75},
+      {"name": "Velocidad", "value": 53}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 140,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/140.png"
+  },
+  {
+    "name": "Kabutops",
+    "types": ["Roca", "Agua"],
+    "stats": [
+      {"name": "HP", "value": 70},
+      {"name": "Ataque", "value": 132},
+      {"name": "Defensa", "value": 115},
+      {"name": "At. Esp.", "value": 45},
+      {"name": "Def. Esp.", "value": 80},
+      {"name": "Velocidad", "value": 108}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 141,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/141.png"
+  },
+  {
+    "name": "Aerodactyl ",
+    "types": ["Dragón", "Veneno"],
+    "stats": [
+      {"name": "HP", "value": 90},
+      {"name": "Ataque", "value": 125},
+      {"name": "Defensa", "value": 80},
+      {"name": "At. Esp.", "value": 50},
+      {"name": "Def. Esp.", "value": 75},
+      {"name": "Velocidad", "value": 130}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 142
+  },
+  {
+    "name": "Mega-Aerodactyl ",
+    "types": ["Dragón", "Fuego"],
+    "stats": [
+      {"name": "HP", "value": 90},
+      {"name": "Ataque", "value": 145},
+      {"name": "Defensa", "value": 110},
+      {"name": "At. Esp.", "value": 60},
+      {"name": "Def. Esp.", "value": 95},
+      {"name": "Velocidad", "value": 150}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 142
+  },
+  {
+    "name": "Snorlax",
+    "types": ["Normal"],
+    "stats": [
+      {"name": "HP", "value": 160},
+      {"name": "Ataque", "value": 120},
+      {"name": "Defensa", "value": 85},
+      {"name": "At. Esp.", "value": 65},
+      {"name": "Def. Esp.", "value": 110},
+      {"name": "Velocidad", "value": 10}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 143,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/143.png"
+  },
+  {
+    "name": "Articuno",
+    "types": ["Hielo", "Volador"],
+    "stats": [
+      {"name": "HP", "value": 90},
+      {"name": "Ataque", "value": 60},
+      {"name": "Defensa", "value": 95},
+      {"name": "At. Esp.", "value": 125},
+      {"name": "Def. Esp.", "value": 125},
+      {"name": "Velocidad", "value": 105}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 144,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/144.png"
+  },
+  {
+    "name": "Zapdos",
+    "types": ["Eléctrico", "Volador"],
+    "stats": [
+      {"name": "HP", "value": 90},
+      {"name": "Ataque", "value": 90},
+      {"name": "Defensa", "value": 85},
+      {"name": "At. Esp.", "value": 125},
+      {"name": "Def. Esp.", "value": 95},
+      {"name": "Velocidad", "value": 115}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 145,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/145.png"
+  },
+  {
+    "name": "Moltres",
+    "types": ["Fuego", "Volador"],
+    "stats": [
+      {"name": "HP", "value": 90},
+      {"name": "Ataque", "value": 90},
+      {"name": "Defensa", "value": 90},
+      {"name": "At. Esp.", "value": 125},
+      {"name": "Def. Esp.", "value": 100},
+      {"name": "Velocidad", "value": 105}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 146,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/146.png"
+  },
+  {
+    "name": "Dratini ",
+    "types": ["Dragón", "Hada"],
+    "stats": [
+      {"name": "HP", "value": 55},
+      {"name": "Ataque", "value": 45},
+      {"name": "Defensa", "value": 55},
+      {"name": "At. Esp.", "value": 80},
+      {"name": "Def. Esp.", "value": 70},
+      {"name": "Velocidad", "value": 55}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 147
+  },
+  {
+    "name": "Dragonair ",
+    "types": ["Dragón", "Hada"],
+    "stats": [
+      {"name": "HP", "value": 90},
+      {"name": "Ataque", "value": 60},
+      {"name": "Defensa", "value": 80},
+      {"name": "At. Esp.", "value": 90},
+      {"name": "Def. Esp.", "value": 90},
+      {"name": "Velocidad", "value": 70}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 148
+  },
+  {
+    "name": "Dragonite ",
+    "types": ["Dragón", "Hada"],
+    "stats": [
+      {"name": "HP", "value": 90},
+      {"name": "Ataque", "value": 120},
+      {"name": "Defensa", "value": 90},
+      {"name": "At. Esp.", "value": 110},
+      {"name": "Def. Esp.", "value": 90},
+      {"name": "Velocidad", "value": 100}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 149
+  },
+  {
+    "name": "Mewtwo",
+    "types": ["Psíquico"],
+    "stats": [
+      {"name": "HP", "value": 106},
+      {"name": "Ataque", "value": 100},
+      {"name": "Defensa", "value": 90},
+      {"name": "At. Esp.", "value": 164},
+      {"name": "Def. Esp.", "value": 90},
+      {"name": "Velocidad", "value": 130}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 150,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/150.png"
+  },
+  {
+    "name": "Mewtwo Oscuro ",
+    "types": ["Fantasma", "Siniestro"],
+    "stats": [
+      {"name": "HP", "value": 85},
+      {"name": "Ataque", "value": 150},
+      {"name": "Defensa", "value": 80},
+      {"name": "At. Esp.", "value": 150},
+      {"name": "Def. Esp.", "value": 115},
+      {"name": "Velocidad", "value": 120}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 150
+  },
+  {
+    "name": "Mega-Mewtwo X",
+    "types": ["Psíquico", "Lucha"],
+    "stats": [
+      {"name": "HP", "value": 106},
+      {"name": "Ataque", "value": 190},
+      {"name": "Defensa", "value": 100},
+      {"name": "At. Esp.", "value": 154},
+      {"name": "Def. Esp.", "value": 100},
+      {"name": "Velocidad", "value": 130}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 150,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/150_f2.png"
+  },
+  {
+    "name": "Mega-Mewtwo Y",
+    "types": ["Psiquico"],
+    "stats": [
+      {"name": "HP", "value": 106},
+      {"name": "Ataque", "value": 150},
+      {"name": "Defensa", "value": 70},
+      {"name": "At. Esp.", "value": 194},
+      {"name": "Def. Esp.", "value": 120},
+      {"name": "Velocidad", "value": 140}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 150,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/150_f3.png"
+  },
+  {
+    "name": "Mew",
+    "types": ["Psíquico"],
+    "stats": [
+      {"name": "HP", "value": 100},
+      {"name": "Ataque", "value": 100},
+      {"name": "Defensa", "value": 100},
+      {"name": "At. Esp.", "value": 100},
+      {"name": "Def. Esp.", "value": 100},
+      {"name": "Velocidad", "value": 100}
+    ],
+    "generation": 1,
+    "nuevaForma": false,
+    "id": 151,
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/151.png"
+  },
+  {
+    "name": "Mew Estelar ",
+    "types": ["Psíquico", "Hada"],
+    "stats": [
+      {"name": "HP", "value": 110},
+      {"name": "Ataque", "value": 110},
+      {"name": "Defensa", "value": 110},
+      {"name": "At. Esp.", "value": 110},
+      {"name": "Def. Esp.", "value": 110},
+      {"name": "Velocidad", "value": 110}
+    ],
+    "generation": 1,
+    "nuevaForma": true,
+    "id": 151
+  }
+]

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex Pro</title>
+  <link rel="stylesheet" href="css/pokedex.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <main class="pokedex-app">
+    <header class="pokedex-header">
+      <div class="search-container">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <input type="text" id="pokemon-search" placeholder="Buscar por Pokémon | Tipo">
+        <button id="clear-search" title="Limpiar búsqueda">&times;</button>
+      </div>
+    </header>
+    <div id="pokedex-container"></div>
+  </main>
+  <script type="module" src="js/pokedex.js"></script>
+</body>
+</html>
