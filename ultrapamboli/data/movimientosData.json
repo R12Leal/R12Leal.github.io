@@ -1,5 +1,15 @@
 [
   {
+    "movimiento": "Última Palabra",
+    "tipoMovimiento": "Status",
+    "tipo": "Normal",
+    "descripcion": "Este movimiento baja ambos ataques del rival en 1 nivel e intercambias por otro pokémon para que entre al combate, tiene prioridad",
+    "potencia": "-",
+    "precision": 100,
+    "prioridad": 4,
+    "esNuevo": false
+  },
+  {
     "movimiento": "Sprint Flamígero",
     "tipoMovimiento": "Physical",
     "tipo": "Fire",
